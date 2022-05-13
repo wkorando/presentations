@@ -1,0 +1,17 @@
+Many changes are coming to Java in the near and more distant future
+
+What are these changes, how will they benefit developers and organizations, and how can developers and organizations prepare begin preparing for them
+
+Amber
+
+Loom
+
+Valhalla
+
+Panama
+
+Others
+
+ZGC
+
+Leyeden
