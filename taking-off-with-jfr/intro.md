@@ -1,4 +1,4 @@
-# Safe Flights and Fiery Wrecks with JDK Flight Recorder
+# Taking off with JDK Flight Recorder
 Billy Korando
 
 Java Developer Advocate - Oracle

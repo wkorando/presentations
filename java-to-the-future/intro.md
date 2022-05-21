@@ -1,4 +1,4 @@
-# Why Developers Should Love Testing
+# Java to the Future!
 Billy Korando
 
 Java Developer Advocate - Oracle
