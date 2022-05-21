@@ -30,7 +30,11 @@ In this presentation we will look at the key changes that have been added to Jav
 VV
 
 ## Java to the Future!
-Amber, Valhalla, Loom, Panama, oh my! What do all these projects mean? In this presentation we will look at some of the changes coming to Java in the nearish term, what this will mean for the Java platform, and how both you as a developer and your organization can prepare. The future of Java is bright, this presentation can help get you ready for that future!
+Amber, Valhalla, Loom, Panama, oh my! These are the names of the OpenJDK projects that will be shaping the near term future of Java. As these projects begin to deliver what does this mean for the future of Java?
+
+In this presentation we will look at the goals of these OpenJDK projects, what has been delivered and soon to be delivered with each project, and how Java developers can start preparing for these future changes. 
+
+If you are are curious about what the future of Java looks like, or get a deeper understanding of these projects this is definitely a presentation you want to check out!
 <br/><br/>
 [Presentation](java-to-the-future/)
 
