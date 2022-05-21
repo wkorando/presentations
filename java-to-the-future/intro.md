@@ -1,4 +1,4 @@
-# Safe Flights and Fiery Wrecks with JDK Flight Recorder
+# Why Developers Should Love Testing
 Billy Korando
 
 Java Developer Advocate - Oracle
@@ -11,7 +11,7 @@ Java Developer Advocate - Oracle
 * Reach out:
     * Twitter: @BillyKorando
     * Email: billy.korando@oracle.com
-* Link to presentation: https://wkorando.github.io/presentations/taking-off-with-jfr/
+* Link to presentation:  https://wkorando.github.io/presentations/java-to-the-future/
 >>
 ## Would you like to know more?
 
@@ -24,10 +24,9 @@ Java Developer Advocate - Oracle
 * #JEPCafé
 >>
 ## Agenda
-* What is JDK Flight Recorder
-* Configuring and Using JDK Flight Recorder
-* Analyzing Results
-* Custom Events and JFR Event Streams
+* Why Write Tests
+* Write Tests You Love
+* Writing Reliable Integration Tests
 
 
 

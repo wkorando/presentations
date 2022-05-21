@@ -6,8 +6,10 @@ Java Developer Advocate - Oracle
 ## Important Information
 
 * Ask questions
-* Reach out:  * Twitter: @BillyKorando * Email: billy.korando@oracle.com
-* Link to presentation:  
+* Reach out: 
+    * Twitter: @BillyKorando 
+    * Email: billy.korando@oracle.com
+* Link to presentation:  https://wkorando.github.io/presentations/to-java-n-and-beyond/
 >>
 ### Would you like to know more?
 
@@ -22,7 +24,7 @@ Java Developer Advocate - Oracle
 ## Agenda
 * New Language Features
 * New Runtime Features
-* Deprecations, Removals, & other changes to know about
+* Deprecations, Removals, & other changes to know about
 * The Future
 
 

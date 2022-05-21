@@ -11,9 +11,9 @@ https://github.com/moditect/jfrunit
 >>
 # Thank you!
 
-* Reach out:  
-    * Twitter: @BillyKorando 
+* Reach out:
+    * Twitter: @BillyKorando
     * Email: billy.korando@oracle.com
-* Link to presentation:  
+* Link to presentation: https://wkorando.github.io/presentations/to-java-n-and-beyond/
 
 

@@ -8,10 +8,10 @@ Java Developer Advocate - Oracle
 ## Important Information
 
 * Ask questions
-* Reach out:  
-    * Twitter: @BillyKorando 
+* Reach out: 
+    * Twitter: @BillyKorando
     * Email: billy.korando@oracle.com
-* Link to presentation:  
+* Link to presentation: https://wkorando.github.io/presentations/why-developers-should-love-testing/
 >>
 ## Would you like to know more?
 
