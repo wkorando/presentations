@@ -50,7 +50,7 @@ We know that test automation is often discussed as being a “best practice” i
 VV
 
 ## Taking off With JDK Flight Recorder
-Running into problems with Java applications in production? Not understanding what is eating up all your system resources? And throwing a bunch of System.out messages in your code is not helping? You should check out the JDK Flight Recorder (JFR). JFR is a power and low-overhead observability tool built into the JVM that can help you track down those performance issues and difficult to understand bugs. In this webinar we will go through the basics of using JFR in your Java applications.
+Running into problems with Java applications in production? Not understanding what is eating up all your system resources? And throwing a bunch of System.out messages in your code is not helping? You should check out the JDK Flight Recorder (JFR). JFR is a powerful and low-overhead observability tool built into the JVM that can help you track down those performance issues and difficult to understand bugs. In this webinar we will go through the basics of using JFR in your Java applications.
 <br/><br/>
 [Presentation](taking-off-with-jfr/)
 

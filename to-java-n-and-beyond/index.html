@@ -1,6 +1,20 @@
 <!doctype html>
 <html>
 	<head>
+		<style>
+			.reveal section p {
+			display: inline-block;
+			font-size: 0.6em;
+			text-align: left;
+		  }
+		  .reveal section li {
+			font-size: 0.6em;
+		  }
+		  .reveal section code {
+			font-size: 0.6em;
+			line-height: 1.4em;
+		  }
+		</style>
 		<meta charset="utf-8">
 		<meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=no">
 
@@ -11,7 +25,7 @@
 		<link rel="stylesheet" href="../dist/theme/black.css">
 
 		<!-- Theme used for syntax highlighted code -->
-		<link rel="stylesheet" href="../plugin/highlight/monokai.css">
+		<link rel="stylesheet" href="../plugin/highlight/zenburn.css">
 	</head>
 	<body>
 		<div class="reveal">
@@ -25,11 +39,36 @@
          	   		data-separator=">>"
          		   	data-separator-vertical="VV"
          		   	data-separator-notes="^Note:">
-					<style type="text/css">
-					  .reveal h3 {
-					    text-align: left;
-					  }
-					</style>
+				</section>
+				<section data-markdown="language-features/text-blocks.md"
+					data-separator=">>"
+					data-separator-vertical="VV"
+					data-separator-notes="^Note:">
+				</section>
+				<section data-markdown="language-features/switch-updates.md"
+					data-separator=">>"
+					data-separator-vertical="VV"
+					data-separator-notes="^Note:">
+				</section>
+				<section data-markdown="language-features/instanceof.md"
+					data-separator=">>"
+					data-separator-vertical="VV"
+					data-separator-notes="^Note:">
+				</section>
+				<section data-markdown="language-features/sealed-classes.md"
+					data-separator=">>"
+					data-separator-vertical="VV"
+					data-separator-notes="^Note:">
+				</section>
+				<section data-markdown="language-features/records.md"
+					data-separator=">>"
+					data-separator-vertical="VV"
+					data-separator-notes="^Note:">
+				</section>
+				<section data-markdown="api-updates.md"
+					data-separator=">>"
+					data-separator-vertical="VV"
+					data-separator-notes="^Note:">
 				</section>
 				<section data-markdown="runtime-features.md"
          	   		data-separator=">>"
@@ -60,6 +99,8 @@
 		<script>
 			Reveal.initialize({
 				hash: true,
+				height: 600,
+
 				plugins: [ RevealMarkdown, RevealHighlight, RevealNotes ]
 			});
 		</script>

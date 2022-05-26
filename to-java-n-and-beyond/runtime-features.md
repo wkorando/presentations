@@ -1,10 +1,95 @@
 # New Runtime Features and Improvements
 VV
-### CDS Updates
+## CDS Updates
 JDK 12<br/>
 Default CDS Archive: JEP 341<br/>
-
+<br/>
 JDK 13 <br/>
 Dynamic CDS Archive: JEP 350
+VV
 
+### AppCDS
 
+```
+java -XX:ArchiveClassesAtExit=dynamic-archive.jsa -jar <application>
+
+java -XX:SharedArchiveFile=dynamic-archive.jsa  -jar <application>
+```
+VV
+## Z GC
+* JDK 15 
+* JEP 377
+* Low Latency (<1 ms pause times)
+* Scalable (multi-terabyte heaps)
+* Single generation, planned to become multi-generation soon
+* Get started: -XX:+UseZGC -Xmx<size> -Xlog:gc
+VV
+
+## Helpful Null Pointer Exceptions
+JDK 14 <br/>
+JEP 358
+VV
+
+### Helpful Null Pointer Exceptions
+
+```java
+public class SampleApplication {
+	record MyRec(int x ) {}
+	MyRec myRec = null;
+	
+	public void processRecords() {
+		myRec.x();
+	}
+}
+```
+
+#### Old
+```
+Exception in thread "main" java.lang.NullPointerException
+	at com.oracle.sip.SampleApplication.processRecords(SampleApplication.java:14)
+	at com.oracle.sip.SampleApplication.main(SampleApplication.java:9)
+```
+
+#### New
+```
+Exception in thread "main" java.lang.NullPointerException: Cannot invoke "com.oracle.sip.SampleApplication$MyRec.x()" because "this.myRec" is null
+	at com.oracle.sip.SampleApplication.processRecords(SampleApplication.java:14)
+	at com.oracle.sip.SampleApplication.main(SampleApplication.java:9)
+```
+VV
+
+## AArch64 Support
+
+* Linux JDK 9 (JEP 237)
+* Windows JDK 16 (JEP 388)
+* macOS JDK 17 (JEP 391)
+
+VV
+## Simple Web Server
+
+JDK 18 <br/>
+JEP 408
+VV
+
+### Simple Web Server
+
+```
+$ jwebserver
+```
+
+* Starts server at: http://127.0.0.1:8000
+* Serving files from current directory
+* MIME types auto-configured
+VV
+### Simple Web Server
+
+* `-b` configure binding address
+
+* `-d` for the directory to serve
+	* Can be a remote directory	
+	* Must use full path
+
+* `-o` configure console output `none|info|verbose` default: `info`
+
+VV
+## Performance Improvements
