@@ -65,31 +65,5 @@ VV
 * macOS JDK 17 (JEP 391)
 
 VV
-## Simple Web Server
 
-JDK 18 <br/>
-JEP 408
-VV
-
-### Simple Web Server
-
-```
-$ jwebserver
-```
-
-* Starts server at: http://127.0.0.1:8000
-* Serving files from current directory
-* MIME types auto-configured
-VV
-### Simple Web Server
-
-* `-b` configure binding address
-
-* `-d` for the directory to serve
-	* Can be a remote directory	
-	* Must use full path
-
-* `-o` configure console output `none|info|verbose` default: `info`
-
-VV
 ## Performance Improvements

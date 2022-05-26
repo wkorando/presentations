@@ -1,13 +1,14 @@
 # Taking off with JDK Flight Recorder
 
 ### (Safe Flights and Fiery Wrecks with JDK Flight Recorder)
-Billy Korando
-
-Java Developer Advocate - Oracle
-
+Billy Korando <br/>
+<br/>
+Java Developer Advocate - Oracle<br/>
+<br/>
 @BillyKorando
 >>
-## Important Information
+
+ ## Important Information
 
 * Ask questions
 * Reach out:
@@ -16,6 +17,8 @@ Java Developer Advocate - Oracle
 * Link to presentation: https://wkorando.github.io/presentations/taking-off-with-jfr/
 >>
 ## Would you like to know more?
+
+![](images/know-more.gif)
 
 * https://dev.java
 * https://inside.java
