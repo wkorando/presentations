@@ -50,17 +50,17 @@ VV
 ## Virtual Threads
 
 JDK 19 <br/>
-JEP 425 
+JEP 425 (first preview)
 VV
 
 ## Vector API
 
 JDK 19 <br/>
-JEP 426
+JEP 426 (fourth incubator)
 
 VV
 
 ## Structured Concurrency
 
 JDK 19 (Proposed) <br/>
-JEP 428
+JEP 428 (first incubator)
