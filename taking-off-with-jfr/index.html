@@ -3,12 +3,25 @@
 	<head>
 		<meta charset="utf-8">
 		<meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=no">
-
+		<style>
+			.reveal section p {
+			display: inline-block;
+			font-size: 0.6em;
+			text-align: left;
+		  }
+		  .reveal section li {
+			font-size: 0.6em;
+		  }
+		  .reveal section code {
+			font-size: 0.6em;
+			line-height: 1.4em;
+		  }
+		</style>
 		<title>Taking off with JFR</title>
 
 		<link rel="stylesheet" href="../dist/reset.css">
 		<link rel="stylesheet" href="../dist/reveal.css">
-		<link rel="stylesheet" href="../dist/theme/black.css">
+		<link rel="stylesheet" href="../dist/theme/white.css">
 
 		<!-- Theme used for syntax highlighted code -->
 		<link rel="stylesheet" href="../plugin/highlight/monokai.css">
@@ -18,7 +31,7 @@
     		<div class="slides">
 				<section data-markdown="intro.md"
          	   		data-separator=">>"
-         		   	data-separator-vertical="vv"
+         		   	data-separator-vertical="VV"
          		   	data-separator-notes="^Note:">
 				</section>
 				<section data-markdown="what-is-jfr.md"
@@ -26,17 +39,7 @@
 					data-separator-vertical="VV"
 					data-separator-notes="^Note:">
 				</section>
-				<section data-markdown="configuring-jfr.md"
-					data-separator=">>"
-					data-separator-vertical="VV"
-					data-separator-notes="^Note:">
-				</section>	
-				<section data-markdown="customizing-jfr.md"
-					data-separator=">>"
-					data-separator-vertical="VV"
-					data-separator-notes="^Note:">
-				</section>
-				<section data-markdown="future.md"
+				<section data-markdown="demo.md"
 					data-separator=">>"
 					data-separator-vertical="VV"
 					data-separator-notes="^Note:">
@@ -55,6 +58,7 @@
 		<script>
 			Reveal.initialize({
 				width: 1280,
+				height: 600,
 				hash: true,
 				plugins: [ RevealMarkdown, RevealHighlight, RevealNotes ]
 			});

@@ -5,9 +5,10 @@ VV
 * Initially added in JDK 7 
     * Then called Java Flight Recorder
     * Goes back to JRockit
-* Open source in JDK 11, renamed JDK Flight Recorder
+* Open sourced in JDK 11, renamed JDK Flight Recorder
 * Built into the Java runtime 
 VV
+
 ### What is JFR?
 
 * Event based diagnostic and profiling tool
@@ -18,12 +19,14 @@ VV
 
 \* When using default settings, YMMV when choosing different settings
 
+VV
 ### JFR Under the Hood
 
 Events produced by Java Runtime and Application<br/>
 Stored in Memory in Thread Local Buffers<br/>
 Can then be dumped to a .jfr file<br/>
 
+VV
 ## JFR Events
 
 Over 150 different events:
@@ -42,3 +45,4 @@ jdk.FileWrite                             
 jdk.SocketRead                            
 jdk.SocketWrite                           
 ```
+
