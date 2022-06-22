@@ -3,7 +3,7 @@ Added in Java 17<br/>
 JEP 409
 VV
 ### Sealed Classes
-![](images/sealed-classes-graph.png)
+#  ![](images/sealed-classes-graph.png)
 VV
 
 ### Sealed Classes

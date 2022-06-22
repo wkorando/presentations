@@ -1,6 +1,20 @@
 <!doctype html>
 <html>
 	<head>
+		<style>
+			.reveal section p {
+			display: inline-block;
+			font-size: 0.6em;
+			text-align: left;
+		  }
+		  .reveal section li {
+			font-size: 0.6em;
+		  }
+		  .reveal section code {
+			font-size: 0.6em;
+			line-height: 1.4em;
+		  }
+		</style>
 		<meta charset="utf-8">
 		<meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=no">
 
@@ -8,15 +22,35 @@
 
 		<link rel="stylesheet" href="../dist/reset.css">
 		<link rel="stylesheet" href="../dist/reveal.css">
-		<link rel="stylesheet" href="../dist/theme/black.css">
+		<link rel="stylesheet" href="../dist/theme/white.css">
 
 		<!-- Theme used for syntax highlighted code -->
-		<link rel="stylesheet" href="../plugin/highlight/monokai.css">
+		<link rel="stylesheet" href="../plugin/highlight/zenburn.css">
 	</head>
 	<body>
 		<div class="reveal">
     		<div class="slides">
 				<section data-markdown="intro.md"
+         	   		data-separator=">>"
+         		   	data-separator-vertical="vv"
+         		   	data-separator-notes="^Note:">
+				</section>
+				<section data-markdown="amber.md"
+         	   		data-separator=">>"
+         		   	data-separator-vertical="vv"
+         		   	data-separator-notes="^Note:">
+				</section>
+				<section data-markdown="panama.md"
+         	   		data-separator=">>"
+         		   	data-separator-vertical="vv"
+         		   	data-separator-notes="^Note:">
+				</section>
+				<section data-markdown="loom.md"
+         	   		data-separator=">>"
+         		   	data-separator-vertical="vv"
+         		   	data-separator-notes="^Note:">
+				</section>
+				<section data-markdown="valhalla.md"
          	   		data-separator=">>"
          		   	data-separator-vertical="vv"
          		   	data-separator-notes="^Note:">
@@ -35,6 +69,7 @@
 		<script>
 			Reveal.initialize({
 				width: 1280,
+				height: 600,
 				hash: true,
 				plugins: [ RevealMarkdown, RevealHighlight, RevealNotes ]
 			});

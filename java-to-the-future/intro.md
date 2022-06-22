@@ -1,10 +1,9 @@
 # Java to the Future!
-Billy Korando
-
-Java Developer Advocate - Oracle
-
-@BillyKorando
+Billy Korando <br/>
+Java Developer Advocate - Oracle<br/>
+@BillyKorando<br/>
 >>
+
 ## Important Information
 
 * Ask questions
@@ -13,6 +12,7 @@ Java Developer Advocate - Oracle
     * Email: billy.korando@oracle.com
 * Link to presentation:  https://wkorando.github.io/presentations/java-to-the-future/
 >>
+
 ## Would you like to know more?
 
 * https://dev.java
@@ -22,12 +22,16 @@ Java Developer Advocate - Oracle
 * Inside Java Newscast
 * #SipOfJava
 * #JEPCafé
+
 >>
-## Agenda
-* Why Write Tests
-* Write Tests You Love
-* Writing Reliable Integration Tests
 
+## ⚠️ Warning 
 
+![](images/the-future-marty.jpg)
+>>
 
+### The take away
 
+* Timelines change
+* Priorities change
+* Implementation details change
