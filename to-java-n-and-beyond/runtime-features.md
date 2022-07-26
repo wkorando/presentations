@@ -1,4 +1,4 @@
-# New Runtime Features and Improvements
+## New Runtime Features and Improvements
 VV
 ## CDS Updates
 JDK 12<br/>
@@ -6,6 +6,7 @@ Default CDS Archive: JEP 341<br/>
 <br/>
 JDK 13 <br/>
 Dynamic CDS Archive: JEP 350
+
 VV
 
 ### AppCDS
@@ -16,13 +17,16 @@ java -XX:ArchiveClassesAtExit=dynamic-archive.jsa -jar <application>
 java -XX:SharedArchiveFile=dynamic-archive.jsa  -jar <application>
 ```
 VV
-## Z GC
+## ZGC
 * JDK 15 
 * JEP 377
-* Low Latency (<1 ms pause times)
+* (Ultra-)Low Latency (<1 ms pause times)
 * Scalable (multi-terabyte heaps)
 * Single generation, planned to become multi-generation soon
 * Get started: -XX:+UseZGC -Xmx<size> -Xlog:gc
+
+Video: [https://www.youtube.com/watch?v=OcfvBoyTvA8](https://www.youtube.com/watch?v=OcfvBoyTvA8)
+
 VV
 
 ## Helpful Null Pointer Exceptions

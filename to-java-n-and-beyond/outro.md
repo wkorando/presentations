@@ -1,4 +1,4 @@
-# Follow up Links
+## Follow up Links
 
 * https://openjdk.java.net/jeps/0
 * https://jdk.java.net/18/release-notes

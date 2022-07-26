@@ -88,7 +88,7 @@ String day = switch(d){
 	case 3 -> "Tuesday";
 	case 4 -> "Wednesday";
 	case 5 -> "Thursday";
-    case 6 -> "Friday";
+	case 6 -> "Friday";
 	case 7 -> "Saturday";
 	default -> throw new IllegalArgumentException();
 }
@@ -105,7 +105,7 @@ String day = switch(d){
 	case 3 -> "Tuesday";
 	case 4 -> "Wednesday";
 	case 5 -> "Thursday";
-    case 6 -> {
+	case 6 -> {
  	  System.out.println("Ladies and Gentlemen, the Weekend");
  	  yield "Friday";
  	}
@@ -130,7 +130,7 @@ String day = switch(d){
 		yield "Wednesday";
 	case 5: 
 		yield "Thursday";
-    case 6: 
+	case 6: 
  		yield "Friday";
 	case 7: 
 		yield "Saturday";
@@ -154,7 +154,7 @@ String day = switch(dayOfWeek){
 	case TUESDAY -> "Tuesday";
 	case WEDNESDAY -> "Wednesday";
 	case THURSDAY -> "Thursday";
- 	case FRIDAY -> "Friday";
+	case FRIDAY -> "Friday";
 	case SATURDAY -> "Saturday";
 }
 ```

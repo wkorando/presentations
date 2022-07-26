@@ -1,8 +1,8 @@
-# Deprecations, Removal, and Other Changes
+## Deprecations, Removal, and Other Changes
 
 VV
 
-## Deprecations
+### Deprecations
 
 Security Manager <br/>
 JDK 17<br/>
@@ -16,7 +16,7 @@ Finalizers<br/>
 JDK 18<br/>
 JEP 421
 VV
-## Removal
+## Removals
 
 Nashorn (JavaScript Engine)<br/>
 JDK 15<br/>
@@ -34,15 +34,16 @@ JEP 403<br/>
 <br/>
 No longer relax strong encapsulation with single argument (i.e. `--illegal-access=permit`)<br/>
 
+VV
+
 Some critical internal APIs remain available: <br/>
-```
-sun.misc.{Signal,SignalHandler}
 
-sun.misc.Unsafe (The functionality of many of the methods in this class is available via variable handles (JEP 193).)
+* `sun.misc.{Signal,SignalHandler}`
 
-sun.reflect.Reflection::getCallerClass(int) (The functionality of this method is available in the stack-walking API defined by JEP 259.)
+* `sun.misc.Unsafe` (The functionality of many of the methods in this class is available via variable handles (JEP 193).)
 
-sun.reflect.ReflectionFactory
+* `sun.reflect.Reflection::getCallerClass(int)` (The functionality of this method is available in the stack-walking API defined by JEP 259.)
 
-com.sun.nio.file.{ExtendedCopyOption,ExtendedOpenOption, ExtendedWatchEventModifier,SensitivityWatchEventModifier}
-```
+* `sun.reflect.ReflectionFactory`
+
+* `com.sun.nio.file.{ExtendedCopyOption,ExtendedOpenOption, ExtendedWatchEventModifier,SensitivityWatchEventModifier}`

@@ -93,6 +93,7 @@ $ jwebserver
 * Serving files from current directory
 * MIME types auto-configured
 VV
+
 ### Simple Web Server
 
 * `-b` configure binding address
@@ -106,5 +107,5 @@ VV
 VV
 
 ## Even More API Updates
-Find them here 👉 https://docs.oracle.com/en/java/javase/18/docs/api/new-list.html
+Find them here 👉 [https://docs.oracle.com/en/java/javase/18/docs/api/new-list.html](https://docs.oracle.com/en/java/javase/18/docs/api/new-list.html)
 <img src=images/new-api.png style="width:250px; margin-left: 40%;"/>

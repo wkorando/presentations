@@ -26,10 +26,13 @@ void compute(float[] a, float[] b, float[] c) {
 	}
 }
 ```
+vv
 
 ## Foreign Function & Memory API 
 
 Provide an API that allows Java programs to operate with code and data outside the Java program. The API improves on JNI by being less brittle and dangerous.
+
+vv
 
 ## Foreign Function & Memory API
 JDK 19 <br/>

@@ -53,14 +53,14 @@ JDK 19 <br/>
 JEP 425 (first preview)
 VV
 
+## Structured Concurrency
+
+JDK 19  <br/>
+JEP 428 (first incubator)
+
+VV
+
 ## Vector API
 
 JDK 19 <br/>
 JEP 426 (fourth incubator)
-
-VV
-
-## Structured Concurrency
-
-JDK 19 (Proposed) <br/>
-JEP 428 (first incubator)
