@@ -35,8 +35,16 @@ vv
 
 
 
-## Project Loom Goals
+## More info on Loom
 
+JEP Café - Virtual Threads: <br/>
+https://www.youtube.com/watch?v=lKSSBvRDmTg
+<br/><br/>
+JEP Café - Launching 10 Million Concurrent Threads with Loom:  <br/>
+https://www.youtube.com/watch?v=UVoGE0GZZPI
+<br/><br/>
+JEP Café - Java Asynchronous Programming Full Tutorial with Loom and Structured Concurrency:  <br/>
+https://www.youtube.com/watch?v=2nOj8MKHvmw
 
 vv
 

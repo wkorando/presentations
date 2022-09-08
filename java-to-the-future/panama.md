@@ -4,6 +4,16 @@ vv
 
 Goal: Interconnecting JVM and native code
 
+<br/>
+
+Composed of three parts: 
+
+<br/>
+
+* Vector API
+* The Foreign Function & Memory API
+* Jextract tool
+
 vv
 
 ## Vector API
@@ -71,8 +81,17 @@ assert Arrays.equals(javaStrings, new String[] {"car", "cat", "dog", "mouse"}); 
 
 vv
 
+## Jextract Tool
+
+A tool for mechanically generating Java bindings from a native library's headers. 
+
+More info 👉 [https://github.com/openjdk/jextract](https://github.com/openjdk/jextract)
+
+vv
+
 ## Next steps
 
 * [Project Panama OpenJDK](https://openjdk.org/projects/panama/)
 * [Dev mailing list](https://mail.openjdk.org/mailman/listinfo/panama-dev)
 * [State of Project Valhalla](https://www.youtube.com/watch?v=B8k9QGvPxC0)
+* [Introduction to Project Panama](https://denismakogon.github.io/openjdk/panama/2022/05/31/introduction-to-project-panama-part-1.html)

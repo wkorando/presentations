@@ -50,9 +50,9 @@ vv
 vv
 ## What Can You Do Now?
 
-Watch for compiler warnings
-
 ### Synchronization:
+Compiler warnings:
+
 ```java
 Long longValue = Long.valueOf(100L);
 
@@ -60,14 +60,30 @@ synchronized (longValue) {
 	longValue.longValue();
 }
 ```
+
+Enable JFR event:
+
+```
+SyncOnValueBasedClass
+```
+
+vv
+
+## What Can You Do Now?
+
 ### Initializing value types: 
+
+Compiler warning:
 ```java
 public Long createALong() {
 	return new Long(100L);
 }
 ```
 
+
+
 vv
+
 ## Next steps
 
 * [Project Valhalla OpenJDK](https://openjdk.org/projects/valhalla/)

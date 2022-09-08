@@ -264,7 +264,7 @@ JEP 409
 vv
 
 ## Sealed Classes
-<img src="images/sealed-classes-graph.png" width=500px"/>
+<img src="images/sealed-classes-graph.png" width="900px"/>
 vv
 
 ## Sealed Classes
@@ -314,6 +314,17 @@ vv
  
 vv
 
+## Data-Oriented Programming
+**Object-Oriented Programming (OOP)** -> Classes model business behavior and entites
+<br/>
+**Data-Oriented Programming (DOP)** -> Classes model data
+
+❗️OOP and DOP are not competing paradigms, DOP can be used alongside OOP as needed.
+
+More here 👉 https://www.infoq.com/articles/data-oriented-programming-java/
+
+vv
+
 ## Pattern Matching for Switch
 
 Java 19<br/>
@@ -353,8 +364,8 @@ vv
 record Point(int x, int y) {}
 
 void printSum(Object o) {
-    if (o instanceof Point(int x, int y)) {
-        System.out.println(x+y);
+    if (o instanceof Point(var a, var b)) {
+        System.out.println(a+b);
     }
 }
 ```
