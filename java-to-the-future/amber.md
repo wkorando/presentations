@@ -92,7 +92,7 @@ vv
 ## Pattern Matching for instanceof
 
 ```java
-Object someNumberType = ...
+Number someNumberType = ...
 
 if(someNumberType instanceof Integer) {
 	Integer i = (Integer) someNumberType;
@@ -110,7 +110,7 @@ vv
 ## Pattern Matching for Instanceof
 
 ```java
-Object someNumberType = ...
+Number someNumberType = ...
 
 if(someNumberType instanceof Integer i) {
 	//do work with i
@@ -126,7 +126,7 @@ vv
 ## Pattern Matching for Instanceof
 
 ```java
-Object someNumberType = ...
+Number someNumberType = ...
 
 if(someNumberType instanceof Integer i && i > 100) {
 	//large number
