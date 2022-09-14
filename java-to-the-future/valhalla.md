@@ -10,7 +10,7 @@ vv
 * Unify the type system
 	* primitives and classes (reference types)
 vv
-## Reference types - identity
+## Types - identity
 
 * Have identity
 	* Extra overhead
@@ -24,9 +24,9 @@ vv
  Not always needed!
 vv
 
-## Reference types - identity
+## Types - references
 
-* Are references
+* Have reference
 	*  memory indirection
 	*  nullability
 	*  protection from tearing

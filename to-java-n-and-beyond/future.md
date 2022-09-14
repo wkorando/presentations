@@ -1,4 +1,4 @@
-# Preview & Incubator
+# Beyond
 
 VV
 
@@ -40,8 +40,8 @@ VV
 record Point(int x, int y) {}
 
 void printSum(Object o) {
-    if (o instanceof Point(int x, int y)) {
-        System.out.println(x+y);
+    if (o instanceof Point(var a, var b)) {
+        System.out.println(a+b);
     }
 }
 ```
@@ -64,3 +64,11 @@ VV
 
 JDK 19 <br/>
 JEP 426 (fourth incubator)
+
+VV
+
+## Foreign Function & Memory API
+
+JDK 19 <br/>
+
+JEP 424 (first preview)
