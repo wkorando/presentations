@@ -4,7 +4,7 @@ vv
 
 ## Project Amber
 
-Goal: Introduce smaller productivity-oriented Java language feates.
+Goal: Introduce smaller productivity-oriented Java language features.
 
 vv
 
@@ -376,9 +376,9 @@ vv
 ## Going Forward
 
 * Withers
-* String Templates
+* String Templates (JEP 430)
 * Concise method bodies
-* Even more pattern matching
+* Even more pattern matching!
 
 vv
 

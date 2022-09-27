@@ -1,6 +1,5 @@
 # Taking off with JDK Flight Recorder
 
-### (Safe Flights and Fiery Wrecks with JDK Flight Recorder)
 Billy Korando 
 <br/>
 Java Developer Advocate - Oracle ☕️🥑

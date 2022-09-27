@@ -48,6 +48,7 @@ vv
 
 * specialized generics (backed by `int[]`)
 vv
+
 ## What Can You Do Now?
 
 ### Synchronization:
@@ -79,8 +80,12 @@ public Long createALong() {
 	return new Long(100L);
 }
 ```
+vv
 
+## Why Project Valhalla
 
+* Take better advantage of modern hardware design for both memory and CPU usage
+* Heal the rift between primitives and objects with universal generics
 
 vv
 

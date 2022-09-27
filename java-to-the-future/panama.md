@@ -89,6 +89,14 @@ More info 👉 [https://github.com/openjdk/jextract](https://github.com/openjdk/
 
 vv
 
+## Why Project Panama
+
+Replace the existing Java Native Interface (JNI) with an improved API that makes debugging and memory management easier, and address security concerns and safety issues related to JNI.
+
+Allow Java applications take advantage of native libraries while still writing Java, and not having to write in the libraries native language.*
+
+vv
+
 ## Next steps
 
 * [Project Panama OpenJDK](https://openjdk.org/projects/panama/)

@@ -1,6 +1,4 @@
 ![](images/java-to-the-future.png)
-<br/>
-### (Java Beyond!)
 
 Billy Korando <br/>
 Java Developer Advocate - Oracle<br/>

@@ -172,7 +172,7 @@ implements Shape {
 	}
 }
 ```
-
+VV
 ## More Info
 
 Data Oriented Programming in Java - <br/>[https://www.infoq.com/articles/data-oriented-programming-java/](https://www.infoq.com/articles/data-oriented-programming-java/)

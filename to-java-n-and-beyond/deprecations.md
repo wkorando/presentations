@@ -12,9 +12,6 @@ Applet API<br/>
 JDK 17<br/>
 JEP 398<br/>
 <br/>
-Finalizers<br/>
-JDK 18<br/>
-JEP 421
 VV
 ## Removals
 
