@@ -1,7 +1,7 @@
 ## Follow up Links
 
 * https://openjdk.java.net/jeps/0
-* https://jdk.java.net/18/release-notes
+* https://jdk.java.net/20/release-notes
 * https://inside.java/sip/
 * https://carlmastrangelo.com/blog/the-impossible-java-11
 

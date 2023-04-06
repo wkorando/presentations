@@ -69,7 +69,7 @@ System.out.println(i); //Out of scope
 boolean isAnInt =
 	(someNumberType instanceof String nowImAString);
 
-System.out.println(i); //Out of scope
+System.out.println(nowImAString); //Out of scope
 
 if(someNumberType instanceof String i 
 	|| i.endsWith("!")) //Out of scope

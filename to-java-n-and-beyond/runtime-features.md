@@ -5,16 +5,17 @@ JDK 12<br/>
 Default CDS Archive: JEP 341<br/>
 <br/>
 JDK 13 <br/>
-Dynamic CDS Archive: JEP 350
+Dynamic CDS Archive: JEP 350 <br/>
+<br/>
+JDK 19 <br/>
+Autogenerate CDS archive <br/>
 
 VV
 
 ### AppCDS
 
 ```
-java -XX:ArchiveClassesAtExit=dynamic-archive.jsa -jar <application>
-
-java -XX:SharedArchiveFile=dynamic-archive.jsa  -jar <application>
+java -XX:+AutoCreateSharedArchive -XX:SharedArchiveFile=foo.jsa <application> 
 ```
 VV
 ## ZGC
@@ -25,7 +26,15 @@ VV
 * Single generation, planned to become multi-generation soon
 * Get started: -XX:+UseZGC -Xmx<size> -Xlog:gc
 
-Video: [https://www.youtube.com/watch?v=OcfvBoyTvA8](https://www.youtube.com/watch?v=OcfvBoyTvA8)
+Video: [https://www.youtube.com/watch?v=U2Sx5lU0KM8](https://www.youtube.com/watch?v=U2Sx5lU0KM8)
+VV
+
+
+## Generational ZGC 
+
+JDK 21 (hopefully!) <br/>
+
+JEP 439
 
 VV
 

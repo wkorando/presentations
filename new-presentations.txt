@@ -1,0 +1,7 @@
+The Programmer's Guide to JDK Flight Recorder
+
+The JDK Flight Recorder (JFR) is an event-based diagnostic and profiling tool built into the JDK. JFR can provide detailed information about the performance of a JVM and Java applications running on it and help diagnose when something goes wrong in production. JFR has several powerful and flexible APIs for capturing, streaming, and filtering information. This presentation will focus on how programmers can take advantage of these APIs for testing, capturing valuable data, providing live metrics, and more! If you have been wondering how to improve the performance of your Java applications or get better insight into their internal workings, this presentation is for you!
+
+Which Garbage Collector is Right for Me?
+
+Serial, Parallel, G1, Z,... Epsilon?! The JDK comes pre-packaged with several options for the garbage collector, but which to choose? How do you know which to choose? In this presentation, we will understand the tradeoffs between garbage collectors and the comparative strengths and weaknesses of the available garbage collectors. If you have been running into performance issues with your applications in production and looking for possible solutions, or want to learn about garbage collectors, this presentation is for you! 

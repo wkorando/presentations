@@ -2,73 +2,163 @@
 
 VV
 
-## Pattern Matching for Switch
+## Unnamed Patterns and Variables 
 
-Java 19<br/>
-JEP 427 (Third Preview)
+JDK 21 <br/>
+<br/>
+JEP 443 (first preview)
 VV
-### Pattern Matching for Switch
 
-* Updates to `null` case behavior
-* `when` clause replaces `&&` guard case
+### Unnamed Patterns 
 
 ```java
-static void testTriangle(Shape s) {
-    switch (s) {
-        case Triangle t
-        when t.calculateArea() > 100 ->
-            System.out.println("Large triangle");
-        case Triangle t ->
-            System.out.println("Small triangle");
-        default ->
-            System.out.println("Non-triangle");
-    }
-}
+record Name(...){}
+record Address(...){}
+record Billing(Address billingAddress, String ccNumber, LocalDate expiration){}
+record Customer(Name name, Address address, Billing billing){}
+
+if(o instanceof 
+	Customer(var name, var adress, 
+		Billing(var billingAddress, var ccNumber, var expiration)){
+	...//Do something with billingAddress
+} 
 ```
-VV
-
-## Record Patterns
-
-Java 19<br/>
-JEP 405 (first preview)
 
 VV
 
-### Record Patterns
+### Unnamed Patterns 
 
 ```java
-record Point(int x, int y) {}
+record Name(...){}
+record Address(...){}
+record Billing(Address billingAddress, String ccNumber, LocalDate expiration){}
+record Customer(Name name, Address address, Billing billing){}
 
-void printSum(Object o) {
-    if (o instanceof Point(var a, var b)) {
-        System.out.println(a+b);
-    }
-}
+if(o instanceof Customer(_, _, Billing(var billingAddress, _, _)){
+	...//Do something with billingAddress
+} 
 ```
+
 VV
 
-## Virtual Threads
+### Unnamed Patterns 
 
-JDK 19 <br/>
-JEP 425 (first preview)
+```java
+record Name(...){}
+record Address(...){}
+record Billing(Address billingAddress, String ccNumber, LocalDate expiration){}
+record Customer(Name name, Address address, Billing billing){}
+
+if(o instanceof Customer(var name, _, _){
+	...//Do something with name
+} 
+```
+
+VV
+
+### Unnamed Variables 
+
+```java
+List<Name> names = ...;
+int i = 0;
+for(Name n : names){
+	if(i < LIMIT){
+		System.out.println("ACCEPTED");
+	} else {
+		System.out.println("REJECTED");
+	}	
+}
+```
+
+VV
+
+### Unnamed Variables 
+
+```java
+List<Name> names = ...;
+int i = 0;
+for(Name _ : names){
+	if(i < LIMIT){
+		System.out.println("ACCEPTED");
+	} else {
+		System.out.println("REJECTED");
+	}	
+}
+```
+
+VV
+
+### Unnamed Variables 
+
+```java
+List<Name> names = ...;
+int i = 0;
+for(Name _ : names){
+	if(i < LIMIT){
+		System.out.println("ACCEPTED");
+	} else {
+		System.out.println("REJECTED");
+	}	
+}
+```
+
+VV
+
+### Unnamed Variables - Exceptions
+
+```java
+String age = "cat";
+try{
+	person.setAge(age);
+} catch (IllegalArgumentException e){
+	log(age + " is not a valid age!"); 
+}
+```
+
+VV
+
+### Unnamed Variables - Exceptions
+
+```java
+String age = "cat";
+try{
+	person.setAge(age);
+} catch (IllegalArgumentException _){
+	log(age + " is not a valid age!"); 
+}
+```
+
 VV
 
 ## Structured Concurrency
 
-JDK 19  <br/>
-JEP 428 (first incubator)
+JDK 20  <br/>
+JEP 437 (second incubator)
 
 VV
 
 ## Vector API
 
-JDK 19 <br/>
-JEP 426 (fourth incubator)
+JDK 20 <br/>
+JEP 428 (fifth incubator) <br/>
+<br/>
+(Will remain in incubator until Valhalla starts delivering)
+
 
 VV
 
 ## Foreign Function & Memory API
 
-JDK 19 <br/>
+JDK 21 <br/>
 
-JEP 424 (first preview)
+JEP 442 (third preview)
+VV
+
+
+## Paving the On Ramp
+
+(draft) JEP 8304400 - Launch Multi-File Source-Code Programs  <br/>
+
+(draft) JEP 8302326 - Enhanced Main Methods and Anonymous Main Classes  <br/>
+
+Paving the on Ramp - [read more](https://openjdk.org/projects/amber/design-notes/on-ramp)
