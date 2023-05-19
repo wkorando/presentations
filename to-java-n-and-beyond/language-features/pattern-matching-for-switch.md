@@ -1,5 +1,5 @@
 ## Pattern Matching for Switch
-(To [hopefully] be) Added in Java 21 <br/>
+Java 21 <br/>
 JEP 440
 VV
 
@@ -51,7 +51,7 @@ switch(shape)
 
 VV
 
-### Pattern Matching for Switch - Sealed Heirarchies
+### Pattern Matching for Switch - Sealed Hierarchies
 
 ```java
 sealed interface class Shape{
@@ -66,5 +66,5 @@ switch(sealedHierarchy)
 	case Triangle t -> ...do something with t; 
 	case Circle c -> ...do something with c;
 	case Square s -> ...do something with s;
-	//No default needed, compiler can read sealed hierarchy
+	//No default needed; compiler can read sealed hierarchy
 ```

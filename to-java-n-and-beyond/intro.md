@@ -1,13 +1,3 @@
-# To Java 20 and Beyond!
-
-Billy Korando 
-<br/>
-Java Developer Advocate - Oracle ☕️🥑
-<br/>
-@BillyKorando 🐦
-
->>
-
 # To Java 21 and Beyond!
 
 Billy Korando 
@@ -28,18 +18,15 @@ Java Developer Advocate - Oracle ☕️🥑
 >>
 ### Would you like to know more?
 
-![](images/know-more.gif)
-
 * https://dev.java
 * https://inside.java
 * https://youtube.com/java 
 * Inside Java Podcast
 * Inside Java Newscast
-* #SipOfJava
-* #JEPCafé
 
 >>
 ## Agenda
+* Review of JDK 11-17
 * New Language Features
 * API Updates
 * New Runtime Features

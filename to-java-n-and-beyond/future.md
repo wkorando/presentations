@@ -130,14 +130,14 @@ try{
 
 VV
 
-## Structured Concurrency
+### Structured Concurrency
 
 JDK 20  <br/>
 JEP 437 (second incubator)
 
 VV
 
-## Vector API
+### Vector API
 
 JDK 20 <br/>
 JEP 428 (fifth incubator) <br/>
@@ -147,7 +147,7 @@ JEP 428 (fifth incubator) <br/>
 
 VV
 
-## Foreign Function & Memory API
+### Foreign Function & Memory API
 
 JDK 21 <br/>
 
@@ -155,10 +155,89 @@ JEP 442 (third preview)
 VV
 
 
-## Paving the On Ramp
+### String Templates
+
+JDK 21 <br/>
+JEP 430 (first preview)
+
+VV
+
+### String Templates
+
+```java
+String title = "My Web Page";
+String text  = "Hello, world";
+String html = STR."""
+        <html>
+          <head>
+            <title>\{title}</title>
+          </head>
+          <body>
+            <p>\{text}</p>
+          </body>
+        </html>
+        """;
+```
+VV
+### String Templates
+
+```
+| """
+| <html>
+|   <head>
+|     <title>My Web Page</title>
+|   </head>
+|   <body>
+|     <p>Hello, world</p>
+|   </body>
+| </html>
+| """
+```
+VV
+### Unnamed Classes and Instance Main Methods
+
+JDK 21 <br/>
+JEP 445
+
+VV
+
+### Unnamed Classes and Instance Main Methods
+
+```java
+public class HelloWorld {
+	public static void main(String[] args) {
+		System.out.println("Hello World!");
+	}
+}
+```
+
+VV
+
+
+### Unnamed Classes and Instance Main Methods
+
+```java
+class HelloWorld{
+	void main(String[] args{
+		System.out.println("Hello World!");
+	}
+}
+```
+
+VV
+
+### Unnamed Classes and Instance Main Methods
+
+```java
+void main() {
+    System.out.println("Hello, World!");
+}
+```
+
+VV
+
+### Paving the On Ramp
 
 (draft) JEP 8304400 - Launch Multi-File Source-Code Programs  <br/>
-
-(draft) JEP 8302326 - Enhanced Main Methods and Anonymous Main Classes  <br/>
 
 Paving the on Ramp - [read more](https://openjdk.org/projects/amber/design-notes/on-ramp)

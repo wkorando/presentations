@@ -1,5 +1,5 @@
 ## Record Patterns 
-(To [hopefully] be) Added in Java 21 <br/>
+Java 21 <br/>
 JEP 441
 VV
 
