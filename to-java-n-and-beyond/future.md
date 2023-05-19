@@ -132,15 +132,22 @@ VV
 
 ### Structured Concurrency
 
-JDK 20  <br/>
-JEP 437 (second incubator)
+JDK 21(?)  <br/>
+JEP 453 (first preview)
+
+VV
+
+### Scoped Values
+
+JDK 21(?)  <br/>
+JEP 446 (first preview)
 
 VV
 
 ### Vector API
 
-JDK 20 <br/>
-JEP 428 (fifth incubator) <br/>
+JDK 21 <br/>
+JEP 448 (sixth incubator) <br/>
 <br/>
 (Will remain in incubator until Valhalla starts delivering)
 

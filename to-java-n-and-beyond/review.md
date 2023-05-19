@@ -113,7 +113,7 @@ VV
 * Cannot be extend, abstract, and implicitly final
 * All fields are final (shallowly immutable)
 * Cannot declare instance fields
-* Accessors, hashcode, toString, equals, automatically generated
+* Accessors, `hashCode()`, `toString()`, `equals()`, automatically generated
 * Can override default implementation, or add your own method definitions 
 
 VV
@@ -179,7 +179,7 @@ VV
 * (Ultra-)Low Latency (<1 ms pause times)
 * Scalable (multi-terabyte heaps)
 * Single generation, planned to become multi-generation soon
-* Get started: -XX:+UseZGC -Xmx<size> -Xlog:gc
+* Get started: `-XX:+UseZGC -Xmx<size> -Xlog:gc`
 
 Video: [https://www.youtube.com/watch?v=U2Sx5lU0KM8](https://www.youtube.com/watch?v=U2Sx5lU0KM8)
 VV

@@ -25,6 +25,12 @@ VV
 
 JDK 18 <br/>
 JEP 408
+Get Started:
+
+```
+jwebserver
+```
+
 
 VV
 
@@ -32,6 +38,12 @@ VV
 
 JDK 21 <br/>
 JEP 439
+<br/>
+Get Started:
+
+```
+-XX:+ZGenerational -XX:+UseZGC
+```
 
 VV
 

@@ -65,6 +65,6 @@ VV
 
 * First delivery from Project Loom
 * Lightweight thread model that greatly increases the ability of writing, maintaining, and observing, a parallel/concurrent application.
-* Eventually will be combined with Structured Concurrency (second incubator, JDK 20, JEP 437) and Scoped Values (first incubator, JDK 20, JEP 429)
+* Eventually will be combined with Structured Concurrency (first preview, JDK 21(?), JEP 453) and Scoped Values (first preview, JDK 21(?), JEP 446)
 
 
