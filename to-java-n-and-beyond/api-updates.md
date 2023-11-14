@@ -22,6 +22,10 @@ interface SequencedCollection<E> extends Collection<E> {
     E removeFirst();
     E removeLast();
 }
+
+interface SequencedSet<E> extends Set<E>, SequencedCollection<E> {
+    SequencedSet<E> reversed();    // covariant override
+}
 ```
 
 VV
@@ -65,6 +69,8 @@ VV
 
 * First delivery from Project Loom
 * Lightweight thread model that greatly increases the ability of writing, maintaining, and observing, a parallel/concurrent application.
-* Eventually will be combined with Structured Concurrency (first preview, JDK 21(?), JEP 453) and Scoped Values (first preview, JDK 21(?), JEP 446)
+* Eventually will be combined with Structured Concurrency (first preview, JDK 21, JEP 453) and Scoped Values (first preview, JDK 21, JEP 446)
+
+
 
 

@@ -19,9 +19,11 @@ VV
 
 ## To Java [n] and Beyond!
 
-Java 17 has come and gone, but development on Java continues! What has changed since Java 11? And what changes are being added in Java 18? Come find out! 
+Java 21 has come and gone, and the Java release train continues with Java 22!
 
-In this presentation, we will look at the key changes that have been added to Java post-8, focusing primarily on Java post-11. The large changes; Records, Virtual Threads, the Module System, quality of life improvements; var, text blocks, pattern matching, and the many performance and runtime improvements. In recent releases, a lot has changed in the JDK; take this opportunity to get caught up!
+Still, we will look over the key changes that have come to Java in recent releases, briefly discuss what has changed from 11-17, and take time to focus on changes in 17+. 
+
+Many key changes have come to Java in recent releases; virtual threads, pattern matching, records, Generational ZGC, and more, understanding the goals of these changes can be key to understanding where Java is now and where it is going in the future!
 <br/><br/>
 [Presentation](to-java-n-and-beyond/)
 

@@ -22,7 +22,6 @@ Java Developer Advocate - Oracle ☕️🥑
 * https://inside.java
 * https://youtube.com/java 
 * Inside Java Podcast
-* Inside Java Newscast
 
 >>
 ## Agenda

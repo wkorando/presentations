@@ -5,3 +5,14 @@ The JDK Flight Recorder (JFR) is an event-based diagnostic and profiling tool bu
 Which Garbage Collector is Right for Me?
 
 Serial, Parallel, G1, Z,... Epsilon?! The JDK comes pre-packaged with several options for the garbage collector, but which to choose? How do you know which to choose? In this presentation, we will understand the tradeoffs between garbage collectors and the comparative strengths and weaknesses of the available garbage collectors. If you have been running into performance issues with your applications in production and looking for possible solutions, or want to learn about garbage collectors, this presentation is for you! 
+
+GenZGC, the Next Generation of Java's Newest GC 
+
+ZGC, introduced as a production feature with JDK 15 is Java's newest garbage collector (GC). ZGC offers extreme scalability, with the ability to offer 16TB heaps paired with super low latency with sub-millisecond pause times. With JDK 21, ZGC is set to receive its biggest update since its release, the implementation of a generational garbage collector algorithm.
+
+
+In this presentation, we will start with a medium-depth introduction to ZGC, to bring attendees up to speed. We will then dive into generational garbage collection, how this impacts ZGC, and how developers can take advantage of Generational ZGC. 
+
+AppCDS Java's Easy Button for Improving Startup
+
+Since microservices has become popularized in the mid-2010's there has been an increased focus on improving startup performance in Java applications. While there are great framework and runtime solutions for addressing this issue, they often come with drawbacks. Adopting a framework might require refactoring or rewriting an application, some runtime solutions come with specific technical constraints. A simple-to-implement solution with virtually no meaningful drawbacks is (App)CDS. Despite CDS being part of the JVM since JDK 5, few developers know about it and even fewer take advantage of it. This presentation will introduce developers to AppCDS and how it can help improve application startup. 
