@@ -6,7 +6,8 @@ Java Developer Advocate - Oracle
 ## Important Information
 
 * Ask questions
-* Reach out:  * Twitter: @BillyKorando * Email: billy.korando@oracle.com
+* Reach out:
+	* Email: billy.korando@oracle.com
 * Link to presentation:  
 --horizontal--
 ## Would you like to know more?

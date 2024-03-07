@@ -47,5 +47,16 @@ Get Started:
 
 VV
 
+## Region Pinning for G1
 
-## Performance Improvements
+JDK 22 <br/>
+JEP 423
+<br/>
+
+VV
+
+## Launch Multi-File Source-Code Programs
+
+JDK 22 <br/>
+JEP 458
+

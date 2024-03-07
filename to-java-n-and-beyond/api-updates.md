@@ -71,6 +71,11 @@ VV
 * Lightweight thread model that greatly increases the ability of writing, maintaining, and observing, a parallel/concurrent application.
 * Eventually will be combined with Structured Concurrency (first preview, JDK 21, JEP 453) and Scoped Values (first preview, JDK 21, JEP 446)
 
+VV
 
+### Foreign Function & Memory
+
+JDK 22 <br/>
+JEP 454
 
 

@@ -2,163 +2,39 @@
 
 VV
 
-## Unnamed Patterns and Variables 
-
-JDK 21 <br/>
-<br/>
-JEP 443 (first preview)
-VV
-
-### Unnamed Patterns 
-
-```java
-record Name(...){}
-record Address(...){}
-record Billing(Address billingAddress, String ccNumber, LocalDate expiration){}
-record Customer(Name name, Address address, Billing billing){}
-
-if(o instanceof 
-	Customer(var name, var adress, 
-		Billing(var billingAddress, var ccNumber, var expiration)){
-	...//Do something with billingAddress
-} 
-```
-
-VV
-
-### Unnamed Patterns 
-
-```java
-record Name(...){}
-record Address(...){}
-record Billing(Address billingAddress, String ccNumber, LocalDate expiration){}
-record Customer(Name name, Address address, Billing billing){}
-
-if(o instanceof Customer(_, _, Billing(var billingAddress, _, _)){
-	...//Do something with billingAddress
-} 
-```
-
-VV
-
-### Unnamed Patterns 
-
-```java
-record Name(...){}
-record Address(...){}
-record Billing(Address billingAddress, String ccNumber, LocalDate expiration){}
-record Customer(Name name, Address address, Billing billing){}
-
-if(o instanceof Customer(var name, _, _){
-	...//Do something with name
-} 
-```
-
-VV
-
-### Unnamed Variables 
-
-```java
-List<Name> names = ...;
-int i = 0;
-for(Name n : names){
-	if(i < LIMIT){
-		System.out.println("ACCEPTED");
-	} else {
-		System.out.println("REJECTED");
-	}	
-}
-```
-
-VV
-
-### Unnamed Variables 
-
-```java
-List<Name> names = ...;
-int i = 0;
-for(Name _ : names){
-	if(i < LIMIT){
-		System.out.println("ACCEPTED");
-	} else {
-		System.out.println("REJECTED");
-	}	
-}
-```
-
-VV
-
-### Unnamed Variables 
-
-```java
-List<Name> names = ...;
-int i = 0;
-for(Name _ : names){
-	if(i < LIMIT){
-		System.out.println("ACCEPTED");
-	} else {
-		System.out.println("REJECTED");
-	}	
-}
-```
-
-VV
-
-### Unnamed Variables - Exceptions
-
-```java
-String age = "cat";
-try{
-	person.setAge(age);
-} catch (IllegalArgumentException e){
-	log(age + " is not a valid age!"); 
-}
-```
-
-VV
-
-### Unnamed Variables - Exceptions
-
-```java
-String age = "cat";
-try{
-	person.setAge(age);
-} catch (IllegalArgumentException _){
-	log(age + " is not a valid age!"); 
-}
-```
-
-VV
-
 ### Structured Concurrency
 
-JDK 21(?)  <br/>
-JEP 453 (first preview)
+JDK 22  <br/>
+JEP 462 (second preview)
 
 VV
 
 ### Scoped Values
 
-JDK 21(?)  <br/>
-JEP 446 (first preview)
+JDK 22  <br/>
+JEP 464 (second preview)
 
 VV
 
 ### Vector API
 
-JDK 21 <br/>
-JEP 448 (sixth incubator) <br/>
+JDK 22 <br/>
+JEP 460 (seventh incubator) <br/>
 <br/>
 (Will remain in incubator until Valhalla starts delivering)
 
 
 VV
 
-### Foreign Function & Memory API
+### Class-File API
 
-JDK 21 <br/>
+JDK 22 <br/>
+JEP 457 (first preview)
+<br/>
+![](images/class-file-api.jpg)
+<br/>
+https://youtu.be/bQ2Rwpyj_Ks
 
-JEP 442 (third preview)
 VV
 
 
@@ -201,14 +77,14 @@ VV
 | """
 ```
 VV
-### Unnamed Classes and Instance Main Methods
+### Implicitly Declared Classes and Instance Main Methods 
 
-JDK 21 <br/>
-JEP 445
+JDK 22 <br/>
+JEP 463
 
 VV
 
-### Unnamed Classes and Instance Main Methods
+### Implicitly Declared Classes and Instance Main Methods
 
 ```java
 public class HelloWorld {
@@ -221,7 +97,7 @@ public class HelloWorld {
 VV
 
 
-### Unnamed Classes and Instance Main Methods
+### Implicitly Declared Classes and Instance Main Methods
 
 ```java
 class HelloWorld{
@@ -233,7 +109,7 @@ class HelloWorld{
 
 VV
 
-### Unnamed Classes and Instance Main Methods
+### Implicitly Declared Classes and Instance Main Methods
 
 ```java
 void main() {
@@ -243,8 +119,7 @@ void main() {
 
 VV
 
-### Paving the On Ramp
+### Paving the On-ramp
 
-(draft) JEP 8304400 - Launch Multi-File Source-Code Programs  <br/>
 
-Paving the on Ramp - [read more](https://openjdk.org/projects/amber/design-notes/on-ramp)
+Paving the On-ramp - [read more](https://openjdk.org/projects/amber/design-notes/on-ramp)

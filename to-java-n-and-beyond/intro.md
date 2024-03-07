@@ -1,10 +1,9 @@
-# To Java 21 and Beyond!
+# To Java 22 and Beyond!
 
 Billy Korando 
 <br/>
 Java Developer Advocate - Oracle ☕️🥑
 <br/>
-@BillyKorando 🐦
 
 >>
 
@@ -12,9 +11,9 @@ Java Developer Advocate - Oracle ☕️🥑
 
 * Ask questions
 * Reach out: 
-    * Twitter: @BillyKorando 🐦
     * Email: billy.korando@oracle.com ✉️
 * Link to presentation: https://wkorando.github.io/presentations/to-java-n-and-beyond/
+
 >>
 ### Would you like to know more?
 
@@ -24,6 +23,7 @@ Java Developer Advocate - Oracle ☕️🥑
 * Inside Java Podcast
 
 >>
+
 ## Agenda
 * Review of JDK 11-17
 * New Language Features
