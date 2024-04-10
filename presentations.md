@@ -19,11 +19,11 @@ VV
 
 ## To Java [n] and Beyond!
 
-Java 21 has come and gone, and the Java release train continues with Java 22!
+Java 21 has come and gone, but the Java release train continues with Java 23!
 
-Still, we will look over the key changes that have come to Java in recent releases, briefly discuss what has changed from 11-17, and take time to focus on changes in 17+. 
+In this presentation, we will briefly review key changes between Java 11 and 21, as they form an important foundation for where Java is heading. Once that foundation is laid, we will look at what has changed in Java since 21, including the likely finalization of the two remaining big features of Project Loom, Scoped Values and Structured Concurrency, and how that will rewrite the story of concurrency in Java. 
 
-Many key changes have come to Java in recent releases; virtual threads, pattern matching, records, Generational ZGC, and more, understanding the goals of these changes can be key to understanding where Java is now and where it is going in the future!
+We will also cover other important changes, including Generational ZGC, Java language updates, and the Foreign Function and Memory API, and even take a look into the future of where Java is heading! 
 <br/><br/>
 [Presentation](to-java-n-and-beyond/)
 

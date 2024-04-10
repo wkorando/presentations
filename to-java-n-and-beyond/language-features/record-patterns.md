@@ -1,6 +1,6 @@
 ## Record Patterns 
 Java 21 <br/>
-JEP 441
+JEP 440
 VV
 
 ### Pattern Matching for Records 
@@ -20,10 +20,11 @@ VV
 ```java
 record Name(String firstName, String middleName, String lastName){}
 
-switch(name)
-	case Name name(var fName, var mName, var lName) 
-		when !middleName.isEmpty() -> 
-			System.out.println(lName + ", " + fName + " " + mName); 
-	case Name name(var fName, var mName, var lName)  -> 
-		System.out.println(lName + ", " + fName); 
+switch(name){
+    case Name(var fName, var mName, var lName) 
+        when !mName.isEmpty() -> 
+            System.out.println(lName + ", " + fName + " " + mName); 
+    case Name(var fName, var mName, var lName)  -> 
+        System.out.println(lName + ", " + fName);
+}
 ```

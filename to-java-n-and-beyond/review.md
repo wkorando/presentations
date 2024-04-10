@@ -165,7 +165,7 @@ VV
 ## Even More API Updates
 Find them here 👇
 
-[https://docs.oracle.com/en/java/javase/21/docs/api/new-list.html](https://docs.oracle.com/en/java/javase/21/docs/api/new-list.html)
+[https://docs.oracle.com/en/java/javase/22/docs/api/new-list.html](https://docs.oracle.com/en/java/javase/22/docs/api/new-list.html)
 <img src=images/new-api.png style="width:250px; margin-left: 40%;"/>
 
 VV
@@ -178,7 +178,7 @@ VV
 * JEP 377
 * (Ultra-)Low Latency (<1 ms pause times)
 * Scalable (multi-terabyte heaps)
-* Single generation, planned to become multi-generation soon
+* Initially single generation, now multi-generation
 * Get started: `-XX:+UseZGC -Xmx<size> -Xlog:gc`
 
 Video: [https://www.youtube.com/watch?v=U2Sx5lU0KM8](https://www.youtube.com/watch?v=U2Sx5lU0KM8)

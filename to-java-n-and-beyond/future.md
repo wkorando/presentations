@@ -9,6 +9,35 @@ JEP 462 (second preview)
 
 VV
 
+
+```java
+<T> List<T> runAll(List<Callable<T> > tasks) throws InterruptedException, ExecutionException { 
+	try (var scope = new StructuredTaskScope.ShutdownOnFailure()) {
+		List<? extends Supplier<T> > suppliers = tasks.stream().map(scope::fork).toList();
+		scope.join().throwIfFailed(); // Propagate exception if any subtask fails
+		// Here, all tasks have succeeded, so compose their results
+		return suppliers.stream().map(Supplier::get).toList();
+	}
+}
+```
+
+VV
+
+```java
+
+<T> T race(List<Callable<T> > tasks, Instant deadline) 
+        throws InterruptedException, ExecutionException, TimeoutException {
+    try (var scope = new StructuredTaskScope.ShutdownOnSuccess<T>()) {
+        for (var task : tasks) {
+            scope.fork(task);
+        }
+        return scope.joinUntil(deadline)
+                    .result();  // Throws if none of the subtasks completed successfully
+    }
+}
+```
+VV
+
 ### Scoped Values
 
 JDK 22  <br/>
@@ -37,46 +66,63 @@ https://youtu.be/bQ2Rwpyj_Ks
 
 VV
 
+### Stream Gatherers 
 
-### String Templates
-
-JDK 21 <br/>
-JEP 430 (first preview)
+JDK 23 <br/>
+JEP 473 (second preview)
 
 VV
 
-### String Templates
+
+### Statements before super(...)
+
+JDK 22 (first preview) <br/>
+JEP 447
+
+VV
 
 ```java
-String title = "My Web Page";
-String text  = "Hello, world";
-String html = STR."""
-        <html>
-          <head>
-            <title>\{title}</title>
-          </head>
-          <body>
-            <p>\{text}</p>
-          </body>
-        </html>
-        """;
+public class PositiveBigInteger extends BigInteger {
+	public PositiveBigInteger(long value) {
+		super(value);  // Potentially unnecessary work
+		if (value <= 0) throw ...
+		}
+}
 ```
-VV
-### String Templates
 
-```
-| """
-| <html>
-|   <head>
-|     <title>My Web Page</title>
-|   </head>
-|   <body>
-|     <p>Hello, world</p>
-|   </body>
-| </html>
-| """
+VV
+
+```java
+public class PositiveBigInteger extends BigInteger {
+    public PositiveBigInteger(long value) {
+        super(verifyPositive(value));
+    }
+
+    private static long verifyPositive(long value) {
+        if (value <= 0) throw ...
+        return value;
+    }
+}
 ```
 VV
+
+
+```java
+public class PositiveBigInteger extends BigInteger {
+	public PositiveBigInteger(long value) {
+	if (value <= 0)
+		throw ...super(value);
+	}
+}
+```
+VV
+
+### JEP draft: Flexible Constructor Bodies (Second Preview)
+
+Next step 👉 https://openjdk.org/jeps/8325803
+
+VV
+
 ### Implicitly Declared Classes and Instance Main Methods 
 
 JDK 22 <br/>
@@ -114,6 +160,21 @@ VV
 ```java
 void main() {
     System.out.println("Hello, World!");
+}
+```
+
+VV
+
+## Implicitly Declared Classes and Instance Main Methods
+
+Next step 👉 https://openjdk.org/jeps/8323335
+
+
+VV
+
+```java
+void main() {
+    println("Hello, World!");
 }
 ```
 

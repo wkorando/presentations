@@ -12,10 +12,13 @@ record Address(...){}
 record Billing(Address billingAddress, String ccNumber, LocalDate expiration){}
 record Customer(Name name, Address address, Billing billing){}
 
-if(o instanceof 
-	Customer(var name, var adress, 
-		Billing(var billingAddress, var ccNumber, var expiration)){
-	...//Do something with billingAddress
+Customer customer = ...
+
+
+if(customer instanceof 
+	Customer(var name, var address, 
+		Billing(var billingAddress, var ccNumber, var expiration))){
+	//Do something with billingAddress
 } 
 ```
 
@@ -29,8 +32,12 @@ record Address(...){}
 record Billing(Address billingAddress, String ccNumber, LocalDate expiration){}
 record Customer(Name name, Address address, Billing billing){}
 
-if(o instanceof Customer(_, _, Billing(var billingAddress, _, _)){
-	...//Do something with billingAddress
+Customer customer = ...
+
+if(customer instanceof 
+	Customer(_, _, 
+		Billing(var billingAddress, _, _))){
+	//Do something with billingAddress
 } 
 ```
 
@@ -44,7 +51,9 @@ record Address(...){}
 record Billing(Address billingAddress, String ccNumber, LocalDate expiration){}
 record Customer(Name name, Address address, Billing billing){}
 
-if(o instanceof Customer(var name, _, _){
+Customer customer = ...
+
+if(customer instanceof Customer(var name, _, _){
 	...//Do something with name
 } 
 ```
