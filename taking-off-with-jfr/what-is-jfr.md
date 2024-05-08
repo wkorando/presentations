@@ -11,10 +11,10 @@ VV
 
 ### What is JFR?
 
-* Event based diagnostic and profiling tool
+* Event based diagnostic and profiling framework
 * Extremely low overhead of <1%*
 * Meant to be used continuously in production
-* Covers both events happening in JVM and Java applications
+* Covers both events happening in JVM and Application(s) running on the JVM
 
 
 \* When using default settings, YMMV when choosing different settings
