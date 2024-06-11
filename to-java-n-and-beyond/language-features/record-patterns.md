@@ -21,8 +21,7 @@ VV
 record Name(String firstName, String middleName, String lastName){}
 
 switch(name){
-    case Name(var fName, var mName, var lName) 
-        when !mName.isEmpty() -> 
+    case Name(var fName, var mName, var lName) when !mName.isEmpty() -> 
             System.out.println(lName + ", " + fName + " " + mName); 
     case Name(var fName, var mName, var lName)  -> 
         System.out.println(lName + ", " + fName);

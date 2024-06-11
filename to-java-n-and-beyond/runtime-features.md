@@ -39,6 +39,8 @@ VV
 JDK 21 <br/>
 JEP 439
 <br/>
+Default option in JDK 23: <br/>
+JEP 474 <br/>
 Get Started:
 
 ```

@@ -1,12 +1,12 @@
 # Follow-up Links
 
-<img src="images/inside-java-newscast-34.png" width="700px"/> 
+<img src="images/java-23.webp" width="700px"/> 
 
 
 
 <br/>
 
-[Inside Java Newscast Playlist](https://www.youtube.com/watch?v=I9hQvJO39uM&list=PLX8CzqL3ArzX8ZzPNjBgji7rznFFiOr58)
+[Inside Java Newscast Playlist](https://www.youtube.com/watch?v=kzjGp7LmW0I&list=PLX8CzqL3ArzX8ZzPNjBgji7rznFFiOr58&index=1)
 
 >>
 

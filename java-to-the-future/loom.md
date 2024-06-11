@@ -15,28 +15,30 @@ vv
 
 ## Virtual Threads
 
-JDK 19 <br/>
-JEP 425 (first preview)
+JDK 21 <br/>
+JEP 444
+
+vv
+
+![](images/virtual-threads-visualization.png)
 
 vv
 
 ## Structured Concurrency
 
-Allow tasks to be split into multiple threads, but have them treated as a single unit of work to improve error handling, reliability, observability, and comprehensibility.
+Allows a unit of work to be split into multiple tasks that can be executed concurrently, but have them treated as a single unit of work to improve error handling, reliability, observability, and comprehensibility.
 
 vv
 
 ## Structured Concurrency
 
-JDK 19 <br/>
-JEP 428 (first incubator)
+JDK 23 <br/>
+JEP 480 (Third Preview)
 
 vv
 
 
-## Extent-Local Variables
-
-Likely to be renamed to "Scoped Values". 
+## Scoped Values
 
 Provide a lightweight and easily accessible means of storing immutable variables in a scope that is available to all threads in scope. 
 
@@ -44,11 +46,11 @@ This would be preferred to Thread-Local variables, especially when using a large
 
 vv
 
-## Extent-Local Variables
+## Scoped Values
 
-JDK 20 (hopefully?) <br/>
+JDK 23 <br/>
 <br/>
-JEP 429 (first incubator)
+	JEP 481 (third preview)
 
 vv
 

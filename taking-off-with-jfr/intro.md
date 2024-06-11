@@ -3,15 +3,12 @@
 Billy Korando 
 <br/>
 Java Developer Advocate - Oracle ☕️🥑
-<br/>
-@BillyKorando 🐦
 >>
 
 ## Important Information
 
 * Ask questions
 * Reach out: 
-    * Twitter: @BillyKorando 🐦
     * Email: billy.korando@oracle.com ✉️
 * Link to presentation: https://wkorando.github.io/presentations/taking-off-with-jfr/ 
 >>
@@ -24,9 +21,6 @@ Java Developer Advocate - Oracle ☕️🥑
 * https://inside.java
 * https://youtube.com/java 
 * Inside Java Podcast
-* Inside Java Newscast
-* #SipOfJava
-* #JEPCafé
 >>
 
 ## Agenda

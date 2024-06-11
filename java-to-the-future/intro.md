@@ -9,9 +9,16 @@ Java Developer Advocate - Oracle<br/>
 
 * Ask questions
 * Reach out:
-    * Twitter: @BillyKorando
     * Email: billy.korando@oracle.com
 * Link to presentation:  https://wkorando.github.io/presentations/java-to-the-future/
+>>
+
+## Java One is Coming Back!
+
+March 17-20, Redwood Shores CA<br/>
+<br/>
+Learn more 👉 [https://www.oracle.com/javaone/](https://www.oracle.com/javaone/)
+
 >>
 
 ## Would you like to know more?
@@ -20,9 +27,6 @@ Java Developer Advocate - Oracle<br/>
 * https://inside.java
 * https://youtube.com/java 
 * Inside Java Podcast
-* Inside Java Newscast
-* #SipOfJava
-* #JEPCafé
 
 >>
 

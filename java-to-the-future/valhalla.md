@@ -93,5 +93,5 @@ vv
 
 * [Project Valhalla OpenJDK](https://openjdk.org/projects/valhalla/)
 * [Dev Mailing list](https://mail.openjdk.org/mailman/listinfo/valhalla-dev)
-* [State of Project Valhalla](https://www.youtube.com/watch?v=x1_DBqJrykM)
+* [encodings for flattened heap values](https://cr.openjdk.org/~jrose/values/flattened-values.html)
 
