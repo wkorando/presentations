@@ -5,7 +5,7 @@ VV
 ### Structured Concurrency
 
 JDK 22  <br/>
-JEP 462 (second preview)
+JEP 480 (third preview)
 
 VV
 
@@ -40,8 +40,8 @@ VV
 
 ### Scoped Values
 
-JDK 22  <br/>
-JEP 464 (second preview)
+JDK 23  <br/>
+JEP 481 (second preview)
 
 VV
 
@@ -74,10 +74,10 @@ JEP 473 (second preview)
 VV
 
 
-### Statements before super(...)
+### Flexible Constructor Bodies
 
-JDK 22 (first preview) <br/>
-JEP 447
+JDK 23 (second preview) <br/>
+JEP 473
 
 VV
 
@@ -117,10 +117,23 @@ public class PositiveBigInteger extends BigInteger {
 ```
 VV
 
-### JEP draft: Flexible Constructor Bodies (Second Preview)
+## Primitive Type Patterns
 
-Next step 👉 https://openjdk.org/jeps/8325803
+Java 23<br/>
+JEP 455 (First Preview)
+VV
 
+### Pattern Matching for Switch
+
+```java
+switch (x.getYearlyFlights()) {
+    case 0 -> ...;
+    case 1 -> ...;
+    case 2 -> issueDiscount();
+    case int i when i >= 100 -> issueGoldCard();
+    case int i -> ... appropriate action when i > 2 && i < 100 ...
+}
+```
 VV
 
 ### Implicitly Declared Classes and Instance Main Methods 
@@ -165,16 +178,18 @@ void main() {
 
 VV
 
-## Implicitly Declared Classes and Instance Main Methods
-
-Next step 👉 https://openjdk.org/jeps/477
-
+```java
+void main() {
+    println("Hello, World!");
+}
+```
 
 VV
 
 ```java
 void main() {
-    println("Hello, World!");
+	String name = readln("What's your name?");
+    println("Hello, " + name + "!");
 }
 ```
 

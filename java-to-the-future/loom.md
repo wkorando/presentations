@@ -81,4 +81,4 @@ vv
 
 * [Project Loom OpenJDK](https://openjdk.org/projects/loom/)
 * [Dev mailing list](https://mail.openjdk.org/mailman/listinfo/loom-dev)
-* [State of Project Loom](https://www.youtube.com/watch?v=KG24inClY2M)
+* [Java's Virtual Threads - Next Steps](https://www.youtube.com/watch?v=KBW4LbCoo6c)

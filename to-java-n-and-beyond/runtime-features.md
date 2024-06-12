@@ -44,7 +44,7 @@ JEP 474 <br/>
 Get Started:
 
 ```
--XX:+ZGenerational -XX:+UseZGC
+-XX:+UseZGC
 ```
 
 VV

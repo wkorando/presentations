@@ -1,4 +1,10 @@
-# To Java 22 and Beyond!
+## To Java 23 and Beyond!
+
+![](images/duke-rocket.png)
+
+>>
+
+## To Java 23 and Beyond!
 
 Billy Korando 
 <br/>
@@ -15,6 +21,15 @@ Java Developer Advocate - Oracle ☕️🥑
 * Link to presentation: https://wkorando.github.io/presentations/to-java-n-and-beyond/
 
 >>
+
+## Java One is Coming Back!
+
+March 17-20, Redwood Shores CA<br/>
+<br/>
+Learn more 👉 [https://www.oracle.com/javaone/](https://www.oracle.com/javaone/)
+
+>>
+
 ### Would you like to know more?
 
 * https://dev.java

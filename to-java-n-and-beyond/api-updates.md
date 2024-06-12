@@ -78,4 +78,21 @@ VV
 JDK 22 <br/>
 JEP 454
 
+VV
 
+### Markdown in Javadoc
+
+JDK 23 <br/>
+JEP 467
+
+VV
+
+### Markdown in Javadoc
+
+```java
+/// - a module [java.base/]
+/// - a package [java.util]
+/// - a class [String]
+/// - a field [String#CASE_INSENSITIVE_ORDER]
+/// - a method [String#chars()]
+```

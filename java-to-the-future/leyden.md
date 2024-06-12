@@ -29,4 +29,4 @@ vv
 
 * [Project Leyden OpenJDK](https://openjdk.org/projects/leyden/)
 * [Dev mailing list](https://mail.openjdk.org/mailman/listinfo/loom-dev)
-* [State of Project Loom](https://www.youtube.com/watch?v=KG24inClY2M)
+* [Project Leyden: Capturing Lightning in a Bottle](https://www.youtube.com/watch?v=NlJK5BKXtHI)

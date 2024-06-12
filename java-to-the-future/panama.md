@@ -58,5 +58,4 @@ vv
 
 * [Project Panama OpenJDK](https://openjdk.org/projects/panama/)
 * [Dev mailing list](https://mail.openjdk.org/mailman/listinfo/panama-dev)
-* [State of Project Valhalla](https://www.youtube.com/watch?v=B8k9QGvPxC0)
-* [Introduction to Project Panama](https://denismakogon.github.io/openjdk/panama/2022/05/31/introduction-to-project-panama-part-1.html)
+* [Foreign Function and Memory API](https://www.youtube.com/watch?v=iwmVbeiA42E)
