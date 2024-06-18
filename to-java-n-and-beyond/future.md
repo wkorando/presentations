@@ -4,7 +4,7 @@ VV
 
 ### Structured Concurrency
 
-JDK 22  <br/>
+JDK 23  <br/>
 JEP 480 (third preview)
 
 VV

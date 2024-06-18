@@ -73,10 +73,58 @@ VV
 
 VV
 
+![](images/virtual-threads-1.png)
+
+VV
+
+![](images/virtual-threads-2.png)
+
+VV
+
+![](images/virtual-threads-3.png)
+
+VV
+
+![](images/virtual-threads-4.png)
+
+VV
+
+![](images/virtual-threads-5.png)
+
+VV
+
+![](images/virtual-threads-6.png)
+
+VV
+
+![](images/virtual-threads-7.png)
+
+VV
+
+![](images/virtual-threads-8.png)
+
+VV
+
+![](images/virtual-threads-9.png)
+
+VV
+
+![](images/virtual-threads-10.png)
+
+VV
+
 ### Foreign Function & Memory
 
 JDK 22 <br/>
 JEP 454
+
+VV
+
+## Jextract Tool
+
+A tool for mechanically generating Java bindings from a native library's headers. 
+
+More info 👉 [https://github.com/openjdk/jextract](https://github.com/openjdk/jextract)
 
 VV
 
