@@ -64,8 +64,7 @@ VV
 
 Virtual Threads, the central feature of Project Loom, were released as a final feature in JDK 21! As great as virtual threads are, it's just the start of the story for Project Loom. With the vastly reduced cost of creating threads, comes new opportunities. 
 
-In this presentation we will look at the next two major features to be delivered by Project Loom; Structured Concurrency and Scoped Values, and how they will significantly improve the experience of executing code in parallel.
-
+In this presentation we will look at the next two major features to be delivered by Project Loom; Structured Concurrency and Scoped Values, and how they will significantly improve the developer experience of writing, running, and debugging code the executes concurrently.
 <br/><br/>
 [Presentation](loominated-java/)
 VV 
