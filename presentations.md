@@ -58,6 +58,16 @@ Are you running into problems with Java applications in production? Not understa
 
 VV
 
+## Loominated Java
+
+Virtual Threads, the central feature of Project Loom, were released as a final feature in JDK 21! As great as virtual threads are, it's just the start of the story for Project Loom. With the vastly reduced cost of creating threads, comes new opportunities. 
+
+In this presentation we will look at the next two major features to be delivered by Project Loom; Structured Concurrency and Scoped Values, and how they will significantly improve the experience of executing code in parallel.
+
+<br/><br/>
+[Presentation](loominated-java/)
+VV 
+
 ## Speaker Biography
 
 Billy is a Java Developer Advocate with the Java Platform Group at Oracle. With over a decade of experience in Java, Billy brings a passion for helping developers reduce tedious work, such as project initiation, deployment, testing, and validation, through automation and adopting the latest features and tools in the Java ecosystem. Outside of work, Billy enjoys traveling, playing kickball, and cheering on the Kansas City Chiefs. Billy also co-organizes the Kansas City Java users group.
