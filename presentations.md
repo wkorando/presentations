@@ -6,7 +6,9 @@ This slide deck represents my current active presentations. Step through the sli
 <a href=#/0/3>Why Developers Should Love Testing</a><br/>
 <a href=#/0/4>Taking off With JDK Flight Recorder</a><br/>
 <br/>
-<a href=#/0/5>Speaker's Bio</a><br/>
+<a href=#/0/5>Loominated Java</a><br/>
+<br/>
+<a href=#/0/6>Speaker's Bio</a><br/>
 
 
 <br/>
