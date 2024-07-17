@@ -14,6 +14,6 @@ https://github.com/moditect/jfrunit
 * Reach out:
     * Twitter: @BillyKorando
     * Email: billy.korando@oracle.com
-* Link to presentation: https://wkorando.github.io/presentations/to-java-n-and-beyond/
+* Link to presentation: https://wkorando.github.io/presentations/why-developers-should-love-testing/
 
 

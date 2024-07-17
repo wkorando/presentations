@@ -22,7 +22,7 @@ Java Developer Advocate - Oracle ☕️🥑
 
 >>
 
-## Java One is Coming Back!
+## JavaOne is Coming Back!
 
 March 17-20, Redwood Shores CA<br/>
 <br/>
