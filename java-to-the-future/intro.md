@@ -2,7 +2,6 @@
 
 Billy Korando <br/>
 Java Developer Advocate - Oracle<br/>
-@BillyKorando<br/>
 >>
 
 ## Important Information
@@ -13,7 +12,7 @@ Java Developer Advocate - Oracle<br/>
 * Link to presentation:  https://wkorando.github.io/presentations/java-to-the-future/
 >>
 
-## Java One is Coming Back!
+## JavaOne is Coming Back!
 
 March 17-20, Redwood Shores CA<br/>
 <br/>

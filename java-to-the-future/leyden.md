@@ -3,17 +3,17 @@
 vv
 ## Project Leyden
 
-Improve the start-up, time to peak performance, and reduce footprint, for the JVM by time shifting work (i.e. pre-compute information with training runs). 
+Improve the start-up, time to peak performance, and reduce footprint, for the JVM by time shifting work (i.e. pre-compute information with training runs during build time). 
 
 vv
 
-## CDS
+## CDS -> AOT Cache
 
-Now "Cache Data Storage" (previously Class Data Sharing), the central feature Leyden is built around. Will allow storing of computed data from training runs. 
+Leyden built upon CDS (Class Data-Sharing/Cache Data Storage). Will allow storing of computed data from training runs. 
 
 vv
 
-## Key CDS Enhancements
+## Key Enhancements
 
 * Unified Cache Data Storage: Allows the storing of profiling data, heap objects, and other "leyden" data.
 * Loaded Classes: Allows the storing of classes in a "loaded" state.
@@ -22,6 +22,15 @@ vv
 * AOT Compilation of Java Methods: Store native compilation of Java methods ahead of time 
 * AOT Generation of Proxies: Generate and store proxies ahead of time. Frequently used by frameworks. 
 * Class Loader Lookup Cache: Store in a cache classes looked up with `Class.getName()`
+
+vv
+
+## EA Builds
+
+Early Access Builds now available: <br/>
+https://jdk.java.net/leyden/
+<br/>
+(Linux/x64 and macOS/AArch64 only)
 
 vv
 

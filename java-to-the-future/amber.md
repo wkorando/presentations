@@ -13,7 +13,7 @@ vv
 ## Key Language Changes
 
 * Records
-* Sealed classes
+* Sealed classes/hierarchies
 * Pattern matching for `instanceof`, `switch`, and `record`
 
 
@@ -225,6 +225,6 @@ vv
 
 * [Project Amber OpenJDK](https://openjdk.org/projects/amber/)
 * [Dev mailing list](https://mail.openjdk.org/mailman/listinfo/amber-dev)
-* [0:14 / 51:35
+* [
 Java Language Update - Early 2024 Edition](https://www.youtube.com/watch?v=U6JQ1CqjgLM)
 

@@ -32,17 +32,64 @@ vv
 
 ## Structured Concurrency
 
+```java
+try (var scope = 
+	StructuredTaskScope.open(
+		Joiner.allSuccessfulOrThrow())) {
+	scope.fork(() -> {
+		//Execute task work
+	});
+	scope.fork(() -> {
+		//Execute task work
+	});
+	scope.fork(() -> {
+		//Execute task work
+	});
+	return scope.join()...//process results
+} catch (Exception e) {
+	//handle errors
+}
+
+```
+vv
+
+## Structured Concurrency
+
 JDK 23 <br/>
 JEP 480 (Third Preview)
 
 vv
-
 
 ## Scoped Values
 
 Provide a lightweight and easily accessible means of storing immutable variables in a scope that is available to all threads in scope. 
 
 This would be preferred to Thread-Local variables, especially when using a large number of virtual threads.
+
+vv
+
+## Scoped Values
+
+```java
+final static ScopedValue<Integer> NAME = ScopedValue.newInstance();
+...
+ScopedValue.<Integer>where(NAME, "duke").call(() -> {
+	try (var scope = 
+		StructuredTaskScope.open(
+			Joiner.allSuccessfulOrThrow())) {
+		scope.fork(() -> {
+			return "Hello " + NAME.get();
+		});
+		scope.fork(() -> {
+			return "Goodbye " + NAME.get();
+		});
+
+		return scope.join()...
+	} catch (Exception e) {
+		throw e;
+	}
+});
+```
 
 vv
 
