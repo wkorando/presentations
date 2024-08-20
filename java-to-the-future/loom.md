@@ -20,6 +20,14 @@ JEP 444
 
 vv
 
+![](images/virtual-threads-5.png)
+
+vv
+
+![](images/virtual-threads-6.png)
+
+vv
+
 ![](images/virtual-threads-visualization.png)
 
 vv
