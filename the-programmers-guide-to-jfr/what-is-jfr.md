@@ -29,7 +29,7 @@ Can then be dumped to a .jfr file<br/>
 VV
 ## JFR Events
 
-Over 150 different events:
+Nearly 190 events:
 
 ```
 jdk.SystemProcess                         

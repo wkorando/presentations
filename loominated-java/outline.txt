@@ -1,0 +1,12 @@
+Provide a better more structure of what is happening
+
+After going through current concurrent examples, step through the issues with them
+
+* Error handling
+* Cancel propagation
+* Unconstrained
+* Hung processes
+
+Give high level examples of how Structured Concurrency addresses -> then get into code examples
+
+Examples of debugging with tools like JMC? Finding hung process and relating them back to parent thread?

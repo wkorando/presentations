@@ -68,6 +68,19 @@ In this presentation we will look at the next two major features to be delivered
 [Presentation](loominated-java/)
 VV 
 
+
+## Lightning (Fast Startups) in the Jar
+
+Project Leyden is coming! Since the raise of popularity of microservice architectures in the mid-2010s, and serverless a few years later. The importance of startup and time to peak performance have become metrics of increasing concerns in the software development world. 
+
+The JVM is fast, incredibly fast, with throughput comparing favorably to even natively-compiled languages like C++ and Rust. However tne JVM is a VM, which means it has historically lagged behind in startup and warm up. 
+
+That is what Project Leyden, an OpenJDK project, is seeking to change. In this presentation we will look at the goals and features that are coming with Project Leyden, and how they will help improve startup and time to peak performance on the JVM. 
+
+<br/><br/>
+[Presentation](leyden/)
+VV 
+
 ## Speaker Biography
 
 Billy is a Java Developer Advocate with the Java Platform Group at Oracle. With over a decade of experience in Java, Billy brings a passion for helping developers reduce tedious work, such as project initiation, deployment, testing, and validation, through automation and adopting the latest features and tools in the Java ecosystem. Outside of work, Billy enjoys traveling, playing kickball, and cheering on the Kansas City Chiefs. Billy also co-organizes the Kansas City Java users group.

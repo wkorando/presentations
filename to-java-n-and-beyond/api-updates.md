@@ -52,7 +52,6 @@ interface SequencedMap<K,V> extends Map<K,V> {
 
 VV
 
-
 ### Sequenced Collections
 
 <img src=images/SequencedCollectionDiagram.png style="width:800px;"/>
@@ -65,6 +64,7 @@ JDK 21 <br/>
 JEP 444
  
 VV
+
 ### Virtual Threads
 
 * First delivery from Project Loom

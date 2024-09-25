@@ -150,9 +150,10 @@ VV
 ## API Updates
 Find them here 👇
 
-[https://docs.oracle.com/en/java/javase/22/docs/api/new-list.html](https://docs.oracle.com/en/java/javase/22/docs/api/new-list.html)
+[https://docs.oracle.com/en/java/javase/23/docs/api/new-list.html](https://docs.oracle.com/en/java/javase/23/docs/api/new-list.html)
 <img src=images/new-api.png style="width:250px; margin-left: 40%;"/>
 
+VV
 
 ## Release Notes
 
