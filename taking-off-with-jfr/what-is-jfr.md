@@ -20,16 +20,16 @@ VV
 \* When using default settings, YMMV when choosing different settings
 
 VV
+
 ### JFR Under the Hood
 
-Events produced by Java Runtime and Application<br/>
-Stored in Memory in Thread Local Buffers<br/>
-Can then be dumped to a .jfr file<br/>
+<iframe width="560" height="315" src="https://www.youtube.com/embed/XEKkUpPnf4Q?si=ny_VAqzUlFsXo-kp" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>
 
 VV
+
 ## JFR Events
 
-Over 150 different events:
+Over 180 different events:
 
 ```
 jdk.SystemProcess                         
