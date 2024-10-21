@@ -50,4 +50,3 @@ VV
 
 ![](images/virtual-threads-10.png)
 
-VV
