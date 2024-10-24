@@ -13,7 +13,9 @@ Java Developer Advocate - Oracle ☕️🥑
 * Reach out: 
     * Email: billy.korando@oracle.com ✉️
 * Link to presentation: https://wkorando.github.io/presentations/loominated-java/
-* Link to code: https://github.com/wkorando/loominated-java
+* Code examples:
+	* https://github.com/wkorando/loominated-java
+	* https://github.com/wkorando/project-loom-framework
 
 >>
 
