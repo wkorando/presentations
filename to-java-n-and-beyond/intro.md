@@ -1,10 +1,10 @@
-## To Java 23 and Beyond!
+## To Java 24 and Beyond!
 
 ![](images/duke-rocket.png)
 
 >>
 
-## To Java 23 and Beyond!
+## To Java 24 and Beyond!
 
 Billy Korando 
 <br/>
@@ -24,7 +24,7 @@ Java Developer Advocate - Oracle ☕️🥑
 
 ## JavaOne is Coming Back!
 
-March 17-20, Redwood Shores CA<br/>
+March 18-20, Redwood Shores CA<br/>
 <br/>
 Learn more 👉 [https://www.oracle.com/javaone/](https://www.oracle.com/javaone/)
 

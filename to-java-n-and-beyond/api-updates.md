@@ -144,3 +144,14 @@ VV
 /// - a field [String#CASE_INSENSITIVE_ORDER]
 /// - a method [String#chars()]
 ```
+
+VV
+
+### Class-File API
+
+JDK 24 <br/>
+JEP 484
+<br/>
+![](images/class-file-api.jpg)
+<br/>
+https://youtu.be/bQ2Rwpyj_Ks

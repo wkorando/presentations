@@ -4,8 +4,8 @@ VV
 
 ### Structured Concurrency
 
-JDK 23  <br/>
-JEP 480 (third preview)
+JDK 24  <br/>
+JEP 499 (fourth preview)
 
 VV
 
@@ -40,44 +40,26 @@ VV
 
 ### Scoped Values
 
-JDK 23  <br/>
-JEP 481 (second preview)
+JDK 24  <br/>
+JEP 487 (second preview)
 
 VV
 
 ### Vector API
 
-JDK 23 <br/>
-JEP 460 (eighth incubator) <br/>
+JDK 24 <br/>
+JEP 489 (ninth incubator) <br/>
 <br/>
 (Will remain in incubator until Valhalla starts delivering)
 
 
 VV
 
-### Class-File API
-
-JDK 23 <br/>
-JEP 466 (second preview)
-<br/>
-![](images/class-file-api.jpg)
-<br/>
-https://youtu.be/bQ2Rwpyj_Ks
-
-VV
-
-### Stream Gatherers 
-
-JDK 23 <br/>
-JEP 473 (second preview)
-
-VV
-
 
 ### Flexible Constructor Bodies
 
-JDK 23 (second preview) <br/>
-JEP 473
+JDK 24 (third preview) <br/>
+JEP 492
 
 VV
 
@@ -119,8 +101,8 @@ VV
 
 ## Primitive Type Patterns
 
-Java 23<br/>
-JEP 455 (First Preview)
+Java 24<br/>
+JEP 488 (First Preview)
 VV
 
 ### Pattern Matching for Switch
@@ -136,10 +118,10 @@ switch (x.getYearlyFlights()) {
 ```
 VV
 
-### Implicitly Declared Classes and Instance Main Methods 
+## Implicitly Declared Classes and Instance Main Methods 
 
-JDK 23 <br/>
-JEP 477
+JDK 24 <br/>
+JEP 495
 
 VV
 
@@ -191,6 +173,27 @@ void main() {
 	String name = readln("What's your name?");
     println("Hello, " + name + "!");
 }
+```
+
+VV
+
+## Module Import Declarations 
+
+JDK 24 <br/>
+JEP 494
+
+VV
+
+### Module Import Declarations 
+
+```java
+```
+
+VV
+
+### Module Import Declarations 
+
+```java
 ```
 
 VV

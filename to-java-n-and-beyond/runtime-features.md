@@ -2,7 +2,7 @@
 
 VV
 
-### CDS Updates
+## CDS Updates
 JDK 12<br/>
 Default CDS Archive: JEP 341<br/>
 <br/>
@@ -14,10 +14,31 @@ Autogenerate CDS archive <br/>
 
 VV
 
-### AppCDS
+## AppCDS
 
 ```
 java -XX:+AutoCreateSharedArchive -XX:SharedArchiveFile=foo.jsa <application> 
+```
+VV
+
+## Project Leyden
+
+
+JDK 24 <br/>
+Ahead-of-Time Class Loading & Linking: JEP 483
+
+VV
+
+## Ahead-of-Time Class Loading & Linking
+
+
+```
+$ java -XX:AOTMode=record -XX:AOTConfiguration=app.aotconf <appliction>
+
+$ java -XX:AOTMode=create -XX:AOTConfiguration=app.aotconf -XX:AOTCache=app.aot  <appliction>
+
+$ java -XX:AOTCache=app.aot  <appliction>
+
 ```
 VV
 
@@ -36,24 +57,29 @@ VV
 
 ## Generational ZGC 
 
-JDK 21 <br/>
+Added in JDK 21 <br/>
 JEP 439
 <br/>
-Default option in JDK 23: <br/>
-JEP 474 <br/>
+Only option strarting JDK 24: <br/>
+JEP 490 <br/>
 Get Started:
 
 ```
--XX:+UseZGC -XX:+ZGenerational
+-XX:+UseZGC 
 ```
 
 VV
 
-## Region Pinning for G1
+## G1 Updates
 
-JDK 22 <br/>
-JEP 423
+Region Pinning added in JDK 22 <br/>
+JEP 423 <br/>
+Important for native memory work.
 <br/>
+<br/>
+Late Barrier Expansion for the G1 added in JDK 24 <br/>
+JEP 475 <br/>
+Reduces overhead for C2 compiler
 
 VV
 

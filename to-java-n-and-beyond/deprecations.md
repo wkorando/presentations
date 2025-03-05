@@ -4,14 +4,22 @@ VV
 
 ### Deprecations
 
-Deprecate the Windows 32-bit x86 Port for Removal <br/>
-JDK 21<br/>
-JEP 449<br/>
+Deprecate all 32-bit x86 Ports for Removal <br/>
+JDK 24<br/>
+JEP 479 - Windows (Removed) <br/>
+JEP 501 - Linux<br/>
 
 VV
 
-Deprecate the Memory-Access Methods in sun.misc.Unsafe for Removal <br/>
-JDK 23<br/>
-JEP 471<br/>
+Warn upon Use of Memory-Access Methods in sun.misc.Unsafe <br/>
+JDK 24<br/>
+JEP 498<br/>
+
+
+VV
+
+Permanently Disable the Security Manager <br/>
+JDK 24<br/>
+JEP 486<br/>
 
 
