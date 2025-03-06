@@ -39,7 +39,7 @@ jdk.GCPhasePause                                       
 jdk.EvacuationFailed                      
 jdk.ThreadStart                           
 jdk.ThreadDump                            
-jdk.GCConfiguration                                             
+jdk.GCConfiguration                                    
 jdk.FileRead                              
 jdk.FileWrite                             
 jdk.SocketRead                            
