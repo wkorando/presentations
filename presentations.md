@@ -2,10 +2,11 @@
 This slide deck represents my current active presentations. Step through the slide deck for bio, profile picture, and abstracts with links to each slide deck. 
 
 <a href=#/0/1>To Java [n] and Beyond!</a><br/>
-<a href=#/0/2>Java to the Future!</a><br/>
-<a href=#/0/3>Why Developers Should Love Testing</a><br/>
-<a href=#/0/4>Taking off With JDK Flight Recorder</a><br/>
+<a href=#/0/2>Why Developers Should Love Testing</a><br/>
+<a href=#/0/3>Finding and Crushing Bugs and More with JFR</a><br/>
+<a href=#/0/4>Java is Data!</a><br/>
 <a href=#/0/5>Loominated Java</a><br/>
+<a href=#/0/6>Lightning in a JAR</a><br/>
 <br/>
 <a href=#/0/7>Speaker's Bio</a><br/>
 
@@ -20,28 +21,17 @@ VV
 
 ## To Java [n] and Beyond!
 
-Java 21 has come and gone, but the Java release train continues with Java 23!
+Java 25 is the next version with LTS support, and with it comes many exciting changes. 
 
-In this presentation, we will briefly review key changes between Java 11 and 21, as they form an important foundation for where Java is heading. Once that foundation is laid, we will look at what has changed in Java since 21, including the likely finalization of the two remaining big features of Project Loom, Scoped Values and Structured Concurrency, and how that will rewrite the story of concurrency in Java. 
+In this presentation we will do a rapid review of some of the key changes to the JDK from 11-21 and how they have improved developer experience, performance, and  supporting Java applications in production. 
 
-We will also cover other important changes, including Generational ZGC, Java language updates, and the Foreign Function and Memory API, and even take a look into the future of where Java is heading! 
+We will then transition to what Java looks like in a post JDK 21 environment, and where Java will be heading to in JDK 25 and beyond! 
+
+If you want to learn about the current state of Java and were its heading, this is the presentation for you.
 <br/><br/>
 [Presentation](to-java-n-and-beyond/)
 
 ⚠️ This presentation is updated with the current or next release once it has entered ramp-down phase 1, which usually happens about three months before the upcoming release.
-
-VV
-
-## Java to the Future!
-Amber, Valhalla, Loom, Panama, oh my! These are the names of the OpenJDK projects that will be shaping the near-term future of Java. As these projects begin to deliver, what does this mean for the future of Java?
-
-In this presentation, we will look at the goals of these OpenJDK projects, what has been delivered and is soon to be delivered with each project, and how Java developers can prepare for these future changes. 
-
-If you are curious about the future of Java or get a deeper understanding of these projects, this is a presentation you want to check out!
-<br/><br/>
-[Presentation](java-to-the-future/)
-
-⚠️ This presentation is updated when the upcoming release has entered ramp-down phase 1, usually about three months before release.
 
 VV
 
@@ -52,12 +42,22 @@ We know that test automation is often discussed as a “best practice” in mode
 
 VV
 
-## Taking off With JDK Flight Recorder
-Are you running into problems with Java applications in production? Not understanding what is eating up all your system resources? And throwing a bunch of System.out messages in your code is not helping? You should check out the JDK Flight Recorder (JFR). JFR is a powerful and low-overhead observability tool built into the JVM that can help you track down those performance issues and difficult-to-understand bugs. In this presentation, we will go through the basics of using JFR in your Java applications.
+## Finding and Crushing Bugs and More with JFR
+
+Some of the most difficult issues a developer will face are slow developing resources leaks, or errors that occur at infrequent intervals. When these happen, finding the root cause can be difficult, and a frequent recourse by developers is to add a lot of logging statements around suspected problem sites. What if I told you there was a better option, and that option already existed right in the JVM you are already running? JDK Flight Recorder, as its namesake suggests, is a low-overhead profiling and diagnostic tool that[s been built directly into the JDK since JDK 7. In this presentation we are going to look at how developers can leverage JFR's powerful API and reporting tools for tracking down those difficult bugs as well as how JFR can be incorporated into the development process.
+
 <br/><br/>
 [Presentation](taking-off-with-jfr/)
 
 VV
+
+## Java is Data!
+
+Data is at the center of any organization. So it stands to reason that data should be at the center of how we design and write our Java applications. In this talk we are going to look at how recent changes to the Java language; Records, Pattern Matching, Seal Hierarchies, are enabling Java applications to be written in a Data-Oriented Programming (DOP) paradigm. We will look at the core concepts of DOP, and how it compares and contrasts with the OOP approach familiar to many Java developers.
+
+VV
+
+
 
 ## Loominated Java
 
@@ -69,16 +69,12 @@ In this presentation we will look at the next two major features to be delivered
 VV 
 
 
-## Lightning (Fast Startups) in the Jar
+## Lightning in a JAR, Faster Startups and more with AOT!
 
-Project Leyden is coming! Since the raise of popularity of microservice architectures in the mid-2010s, and serverless a few years later. The importance of startup and time to peak performance have become metrics of increasing concerns in the software development world. 
-
-The JVM is fast, incredibly fast, with throughput comparing favorably to even natively-compiled languages like C++ and Rust. However tne JVM is a VM, which means it has historically lagged behind in startup and warm up. 
-
-That is what Project Leyden, an OpenJDK project, is seeking to change. In this presentation we will look at the goals and features that are coming with Project Leyden, and how they will help improve startup and time to peak performance on the JVM. 
+Since microservices started gaining popularity the mid-2010's there has been an increased focus on improving startup performance in Java applications. While there are frameworks and runtime solutions for addressing this issue, they often come with drawbacks. Adopting a framework might require refactoring or rewriting an application, some runtime solutions come with specific technical constraints. Project Leyden, an OpenJDK project with the goals of reducing start up time, time to peak performance, and memory footprint is aiming to give Java developers these benefits, without requiring to them make the tradeoffs other solutions often require. Leyden works by performing a training run and storing the collected information in a cache that can be used on subsequent runs. In this talk we will look at how Leyden is already delivering on improving startup, how you can incorporate it into your projects, and what's coming in the future from Project Leyden! 
 
 <br/><br/>
-[Presentation](leyden/)
+[Presentation](lightning-in-a-jar/)
 VV 
 
 ## Speaker Biography

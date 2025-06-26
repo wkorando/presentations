@@ -1,0 +1,14 @@
+Title: Hands-on with Structured Concurrency in Java
+
+Abstract: Writing concurrent code in Java has never been a particularly great experience. Brian Goetz in his 2006 book Java Concurrency in Practice, covered how to best approach this practice, but also his book covers many of the non-obvious pitfalls develoeprs face when writing concurrent code, such as how to properly pool scarce resources like threads, handling errors, rate limiting, and more. These difficulties have often made Java developers hesitant to implement a unit of work as concurrent tasks.
+
+Structured Concurreny, seeks to address many of the short comings of writing concurrent in Java. Making it easier to write, debug, handle errors, and implement those complex and special business rules that inevitably come up when writing applications. In this Hands on Lab we will also work with Scoped Values, another feature coming out of Projtect Loom that allows for the easy, fast, and secure way of sharing data between conurrent tasks.
+
+Title: Writing Concurrent Code in Java with Structured Concurrency and Scoped Values
+
+Abstract: Historically writing concurrent code in Java hasn't been a pleasant experience. Concepts like Runnables and CompletableFutures got us part of the way there, but had drawbacks in the areas of error-handling, debugging, and cancellation of tasks. Runnable and CompletableFuture work well enough in many scenarios, but have pain points around error handling, debugging, and cancel propagantion. 
+
+Structured Concurrency and Scoped Values, two features soon to be delivered by Project Loom, seek to address to many of the shortcomings of writing concurrent in Java. For Structured Concurrency, the goal is to improve the readability of conurrent code, while also addressing short comings in error handling, cancel propagation, and debugging. Scoped Values allow the easy sharing of data between tasks that offer speed and security advantages over Thread Local. 
+
+In this Hands-on Lab we will explore how to use Structured Concurrency and Scoped Values to address the day-to-day issues Java developers encounter when implementing the bussiness behavior of their organizations. 
+

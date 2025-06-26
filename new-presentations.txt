@@ -1,18 +1,49 @@
-The Programmer's Guide to JDK Flight Recorder
+Finding and Crushing Bugs and More with JFR
 
-The JDK Flight Recorder (JFR) is an event-based diagnostic and profiling tool built into the JDK. JFR can provide detailed information about the performance of a JVM and Java applications running on it and help diagnose when something goes wrong in production. JFR has several powerful and flexible APIs for capturing, streaming, and filtering information. This presentation will focus on how programmers can take advantage of these APIs for testing, capturing valuable data, providing live metrics, and more! If you have been wondering how to improve the performance of your Java applications or get better insight into their internal workings, this presentation is for you!
+Some of the most difficult issues a developer will face are slow developing resources leaks, or errors that occur at infrequent intervals. When these happen, finding the root cause can be difficult, and a frequent recourse by developers is to add a lot of logging statements around suspected problem sites. What if I told you there was a better option, and that option already existed right in the JVM you are already running? JDK Flight Recorder, as its namesake suggests, is a low-overhead profiling and diagnostic tool that[s been built directly into the JDK since JDK 7. In this presentation we are going to look at how developers can leverage JFR's powerful API and reporting tools for tracking down those difficult bugs as well as how JFR can be incorporated into the development process.
+
+------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------
+
+Lightning in a JAR, Faster Startups and more with AOT!
+
+Since microservices started gaining popularity the mid-2010's there has been an increased focus on improving startup performance in Java applications. While there are frameworks and runtime solutions for addressing this issue, they often come with drawbacks. Adopting a framework might require refactoring or rewriting an application, some runtime solutions come with specific technical constraints. Project Leyden, an OpenJDK project with the goals of reducing start up time, time to peak performance, and memory footprint is aiming to give Java developers these benefits, without requiring to them make the tradeoffs other solutions often require. Leyden works by performing a training run and storing the collected information in a cache that can be used on subsequent runs. In this talk we will look at how Leyden is already delivering on improving startup, how you can incorporate it into your projects, and what's coming in the future from Project Leyden! 
+
+------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------
+
+Java and AI the New Frontier
+
+Since the release of ChatGPT at the end of 2022, AI has been one of the hottest topics in all of tech. In the Java community this discussion has often been centered around how to integrate with libraries like langchain4j, which provide APIs to talk with existing models. This talk isn't about that. 
+
+In all of these talks of Java accessing existing AI models through APIs, it has widely been assumed that languages like Python will dominate as the implementation language for AI models. In this talk we are going to look at how OpenJDK is working to change that assumption. OpenJDK has three major projects; Babylon, Panama, and Valhalla, that are looking to make Java a more inviting platform to write the next generation of AI models. We will look at how each of these projects are aiming to deliver on that vision, and how you can take advantage as AI continues to increase in importance and relevance within our organizations. 
+
+------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------
+
+Putting the "Development Kit" in the JDK
+
+As developers we love our tools. IDEs for writing and debugging applications, Maven/Gradle for building and packaging, often when we are looking for a tool help us with writing and maintaining our Java applications, the initial thought is to look towards the massive Java community for a solution. Many developers overlook that "DK", Development Kit, in the "JDK", not realizing there are already many great tools and features provided right in the JDK! In this talk we will go through some of these often overlooked, yet powerful, tools and features and how they can be used by developers to help with some common and not so common tasks. 
+
+------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------
+
+Java is Data!
+
+Data is at the center of any organization. So it stands to reason that data should be at the center of how we design and write our Java applications. In this talk we are going to look at how recent changes to the Java language; Records, Pattern Matching, Seal Hierarchies, are enabling Java applications to be written in a Data-Oriented Programming (DOP) paradigm. We will look at the core concepts of DOP, and how it compares and contrasts with the OOP approach familiar to many Java developers.
+
+------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------
+
+FFMAPI Talk
+
+Communicate with some fun gadget
+
+------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------
 
 Which Garbage Collector is Right for Me?
 
 Serial, Parallel, G1, Z,... Epsilon?! The JDK comes pre-packaged with several options for the garbage collector, but which to choose? How do you know which to choose? In this presentation, we will understand the tradeoffs between garbage collectors and the comparative strengths and weaknesses of the available garbage collectors. If you have been running into performance issues with your applications in production and looking for possible solutions, or want to learn about garbage collectors, this presentation is for you! 
 
-GenZGC, the Next Generation of Java's Newest GC 
+------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------
+
+Generational ZGC, the Next Generation of Java's Newest GC 
 
 ZGC, introduced as a production feature with JDK 15 is Java's newest garbage collector (GC). ZGC offers extreme scalability, with the ability to offer 16TB heaps paired with super low latency with sub-millisecond pause times. With JDK 21, ZGC is set to receive its biggest update since its release, the implementation of a generational garbage collector algorithm.
 
-
 In this presentation, we will start with a medium-depth introduction to ZGC, to bring attendees up to speed. We will then dive into generational garbage collection, how this impacts ZGC, and how developers can take advantage of Generational ZGC. 
-
-AppCDS Java's Easy Button for Improving Startup
-
-Since microservices has become popularized in the mid-2010's there has been an increased focus on improving startup performance in Java applications. While there are great framework and runtime solutions for addressing this issue, they often come with drawbacks. Adopting a framework might require refactoring or rewriting an application, some runtime solutions come with specific technical constraints. A simple-to-implement solution with virtually no meaningful drawbacks is (App)CDS. Despite CDS being part of the JVM since JDK 5, few developers know about it and even fewer take advantage of it. This presentation will introduce developers to AppCDS and how it can help improve application startup. 

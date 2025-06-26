@@ -1,0 +1,4 @@
+10-15% increase CPU utilization 
+
+Much improved latency
+

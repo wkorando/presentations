@@ -12,13 +12,6 @@ Java Developer Advocate - Oracle
 * Link to presentation: https://wkorando.github.io/presentations/why-developers-should-love-testing/
 >>
 
-## JavaOne is Coming Back!
-
-March 17-20, Redwood Shores CA<br/>
-<br/>
-Learn more 👉 [https://www.oracle.com/javaone/](https://www.oracle.com/javaone/)
-
->>
 
 ## Would you like to know more?
 

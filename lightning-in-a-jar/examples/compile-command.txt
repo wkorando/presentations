@@ -1,0 +1,92 @@
+
+The CompileCommand option enables the user of the JVM to control specific
+behavior of the dynamic compilers.
+
+Compile commands has this general form:
+-XX:CompileCommand=<option><method pattern><value>
+    Sets <option> to the specified value for methods matching <method pattern>
+    All options are typed
+
+-XX:CompileCommand=<option><method pattern>
+    Sets <option> to true for methods matching <method pattern>
+    Only applies to boolean options.
+
+-XX:CompileCommand=quiet
+    Silence the compile command output
+
+-XX:CompileCommand=help
+    Prints this help text
+
+
+All available options:
+    log (bool)
+    print (bool)
+    inline (bool)
+    dontinline (bool)
+    blackhole (bool)
+    compileonly (bool)
+    exclude (bool)
+    break (bool)
+    BreakAtExecute (bool)
+    BreakAtCompile (bool)
+    MemLimit (intx)
+    MemStat (uintx)
+    PrintAssembly (bool)
+    PrintCompilation (bool)
+    PrintInlining (bool)
+    PrintIntrinsics (bool)
+    PrintNMethods (bool)
+
+    PrintOptoAssembly (bool)
+    PrintDebugInfo (bool)
+    PrintRelocations (bool)
+    PrintDependencies (bool)
+    BackgroundCompilation (bool)
+    RepeatCompilation (intx)
+    ReplayInline (bool)
+    DumpReplay (bool)
+    DumpInline (bool)
+    CompileThresholdScaling (double)
+    ControlIntrinsic (ccstrlist)
+    DisableIntrinsic (ccstrlist)
+    BlockLayoutByFrequency (bool)
+    TraceOptoPipelining (bool)
+    TraceOptoOutput (bool)
+    TraceSpilling (bool)
+    Vectorize (bool)
+    CloneMapDebug (bool)
+    IncrementalInlineForceCleanup (bool)
+    MaxNodeLimit (intx)
+
+
+Method patterns has the format:
+  package/Class.method()
+
+For backward compatibility this form is also allowed:
+  package.Class::method()
+
+The signature can be separated by an optional whitespace or comma:
+  package/Class.method ()
+
+The class and method identifier can be used together with leading or
+trailing *'s for wildcard matching:
+  *ackage/Clas*.*etho*()
+
+It is possible to use more than one CompileCommand on the command line:
+  -XX:CompileCommand=exclude,java/*.* -XX:CompileCommand=log,java*.*
+
+The CompileCommands can be loaded from a file with the flag
+-XX:CompileCommandFile=<file> or be added to the file '.hotspot_compiler'
+Use the same format in the file as the argument to the CompileCommand flag.
+Add one command on each line.
+  exclude java/*.*
+  option java/*.* ReplayInline
+
+The following commands have conflicting behavior: 'exclude', 'inline', 'dontinline',
+and 'compileonly'. There is no priority of commands. Applying (a subset of) these
+commands to the same method results in undefined behavior.
+
+The 'exclude' command excludes methods from top-level compilations as well as
+from inlining, whereas the 'compileonly' command only excludes methods from
+top-level compilations (i.e. they can still be inlined into other compilation units).
+

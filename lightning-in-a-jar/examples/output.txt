@@ -1,0 +1,921 @@
+CompileCommand: print JITExample.* bool print = true
+
+============================= C1-compiled nmethod ==============================
+----------------------------------- Assembly -----------------------------------
+[0.191s][warning][os] Loading hsdis library failed
+
+Compiled method (c1) 191 1452       3       JITExample::fooBar (4 bytes)
+ total in heap  [0x000000010daca588,0x000000010daca768] = 480
+ main code      [0x000000010daca680,0x000000010daca740] = 192
+ stub code      [0x000000010daca740,0x000000010daca760] = 32
+ oops           [0x000000010daca760,0x000000010daca768] = 8
+ mutable data [0x000060000341b900,0x000060000341b938] = 56
+ relocation     [0x000060000341b900,0x000060000341b928] = 40
+ metadata       [0x000060000341b928,0x000060000341b938] = 16
+ immutable data [0x0000600000225b30,0x0000600000225b78] = 72
+ dependencies   [0x0000600000225b30,0x0000600000225b38] = 8
+ scopes pcs     [0x0000600000225b38,0x0000600000225b68] = 48
+ scopes data    [0x0000600000225b68,0x0000600000225b78] = 16
+
+[Constant Pool (empty)]
+
+[MachCode]
+[Verified Entry Point]
+  # {method} {0x000000012aaa45f8} 'fooBar' '(II)I' in 'JITExample'
+  # parm0:    c_rarg1   = int
+  # parm1:    c_rarg2   = int
+  #           [sp+0x30]  (sp of caller)
+  0x000000010daca680: 1f20 03d5 | e953 40d1 | 3f01 00f9 | ffc3 00d1 | fd7b 02a9 | 2801 0018 | 8923 40b9 | 1f01 09eb 
+  0x000000010daca6a0: e000 0054 
+
+  0x000000010daca6a4: ;   {runtime_call Stub::method_entry_barrier}
+  0x000000010daca6a4: 08f8 81d2 | 689c a2f2 | 2800 c0f2 | 0001 3fd6 | 0200 0014 | 0100 0000 
+
+  0x000000010daca6bc: ;   {metadata(method data for {method} {0x000000012aaa45f8} 'fooBar' '(II)I' in 'JITExample')}
+  0x000000010daca6bc: 0029 89d2 | 4055 a5f2 | 2000 c0f2 | 03a8 40b9 | 6308 0011 | 03a8 00b9 | 6324 1f12 | 7f00 0071 
+  0x000000010daca6dc: 0001 0054 | 2000 024b | fd7b 42a9 | ffc3 0091 
+
+  0x000000010daca6ec: ;   {poll_return}
+  0x000000010daca6ec: 8817 40f9 | ff63 28eb | 4801 0054 | c003 5fd6 
+
+  0x000000010daca6fc: ;   {metadata({method} {0x000000012aaa45f8} 'fooBar' '(II)I' in 'JITExample')}
+  0x000000010daca6fc: 08bf 88d2 | 4855 a5f2 | 2800 c0f2 | e807 00f9 | 0800 8092 | e803 00f9 
+
+  0x000000010daca714: ; ImmutableOopMap {}
+                      ;*synchronization entry
+                      ; - JITExample::fooBar@-1 (line 42)
+                      ;   {runtime_call C1 Runtime counter_overflow_blob}
+  0x000000010daca714: 9b3b d195 | f2ff ff17 
+
+  0x000000010daca71c: ;   {internal_word}
+  0x000000010daca71c: 88fe ff10 | 8837 02f9 
+
+  0x000000010daca724: ;   {runtime_call SafepointBlob}
+  0x000000010daca724: 5709 ce15 | 808b 42f9 | 9f8b 02f9 | 9f8f 02f9 | fd7b 42a9 | ffc3 0091 
+
+  0x000000010daca73c: ;   {runtime_call C1 Runtime unwind_exception_blob}
+  0x000000010daca73c: 512b d115 
+[Exception Handler]
+  0x000000010daca740: ;   {runtime_call C1 Runtime handle_exception_from_callee_blob}
+  0x000000010daca740: 4033 d195 
+
+  0x000000010daca744: ;   {external_word}
+  0x000000010daca744: 4091 95d2 | 4092 a0f2 | 2000 c0f2 | c1d5 bbd4 
+[Deopt Handler Code]
+  0x000000010daca754: 1e00 0010 
+
+  0x000000010daca758: ;   {runtime_call DeoptimizationBlob}
+  0x000000010daca758: ca09 ce15 | 0000 0000 
+[/MachCode]
+
+============================= C1-compiled nmethod ==============================
+----------------------------------- Assembly -----------------------------------
+
+Compiled method (c1) 192 1453       2       JITExample::foo (4 bytes)
+ total in heap  [0x000000010daca788,0x000000010daca968] = 480
+ main code      [0x000000010daca880,0x000000010daca940] = 192
+ stub code      [0x000000010daca940,0x000000010daca960] = 32
+ oops           [0x000000010daca960,0x000000010daca968] = 8
+ mutable data [0x0000600002f5e160,0x0000600002f5e188] = 40
+ relocation     [0x0000600002f5e160,0x0000600002f5e180] = 32
+ metadata       [0x0000600002f5e180,0x0000600002f5e188] = 8
+ immutable data [0x0000600000225bd0,0x0000600000225c18] = 72
+ dependencies   [0x0000600000225bd0,0x0000600000225bd8] = 8
+ scopes pcs     [0x0000600000225bd8,0x0000600000225c08] = 48
+ scopes data    [0x0000600000225c08,0x0000600000225c18] = 16
+
+[Constant Pool (empty)]
+
+[MachCode]
+[Verified Entry Point]
+  # {method} {0x000000012aaa44c8} 'foo' '(II)I' in 'JITExample'
+  # parm0:    c_rarg1   = int
+  # parm1:    c_rarg2   = int
+  #           [sp+0x30]  (sp of caller)
+  0x000000010daca880: 1f20 03d5 | e953 40d1 | 3f01 00f9 | ffc3 00d1 | fd7b 02a9 | 2801 0018 | 8923 40b9 | 1f01 09eb 
+  0x000000010daca8a0: e000 0054 
+
+  0x000000010daca8a4: ;   {runtime_call Stub::method_entry_barrier}
+  0x000000010daca8a4: 08f8 81d2 | 689c a2f2 | 2800 c0f2 | 0001 3fd6 | 0200 0014 | 0100 0000 | 0024 89d2 | 4055 a5f2 
+  0x000000010daca8c4: 2000 c0f2 | 0300 40b9 | 6308 0011 | 0300 00b9 | 6328 1f12 | 7f00 0071 | 0001 0054 | 2000 020b 
+  0x000000010daca8e4: fd7b 42a9 | ffc3 0091 
+
+  0x000000010daca8ec: ;   {poll_return}
+  0x000000010daca8ec: 8817 40f9 | ff63 28eb | 4801 0054 | c003 5fd6 
+
+  0x000000010daca8fc: ;   {metadata({method} {0x000000012aaa44c8} 'foo' '(II)I' in 'JITExample')}
+  0x000000010daca8fc: 0899 88d2 | 4855 a5f2 | 2800 c0f2 | e807 00f9 | 0800 8092 | e803 00f9 
+
+  0x000000010daca914: ; ImmutableOopMap {}
+                      ;*synchronization entry
+                      ; - JITExample::foo@-1 (line 34)
+                      ;   {runtime_call C1 Runtime counter_overflow_blob}
+  0x000000010daca914: 1b3b d195 | f2ff ff17 
+
+  0x000000010daca91c: ;   {internal_word}
+  0x000000010daca91c: 88fe ff10 | 8837 02f9 
+
+  0x000000010daca924: ;   {runtime_call SafepointBlob}
+  0x000000010daca924: d708 ce15 | 808b 42f9 | 9f8b 02f9 | 9f8f 02f9 | fd7b 42a9 | ffc3 0091 
+
+  0x000000010daca93c: ;   {runtime_call C1 Runtime unwind_exception_blob}
+  0x000000010daca93c: d12a d115 
+[Exception Handler]
+  0x000000010daca940: ;   {runtime_call C1 Runtime handle_exception_from_callee_blob}
+  0x000000010daca940: c032 d195 
+
+  0x000000010daca944: ;   {external_word}
+  0x000000010daca944: 4091 95d2 | 4092 a0f2 | 2000 c0f2 | c1d5 bbd4 
+[Deopt Handler Code]
+  0x000000010daca954: 1e00 0010 
+
+  0x000000010daca958: ;   {runtime_call DeoptimizationBlob}
+  0x000000010daca958: 4a09 ce15 | 0000 0000 
+[/MachCode]
+
+============================= C2-compiled nmethod ==============================
+----------------------------------- Assembly -----------------------------------
+
+Compiled method (c2) 193 1455       4       JITExample::fooBar (4 bytes)
+ total in heap  [0x00000001153e5d88,0x00000001153e5ef8] = 368
+ main code      [0x00000001153e5e80,0x00000001153e5ee0] = 96
+ stub code      [0x00000001153e5ee0,0x00000001153e5ef0] = 16
+ oops           [0x00000001153e5ef0,0x00000001153e5ef8] = 8
+ mutable data [0x0000600002131b00,0x0000600002131b20] = 32
+ relocation     [0x0000600002131b00,0x0000600002131b18] = 24
+ metadata       [0x0000600002131b18,0x0000600002131b20] = 8
+ immutable data [0x0000600002f1c210,0x0000600002f1c240] = 48
+ dependencies   [0x0000600002f1c210,0x0000600002f1c218] = 8
+ scopes pcs     [0x0000600002f1c218,0x0000600002f1c238] = 32
+ scopes data    [0x0000600002f1c238,0x0000600002f1c240] = 8
+
+[Constant Pool (empty)]
+
+[MachCode]
+[Verified Entry Point]
+  # {method} {0x000000012aaa45f8} 'fooBar' '(II)I' in 'JITExample'
+  # parm0:    c_rarg1   = int
+  # parm1:    c_rarg2   = int
+  #           [sp+0x20]  (sp of caller)
+  0x00000001153e5e80: 1f20 03d5 | ff83 00d1 | fd7b 01a9 | 6802 0018 | 8923 40b9 | 1f01 09eb | 6101 0054 | 2000 024b 
+  0x00000001153e5ea0: fd7b 41a9 | ff83 0091 
+
+  0x00000001153e5ea8: ;   {poll_return}
+  0x00000001153e5ea8: 8817 40f9 | ff63 28eb | 4800 0054 | c003 5fd6 
+
+  0x00000001153e5eb8: ;   {internal_word}
+  0x00000001153e5eb8: 88ff ff10 | 8837 02f9 
+
+  0x00000001153e5ec0: ;   {runtime_call SafepointBlob}
+  0x00000001153e5ec0: 709b e917 
+
+  0x00000001153e5ec4: ;   {runtime_call Stub::method_entry_barrier}
+  0x00000001153e5ec4: 08f8 81d2 | 689c a2f2 | 2800 c0f2 | 0001 3fd6 | f2ff ff17 
+
+  0x00000001153e5ed8: ;   {entry_guard}
+  0x00000001153e5ed8: 0100 0000 | 0000 0000 
+[Exception Handler]
+  0x00000001153e5ee0: ;   {runtime_call ExceptionBlob}
+  0x00000001153e5ee0: 28d7 ec17 
+[Deopt Handler Code]
+  0x00000001153e5ee4: 1e00 0010 
+
+  0x00000001153e5ee8: ;   {runtime_call DeoptimizationBlob}
+  0x00000001153e5ee8: e69b e917 | 0000 0000 
+[/MachCode]
+
+============================= C1-compiled nmethod ==============================
+----------------------------------- Assembly -----------------------------------
+
+Compiled method (c1) 193 1454       2       JITExample::bar (4 bytes)
+ total in heap  [0x000000010daca988,0x000000010dacab68] = 480
+ main code      [0x000000010dacaa80,0x000000010dacab40] = 192
+ stub code      [0x000000010dacab40,0x000000010dacab60] = 32
+ oops           [0x000000010dacab60,0x000000010dacab68] = 8
+ mutable data [0x0000600002f5e190,0x0000600002f5e1b8] = 40
+ relocation     [0x0000600002f5e190,0x0000600002f5e1b0] = 32
+ metadata       [0x0000600002f5e1b0,0x0000600002f5e1b8] = 8
+ immutable data [0x0000600000225c20,0x0000600000225c68] = 72
+ dependencies   [0x0000600000225c20,0x0000600000225c28] = 8
+ scopes pcs     [0x0000600000225c28,0x0000600000225c58] = 48
+ scopes data    [0x0000600000225c58,0x0000600000225c68] = 16
+
+[Constant Pool (empty)]
+
+[MachCode]
+[Verified Entry Point]
+  # {method} {0x000000012aaa4560} 'bar' '(II)I' in 'JITExample'
+  # parm0:    c_rarg1   = int
+  # parm1:    c_rarg2   = int
+  #           [sp+0x30]  (sp of caller)
+  0x000000010dacaa80: 1f20 03d5 | e953 40d1 | 3f01 00f9 | ffc3 00d1 | fd7b 02a9 | 2801 0018 | 8923 40b9 | 1f01 09eb 
+  0x000000010dacaaa0: e000 0054 
+
+  0x000000010dacaaa4: ;   {runtime_call Stub::method_entry_barrier}
+  0x000000010dacaaa4: 08f8 81d2 | 689c a2f2 | 2800 c0f2 | 0001 3fd6 | 0200 0014 | 0100 0000 | 001f 89d2 | 4055 a5f2 
+  0x000000010dacaac4: 2000 c0f2 | 0300 40b9 | 6308 0011 | 0300 00b9 | 6328 1f12 | 7f00 0071 | 0001 0054 | 207c 021b 
+  0x000000010dacaae4: fd7b 42a9 | ffc3 0091 
+
+  0x000000010dacaaec: ;   {poll_return}
+  0x000000010dacaaec: 8817 40f9 | ff63 28eb | 4801 0054 | c003 5fd6 
+
+  0x000000010dacaafc: ;   {metadata({method} {0x000000012aaa4560} 'bar' '(II)I' in 'JITExample')}
+  0x000000010dacaafc: 08ac 88d2 | 4855 a5f2 | 2800 c0f2 | e807 00f9 | 0800 8092 | e803 00f9 
+
+  0x000000010dacab14: ; ImmutableOopMap {}
+                      ;*synchronization entry
+                      ; - JITExample::bar@-1 (line 38)
+                      ;   {runtime_call C1 Runtime counter_overflow_blob}
+  0x000000010dacab14: 9b3a d195 | f2ff ff17 
+
+  0x000000010dacab1c: ;   {internal_word}
+  0x000000010dacab1c: 88fe ff10 | 8837 02f9 
+
+  0x000000010dacab24: ;   {runtime_call SafepointBlob}
+  0x000000010dacab24: 5708 ce15 | 808b 42f9 | 9f8b 02f9 | 9f8f 02f9 | fd7b 42a9 | ffc3 0091 
+
+  0x000000010dacab3c: ;   {runtime_call C1 Runtime unwind_exception_blob}
+  0x000000010dacab3c: 512a d115 
+[Exception Handler]
+  0x000000010dacab40: ;   {runtime_call C1 Runtime handle_exception_from_callee_blob}
+  0x000000010dacab40: 4032 d195 
+
+  0x000000010dacab44: ;   {external_word}
+  0x000000010dacab44: 4091 95d2 | 4092 a0f2 | 2000 c0f2 | c1d5 bbd4 
+[Deopt Handler Code]
+  0x000000010dacab54: 1e00 0010 
+
+  0x000000010dacab58: ;   {runtime_call DeoptimizationBlob}
+  0x000000010dacab58: ca08 ce15 | 0000 0000 
+[/MachCode]
+
+============================= C2-compiled nmethod ==============================
+----------------------------------- Assembly -----------------------------------
+
+Compiled method (c2) 194 1456       4       JITExample::foo (4 bytes)
+ total in heap  [0x00000001153e5f08,0x00000001153e6078] = 368
+ main code      [0x00000001153e6000,0x00000001153e6060] = 96
+ stub code      [0x00000001153e6060,0x00000001153e6070] = 16
+ oops           [0x00000001153e6070,0x00000001153e6078] = 8
+ mutable data [0x000060000212be20,0x000060000212be40] = 32
+ relocation     [0x000060000212be20,0x000060000212be38] = 24
+ metadata       [0x000060000212be38,0x000060000212be40] = 8
+ immutable data [0x0000600002f15140,0x0000600002f15170] = 48
+ dependencies   [0x0000600002f15140,0x0000600002f15148] = 8
+ scopes pcs     [0x0000600002f15148,0x0000600002f15168] = 32
+ scopes data    [0x0000600002f15168,0x0000600002f15170] = 8
+
+[Constant Pool (empty)]
+
+[MachCode]
+[Verified Entry Point]
+  # {method} {0x000000012aaa44c8} 'foo' '(II)I' in 'JITExample'
+  # parm0:    c_rarg1   = int
+  # parm1:    c_rarg2   = int
+  #           [sp+0x20]  (sp of caller)
+  0x00000001153e6000: 1f20 03d5 | ff83 00d1 | fd7b 01a9 | 6802 0018 | 8923 40b9 | 1f01 09eb | 6101 0054 | 2000 020b 
+  0x00000001153e6020: fd7b 41a9 | ff83 0091 
+
+  0x00000001153e6028: ;   {poll_return}
+  0x00000001153e6028: 8817 40f9 | ff63 28eb | 4800 0054 | c003 5fd6 
+
+  0x00000001153e6038: ;   {internal_word}
+  0x00000001153e6038: 88ff ff10 | 8837 02f9 
+
+  0x00000001153e6040: ;   {runtime_call SafepointBlob}
+  0x00000001153e6040: 109b e917 
+
+  0x00000001153e6044: ;   {runtime_call Stub::method_entry_barrier}
+  0x00000001153e6044: 08f8 81d2 | 689c a2f2 | 2800 c0f2 | 0001 3fd6 | f2ff ff17 
+
+  0x00000001153e6058: ;   {entry_guard}
+  0x00000001153e6058: 0100 0000 | 0000 0000 
+[Exception Handler]
+  0x00000001153e6060: ;   {runtime_call ExceptionBlob}
+  0x00000001153e6060: c8d6 ec17 
+[Deopt Handler Code]
+  0x00000001153e6064: 1e00 0010 
+
+  0x00000001153e6068: ;   {runtime_call DeoptimizationBlob}
+  0x00000001153e6068: 869b e917 | 0000 0000 
+[/MachCode]
+
+============================= C2-compiled nmethod ==============================
+
+============================= C1-compiled nmethod ==============================
+----------------------------------- Assembly -----------------------------------
+
+Compiled method (c1) 195 1457 %     3       JITExample::main @ 38 (136 bytes)
+ total in heap  [0x000000010dacab88,0x000000010dacb6e8] = 2912
+ main code      [0x000000010dacac80,0x000000010dacb610] = 2448
+ stub code      [0x000000010dacb610,0x000000010dacb6c0] = 176
+ oops           [0x000000010dacb6c0,0x000000010dacb6e8] = 40
+ mutable data [0x00000001427254b0,0x0000000142725690] = 480
+ relocation     [0x00000001427254b0,0x00000001427255f8] = 328
+ metadata       [0x00000001427255f8,0x0000000142725690] = 152
+ immutable data [0x0000000142725290,0x00000001427254b0] = 544
+ dependencies   [0x0000000142725290,0x00000001427252a8] = 24
+ nul chk table  [0x00000001427252a8,0x00000001427252c8] = 32
+ scopes pcs     [0x00000001427252c8,0x00000001427253f8] = 304
+ scopes data    [0x00000001427253f8,0x00000001427254b0] = 184
+
+[Constant Pool (empty)]
+
+[MachCode]
+[Instructions begin]
+  0x000000010dacac80: 1f20 03d5 | 1f20 03d5 | 1f20 03d5 | 1f20 03d5 | 1f20 03d5 | 1f20 03d5 | 1f20 03d5 | 1f20 03d5 
+  0x000000010dacaca0: 1f20 03d5 | 1f20 03d5 | 1f20 03d5 
+[Entry Point]
+  # {method} {0x000000012aaa4410} 'main' '([Ljava/lang/String;)V' in 'JITExample'
+  0x000000010dacacac: 2808 40b9 | 2a09 40b9 | 1f01 0a6b | 4000 0054 
+
+  0x000000010dacacbc: ;   {runtime_call Shared Runtime ic_miss_blob}
+  0x000000010dacacbc: d101 ce15 
+[Verified Entry Point]
+  0x000000010dacacc0: 1f20 03d5 | e953 40d1 | 3f01 00f9 | ff83 01d1 | fd7b 05a9 | 2801 0018 | 8923 40b9 | 1f01 09eb 
+  0x000000010dacace0: e000 0054 
+
+  0x000000010dacace4: ;   {runtime_call Stub::method_entry_barrier}
+  0x000000010dacace4: 08f8 81d2 | 689c a2f2 | 2800 c0f2 | 0001 3fd6 | 0200 0014 | 0100 0000 | fd03 02aa 
+
+  0x000000010dacad00: ;   {metadata(method data for {method} {0x000000012aaa4410} 'main' '([Ljava/lang/String;)V' in 'JITExample')}
+  0x000000010dacad00: 028f 89d2 | 4255 a5f2 | 2200 c0f2 | 40a8 40b9 | 0008 0011 | 40a8 00b9 | 0024 1f12 | 1f00 0071 
+  0x000000010dacad20: 803c 0054 
+
+  0x000000010dacad24: ; implicit exception: dispatches to 0x000000010dacb4d0
+  0x000000010dacad24: a20f 40b9 | 5f00 0071 | 493d 0054 | a213 40b9 | 42f0 7dd3 | e103 1faa | 5f00 01eb 
+
+  0x000000010dacad40: ;   {metadata(method data for {method} {0x000000012aaa4410} 'main' '([Ljava/lang/String;)V' in 'JITExample')}
+  0x000000010dacad40: 018f 89d2 | 4155 a5f2 | 2100 c0f2 | e80f 7cb2 | e903 78b2 | 0001 899a | 2368 60f8 | 6304 0091 
+  0x000000010dacad60: 2368 20f8 | a011 0054 
+
+  0x000000010dacad68: ;   {metadata(method data for {method} {0x000000012aaa4410} 'main' '([Ljava/lang/String;)V' in 'JITExample')}
+  0x000000010dacad68: 018f 89d2 | 4155 a5f2 | 2100 c0f2 | 2888 40f9 | 0805 0091 | 2888 00f9 
+
+  0x000000010dacad80: ;   {metadata(method data for {method} {0x00007fc0001adb58} 'valueOf' '(Ljava/lang/String;)Ljava/lang/Boolean;' in 'java/lang/Boolean')}
+  0x000000010dacad80: 01ba 87d2 | 4143 a5f2 | 2100 c0f2 | 20a8 40b9 | 0008 0011 | 20a8 00b9 | 004c 1f12 | 1f00 0071 
+  0x000000010dacada0: 603a 0054 
+
+  0x000000010dacada4: ;   {metadata(method data for {method} {0x00007fc0001adb58} 'valueOf' '(Ljava/lang/String;)Ljava/lang/Boolean;' in 'java/lang/Boolean')}
+  0x000000010dacada4: 01ba 87d2 | 4143 a5f2 | 2100 c0f2 | 2878 40f9 | 0805 0091 | 2878 00f9 
+
+  0x000000010dacadbc: ;   {metadata(method data for {method} {0x00007fc0001adc60} 'parseBoolean' '(Ljava/lang/String;)Z' in 'java/lang/Boolean')}
+  0x000000010dacadbc: 01e9 87d2 | 4143 a5f2 | 2100 c0f2 | 20a8 40b9 | 0008 0011 | 20a8 00b9 | 004c 1f12 | 1f00 0071 
+  0x000000010dacaddc: 8039 0054 
+
+  0x000000010dacade0: ;   {oop("true"{0x00000007ff83af60})}
+  0x000000010dacade0: 01ec 95d2 | 61f0 bff2 | e100 c0f2 | e003 01aa 
+
+  0x000000010dacadf0: ;   {metadata(method data for {method} {0x00007fc0001adc60} 'parseBoolean' '(Ljava/lang/String;)Z' in 'java/lang/Boolean')}
+  0x000000010dacadf0: 03e9 87d2 | 4343 a5f2 | 2300 c0f2 | 0008 40b9 | 0020 5ad2 | 687c 40f9 | 1f00 08eb | a100 0054 
+  0x000000010dacae10: 6880 40f9 | 0805 0091 | 6880 00f9 | 1700 0014 | 6884 40f9 | 1f00 08eb | a100 0054 | 6888 40f9 
+  0x000000010dacae30: 0805 0091 | 6888 00f9 | 1000 0014 | 687c 40f9 | a800 00b5 | 607c 00f9 | e803 40b2 | 6880 00f9 
+  0x000000010dacae50: 0a00 0014 | 6884 40f9 | a800 00b5 | 6084 00f9 | e803 40b2 | 6888 00f9 | 0400 0014 | 6878 40f9 
+  0x000000010dacae70: 0805 0091 | 6878 00f9 
+
+  0x000000010dacae78: ; ImmutableOopMap {rfp=Oop }
+                      ;*invokevirtual equalsIgnoreCase {reexecute=0 rethrow=0 return_oop=0}
+                      ; - java.lang.Boolean::parseBoolean@3 (line 148)
+                      ; - java.lang.Boolean::valueOf@1 (line 193)
+                      ; - JITExample::main@9 (line 7)
+                      ;   {optimized virtual_call}
+  0x000000010dacae78: e201 ce95 
+
+  0x000000010dacae7c: ;   {post_call_nop}
+  0x000000010dacae7c: 1f20 03d5 | 9f5e 80f2 | 1f00 80f2 | 0100 0012 | 3f00 0071 
+
+  0x000000010dacae90: ;   {metadata(method data for {method} {0x00007fc0001adb58} 'valueOf' '(Ljava/lang/String;)Ljava/lang/Boolean;' in 'java/lang/Boolean')}
+  0x000000010dacae90: 01ba 87d2 | 4143 a5f2 | 2100 c0f2 | e803 78b2 | 0922 80d2 | 0201 899a | 2068 62f8 | 0004 0091 
+  0x000000010dacaeb0: 2068 22f8 | 6001 0054 
+
+  0x000000010dacaeb8: ;   {metadata(method data for {method} {0x00007fc0001adb58} 'valueOf' '(Ljava/lang/String;)Ljava/lang/Boolean;' in 'java/lang/Boolean')}
+  0x000000010dacaeb8: 01ba 87d2 | 4143 a5f2 | 2100 c0f2 | 2290 40f9 | 4204 0091 | 2290 00f9 
+
+  0x000000010dacaed0: ;   {oop(a 'java/lang/Boolean'{0x00000005e3802028} = true)}
+  0x000000010dacaed0: 0105 84d2 | 0170 bcf2 | a100 c0f2 | 0400 0014 
+
+  0x000000010dacaee0: ;   {oop(a 'java/lang/Boolean'{0x00000005e3802038} = false)}
+  0x000000010dacaee0: 0107 84d2 | 0170 bcf2 | a100 c0f2 
+
+  0x000000010dacaeec: ; implicit exception: dispatches to 0x000000010dacb52c
+  0x000000010dacaeec: 3f00 40f9 | e203 01aa 
+
+  0x000000010dacaef4: ;   {metadata(method data for {method} {0x000000012aaa4410} 'main' '([Ljava/lang/String;)V' in 'JITExample')}
+  0x000000010dacaef4: 008f 89d2 | 4055 a5f2 | 2000 c0f2 | 4208 40b9 | 4220 5ad2 | 0894 40f9 | 5f00 08eb | a100 0054 
+  0x000000010dacaf14: 0898 40f9 | 0805 0091 | 0898 00f9 | 1700 0014 | 089c 40f9 | 5f00 08eb | a100 0054 | 08a0 40f9 
+  0x000000010dacaf34: 0805 0091 | 08a0 00f9 | 1000 0014 | 0894 40f9 | a800 00b5 | 0294 00f9 | e803 40b2 | 0898 00f9 
+  0x000000010dacaf54: 0a00 0014 | 089c 40f9 | a800 00b5 | 029c 00f9 | e803 40b2 | 08a0 00f9 | 0400 0014 | 0890 40f9 
+  0x000000010dacaf74: 0805 0091 | 0890 00f9 | 2130 4039 | 2100 0012 | 2100 0012 
+
+  0x000000010dacaf88: ;   {oop(a 'java/lang/Class'{0x00000005e2e8f100} = 'JITExample')}
+  0x000000010dacaf88: 0220 9ed2 | 025d bcf2 | a200 c0f2 | 41f0 0139 | a10f 40b9 | 3f04 0071 | 892c 0054 | a117 40b9 
+  0x000000010dacafa8: 21f0 7dd3 | e203 1faa | 3f00 02eb 
+
+  0x000000010dacafb4: ;   {metadata(method data for {method} {0x000000012aaa4410} 'main' '([Ljava/lang/String;)V' in 'JITExample')}
+  0x000000010dacafb4: 028f 89d2 | 4255 a5f2 | 2200 c0f2 | 082a 80d2 | 092c 80d2 | 0001 899a | 4368 60f8 | 6304 0091 
+  0x000000010dacafd4: 4368 20f8 | e009 0054 
+
+  0x000000010dacafdc: ;   {metadata(method data for {method} {0x000000012aaa4410} 'main' '([Ljava/lang/String;)V' in 'JITExample')}
+  0x000000010dacafdc: 028f 89d2 | 4255 a5f2 | 2200 c0f2 | 48b8 40f9 | 0805 0091 | 48b8 00f9 
+
+  0x000000010dacaff4: ;   {metadata(method data for {method} {0x00007fc0001b6b18} 'valueOf' '(Ljava/lang/String;)Ljava/lang/Integer;' in 'java/lang/Integer')}
+  0x000000010dacaff4: 026a 88d2 | 4243 a5f2 | 2200 c0f2 | 40a8 40b9 | 0008 0011 | 40a8 00b9 | 004c 1f12 | 1f00 0071 
+  0x000000010dacb014: a029 0054 
+
+  0x000000010dacb018: ;   {metadata(method data for {method} {0x00007fc0001b6b18} 'valueOf' '(Ljava/lang/String;)Ljava/lang/Integer;' in 'java/lang/Integer')}
+  0x000000010dacb018: 026a 88d2 | 4243 a5f2 | 2200 c0f2 | 4878 40f9 | 0805 0091 | 4878 00f9 | 4201 8052 
+
+  0x000000010dacb034: ; ImmutableOopMap {}
+                      ;*invokestatic parseInt {reexecute=0 rethrow=0 return_oop=0}
+                      ; - java.lang.Integer::valueOf@3 (line 911)
+                      ; - JITExample::main@27 (line 10)
+                      ;   {static_call}
+  0x000000010dacb034: 7302 ce95 
+
+  0x000000010dacb038: ;   {post_call_nop}
+  0x000000010dacb038: 1f20 03d5 | 1f96 80f2 | 1f20 80f2 
+
+  0x000000010dacb044: ;   {metadata(method data for {method} {0x00007fc0001b6b18} 'valueOf' '(Ljava/lang/String;)Ljava/lang/Integer;' in 'java/lang/Integer')}
+  0x000000010dacb044: 016a 88d2 | 4143 a5f2 | 2100 c0f2 | 2880 40f9 | 0805 0091 | 2880 00f9 | e103 00aa 
+
+  0x000000010dacb060: ; ImmutableOopMap {}
+                      ;*invokestatic valueOf {reexecute=0 rethrow=0 return_oop=0}
+                      ; - java.lang.Integer::valueOf@6 (line 911)
+                      ; - JITExample::main@27 (line 10)
+                      ;   {static_call}
+  0x000000010dacb060: 6802 ce95 
+
+  0x000000010dacb064: ;   {post_call_nop}
+  0x000000010dacb064: 1f20 03d5 | 9f9b 80f2 | 1f40 80f2 
+
+  0x000000010dacb070: ; implicit exception: dispatches to 0x000000010dacb568
+  0x000000010dacb070: 1f00 40f9 | e103 00aa 
+
+  0x000000010dacb078: ;   {metadata(method data for {method} {0x000000012aaa4410} 'main' '([Ljava/lang/String;)V' in 'JITExample')}
+  0x000000010dacb078: 028f 89d2 | 4255 a5f2 | 2200 c0f2 | 2108 40b9 | 2120 5ad2 | 48c4 40f9 | 3f00 08eb | a100 0054 
+  0x000000010dacb098: 48c8 40f9 | 0805 0091 | 48c8 00f9 | 1700 0014 | 48cc 40f9 | 3f00 08eb | a100 0054 | 48d0 40f9 
+  0x000000010dacb0b8: 0805 0091 | 48d0 00f9 | 1000 0014 | 48c4 40f9 | a800 00b5 | 41c4 00f9 | e803 40b2 | 48c8 00f9 
+  0x000000010dacb0d8: 0a00 0014 | 48cc 40f9 | a800 00b5 | 41cc 00f9 | e803 40b2 | 48d0 00f9 | 0400 0014 | 48c0 40f9 
+  0x000000010dacb0f8: 0805 0091 | 48c0 00f9 | 010c 40b9 
+
+  0x000000010dacb104: ;   {oop(a 'java/lang/Class'{0x00000005e2e8f100} = 'JITExample')}
+  0x000000010dacb104: 0020 9ed2 | 005d bcf2 | a000 c0f2 | 0178 00b9 | 0000 a052 
+
+  0x000000010dacb118: ;   {oop(a 'java/lang/Class'{0x00000005e2e8f100} = 'JITExample')}
+  0x000000010dacb118: 0120 9ed2 | 015d bcf2 | a100 c0f2 | 2178 40b9 | 1f00 016b 
+
+  0x000000010dacb12c: ;   {metadata(method data for {method} {0x000000012aaa4410} 'main' '([Ljava/lang/String;)V' in 'JITExample')}
+  0x000000010dacb12c: 028f 89d2 | 4255 a5f2 | 2200 c0f2 | 0836 80d2 | e90b 7ab2 | 03a1 899a | 4468 63f8 | 8404 0091 
+  0x000000010dacb14c: 4468 23f8 | ea16 0054 
+
+  0x000000010dacb154: ;   {oop(a 'java/lang/Class'{0x00000005e2e8f100} = 'JITExample')}
+  0x000000010dacb154: 0220 9ed2 | 025d bcf2 | a200 c0f2 | 42f0 4139 | 5f00 0071 
+
+  0x000000010dacb168: ;   {metadata(method data for {method} {0x000000012aaa4410} 'main' '([Ljava/lang/String;)V' in 'JITExample')}
+  0x000000010dacb168: 038f 89d2 | 4355 a5f2 | 2300 c0f2 | 083a 80d2 | e90f 7bb2 | 0401 899a | 6568 64f8 | a504 0091 
+  0x000000010dacb188: 6568 24f8 | 0008 0054 
+
+  0x000000010dacb190: ;   {metadata(method data for {method} {0x000000012aaa4410} 'main' '([Ljava/lang/String;)V' in 'JITExample')}
+  0x000000010dacb190: 038f 89d2 | 4355 a5f2 | 2300 c0f2 | 68f8 40f9 | 0805 0091 | 68f8 00f9 | 0304 0011 
+
+  0x000000010dacb1ac: ;   {metadata(method data for {method} {0x000000012aaa44c8} 'foo' '(II)I' in 'JITExample')}
+  0x000000010dacb1ac: 044b 89d2 | 4455 a5f2 | 2400 c0f2 | 85a8 40b9 | a508 0011 | 85a8 00b9 | a54c 1f12 | bf00 0071 
+  0x000000010dacb1cc: 001d 0054 | 03d4 9052 | 2300 a072 | 280c c31a | 0185 031b | 3f00 0071 
+
+  0x000000010dacb1e4: ;   {metadata(method data for {method} {0x000000012aaa4410} 'main' '([Ljava/lang/String;)V' in 'JITExample')}
+  0x000000010dacb1e4: 018f 89d2 | 4155 a5f2 | 2100 c0f2 | e803 77b2 | 0942 80d2 | 0311 899a | 2468 63f8 | 8404 0091 
+  0x000000010dacb204: 2468 23f8 | 210b 0054 | 5f00 0071 
+
+  0x000000010dacb210: ;   {metadata(method data for {method} {0x000000012aaa4410} 'main' '([Ljava/lang/String;)V' in 'JITExample')}
+  0x000000010dacb210: 018f 89d2 | 4155 a5f2 | 2100 c0f2 | 0844 80d2 | 0946 80d2 | 0211 899a | 2368 62f8 | 6304 0091 
+  0x000000010dacb230: 2368 22f8 | 2101 0054 
+
+  0x000000010dacb238: ;   {metadata(method data for {method} {0x000000012aaa4410} 'main' '([Ljava/lang/String;)V' in 'JITExample')}
+  0x000000010dacb238: 018f 89d2 | 4155 a5f2 | 2100 c0f2 | 2220 41f9 | 4204 0091 | 2220 01f9 | e103 0032 | 0200 0014 
+  0x000000010dacb258: 0100 a052 
+
+  0x000000010dacb25c: ;   {oop(a 'java/lang/Class'{0x00000005e2e8f100} = 'JITExample')}
+  0x000000010dacb25c: 0220 9ed2 | 025d bcf2 | a200 c0f2 | 2100 0012 | 41f0 0139 
+
+  0x000000010dacb270: ;   {metadata(method data for {method} {0x000000012aaa4410} 'main' '([Ljava/lang/String;)V' in 'JITExample')}
+  0x000000010dacb270: 018f 89d2 | 4155 a5f2 | 2100 c0f2 | 222c 41f9 | 4204 0091 | 222c 01f9 | 3900 0014 
+
+  0x000000010dacb28c: ;   {metadata(method data for {method} {0x000000012aaa4410} 'main' '([Ljava/lang/String;)V' in 'JITExample')}
+  0x000000010dacb28c: 038f 89d2 | 4355 a5f2 | 2300 c0f2 | 6838 41f9 | 0805 0091 | 6838 01f9 | 0304 0011 
+
+  0x000000010dacb2a8: ;   {metadata(method data for {method} {0x000000012aaa45f8} 'fooBar' '(II)I' in 'JITExample')}
+  0x000000010dacb2a8: 0429 89d2 | 4455 a5f2 | 2400 c0f2 | 85a8 40b9 | a508 0011 | 85a8 00b9 | a54c 1f12 | bf00 0071 
+  0x000000010dacb2c8: 2016 0054 | 03d4 9052 | 2300 a072 | 280c c31a | 0185 031b | 3f00 0071 
+
+  0x000000010dacb2e0: ;   {metadata(method data for {method} {0x000000012aaa4410} 'main' '([Ljava/lang/String;)V' in 'JITExample')}
+  0x000000010dacb2e0: 018f 89d2 | 4155 a5f2 | 2100 c0f2 | 0850 80d2 | 0952 80d2 | 0311 899a | 2468 63f8 | 8404 0091 
+  0x000000010dacb300: 2468 23f8 | 4103 0054 | 5f00 0071 
+
+  0x000000010dacb30c: ;   {metadata(method data for {method} {0x000000012aaa4410} 'main' '([Ljava/lang/String;)V' in 'JITExample')}
+  0x000000010dacb30c: 018f 89d2 | 4155 a5f2 | 2100 c0f2 | 0854 80d2 | 0956 80d2 | 0211 899a | 2368 62f8 | 6304 0091 
+  0x000000010dacb32c: 2368 22f8 | 2101 0054 
+
+  0x000000010dacb334: ;   {metadata(method data for {method} {0x000000012aaa4410} 'main' '([Ljava/lang/String;)V' in 'JITExample')}
+  0x000000010dacb334: 018f 89d2 | 4155 a5f2 | 2100 c0f2 | 2260 41f9 | 4204 0091 | 2260 01f9 | e103 0032 | 0200 0014 
+  0x000000010dacb354: 0100 a052 
+
+  0x000000010dacb358: ;   {oop(a 'java/lang/Class'{0x00000005e2e8f100} = 'JITExample')}
+  0x000000010dacb358: 0220 9ed2 | 025d bcf2 | a200 c0f2 | 2100 0012 | 41f0 0139 | 4101 8052 | 080c c11a | 0281 011b 
+  0x000000010dacb378: 5f00 0071 
+
+  0x000000010dacb37c: ;   {metadata(method data for {method} {0x000000012aaa4410} 'main' '([Ljava/lang/String;)V' in 'JITExample')}
+  0x000000010dacb37c: 018f 89d2 | 4155 a5f2 | 2100 c0f2 | 085b 80d2 | 095d 80d2 | 0211 899a | 2368 62f8 | 6304 0091 
+  0x000000010dacb39c: 2368 22f8 | 0102 0054 
+
+  0x000000010dacb3a4: ;   {metadata(method data for {method} {0x000000012aaa4410} 'main' '([Ljava/lang/String;)V' in 'JITExample')}
+  0x000000010dacb3a4: 018f 89d2 | 4155 a5f2 | 2100 c0f2 | 287c 41f9 | 0805 0091 | 287c 01f9 
+
+  0x000000010dacb3bc: ;   {metadata(method data for {method} {0x000000012aaa4560} 'bar' '(II)I' in 'JITExample')}
+  0x000000010dacb3bc: 016d 89d2 | 4155 a5f2 | 2100 c0f2 | 22a8 40b9 | 4208 0011 | 22a8 00b9 | 424c 1f12 | 5f00 0071 
+  0x000000010dacb3dc: 800e 0054 | 0004 0011 
+
+  0x000000010dacb3e4: ;   {metadata(method data for {method} {0x000000012aaa4410} 'main' '([Ljava/lang/String;)V' in 'JITExample')}
+  0x000000010dacb3e4: 018f 89d2 | 4155 a5f2 | 2100 c0f2 | 22ac 40b9 | 4208 0011 | 22ac 00b9 | 4230 1f12 | 5f00 0071 
+  0x000000010dacb404: 400e 0054 
+
+  0x000000010dacb408: ; ImmutableOopMap {}
+                      ;*goto {reexecute=1 rethrow=0 return_oop=0}
+                      ; - (reexecute) JITExample::main@132 (line 14)
+  0x000000010dacb408: 881b 40f9 
+
+  0x000000010dacb40c: ;   {poll}
+  0x000000010dacb40c: 1f01 40b9 
+
+  0x000000010dacb410: ;   {metadata(method data for {method} {0x000000012aaa4410} 'main' '([Ljava/lang/String;)V' in 'JITExample')}
+  0x000000010dacb410: 018f 89d2 | 4155 a5f2 | 2100 c0f2 | 2284 41f9 | 4204 0091 | 2284 01f9 | 3cff ff17 | fd7b 45a9 
+  0x000000010dacb430: ff83 0191 
+
+  0x000000010dacb434: ;   {poll_return}
+  0x000000010dacb434: 8817 40f9 | ff63 28eb | 880d 0054 | c003 5fd6 | e953 40d1 | 3f01 00f9 | ff83 01d1 | fd7b 05a9 
+  0x000000010dacb454: 2801 0018 | 8923 40b9 | 1f01 09eb | e000 0054 
+
+  0x000000010dacb464: ;   {runtime_call Stub::method_entry_barrier}
+  0x000000010dacb464: 08f8 81d2 | 689c a2f2 | 2800 c0f2 | 0001 3fd6 | 0200 0014 | 0000 0000 | 0000 a052 | 007c 4093 
+  0x000000010dacb484: 3d68 60b8 | e003 01aa 
+
+  0x000000010dacb48c: ;   {runtime_call SharedRuntime::OSR_migration_end(long*)}
+  0x000000010dacb48c: 88c3 8dd2 | 888c a0f2 | 2800 c0f2 | 0001 3fd6 
+
+  0x000000010dacb49c: ;   {post_call_nop}
+  0x000000010dacb49c: 1f20 03d5 | 1f00 80f2 | 1f00 80f2 | e003 1daa | 1bff ff17 
+
+  0x000000010dacb4b0: ;   {metadata({method} {0x000000012aaa4410} 'main' '([Ljava/lang/String;)V' in 'JITExample')}
+  0x000000010dacb4b0: 0882 88d2 | 4855 a5f2 | 2800 c0f2 | e807 00f9 | 0800 8092 | e803 00f9 
+
+  0x000000010dacb4c8: ; ImmutableOopMap {c_rarg1=Oop rfp=Oop }
+                      ;*synchronization entry
+                      ; - JITExample::main@-1 (line 6)
+                      ;   {runtime_call C1 Runtime counter_overflow_blob}
+  0x000000010dacb4c8: 2e38 d195 | 16fe ff17 
+
+  0x000000010dacb4d0: ; ImmutableOopMap {rfp=Oop }
+                      ;*aaload {reexecute=0 rethrow=0 return_oop=0}
+                      ; - JITExample::main@2 (line 6)
+                      ;   {runtime_call C1 Runtime throw_null_pointer_exception_blob}
+  0x000000010dacb4d0: 7c2b d195 | 0800 80d2 | e903 1daa 
+
+  0x000000010dacb4dc: ;   {runtime_call C1 Runtime throw_range_check_failed_blob}
+  0x000000010dacb4dc: 1ec8 8bd2 | 3e9e a2f2 | 3e00 c0f2 
+
+  0x000000010dacb4e8: ; ImmutableOopMap {rfp=Oop }
+                      ;*aaload {reexecute=0 rethrow=0 return_oop=0}
+                      ; - JITExample::main@2 (line 6)
+  0x000000010dacb4e8: c003 3fd6 
+
+  0x000000010dacb4ec: ;   {metadata({method} {0x00007fc0001adb58} 'valueOf' '(Ljava/lang/String;)Ljava/lang/Boolean;' in 'java/lang/Boolean')}
+  0x000000010dacb4ec: 086b 9bd2 | 4803 a0f2 | 08f8 cff2 | e807 00f9 | 0800 8092 | e803 00f9 
+
+  0x000000010dacb504: ; ImmutableOopMap {rfp=Oop c_rarg2=Oop }
+                      ;*synchronization entry
+                      ; - java.lang.Boolean::valueOf@-1 (line 193)
+                      ; - JITExample::main@9 (line 7)
+                      ;   {runtime_call C1 Runtime counter_overflow_blob}
+  0x000000010dacb504: 1f38 d195 | 27fe ff17 
+
+  0x000000010dacb50c: ;   {metadata({method} {0x00007fc0001adc60} 'parseBoolean' '(Ljava/lang/String;)Z' in 'java/lang/Boolean')}
+  0x000000010dacb50c: 088c 9bd2 | 4803 a0f2 | 08f8 cff2 | e807 00f9 | 0800 8092 | e803 00f9 
+
+  0x000000010dacb524: ; ImmutableOopMap {rfp=Oop c_rarg2=Oop }
+                      ;*synchronization entry
+                      ; - java.lang.Boolean::parseBoolean@-1 (line 148)
+                      ; - java.lang.Boolean::valueOf@1 (line 193)
+                      ; - JITExample::main@9 (line 7)
+                      ;   {runtime_call C1 Runtime counter_overflow_blob}
+  0x000000010dacb524: 1738 d195 | 2efe ff17 
+
+  0x000000010dacb52c: ; ImmutableOopMap {rfp=Oop c_rarg1=Oop }
+                      ;*invokevirtual booleanValue {reexecute=0 rethrow=0 return_oop=0}
+                      ; - JITExample::main@12 (line 7)
+                      ;   {runtime_call C1 Runtime throw_null_pointer_exception_blob}
+  0x000000010dacb52c: 652b d195 | e803 40b2 | e903 1daa 
+
+  0x000000010dacb538: ;   {runtime_call C1 Runtime throw_range_check_failed_blob}
+  0x000000010dacb538: 1ec8 8bd2 | 3e9e a2f2 | 3e00 c0f2 
+
+  0x000000010dacb544: ; ImmutableOopMap {rfp=Oop }
+                      ;*aaload {reexecute=0 rethrow=0 return_oop=0}
+                      ; - JITExample::main@20 (line 9)
+  0x000000010dacb544: c003 3fd6 
+
+  0x000000010dacb548: ;   {metadata({method} {0x00007fc0001b6b18} 'valueOf' '(Ljava/lang/String;)Ljava/lang/Integer;' in 'java/lang/Integer')}
+  0x000000010dacb548: 0863 8dd2 | 6803 a0f2 | 08f8 cff2 | e807 00f9 | 0800 8092 | e803 00f9 
+
+  0x000000010dacb560: ; ImmutableOopMap {c_rarg1=Oop }
+                      ;*synchronization entry
+                      ; - java.lang.Integer::valueOf@-1 (line 911)
+                      ; - JITExample::main@27 (line 10)
+                      ;   {runtime_call C1 Runtime counter_overflow_blob}
+  0x000000010dacb560: 0838 d195 | adfe ff17 
+
+  0x000000010dacb568: ; ImmutableOopMap {c_rarg0=Oop }
+                      ;*invokevirtual intValue {reexecute=0 rethrow=0 return_oop=0}
+                      ; - JITExample::main@30 (line 10)
+                      ;   {runtime_call C1 Runtime throw_null_pointer_exception_blob}
+  0x000000010dacb568: 562b d195 
+
+  0x000000010dacb56c: ;   {metadata({method} {0x000000012aaa44c8} 'foo' '(II)I' in 'JITExample')}
+  0x000000010dacb56c: 0899 88d2 | 4855 a5f2 | 2800 c0f2 | e807 00f9 | 0800 8092 | e803 00f9 
+
+  0x000000010dacb584: ; ImmutableOopMap {}
+                      ;*synchronization entry
+                      ; - JITExample::foo@-1 (line 34)
+                      ; - JITExample::main@55 (line 16)
+                      ;   {runtime_call C1 Runtime counter_overflow_blob}
+  0x000000010dacb584: ff37 d195 | 12ff ff17 
+
+  0x000000010dacb58c: ;   {metadata({method} {0x000000012aaa45f8} 'fooBar' '(II)I' in 'JITExample')}
+  0x000000010dacb58c: 08bf 88d2 | 4855 a5f2 | 2800 c0f2 | e807 00f9 | 0800 8092 | e803 00f9 
+
+  0x000000010dacb5a4: ; ImmutableOopMap {}
+                      ;*synchronization entry
+                      ; - JITExample::fooBar@-1 (line 42)
+                      ; - JITExample::main@89 (line 21)
+                      ;   {runtime_call C1 Runtime counter_overflow_blob}
+  0x000000010dacb5a4: f737 d195 | 49ff ff17 
+
+  0x000000010dacb5ac: ;   {metadata({method} {0x000000012aaa4560} 'bar' '(II)I' in 'JITExample')}
+  0x000000010dacb5ac: 08ac 88d2 | 4855 a5f2 | 2800 c0f2 | e807 00f9 | 0800 8092 | e803 00f9 
+
+  0x000000010dacb5c4: ; ImmutableOopMap {}
+                      ;*synchronization entry
+                      ; - JITExample::bar@-1 (line 38)
+                      ; - JITExample::main@125 (line 28)
+                      ;   {runtime_call C1 Runtime counter_overflow_blob}
+  0x000000010dacb5c4: ef37 d195 | 86ff ff17 
+
+  0x000000010dacb5cc: ;   {metadata({method} {0x000000012aaa4410} 'main' '([Ljava/lang/String;)V' in 'JITExample')}
+  0x000000010dacb5cc: 0882 88d2 | 4855 a5f2 | 2800 c0f2 | e807 00f9 | 8810 80d2 | e803 00f9 
+
+  0x000000010dacb5e4: ; ImmutableOopMap {}
+                      ;*goto {reexecute=1 rethrow=0 return_oop=0}
+                      ; - (reexecute) JITExample::main@132 (line 14)
+                      ;   {runtime_call C1 Runtime counter_overflow_blob}
+  0x000000010dacb5e4: e737 d195 | 88ff ff17 
+
+  0x000000010dacb5ec: ;   {internal_word}
+  0x000000010dacb5ec: 48f2 ff10 | 8837 02f9 
+
+  0x000000010dacb5f4: ;   {runtime_call SafepointBlob}
+  0x000000010dacb5f4: a305 ce15 | 808b 42f9 | 9f8b 02f9 | 9f8f 02f9 | fd7b 45a9 | ff83 0191 
+
+  0x000000010dacb60c: ;   {runtime_call C1 Runtime unwind_exception_blob}
+  0x000000010dacb60c: 9d27 d115 
+[Stub Code]
+  0x000000010dacb610: ;   {trampoline_stub}
+  0x000000010dacb610: 4800 0058 | 0001 1fd6 | 00b6 e414 | 0100 0000 
+
+  0x000000010dacb620: ;   {trampoline_stub}
+  0x000000010dacb620: 4800 0058 | 0001 1fd6 | 00ba e414 | 0100 0000 
+
+  0x000000010dacb630: ;   {trampoline_stub}
+  0x000000010dacb630: 4800 0058 | 0001 1fd6 | 00ba e414 | 0100 0000 
+
+  0x000000010dacb640: ;   {static_stub}
+  0x000000010dacb640: df3f 03d5 
+
+  0x000000010dacb644: ;   {metadata(nullptr)}
+  0x000000010dacb644: 0c00 80d2 | 0c00 a0f2 | 0c00 c0f2 | 0800 80d2 | 0800 a0f2 | 0800 c0f2 | 0001 1fd6 
+
+  0x000000010dacb660: ;   {static_stub}
+  0x000000010dacb660: df3f 03d5 
+
+  0x000000010dacb664: ;   {metadata(nullptr)}
+  0x000000010dacb664: 0c00 80d2 | 0c00 a0f2 | 0c00 c0f2 | 0800 80d2 | 0800 a0f2 | 0800 c0f2 | 0001 1fd6 
+
+  0x000000010dacb680: ;   {static_stub}
+  0x000000010dacb680: df3f 03d5 
+
+  0x000000010dacb684: ;   {metadata(nullptr)}
+  0x000000010dacb684: 0c00 80d2 | 0c00 a0f2 | 0c00 c0f2 | 0800 80d2 | 0800 a0f2 | 0800 c0f2 | 0001 1fd6 
+[Exception Handler]
+  0x000000010dacb6a0: ;   {runtime_call C1 Runtime handle_exception_from_callee_blob}
+  0x000000010dacb6a0: 682f d195 
+
+  0x000000010dacb6a4: ;   {external_word}
+  0x000000010dacb6a4: 4091 95d2 | 4092 a0f2 | 2000 c0f2 | c1d5 bbd4 
+[Deopt Handler Code]
+  0x000000010dacb6b4: 1e00 0010 
+
+  0x000000010dacb6b8: ;   {runtime_call DeoptimizationBlob}
+  0x000000010dacb6b8: f205 ce15 | 0000 0000 
+[/MachCode]
+----------------------------------- Assembly -----------------------------------
+
+Compiled method (c2) 204 1458       4       JITExample::bar (4 bytes)
+ total in heap  [0x00000001153e6088,0x00000001153e61f8] = 368
+ main code      [0x00000001153e6180,0x00000001153e61e0] = 96
+ stub code      [0x00000001153e61e0,0x00000001153e61f0] = 16
+ oops           [0x00000001153e61f0,0x00000001153e61f8] = 8
+ mutable data [0x000060000212be60,0x000060000212be80] = 32
+ relocation     [0x000060000212be60,0x000060000212be78] = 24
+ metadata       [0x000060000212be78,0x000060000212be80] = 8
+ immutable data [0x0000600002f15170,0x0000600002f151a0] = 48
+ dependencies   [0x0000600002f15170,0x0000600002f15178] = 8
+ scopes pcs     [0x0000600002f15178,0x0000600002f15198] = 32
+ scopes data    [0x0000600002f15198,0x0000600002f151a0] = 8
+
+[Constant Pool (empty)]
+
+[MachCode]
+[Verified Entry Point]
+  # {method} {0x000000012aaa4560} 'bar' '(II)I' in 'JITExample'
+  # parm0:    c_rarg1   = int
+  # parm1:    c_rarg2   = int
+  #           [sp+0x20]  (sp of caller)
+  0x00000001153e6180: 1f20 03d5 | ff83 00d1 | fd7b 01a9 | 6802 0018 | 8923 40b9 | 1f01 09eb | 6101 0054 | 207c 021b 
+  0x00000001153e61a0: fd7b 41a9 | ff83 0091 
+
+  0x00000001153e61a8: ;   {poll_return}
+  0x00000001153e61a8: 8817 40f9 | ff63 28eb | 4800 0054 | c003 5fd6 
+
+  0x00000001153e61b8: ;   {internal_word}
+  0x00000001153e61b8: 88ff ff10 | 8837 02f9 
+
+  0x00000001153e61c0: ;   {runtime_call SafepointBlob}
+  0x00000001153e61c0: b09a e917 
+
+  0x00000001153e61c4: ;   {runtime_call Stub::method_entry_barrier}
+  0x00000001153e61c4: 08f8 81d2 | 689c a2f2 | 2800 c0f2 | 0001 3fd6 | f2ff ff17 
+
+  0x00000001153e61d8: ;   {entry_guard}
+  0x00000001153e61d8: 0000 0000 | 0000 0000 
+[Exception Handler]
+  0x00000001153e61e0: ;   {runtime_call ExceptionBlob}
+  0x00000001153e61e0: 68d6 ec17 
+[Deopt Handler Code]
+  0x00000001153e61e4: 1e00 0010 
+
+  0x00000001153e61e8: ;   {runtime_call DeoptimizationBlob}
+  0x00000001153e61e8: 269b e917 | 0000 0000 
+[/MachCode]
+------------------------------------------------------------------------
+static JITExample::foo(II)I
+  interpreter_invocation_count:      497538
+  invocation_counter:                497538
+  backedge_counter:                       0
+  decompile_count:                        0
+  mdo size: 272 bytes
+
+   0 iload_0
+   1 iload_1
+   2 iadd
+   3 ireturn
+------------------------------------------------------------------------
+static JITExample::fooBar(II)I
+  interpreter_invocation_count:      479810
+  invocation_counter:                479810
+  backedge_counter:                       0
+  decompile_count:                        0
+  mdo size: 272 bytes
+
+   0 iload_0
+   1 iload_1
+   2 isub
+   3 ireturn
+------------------------------------------------------------------------
+static JITExample::bar(II)I
+  interpreter_invocation_count:      100000
+  invocation_counter:                100000
+  backedge_counter:                       0
+  decompile_count:                        0
+  mdo size: 272 bytes
+
+   0 iload_0
+   1 iload_1
+   2 imul
+   3 ireturn
+------------------------------------------------------------------------
+JITExample::main([Ljava/lang/String;)V
+  interpreter_invocation_count:           1
+  invocation_counter:                     1
+  backedge_counter:                 1000000
+  decompile_count:                        0
+  mdo size: 872 bytes
+
+   0 aload_1
+   1 iconst_0
+   2 aaload
+   3 ifnull 18
+  0    bci: 3    BranchData         taken(0) displacement(96)
+                                    not taken(0)
+   6 aload_1
+   7 iconst_0
+   8 aaload
+   9 invokestatic 7 <java/lang/Boolean.valueOf(Ljava/lang/String;)Ljava/lang/Boolean;> 
+  32   bci: 9    CounterData        count(0)
+  12 invokevirtual 13 <java/lang/Boolean.booleanValue()Z> 
+  48   bci: 12   VirtualCallData    count(0) entries(0)
+  15 putstatic 17 <JITExample.flag:Z> 
+  18 aload_1
+  19 iconst_1
+  20 aaload
+  21 ifnull 36
+  96   bci: 21   BranchData         taken(0) displacement(96)
+                                    not taken(0)
+  24 aload_1
+  25 iconst_1
+  26 aaload
+  27 invokestatic 23 <java/lang/Integer.valueOf(Ljava/lang/String;)Ljava/lang/Integer;> 
+  128  bci: 27   CounterData        count(0)
+  30 invokevirtual 28 <java/lang/Integer.intValue()I> 
+  144  bci: 30   VirtualCallData    count(0) entries(0)
+  33 putstatic 32 <JITExample.iterations:I> 
+  36 iconst_0
+  37 istore_2
+  38 iload_2
+  39 getstatic 32 <JITExample.iterations:I> 
+  42 if_icmpge 135
+  192  bci: 42   BranchData         taken(1) displacement(368)
+                                    not taken(895584)
+  45 getstatic 17 <JITExample.flag:Z> 
+  48 ifeq 85
+  224  bci: 48   BranchData         taken(447792) displacement(160)
+                                    not taken(447792)
+  51 iload_2
+  52 iload_2
+  53 iconst_1
+  54 iadd
+  55 invokestatic 36 <JITExample.foo(II)I> 
+  256  bci: 55   CounterData        count(447792)
+  58 pop
+  59 getstatic 32 <JITExample.iterations:I> 
+  62 ldc 100000
+  64 irem
+  65 ifne 116
+  272  bci: 65   BranchData         taken(0) displacement(216)
+                                    not taken(447792)
+  68 getstatic 17 <JITExample.flag:Z> 
+  71 ifne 78
+  304  bci: 71   BranchData         taken(447792) displacement(56)
+                                    not taken(0)
+  74 iconst_1
+  75 goto 79
+  336  bci: 75   JumpData           taken(0) displacement(24)
+  78 iconst_0
+  79 putstatic 17 <JITExample.flag:Z> 
+  82 goto 116
+  360  bci: 82   JumpData           taken(447792) displacement(128)
+  85 iload_2
+  86 iload_2
+  87 iconst_1
+  88 iadd
+  89 invokestatic 41 <JITExample.fooBar(II)I> 
+  384  bci: 89   CounterData        count(447792)
+  92 pop
+  93 getstatic 32 <JITExample.iterations:I> 
+  96 ldc 100000
+  98 irem
+  99 ifne 116
+  400  bci: 99   BranchData         taken(0) displacement(88)
+                                    not taken(447792)
+ 102 getstatic 17 <JITExample.flag:Z> 
+ 105 ifne 112
+  432  bci: 105  BranchData         taken(0) displacement(56)
+                                    not taken(447792)
+ 108 iconst_1
+ 109 goto 113
+  464  bci: 109  JumpData           taken(447792) displacement(24)
+ 112 iconst_0
+ 113 putstatic 17 <JITExample.flag:Z> 
+ 116 iload_2
+ 117 bipush 10
+ 119 irem
+ 120 ifne 129
+  488  bci: 120  BranchData         taken(806026) displacement(48)
+                                    not taken(89558)
+ 123 iload_2
+ 124 iload_2
+ 125 invokestatic 44 <JITExample.bar(II)I> 
+  520  bci: 125  CounterData        count(89558)
+ 128 pop
+ 129 iinc #2 1
+ 132 goto 38
+  536  bci: 132  JumpData           taken(895584) displacement(-344)
+ 135 return
+------------------------------------------------------------------------
+Total MDO size: 1688 bytes

@@ -1,0 +1,17 @@
+java -XX:CompileCommand=PrintCompilation,'JITExample::*' JITExample.java 1000
+
+java -jar target/spring-petclinic-3.5.0-SNAPSHOT.jar
+
+java -XX:AOTCacheOutput=app.aot  -Dspring.context.exit=onRefresh -jar target/spring-petclinic-3.5.0-SNAPSHOT.jar
+
+java -XX:AOTCache=app.aot -jar target/spring-petclinic-3.5.0-SNAPSHOT.jar
+
+-XX:AOTCacheOutput
+
+java -XX:AOTCache=app.aot -XX:CompileCommand=PrintCompilation,'*::*' -jar target/spring-petclinic-3.5.0-SNAPSHOT.jar
+
+java -XX:AOTCacheOutput=app-with-load.aot -jar target/spring-petclinic-3.5.0-SNAPSHOT.jar
+
+java -XX:AOTCache=app-with-load.aot -jar target/spring-petclinic-3.5.0-SNAPSHOT.jar
+
+oha -z10s http://localhost:8080/vets.html

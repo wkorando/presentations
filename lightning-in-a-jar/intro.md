@@ -1,32 +1,36 @@
-# Loominated Java
+# Lightning in a Jar
+
+## Or How To Improve Startup and Warmup Without Sacrificing Dynamism
 
 Billy Korando 
 <br/>
 Java Developer Advocate - Oracle ☕️🥑
 <br/>
 
->>
+VV
 
 ## Important Information
 
 * Ask questions
 * Reach out: 
     * Email: billy.korando@oracle.com ✉️
-* Link to presentation: https://wkorando.github.io/presentations/loominated-java/
+* Link to presentation: https://wkorando.github.io/presentations/lightning-in-a-jar/
 
->>
-### Would you like to know more?
+VV
+## Would you like to know more?
 
 * https://dev.java
 * https://inside.java
 * https://youtube.com/java 
 * Inside Java Podcast
 
->>
+VV
 
 ## Agenda
-* Project Loom
-* Virtual Threads
-* The problems with concurrency
-* Using Structured Concurrency
-* Using Scoped Values
+* Project Leyden
+* "Timeshifting" Work
+* Training Runs
+* The Road Ahead
+
+
+	

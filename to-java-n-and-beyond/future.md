@@ -93,8 +93,9 @@ VV
 public class PositiveBigInteger extends BigInteger {
 	public PositiveBigInteger(long value) {
 	if (value <= 0)
-		throw ...super(value);
+		throw IlleglaArgumentException();
 	}
+	super(value);
 }
 ```
 VV

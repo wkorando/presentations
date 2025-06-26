@@ -59,14 +59,14 @@ VV
 ### Stream Gatherers 
 
 ```java
-List<String> speakers = 
-	List.of("Billy", "Chandra", "Rodrigo", "Venkat", 
-		"Grace", "Marit", "Freddy", "Bob", "Daniel", 
-		"Trisha", "Michael", "Jennifer", "Justin");
-		
-List<List<String> > groupsOfSpeakers 
-		= speakers.stream().gather(Gatherers.windowFixed(4)).limit(3).toList();
-//[[Billy, Chandra, Rodrigo, Venkat], [Grace, Marit, Freddy, Bob], [Daniel, Trisha, Michael, Jennifer]]
+	List<String> speakers = 
+		List.of("Billy", "Chandra", "Rodrigo", "Venkat", 
+			"Grace", "Marit", "Freddy", "Bob", "Daniel", 
+			"Trisha", "Michael", "Jennifer", "Justin");
+			
+	List<List<String> > groupsOfSpeakers 
+			= speakers.stream().gather(Gatherers.windowFixed(4)).limit(3).toList();
+	//[[Billy, Chandra, Rodrigo, Venkat], [Grace, Marit, Freddy, Bob], [Daniel, Trisha, Michael, Jennifer]]
 ```
 
 VV
