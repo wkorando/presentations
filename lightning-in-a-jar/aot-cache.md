@@ -4,18 +4,22 @@
 
 VV
 
-## Start-up Phase
+##### Application level: 
 
-* Class data (pre-existing from CDS)
-* Class loading and linking
+* Reading config files
+* Scanning for annotations
+* Opening sockets, registering listeners
+* Creating loggers
 
-VV
+##### JVM level:
 
-## Warm-up Phase
-
-* Profiling code execution
-* Object caching (in-progress)
-* Code compilation (in-progress)
+* **Class loading, linking, and initialization**
+	* **Reading classes from disk**
+	* **Classfile validation and metadata construction**
+	* Running static initializers
+* Interpretation
+* **Callsite linkage, constant pool resolution**
+* **Profile gathering**
 
 VV
 
@@ -29,7 +33,7 @@ VV
 <br/>
 ✅ Platform independent
 <br/>
-✅ Still have full JVM and JIT and can fall back if cache is incorrect
+✅ Still have full JVM and JIT to fall back on
 
 VV
 
@@ -48,26 +52,48 @@ VV
 
 ## Extra Work
 
-⚙️ Training Runs <br/>
-⚙️ Storing the cache <br/>
-&nbsp;&nbsp;&nbsp;🤔 Include in container image? <br/>
-&nbsp;&nbsp;&nbsp;🤔 Located in a shared volume? <br/>
+⚙️ How to perform the training runs? <br/>
+⚙️ Where to store the cache? <br/>
 
 
 
 VV
 
-## Where's the Cache?
+## Building the Cache?
+
+
+![](images/graphs/Slide4.png)
+
+VV
+
+## Where to Build the Cache?
 
 
 ![](images/graphs/Slide5.png)
 
 VV
 
-## Where's the Cache?
+## Where to Build the Cache?
 
 
 ![](images/graphs/Slide6.png)
+
+
+
+VV
+
+## Where's the Cache?
+
+
+![](images/graphs/Slide7.png)
+
+
+VV
+
+## Where's the Cache?
+
+
+![](images/graphs/Slide8.png)
 
 
 

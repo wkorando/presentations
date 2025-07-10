@@ -12,6 +12,6 @@
 
 * Reach out: 
     * Email: billy.korando@oracle.com ✉️
-* Link to presentation: https://wkorando.github.io/presentations/loominated-java/
+* Link to presentation: https://wkorando.github.io/presentations/lightning-in-a-jar/
 
 

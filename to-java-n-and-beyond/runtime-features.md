@@ -2,45 +2,6 @@
 
 VV
 
-## CDS Updates
-JDK 12<br/>
-Default CDS Archive: JEP 341<br/>
-<br/>
-JDK 13 <br/>
-Dynamic CDS Archive: JEP 350 <br/>
-<br/>
-JDK 19 <br/>
-Autogenerate CDS archive <br/>
-
-VV
-
-## AppCDS
-
-```
-java -XX:+AutoCreateSharedArchive -XX:SharedArchiveFile=foo.jsa <application> 
-```
-VV
-
-## Project Leyden
-
-
-JDK 24 <br/>
-Ahead-of-Time Class Loading & Linking: JEP 483
-
-VV
-
-## Ahead-of-Time Class Loading & Linking
-
-
-```
-$ java -XX:AOTMode=record -XX:AOTConfiguration=app.aotconf <appliction>
-
-$ java -XX:AOTMode=create -XX:AOTConfiguration=app.aotconf -XX:AOTCache=app.aot  <appliction>
-
-$ java -XX:AOTCache=app.aot  <appliction>
-
-```
-VV
 
 ## Simple Web Server
 
@@ -87,4 +48,91 @@ VV
 
 JDK 22 <br/>
 JEP 458
+
+```
+$ java Main.java
+
+import model.Person;
+import service.PersonService;
+
+public class Main{
+	void main(){
+		PersonService service = new PersonService();
+		
+		Person person = service.createNewPerson();
+		
+		IO.println(person.printName() + " has been created!");
+	}
+
+}
+
+
+Main.java
+\ model
+| Person.java 
+\ service
+| PersonService.java
+
+
+```
+
+VV
+
+## Project Leyden
+
+
+JDK 24 <br/>
+Ahead-of-Time Class Loading & Linking: JEP 483 <br/>
+
+JDK 25 <br/>
+514: Ahead-of-Time Command-Line Ergonomics: JEP 514 <br/>
+515: Ahead-of-Time Method Profiling: JEP 515 <br/>
+
+
+
+VV
+
+## Project Leyden
+
+
+JDK 24 <br/>
+Ahead-of-Time Class Loading & Linking: JEP 483 <br/>
+
+JDK 25 <br/>
+514: Ahead-of-Time Command-Line Ergonomics: JEP 514 <br/>
+515: Ahead-of-Time Method Profiling: JEP 515 <br/>
+
+
+
+VV
+
+## Using Project Leyden Features
+
+
+```
+$ java -XX:AOTCacheOutput=app.aot <appliction>
+
+$ java -XX:AOTCache=app.aot  <appliction>
+
+```
+VV
+
+## Compact Object Headers
+
+JDK 25 <br/>
+Compact Object Headers: JEP 519 <br/>
+
+```
+$ java -XX:+UseCompactObjectHeaders
+```
+
+* Modest reduction in heap ~10-20% 
+* Modest throughput improvement ~10-20%
+
+
+## JFR Updates
+
+JDK 25 <br/>
+JFR Method Timing & Tracing: JEP 520 <br/>
+JFR Cooperative Sampling: JEP 518 <br/>
 

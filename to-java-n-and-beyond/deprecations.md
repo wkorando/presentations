@@ -23,3 +23,9 @@ JDK 24<br/>
 JEP 486<br/>
 
 
+VV
+
+* Integrity:
+    * 472: Prepare to Restrict the Use of JNI
+    * 498: Warn upon Use of Memory-Access Methods in sun.misc.Unsafe
+

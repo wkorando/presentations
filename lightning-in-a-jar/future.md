@@ -10,13 +10,15 @@ VV
 * More here: https://github.com/openjdk/leyden/tree/leyden-ea1-release-notes
 	* 2024 EA build 	
 
-### Related:
+### Related*:
 
 * JEP 502: Stable Values (Preview)
+
+\* Maybe/eventually, will also require further updates to Leyden features
 
 VV
 
 ## Minor Updates
 
-* Continued behind-the-scenes work resolving inconsistencies in the JVM that undermine AOT benefits 
+* Continued behind-the-scenes work from refactoring JVM and JDK internals to better support Leyden
 * Working with frameworks to improve AOT benefits

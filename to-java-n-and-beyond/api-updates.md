@@ -113,7 +113,21 @@ VV
 
 VV
 
-### Foreign Function & Memory
+## Virtual Threads - Synchronized Pinning
+
+JDK 24 <br/>
+JEP 491
+ 
+VV
+
+## Scoped Values
+
+JDK 25  <br/>
+JEP 506
+
+VV
+
+## Foreign Function & Memory
 
 JDK 22 <br/>
 JEP 454

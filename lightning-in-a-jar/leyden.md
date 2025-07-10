@@ -2,7 +2,9 @@
 
 ![](images/leyden-jar.jpg)
 
-Named after a Leyden jar, which stored an electrical charge, and was the first capacitor. 
+Named after a Leyden jar (like JAR, Get it?!), which stored an electrical charge. 
+
+Fun fact: was the first capacitor. 
 
 VV
 
@@ -19,6 +21,30 @@ VV
 
 VV
 
+##### Application level:
+* Reading config files
+* Scanning for annotations
+* Opening sockets, registering listeners
+* Creating loggers
+
+##### JVM level:
+* Class loading, linking, and initialization
+	* Reading classes from disk
+	* Classfile validation and metadata construction
+	* Running static initializers
+* Interpretation
+* Callsite linkage, constant pool resolution
+* Profile gathering
+
+VV
+
+### This Happens Everytime an Application Starts up
+
+
+![](images/Punishment_sisyph.png)
+
+VV
+
 ## Timeshifting Work
 
 Achieve goals of reduced startup time, warmup, and (eventually) footprint by "timeshifting" work from the runtime phase, to the build phase and storing it in an AOT Cache.
@@ -27,17 +53,10 @@ Achieve goals of reduced startup time, warmup, and (eventually) footprint by "ti
 
 VV
 
-## Building the Cache
-
-![](images/graphs/Slide4.png)
-
-VV
-
 ## Shipped Features 🚢
 
 JEP 483: Ahead-of-Time Class Loading & Linking (JDK 24)
 
-![](images/graphs/Slide1.png)
 
 VV
 

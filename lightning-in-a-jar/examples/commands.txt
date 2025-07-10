@@ -1,4 +1,16 @@
-java -XX:CompileCommand=PrintCompilation,'JITExample::*' JITExample.java 1000
+less leyden/JITExample.java
+
+javap -verbose leyden/JITExample
+
+java -XX:CompileCommand=PrintCompilation,'leyden.JITExample::*' leyden/JITExample.java 1000
+
+java leyden/JITExample.java 10 true
+
+java -XX:AOTCacheOutput=jit-example.aot -Xlog:aot leyden/JITExample.java 10
+
+java -XX:AOTCache=jit-example.aot -Xlog:aot leyden/JITExample.java 10
+
+java -XX:+PrintSharedArchiveAndExit -XX:AOTCache=jit-example.aot
 
 java -jar target/spring-petclinic-3.5.0-SNAPSHOT.jar
 
@@ -6,12 +18,18 @@ java -XX:AOTCacheOutput=app.aot  -Dspring.context.exit=onRefresh -jar target/spr
 
 java -XX:AOTCache=app.aot -jar target/spring-petclinic-3.5.0-SNAPSHOT.jar
 
--XX:AOTCacheOutput
-
-java -XX:AOTCache=app.aot -XX:CompileCommand=PrintCompilation,'*::*' -jar target/spring-petclinic-3.5.0-SNAPSHOT.jar
-
 java -XX:AOTCacheOutput=app-with-load.aot -jar target/spring-petclinic-3.5.0-SNAPSHOT.jar
 
 java -XX:AOTCache=app-with-load.aot -jar target/spring-petclinic-3.5.0-SNAPSHOT.jar
 
-oha -z10s http://localhost:8080/vets.html
+oha -z5s http://localhost:8080/vets.html
+
+-- DIAGNOSTICS -- 
+
+-XX:+PrintSharedArchiveAndExit
+
+-Xlog:aot
+
+-XX:AOTMode=record -XX:AOTConfiguration=jit-example-with-assembly.aotconf
+
+-XX:AOTMode=create -XX:AOTConfiguration=jit-example-with-assembly.aotconf -XX:AOTCache=jit-example-with-assembly.aot

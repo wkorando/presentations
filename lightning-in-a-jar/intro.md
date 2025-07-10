@@ -1,6 +1,12 @@
 # Lightning in a Jar
+Billy Korando 
+<br/>
+Java Developer Advocate - Oracle ☕️🥑
+<br/>
 
-## Or How To Improve Startup and Warmup Without Sacrificing Dynamism
+VV
+
+## Or How To Improve Startup and Warmup Without Sacrificing Java's Dynamism
 
 Billy Korando 
 <br/>

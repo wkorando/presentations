@@ -1,0 +1,42 @@
+[debug][aot] Detailed metadata info (excluding heap region):
+[debug][aot]                         ro_cnt   ro_bytes     % |   rw_cnt   rw_bytes     % |  all_cnt  all_bytes     %
+[debug][aot] --------------------+---------------------------+---------------------------+--------------------------
+[debug][aot] Class               :        0          0   0.0 |    16156   11608832  25.5 |    16156   11608832  10.4
+[debug][aot] Symbol              :   263242   16249040  24.4 |        0          0   0.0 |   263242   16249040  14.5
+[debug][aot] TypeArrayU1         :    80640    2390744   3.6 |    29828    2463072   5.4 |   110468    4853816   4.3
+[debug][aot] TypeArrayU2         :    20708     779880   1.2 |        0          0   0.0 |    20708     779880   0.7
+[debug][aot] TypeArrayU4         :    17690     872912   1.3 |        0          0   0.0 |    17690     872912   0.8
+[debug][aot] TypeArrayU8         :    43914    3354688   5.0 |    14877    1579616   3.5 |    58791    4934304   4.4
+[debug][aot] TypeArrayOther      :      779     265072   0.4 |    24002    7554480  16.6 |    24781    7819552   7.0
+[debug][aot] Method              :        0          0   0.0 |   171505   15104328  33.2 |   171505   15104328  13.5
+[debug][aot] ConstMethod         :   171505   21684536  32.6 |        0          0   0.0 |   171505   21684536  19.4
+[debug][aot] MethodData          :        0          0   0.0 |     7131    3744392   8.2 |     7131    3744392   3.3
+[debug][aot] ConstantPool        :    14951   18037720  27.1 |        0          0   0.0 |    14951   18037720  16.1
+[debug][aot] ConstantPoolCache   :        0          0   0.0 |    14877     952128   2.1 |    14877     952128   0.9
+[debug][aot] Annotations         :     2560      81920   0.1 |        0          0   0.0 |     2560      81920   0.1
+[debug][aot] MethodCounters      :        0          0   0.0 |    11640     744960   1.6 |    11640     744960   0.7
+[debug][aot] RecordComponent     :      207       4968   0.0 |        0          0   0.0 |      207       4968   0.0
+[debug][aot] KlassTrainingData   :        0          0   0.0 |     2728     130944   0.3 |     2728     130944   0.1
+[debug][aot] MethodTrainingData  :        0          0   0.0 |     8602     825792   1.8 |     8602     825792   0.7
+[debug][aot] CompileTrainingData :        0          0   0.0 |     8220     657600   1.4 |     8220     657600   0.6
+[debug][aot] AdapterHandlerEntry :        0          0   0.0 |      501      24048   0.1 |      501      24048   0.0
+[debug][aot] AdapterFingerPrint  :        0          0   0.0 |      501       4984   0.0 |      501       4984   0.0
+[debug][aot] SymbolHashentry     :   263242    2105944   3.2 |        0          0   0.0 |   263242    2105944   1.9
+[debug][aot] SymbolBucket        :      329       1328   0.0 |        0          0   0.0 |      329       1328   0.0
+[debug][aot] StringHashentry     :     4716      37440   0.1 |        0          0   0.0 |     4716      37440   0.0
+[debug][aot] StringBucket        :     1179       4728   0.0 |        0          0   0.0 |     1179       4728   0.0
+[debug][aot] ModulesNatives      :        0       4928   0.0 |        0      50552   0.1 |        0      55480   0.0
+[debug][aot] CppVTables          :        0          0   0.0 |        0       3352   0.0 |        0       3352   0.0
+[debug][aot] Other               :        0     599080   0.9 |        0          0   0.0 |        0     599080   0.5
+[debug][aot] --------------------+---------------------------+---------------------------+--------------------------
+[debug][aot] Total               :   885662   66474928 100.0 |   310568   45449080 100.0 |  1196230  111924008 100.0
+[info ][aot] Class  CP entries = 182575, archived =  25407 ( 13.9%), reverted =      0
+[info ][aot] Field  CP entries =  54833, archived =  17112 ( 31.2%), reverted =      0
+[info ][aot] Method CP entries =  14951, archived =  14868 ( 99.4%), reverted =     83
+[info ][aot] Indy   CP entries =    229, archived =    229 (100.0%), reverted =      0
+[info ][aot] Platform loader initiated classes =   1497
+[info ][aot] App      loader initiated classes =   1553
+[info ][aot] MethodCounters                    =  11640 (  744960 bytes)
+[info ][aot] KlassTrainingData                 =   2728 (  130944 bytes)
+[info ][aot] MethodTrainingData                =   8602 (  825792 bytes)
+

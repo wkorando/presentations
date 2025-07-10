@@ -1,0 +1,1677 @@
+[0.006s][info][class,path] Reading classpath(s) from /Library/Java/JavaVirtualMachines/jdk-25-ea.jdk/Contents/Home/lib/server/classes.jsa (size = 1)
+[0.006s][info][class,path] (boot  ) [0] = /Library/Java/JavaVirtualMachines/jdk-25-ea.jdk/Contents/Home/lib/modules
+[0.006s][info][class,path] Checking [0] (modules image)
+[0.006s][info][class,path] ok
+[0.006s][info][class,path] Modules image /Library/Java/JavaVirtualMachines/jdk-25-ea.jdk/Contents/Home/lib/modules validation: passed
+Static archive name: /Library/Java/JavaVirtualMachines/jdk-25-ea.jdk/Contents/Home/lib/server/classes.jsa
+Static archive version 19
+Shared Dictionary
+Shared Builtin Dictionary
+   0: java.time.LocalTime boot_loader
+   1: java.time.chrono.Chronology boot_loader
+   2: jdk.internal.module.ModuleBootstrap$Counters boot_loader
+   3: java.lang.reflect.Array boot_loader
+   4: java.util.concurrent.ConcurrentHashMap$KeyIterator boot_loader
+   5: java.util.function.DoubleConsumer boot_loader
+   6: jdk.internal.loader.NativeLibraries$CountedLock boot_loader
+   7: java.util.Spliterators$ArraySpliterator boot_loader
+   8: java.nio.DirectIntBufferRU boot_loader
+   9: java.lang.invoke.LambdaForm$Holder boot_loader
+  10: java.util.regex.Pattern$CharPredicate boot_loader
+  11: java.lang.invoke.VarHandleGuards boot_loader
+  12: java.lang.ClassLoader$ParallelLoaders boot_loader
+  13: java.lang.ThreadLocal$ThreadLocalMap boot_loader
+  14: java.nio.channels.SocketChannel boot_loader
+  15: java.util.SequencedMap boot_loader
+  16: java.io.FileOutputStream boot_loader
+  17: java.util.logging.LogManager boot_loader
+  18: java.text.FieldPosition boot_loader
+  19: java.io.Closeable boot_loader
+  20: java.util.stream.Nodes$EmptyNode$OfDouble boot_loader
+  21: java.util.jar.Manifest boot_loader
+  22: java.lang.classfile.AccessFlags boot_loader
+  23: sun.util.locale.provider.CalendarDataUtility$CalendarWeekParameterGetter boot_loader
+  24: java.nio.Buffer$1 boot_loader
+  25: sun.nio.ch.NativeDispatcher boot_loader
+  26: java.util.Arrays$ArrayList boot_loader
+  27: sun.util.calendar.ZoneInfo boot_loader
+  28: java.io.OutputStreamWriter boot_loader
+  29: sun.nio.fs.MacOSXFileSystem boot_loader
+  30: java.util.zip.ZipFile$EntryPos boot_loader
+  31: java.lang.constant.DirectMethodHandleDesc boot_loader
+  32: sun.util.locale.provider.NumberFormatProviderImpl boot_loader
+  33: java.lang.classfile.MethodBuilder boot_loader
+  34: java.util.concurrent.ForkJoinPool boot_loader
+  35: java.text.spi.NumberFormatProvider boot_loader
+  36: java.security.AccessController boot_loader
+  37: java.util.function.BiFunction boot_loader
+  38: java.util.function.BiPredicate boot_loader
+  39: java.util.Formattable boot_loader
+  40: sun.nio.cs.HistoricallyNamedCharset boot_loader
+  41: java.lang.invoke.MethodHandleImpl$LoopClauses boot_loader
+  42: java.lang.Byte boot_loader
+      - array: [Ljava.lang.Byte;
+  43: java.util.HashSet boot_loader
+  44: java.net.NetworkInterface boot_loader
+  45: java.util.AbstractMap$SimpleImmutableEntry boot_loader
+  46: jdk.internal.access.JavaUtilJarAccess boot_loader
+  47: java.util.concurrent.Executor boot_loader
+  48: java.nio.file.LinkOption boot_loader
+      - array: [Ljava.nio.file.LinkOption;
+  49: java.util.Spliterators$IteratorSpliterator boot_loader
+  50: sun.util.locale.provider.ResourceBundleBasedAdapter boot_loader
+  51: jdk.internal.loader.NativeLibraries$NativeLibraryImpl boot_loader
+  52: java.lang.ref.Reference$ReferenceHandler boot_loader
+  53: jdk.internal.module.ModuleReferenceImpl boot_loader
+  54: java.util.stream.ReduceOps boot_loader
+  55: java.net.Inet4AddressImpl boot_loader
+  56: jdk.internal.module.ModuleInfo$Attributes boot_loader
+  57: java.lang.ClassLoader boot_loader
+      - array: [Ljava.lang.ClassLoader;
+  58: java.util.regex.IntHashSet boot_loader
+  59: jdk.internal.reflect.DirectConstructorHandleAccessor boot_loader
+  60: java.util.EnumMap boot_loader
+  61: java.security.AccessControlContext boot_loader
+  62: java.lang.Appendable boot_loader
+  63: java.nio.file.StandardOpenOption boot_loader
+      - array: [Ljava.nio.file.StandardOpenOption;
+  64: java.util.logging.Level boot_loader
+  65: jdk.internal.reflect.ReflectionFactory$Config boot_loader
+  66: java.lang.Double boot_loader
+  67: java.time.format.DateTimeTextProvider$LocaleStore boot_loader
+  68: java.nio.file.attribute.FileAttributeView boot_loader
+  69: jdk.internal.module.SystemModuleFinders$SystemModuleReader boot_loader
+  70: java.time.format.DateTimePrintContext boot_loader
+  71: java.lang.invoke.InfoFromMemberName boot_loader
+  72: sun.nio.ch.NativeThread boot_loader
+  73: java.util.TimeZone boot_loader
+  74: java.lang.invoke.VarHandleByteArrayAsInts$ArrayHandle boot_loader
+  75: java.time.format.DateTimeFormatterBuilder boot_loader
+  76: java.nio.channels.Channel boot_loader
+  77: java.lang.invoke.VarHandleReferences$FieldInstanceReadOnly boot_loader
+  78: java.lang.invoke.MemberName$Factory boot_loader
+  79: java.util.ArrayList$SubList boot_loader
+  80: sun.nio.ch.FileDispatcher boot_loader
+  81: java.security.Permissions boot_loader
+  82: sun.nio.fs.BsdFileAttributeViews boot_loader
+  83: java.util.stream.AbstractPipeline boot_loader
+  84: java.io.InputStream boot_loader
+  85: java.lang.classfile.constantpool.LoadableConstantEntry boot_loader
+      - array: [Ljava.lang.classfile.constantpool.LoadableConstantEntry;
+  86: jdk.internal.module.ModuleLoaderMap$Mapper boot_loader
+  87: jdk.internal.misc.TerminatingThreadLocal$1 boot_loader
+  88: java.util.AbstractList boot_loader
+  89: java.lang.invoke.MethodHandleImpl$2 boot_loader
+  90: java.util.AbstractList$RandomAccessSpliterator boot_loader
+  91: java.util.ImmutableCollections$Access boot_loader
+  92: java.text.AttributedCharacterIterator$Attribute boot_loader
+  93: java.lang.invoke.LambdaFormEditor boot_loader
+  94: jdk.internal.loader.BuiltinClassLoader boot_loader
+  95: java.lang.Exception boot_loader
+  96: java.lang.invoke.MethodHandles$Lookup$ClassOption boot_loader
+  97: java.time.temporal.TemporalAdjuster boot_loader
+  98: java.lang.invoke.BoundMethodHandle$Species_D boot_loader
+  99: java.util.Locale boot_loader
+      - array: [Ljava.util.Locale;
+ 100: sun.nio.cs.UTF_32LE boot_loader
+ 101: java.lang.invoke.VarForm boot_loader
+ 102: java.security.SecureClassLoader$1 boot_loader
+ 103: java.util.IdentityHashMap$KeyIterator boot_loader
+ 104: java.nio.channels.InterruptibleChannel boot_loader
+ 105: java.util.HashMap$HashMapSpliterator boot_loader
+ 106: jdk.internal.math.FloatToDecimal boot_loader
+ 107: java.util.stream.ReferencePipeline boot_loader
+ 108: jdk.internal.classfile.impl.DirectMethodBuilder boot_loader
+ 109: jdk.internal.misc.OSEnvironment boot_loader
+ 110: java.util.regex.Pattern$GroupHead boot_loader
+ 111: sun.util.resources.Bundles$CacheKey boot_loader
+ 112: java.util.regex.CharPredicates boot_loader
+ 113: sun.util.calendar.CalendarSystem boot_loader
+ 114: java.util.logging.LogManager$SystemLoggerContext boot_loader
+ 115: java.lang.classfile.ClassFile$StackMapsOption boot_loader
+ 116: java.lang.runtime.ObjectMethods boot_loader
+ 117: sun.util.resources.LocaleData boot_loader
+ 118: java.util.stream.ReduceOps$ReduceTask boot_loader
+ 119: jdk.internal.util.Exceptions boot_loader
+ 120: java.security.SecureClassLoader$CodeSourceKey boot_loader
+ 121: java.nio.channels.spi.AbstractSelectableChannel boot_loader
+ 122: java.util.Hashtable$Enumerator boot_loader
+ 123: java.util.logging.Handler boot_loader
+ 124: java.time.LocalDate boot_loader
+ 125: java.time.LocalDate$1 boot_loader
+ 126: sun.nio.cs.US_ASCII boot_loader
+ 127: java.util.TimSort boot_loader
+ 128: java.util.stream.MatchOps$MatchKind boot_loader
+      - array: [Ljava.util.stream.MatchOps$MatchKind;
+ 129: java.lang.Comparable boot_loader
+      - array: [Ljava.lang.Comparable;
+ 130: java.lang.Package boot_loader
+ 131: jdk.internal.vm.Continuation$Pinned boot_loader
+      - array: [Ljdk.internal.vm.Continuation$Pinned;
+ 132: jdk.internal.loader.NativeLibrary boot_loader
+ 133: java.lang.reflect.Parameter boot_loader
+ 134: jdk.internal.loader.NativeLibraries boot_loader
+ 135: jdk.internal.misc.ScopedMemoryAccess boot_loader
+ 136: sun.nio.ch.Util$BufferCache boot_loader
+ 137: jdk.internal.util.Preconditions$3 boot_loader
+ 138: jdk.internal.util.Preconditions$4 boot_loader
+ 139: java.net.InetAddressImpl boot_loader
+ 140: java.util.Arrays$ArrayItr boot_loader
+ 141: java.util.stream.Stream$Builder boot_loader
+ 142: jdk.internal.ref.CleanerFactory$1 boot_loader
+ 143: java.lang.ClassValue$Identity boot_loader
+ 144: jdk.internal.reflect.MethodHandleObjectFieldAccessorImpl boot_loader
+ 145: java.net.URLStreamHandlerFactory boot_loader
+ 146: java.time.temporal.ChronoField boot_loader
+ 147: jdk.internal.ref.CleanerImpl$CleanerCleanable boot_loader
+ 148: jdk.internal.module.ModuleLoaderMap boot_loader
+ 149: java.nio.DirectByteBufferR boot_loader
+ 150: sun.invoke.util.ValueConversions$WrapperCache boot_loader
+ 151: java.nio.file.Files boot_loader
+ 152: jdk.internal.util.ReferenceKey boot_loader
+ 153: java.nio.channels.FileChannel boot_loader
+ 154: java.io.FileDescriptor$1 boot_loader
+ 155: jdk.internal.classfile.impl.ClassHierarchyImpl$ClassHierarchyInfoImpl boot_loader
+ 156: java.text.ParsePosition boot_loader
+ 157: java.lang.ThreadLocal boot_loader
+ 158: java.time.format.DateTimeFormatterBuilder$TextPrinterParser boot_loader
+ 159: java.util.SequencedCollection boot_loader
+ 160: java.io.FileInputStream boot_loader
+ 161: java.lang.invoke.MethodType$1 boot_loader
+ 162: java.nio.charset.StandardCharsets boot_loader
+ 163: java.lang.classfile.attribute.RuntimeVisibleAnnotationsAttribute boot_loader
+ 164: jdk.internal.module.ModuleHashes$HashSupplier boot_loader
+ 165: jdk.internal.access.JavaUtilZipFileAccess boot_loader
+ 166: java.net.InetAddress boot_loader
+ 167: java.lang.IndexOutOfBoundsException boot_loader
+ 168: java.util.concurrent.ConcurrentSkipListMap boot_loader
+ 169: jdk.internal.vm.vector.VectorSupport$Vector boot_loader
+ 170: sun.nio.cs.ThreadLocalCoders$Cache boot_loader
+ 171: java.util.stream.Streams$AbstractStreamBuilderImpl boot_loader
+ 172: java.lang.module.ModuleDescriptor$Modifier boot_loader
+      - array: [Ljava.lang.module.ModuleDescriptor$Modifier;
+ 173: jdk.internal.vm.vector.VectorSupport$VectorPayload boot_loader
+ 174: java.util.ImmutableCollections$AbstractImmutableList boot_loader
+ 175: java.lang.invoke.BootstrapMethodInvoker boot_loader
+ 176: java.util.stream.ForEachOps$ForEachOp boot_loader
+ 177: java.lang.reflect.ReflectAccess boot_loader
+ 178: java.lang.invoke.DelegatingMethodHandle$Holder boot_loader
+ 179: java.util.function.Consumer boot_loader
+ 180: jdk.internal.classfile.impl.SplitConstantPool boot_loader
+ 181: java.lang.classfile.ClassFileElement boot_loader
+      - array: [Ljava.lang.classfile.ClassFileElement;
+ 182: java.util.stream.MatchOps$1MatchSink boot_loader
+ 183: java.lang.Class boot_loader
+      - array: [Ljava.lang.Class;
+ 184: sun.util.calendar.ZoneInfoFile boot_loader
+ 185: java.lang.classfile.Annotation boot_loader
+      - array: [Ljava.lang.classfile.Annotation;
+ 186: java.lang.Void boot_loader
+ 187: jdk.internal.loader.NativeLibraries$2 boot_loader
+ 188: java.nio.file.attribute.FileAttribute boot_loader
+ 189: java.util.zip.ZipFile$CleanableResource boot_loader
+ 190: jdk.internal.module.ModuleBootstrap boot_loader
+ 191: java.time.LocalTime$1 boot_loader
+ 192: java.lang.ref.Cleaner$1 boot_loader
+ 193: sun.nio.ch.NativeThreadSet boot_loader
+ 194: java.util.Collections$EmptyIterator boot_loader
+ 195: java.util.Optional boot_loader
+ 196: java.lang.invoke.MethodHandleImpl$CountingWrapper boot_loader
+ 197: java.util.AbstractSet boot_loader
+ 198: java.lang.Module$EnableNativeAccess boot_loader
+ 199: java.util.Collections$EmptySet boot_loader
+ 200: java.nio.file.attribute.PosixFileAttributes boot_loader
+ 201: java.util.KeyValueHolder boot_loader
+ 202: java.lang.String boot_loader
+      - array: [Ljava.lang.String;
+ 203: java.time.format.DateTimeFormatterBuilder$StringLiteralPrinterParser boot_loader
+ 204: java.lang.invoke.DirectMethodHandle$Accessor boot_loader
+ 205: jdk.internal.jimage.ImageReader$SharedImageReader boot_loader
+ 206: java.util.regex.Pattern$Ques boot_loader
+ 207: jdk.internal.reflect.ConstructorAccessor boot_loader
+ 208: jdk.internal.loader.ArchivedClassLoaders boot_loader
+ 209: java.util.ImmutableCollections$SetN$SetNIterator boot_loader
+ 210: java.lang.ref.ReferenceQueue boot_loader
+ 211: java.util.stream.AbstractSpinedBuffer boot_loader
+ 212: java.util.concurrent.ThreadLocalRandom boot_loader
+ 213: java.lang.invoke.MethodHandleImpl boot_loader
+ 214: java.util.concurrent.atomic.AtomicReferenceArray boot_loader
+ 215: java.util.Random boot_loader
+ 216: jdk.internal.reflect.MethodHandleAccessorFactory$LazyStaticHolder boot_loader
+ 217: java.nio.Buffer boot_loader
+ 218: jdk.internal.loader.NativeLibraries$1 boot_loader
+ 219: jdk.internal.classfile.impl.UnboundAttribute$UnboundStackMapTableAttribute boot_loader
+ 220: java.lang.CharacterData00 boot_loader
+ 221: java.lang.classfile.ClassHierarchyResolver$1Factory boot_loader
+ 222: java.util.stream.StreamOpFlag$Type boot_loader
+      - array: [Ljava.util.stream.StreamOpFlag$Type;
+ 223: java.lang.invoke.StringConcatFactory$InlineHiddenClassStrategy$3$1 boot_loader
+ 224: java.lang.ModuleLayer$Controller boot_loader
+ 225: java.lang.Class$Atomic boot_loader
+ 226: jdk.internal.loader.BuiltinClassLoader$LoadedModule boot_loader
+ 227: java.lang.RuntimeException boot_loader
+ 228: jdk.internal.math.DoubleToDecimal boot_loader
+ 229: java.util.Spliterators$EmptySpliterator boot_loader
+ 230: jdk.internal.classfile.impl.SuperclassImpl boot_loader
+ 231: java.lang.LiveStackFrame boot_loader
+ 232: java.lang.classfile.attribute.StackMapFrameInfo$ObjectVerificationTypeInfo boot_loader
+ 233: java.io.Writer boot_loader
+ 234: java.lang.invoke.LambdaMetafactory boot_loader
+ 235: jdk.internal.perf.Perf boot_loader
+ 236: java.util.logging.Logger$SystemLoggerHelper boot_loader
+ 237: java.lang.reflect.Field boot_loader
+ 238: java.lang.invoke.BoundMethodHandle$Species_LL boot_loader
+ 239: java.lang.classfile.instruction.LabelTarget boot_loader
+ 240: jdk.internal.access.JavaIOFileDescriptorAccess boot_loader
+ 241: jdk.internal.classfile.impl.TemporaryConstantPool boot_loader
+ 242: java.util.IdentityHashMap$IdentityHashMapIterator boot_loader
+ 243: java.lang.invoke.InvokerBytecodeGenerator$ClassData boot_loader
+ 244: jdk.internal.misc.PreviewFeatures boot_loader
+ 245: jdk.internal.reflect.MethodHandleAccessorFactory boot_loader
+ 246: sun.util.locale.provider.LocaleProviderAdapter$Type boot_loader
+ 247: jdk.internal.classfile.impl.ClassHierarchyImpl$ClassLoadingClassHierarchyResolver boot_loader
+ 248: java.util.concurrent.ConcurrentHashMap$EntrySetView boot_loader
+ 249: java.util.random.RandomGenerator boot_loader
+ 250: java.util.HashMap$TreeNode boot_loader
+ 251: sun.util.spi.CalendarProvider boot_loader
+ 252: java.util.concurrent.ConcurrentNavigableMap boot_loader
+ 253: java.lang.invoke.InnerClassLambdaMetafactory$1 boot_loader
+ 254: jdk.internal.classfile.impl.BoundAttribute boot_loader
+ 255: jdk.internal.logger.BootstrapLogger$DetectBackend boot_loader
+ 256: sun.util.locale.InternalLocaleBuilder boot_loader
+ 257: java.lang.classfile.AttributeMapper$AttributeStability boot_loader
+      - array: [Ljava.lang.classfile.AttributeMapper$AttributeStability;
+ 258: java.lang.invoke.VarHandleByteArrayAsDoubles$ByteArrayViewVarHandle boot_loader
+ 259: java.util.IdentityHashMap$Values boot_loader
+ 260: java.lang.reflect.Modifier boot_loader
+ 261: java.util.ListIterator boot_loader
+ 262: jdk.internal.classfile.impl.UnboundAttribute$UnboundSourceFileAttribute boot_loader
+ 263: java.lang.Cloneable boot_loader
+      - array: [Ljava.lang.Cloneable;
+ 264: sun.util.locale.provider.LocaleResources$ResourceReference boot_loader
+ 265: sun.nio.fs.UnixFileAttributeViews$Basic boot_loader
+ 266: java.util.concurrent.locks.ReentrantLock$Sync boot_loader
+ 267: jdk.internal.classfile.impl.MethodImpl boot_loader
+ 268: java.util.ImmutableCollections boot_loader
+ 269: java.lang.invoke.InvokerBytecodeGenerator boot_loader
+ 270: java.util.regex.Pattern$TreeInfo boot_loader
+ 271: java.util.logging.LogManager$Cleaner boot_loader
+ 272: java.text.NumberFormat boot_loader
+ 273: java.lang.ArithmeticException boot_loader
+ 274: java.util.concurrent.ForkJoinPool$ForkJoinWorkerThreadFactory boot_loader
+ 275: java.lang.invoke.StringConcatFactory$InlineHiddenClassStrategy$4 boot_loader
+ 276: sun.util.resources.Bundles$Strategy boot_loader
+ 277: java.lang.invoke.StringConcatFactory$InlineHiddenClassStrategy boot_loader
+ 278: java.lang.PublicMethods$MethodList boot_loader
+ 279: jdk.internal.loader.NativeLibraries$NativeLibraryContext$1 boot_loader
+ 280: java.util.stream.DistinctOps boot_loader
+ 281: java.util.ArrayList$ArrayListSpliterator boot_loader
+ 282: java.lang.Module boot_loader
+      - array: [Ljava.lang.Module;
+ 283: java.text.StringBufFactory$StringBuilderImpl boot_loader
+ 284: java.util.regex.Pattern$Dollar boot_loader
+ 285: java.util.RandomAccess boot_loader
+ 286: sun.util.cldr.CLDRLocaleProviderAdapter boot_loader
+ 287: java.io.OutputStream boot_loader
+ 288: jdk.internal.loader.ClassLoaders boot_loader
+ 289: java.lang.String$CaseInsensitiveComparator boot_loader
+ 290: jdk.internal.loader.URLClassPath$JarLoader boot_loader
+ 291: jdk.internal.misc.Blocker boot_loader
+ 292: jdk.internal.classfile.impl.Util$1WithCodeMethodHandler boot_loader
+ 293: java.util.ListResourceBundle boot_loader
+ 294: java.security.PermissionCollection boot_loader
+ 295: java.lang.StringConcatHelper boot_loader
+ 296: java.lang.invoke.Invokers boot_loader
+ 297: jdk.internal.misc.VM boot_loader
+ 298: java.util.concurrent.ConcurrentSkipListMap$Node boot_loader
+ 299: sun.nio.fs.UnixNativeDispatcher boot_loader
+ 300: java.lang.ModuleLayer boot_loader
+ 301: java.util.stream.Collectors boot_loader
+ 302: java.util.HashMap$EntryIterator boot_loader
+ 303: sun.nio.fs.NativeBuffer boot_loader
+      - array: [Lsun.nio.fs.NativeBuffer;
+ 304: java.util.concurrent.TimeUnit boot_loader
+ 305: java.lang.classfile.ClassElement boot_loader
+ 306: sun.nio.cs.UTF_32BE boot_loader
+ 307: java.util.concurrent.locks.ReentrantLock$NonfairSync boot_loader
+ 308: jdk.internal.reflect.ConstantPool boot_loader
+ 309: java.lang.module.ResolvedModule boot_loader
+      - array: [Ljava.lang.module.ResolvedModule;
+ 310: java.lang.invoke.BoundMethodHandle$Species_DL boot_loader
+ 311: jdk.internal.constant.DirectMethodHandleDescImpl$1 boot_loader
+ 312: java.util.zip.Checksum$1 boot_loader
+ 313: jdk.internal.classfile.impl.RawBytecodeHelper$CodeRange boot_loader
+ 314: java.io.DataInputStream boot_loader
+ 315: sun.util.resources.Bundles$BundleReference boot_loader
+ 316: java.time.temporal.JulianFields boot_loader
+ 317: java.io.RandomAccessFile boot_loader
+ 318: java.util.stream.ReferencePipeline$2 boot_loader
+ 319: sun.reflect.annotation.AnnotationParser boot_loader
+ 320: java.util.concurrent.ConcurrentHashMap$ValuesView boot_loader
+ 321: java.security.Security$SecPropLoader boot_loader
+ 322: java.util.SequencedSet boot_loader
+ 323: java.util.stream.ReduceOps$ReduceOp boot_loader
+ 324: java.io.Serializable boot_loader
+      - array: [Ljava.io.Serializable;
+ 325: sun.util.calendar.ZoneInfoFile$ZoneOffsetTransitionRule boot_loader
+ 326: sun.security.util.Debug boot_loader
+ 327: sun.nio.fs.UnixPath boot_loader
+ 328: jdk.internal.classfile.impl.AbstractPoolEntry$AbstractMemberRefEntry boot_loader
+ 329: java.time.chrono.ChronoPeriod boot_loader
+ 330: java.util.ServiceLoader$ModuleServicesLookupIterator boot_loader
+ 331: java.nio.file.FileSystems$DefaultFileSystemHolder boot_loader
+ 332: java.lang.BootstrapMethodError boot_loader
+ 333: java.lang.Thread$ThreadIdentifiers boot_loader
+ 334: java.util.HashMap boot_loader
+ 335: java.text.DateFormat$Field boot_loader
+ 336: sun.nio.cs.ISO_8859_1 boot_loader
+ 337: sun.nio.fs.UnixFileKey boot_loader
+ 338: sun.util.locale.provider.LocaleServiceProviderPool$LocalizedObjectGetter boot_loader
+ 339: java.util.ImmutableCollections$AbstractImmutableMap boot_loader
+ 340: java.util.concurrent.locks.AbstractOwnableSynchronizer boot_loader
+ 341: java.lang.invoke.MethodHandles$Lookup$ClassDefiner boot_loader
+ 342: sun.nio.fs.Util boot_loader
+ 343: java.util.Dictionary boot_loader
+ 344: sun.util.cldr.CLDRBaseLocaleDataMetaInfo boot_loader
+ 345: jdk.internal.vm.StackChunk boot_loader
+ 346: java.lang.CompoundEnumeration boot_loader
+ 347: java.util.StringJoiner boot_loader
+ 348: sun.nio.ch.FileDispatcherImpl boot_loader
+ 349: java.util.stream.TerminalSink boot_loader
+ 350: java.nio.channels.GatheringByteChannel boot_loader
+ 351: java.util.stream.StreamOpFlag boot_loader
+      - array: [Ljava.util.stream.StreamOpFlag;
+ 352: java.util.Formatter$Flags boot_loader
+ 353: java.lang.CharSequence boot_loader
+      - array: [Ljava.lang.CharSequence;
+ 354: java.lang.invoke.BoundMethodHandle$Species_IL boot_loader
+ 355: java.util.ImmutableCollections$Access$1 boot_loader
+ 356: java.nio.file.Watchable boot_loader
+ 357: java.lang.module.Resolver boot_loader
+ 358: java.lang.invoke.VarHandleByteArrayAsShorts$ByteArrayViewVarHandle boot_loader
+ 359: java.lang.classfile.ClassModel boot_loader
+ 360: sun.util.calendar.Gregorian boot_loader
+ 361: java.time.format.DateTimeFormatterBuilder$2 boot_loader
+ 362: jdk.internal.module.ModuleReferences$1 boot_loader
+ 363: java.lang.StringLatin1 boot_loader
+ 364: java.util.concurrent.atomic.LongAdder boot_loader
+ 365: sun.util.locale.provider.JRELocaleProviderAdapter boot_loader
+ 366: java.time.format.DateTimeFormatterBuilder$CompositePrinterParser boot_loader
+ 367: java.util.function.DoublePredicate boot_loader
+ 368: jdk.internal.classfile.impl.InterfacesImpl boot_loader
+ 369: java.time.zone.ZoneRules boot_loader
+ 370: java.nio.file.spi.FileSystemProvider boot_loader
+ 371: java.lang.invoke.BoundMethodHandle$Species_L boot_loader
+ 372: java.util.regex.Pattern$Qtype boot_loader
+ 373: jdk.internal.misc.Unsafe boot_loader
+ 374: jdk.internal.module.ModuleTarget boot_loader
+      - array: [Ljdk.internal.module.ModuleTarget;
+ 375: jdk.internal.misc.MethodFinder boot_loader
+ 376: jdk.internal.jimage.BasicImageReader$1 boot_loader
+ 377: java.time.format.DateTimeFormatterBuilder$NumberPrinterParser boot_loader
+ 378: java.lang.invoke.MethodHandleImpl$CasesHolder boot_loader
+ 379: java.lang.ArrayIndexOutOfBoundsException boot_loader
+ 380: java.net.spi.InetAddressResolver boot_loader
+ 381: jdk.internal.ref.CleanerFactory boot_loader
+ 382: java.util.Date boot_loader
+ 383: java.util.regex.Pattern$CharProperty boot_loader
+ 384: java.lang.invoke.SimpleMethodHandle boot_loader
+ 385: java.lang.invoke.LambdaFormEditor$1 boot_loader
+ 386: java.util.concurrent.ThreadFactory boot_loader
+ 387: java.lang.module.ModuleFinder$2 boot_loader
+ 388: java.time.temporal.IsoFields$Field$4 boot_loader
+ 389: jdk.internal.classfile.impl.StackMapGenerator$1 boot_loader
+ 390: java.util.stream.StreamOpFlag$MaskBuilder boot_loader
+ 391: java.util.concurrent.atomic.AtomicLong boot_loader
+ 392: java.lang.ClassValue$Entry boot_loader
+ 393: jdk.internal.vm.vector.VectorSupport$VectorMask boot_loader
+ 394: java.lang.invoke.VarHandleByteArrayAsShorts$ArrayHandle boot_loader
+ 395: java.util.stream.PipelineHelper boot_loader
+ 396: java.util.function.IntFunction boot_loader
+ 397: java.lang.invoke.LambdaForm$Name boot_loader
+      - array: [Ljava.lang.invoke.LambdaForm$Name;
+      - array: [[Ljava.lang.invoke.LambdaForm$Name;
+ 398: sun.util.logging.internal.LoggingProviderImpl boot_loader
+ 399: java.util.RegularEnumSet boot_loader
+ 400: java.io.Flushable boot_loader
+ 401: jdk.internal.vm.vector.VectorSupport boot_loader
+ 402: sun.nio.ch.DirectBuffer boot_loader
+ 403: java.util.Locale$LocaleCache boot_loader
+ 404: jdk.internal.module.ModulePath$Patterns boot_loader
+ 405: java.util.function.IntConsumer boot_loader
+ 406: java.lang.StackTraceElement boot_loader
+      - array: [Ljava.lang.StackTraceElement;
+ 407: jdk.internal.foreign.abi.VMStorage boot_loader
+ 408: java.nio.Buffer$2 boot_loader
+ 409: java.security.Principal boot_loader
+      - array: [Ljava.security.Principal;
+ 410: jdk.internal.classfile.impl.UnboundAttribute boot_loader
+ 411: jdk.internal.classfile.impl.FieldImpl boot_loader
+ 412: jdk.internal.classfile.impl.LabelContext boot_loader
+ 413: sun.invoke.util.VerifyAccess boot_loader
+ 414: java.util.ArrayDeque boot_loader
+ 415: sun.nio.ch.Interruptible boot_loader
+ 416: java.util.stream.Collector$Characteristics boot_loader
+ 417: java.time.format.DateTimeFormatterBuilder$1 boot_loader
+ 418: jdk.internal.module.ModuleReferences$2 boot_loader
+ 419: jdk.internal.loader.AbstractClassLoaderValue$Memoizer boot_loader
+ 420: java.util.concurrent.ConcurrentHashMap$CounterCell boot_loader
+ 421: java.time.Period boot_loader
+ 422: java.lang.module.Configuration boot_loader
+ 423: java.util.stream.Collectors$1PairBox boot_loader
+ 424: java.lang.constant.ClassDesc boot_loader
+      - array: [Ljava.lang.constant.ClassDesc;
+ 425: java.text.DecimalFormatSymbols boot_loader
+ 426: java.net.InetAddress$PlatformResolver boot_loader
+ 427: java.lang.invoke.MethodHandles$Lookup boot_loader
+ 428: java.time.format.DateTimeFormatterBuilder$SettingsParser boot_loader
+ 429: java.util.Map$Entry boot_loader
+      - array: [Ljava.util.Map$Entry;
+ 430: jdk.internal.util.ReferencedKeyMap$1 boot_loader
+ 431: java.security.Security boot_loader
+ 432: java.lang.LinkageError boot_loader
+ 433: sun.nio.fs.NativeBuffer$Deallocator boot_loader
+ 434: sun.nio.fs.DynamicFileAttributeView boot_loader
+ 435: java.util.Collections$1 boot_loader
+ 436: java.lang.invoke.BoundMethodHandle$Species_LLL boot_loader
+ 437: sun.invoke.util.ValueConversions boot_loader
+ 438: java.util.SortedMap boot_loader
+ 439: java.util.zip.Checksum boot_loader
+ 440: java.nio.file.attribute.FileTime boot_loader
+ 441: jdk.internal.classfile.impl.StackMapDecoder$ObjectVerificationTypeInfoImpl boot_loader
+ 442: java.lang.classfile.instruction.LocalVariable boot_loader
+      - array: [Ljava.lang.classfile.instruction.LocalVariable;
+ 443: java.lang.invoke.BoundMethodHandle$Species_LLLLL boot_loader
+ 444: java.util.jar.JarVerifier boot_loader
+ 445: jdk.internal.foreign.abi.ABIDescriptor boot_loader
+ 446: sun.util.logging.internal.LoggingProviderImpl$LogManagerAccess boot_loader
+ 447: sun.util.resources.LocaleData$LocaleDataStrategy boot_loader
+ 448: java.lang.StackWalker boot_loader
+ 449: java.net.spi.InetAddressResolver$LookupPolicy boot_loader
+ 450: java.util.spi.CalendarDataProvider boot_loader
+ 451: java.text.spi.DateFormatSymbolsProvider boot_loader
+ 452: java.util.logging.Logger boot_loader
+ 453: jdk.internal.vm.annotation.Stable boot_loader
+ 454: sun.util.calendar.BaseCalendar$Date boot_loader
+ 455: java.util.concurrent.ConcurrentHashMap$Segment boot_loader
+      - array: [Ljava.util.concurrent.ConcurrentHashMap$Segment;
+ 456: java.lang.IllegalMonitorStateException boot_loader
+ 457: sun.nio.cs.StandardCharsets boot_loader
+ 458: java.lang.classfile.CodeBuilder boot_loader
+ 459: jdk.internal.jimage.ImageReaderFactory boot_loader
+ 460: sun.util.locale.provider.DecimalFormatSymbolsProviderImpl boot_loader
+ 461: jdk.internal.ref.CleanerImpl boot_loader
+ 462: java.util.jar.Attributes$Name boot_loader
+ 463: sun.nio.cs.Unicode boot_loader
+ 464: sun.util.locale.provider.CalendarDataUtility boot_loader
+ 465: java.nio.HeapByteBuffer boot_loader
+ 466: java.lang.invoke.InvokerBytecodeGenerator$8 boot_loader
+ 467: java.util.Collections$EmptyMap boot_loader
+ 468: java.lang.Boolean boot_loader
+ 469: java.util.Collections$UnmodifiableSet boot_loader
+ 470: jdk.internal.access.JavaLangInvokeAccess boot_loader
+ 471: java.util.logging.Level$KnownLevel boot_loader
+ 472: java.io.File boot_loader
+ 473: java.lang.classfile.BufWriter boot_loader
+ 474: java.util.Properties boot_loader
+ 475: jdk.internal.classfile.impl.AbstractPoolEntry$AbstractNamedEntry boot_loader
+ 476: java.lang.StringConcatHelper$StringConcatBase boot_loader
+ 477: java.net.DefaultInterface boot_loader
+ 478: java.lang.classfile.constantpool.MethodRefEntry boot_loader
+ 479: java.lang.invoke.VarHandle$AccessMode boot_loader
+      - array: [Ljava.lang.invoke.VarHandle$AccessMode;
+ 480: jdk.internal.classfile.impl.StackMapGenerator$Type boot_loader
+      - array: [Ljdk.internal.classfile.impl.StackMapGenerator$Type;
+ 481: java.lang.reflect.Constructor boot_loader
+      - array: [Ljava.lang.reflect.Constructor;
+ 482: jdk.internal.classfile.impl.DirectClassBuilder boot_loader
+ 483: java.lang.module.ModuleDescriptor$Builder boot_loader
+ 484: jdk.internal.access.JavaNetURLAccess boot_loader
+ 485: java.lang.invoke.VarHandleByteArrayAsChars$ByteArrayViewVarHandle boot_loader
+ 486: jdk.internal.module.Checks boot_loader
+ 487: jdk.internal.classfile.impl.AbstractPoolEntry$AbstractRefEntry boot_loader
+ 488: jdk.internal.ref.CleanerImpl$PhantomCleanableRef boot_loader
+ 489: jdk.internal.access.JavaUtilConcurrentFJPAccess boot_loader
+ 490: java.lang.AutoCloseable boot_loader
+      - array: [Ljava.lang.AutoCloseable;
+ 491: java.util.logging.LogManager$LoggerContext boot_loader
+ 492: java.lang.invoke.MutableCallSite boot_loader
+ 493: sun.nio.fs.UnixFileStoreAttributes boot_loader
+ 494: java.nio.channels.ScatteringByteChannel boot_loader
+ 495: java.util.stream.ReferencePipeline$Head boot_loader
+ 496: sun.nio.cs.UTF_32 boot_loader
+ 497: jdk.internal.reflect.FieldAccessorImpl boot_loader
+ 498: java.util.stream.Nodes$EmptyNode boot_loader
+ 499: java.util.stream.TerminalOp boot_loader
+ 500: java.util.concurrent.ForkJoinPool$WorkQueue boot_loader
+ 501: java.time.chrono.IsoChronology boot_loader
+ 502: java.lang.Thread boot_loader
+ 503: java.util.LinkedHashMap$LinkedHashIterator boot_loader
+ 504: java.net.Inet6AddressImpl boot_loader
+ 505: sun.text.resources.cldr.FormatData boot_loader
+ 506: java.nio.file.OpenOption boot_loader
+      - array: [Ljava.nio.file.OpenOption;
+ 507: java.util.AbstractMap boot_loader
+ 508: java.lang.VersionProps boot_loader
+ 509: java.util.function.ToIntFunction boot_loader
+ 510: java.util.LongSummaryStatistics boot_loader
+ 511: java.util.AbstractCollection boot_loader
+ 512: java.time.ZoneOffset boot_loader
+ 513: java.util.ResourceBundle$Control boot_loader
+ 514: sun.nio.fs.NativeBuffers boot_loader
+ 515: java.util.stream.Sink boot_loader
+ 516: java.lang.InternalError boot_loader
+ 517: java.util.concurrent.CountDownLatch boot_loader
+ 518: java.lang.classfile.constantpool.MemberRefEntry boot_loader
+ 519: java.nio.Bits$1 boot_loader
+ 520: java.util.IdentityHashMap$KeySet boot_loader
+ 521: java.util.Formatter$FormatString boot_loader
+ 522: java.time.temporal.TemporalField boot_loader
+ 523: java.util.stream.Collector boot_loader
+ 524: java.util.concurrent.ExecutorService boot_loader
+ 525: java.util.ImmutableCollections$AbstractImmutableCollection boot_loader
+ 526: java.lang.classfile.CustomAttribute boot_loader
+ 527: java.net.InterfaceAddress boot_loader
+ 528: java.lang.reflect.AccessFlag$Location boot_loader
+      - array: [Ljava.lang.reflect.AccessFlag$Location;
+ 529: java.lang.invoke.MethodHandle boot_loader
+      - array: [Ljava.lang.invoke.MethodHandle;
+ 530: java.lang.reflect.Executable boot_loader
+      - array: [Ljava.lang.reflect.Executable;
+ 531: java.lang.Readable boot_loader
+ 532: java.time.temporal.TemporalQueries$7 boot_loader
+ 533: java.util.jar.Manifest$FastInputStream boot_loader
+ 534: jdk.internal.module.SystemModuleFinders$1 boot_loader
+ 535: java.util.function.BiConsumer boot_loader
+ 536: jdk.internal.module.ModulePath boot_loader
+ 537: java.util.ServiceLoader boot_loader
+ 538: sun.nio.cs.US_ASCII$Encoder boot_loader
+ 539: java.util.ResourceBundle$2 boot_loader
+ 540: java.util.stream.ReferencePipeline$3 boot_loader
+ 541: java.net.URL$1 boot_loader
+ 542: java.lang.Runnable boot_loader
+ 543: java.lang.invoke.DirectMethodHandle$Interface boot_loader
+ 544: java.lang.invoke.MethodHandleImpl$AsVarargsCollector boot_loader
+ 545: java.lang.invoke.VarHandleReferences$FieldInstanceReadWrite boot_loader
+ 546: java.lang.invoke.MethodHandleImpl$Makers$3 boot_loader
+ 547: java.util.regex.Pattern$SliceNode boot_loader
+ 548: java.util.Arrays boot_loader
+ 549: java.util.GregorianCalendar boot_loader
+ 550: java.lang.ClassFrameInfo boot_loader
+ 551: java.lang.invoke.StringConcatFactory$InlineHiddenClassStrategy$MethodHandlePair boot_loader
+ 552: java.util.ArrayList boot_loader
+ 553: java.nio.channels.SeekableByteChannel boot_loader
+ 554: jdk.internal.util.ReferencedKeySet boot_loader
+ 555: java.util.regex.MatchResult boot_loader
+ 556: java.lang.Runtime boot_loader
+ 557: sun.util.locale.StringTokenIterator boot_loader
+ 558: java.util.ImmutableCollections$List12 boot_loader
+ 559: jdk.internal.constant.MethodTypeDescImpl boot_loader
+ 560: jdk.internal.jimage.ImageReader boot_loader
+ 561: jdk.internal.reflect.ConstructorAccessorImpl boot_loader
+ 562: jdk.internal.module.DefaultRoots boot_loader
+ 563: java.util.stream.Nodes$EmptyNode$OfInt boot_loader
+ 564: jdk.internal.misc.CDS boot_loader
+ 565: java.util.concurrent.locks.AbstractQueuedSynchronizer boot_loader
+ 566: java.lang.invoke.StringConcatFactory$InlineHiddenClassStrategy$3 boot_loader
+ 567: java.time.temporal.TemporalQueries$6 boot_loader
+ 568: java.lang.runtime.SwitchBootstraps boot_loader
+ 569: jdk.internal.vm.ContinuationSupport boot_loader
+ 570: java.lang.ArrayStoreException boot_loader
+ 571: sun.util.logging.PlatformLogger$ConfigurableBridge boot_loader
+ 572: java.util.regex.Matcher boot_loader
+ 573: java.util.function.IntPredicate boot_loader
+ 574: sun.util.locale.LanguageTag boot_loader
+ 575: java.text.DigitList boot_loader
+ 576: java.lang.Runtime$Version boot_loader
+ 577: sun.util.locale.provider.LocaleServiceProviderPool boot_loader
+ 578: jdk.internal.foreign.abi.UpcallLinker$CallRegs boot_loader
+ 579: jdk.internal.classfile.impl.BytecodeHelpers$1 boot_loader
+ 580: java.lang.reflect.Method boot_loader
+      - array: [Ljava.lang.reflect.Method;
+ 581: jdk.internal.loader.ClassLoaders$PlatformClassLoader boot_loader
+ 582: java.lang.invoke.StringConcatFactory$InlineHiddenClassStrategy$1 boot_loader
+ 583: java.util.Spliterators$1Adapter boot_loader
+ 584: java.time.format.DateTimeFormatterBuilder$OffsetIdPrinterParser boot_loader
+ 585: java.lang.invoke.BoundMethodHandle$Specializer$Factory boot_loader
+ 586: jdk.internal.jimage.BasicImageReader boot_loader
+ 587: java.nio.channels.SelectableChannel boot_loader
+ 588: jdk.internal.module.ServicesCatalog boot_loader
+      - array: [Ljdk.internal.module.ServicesCatalog;
+ 589: java.time.temporal.IsoFields$Field$3 boot_loader
+ 590: jdk.internal.classfile.impl.AbstractPoolEntry$NameAndTypeEntryImpl boot_loader
+ 591: java.util.concurrent.ConcurrentSkipListMap$Index boot_loader
+ 592: java.lang.invoke.LambdaFormEditor$TransformKey boot_loader
+ 593: java.lang.classfile.constantpool.InterfaceMethodRefEntry boot_loader
+ 594: java.util.ImmutableCollections$MapN$1 boot_loader
+ 595: java.lang.invoke.CallSite boot_loader
+ 596: java.lang.classfile.Label boot_loader
+ 597: java.lang.classfile.Superclass boot_loader
+ 598: java.util.Collections$EmptyList boot_loader
+ 599: java.time.format.DateTimeFormatterBuilder$ZoneIdPrinterParser boot_loader
+ 600: jdk.internal.loader.NativeLibraries$LibraryPaths boot_loader
+ 601: java.lang.classfile.Attribute boot_loader
+      - array: [Ljava.lang.classfile.Attribute;
+ 602: jdk.internal.module.ModuleLoaderMap$Modules boot_loader
+ 603: java.nio.charset.CoderResult boot_loader
+ 604: sun.util.locale.provider.LocaleResources boot_loader
+ 605: jdk.internal.classfile.impl.ClassFileImpl boot_loader
+ 606: java.io.DataInput boot_loader
+ 607: java.util.stream.Node$OfLong boot_loader
+ 608: java.util.jar.JarFile$JarFileEntry boot_loader
+ 609: java.nio.DirectIntBufferU boot_loader
+ 610: java.lang.ApplicationShutdownHooks$1 boot_loader
+ 611: jdk.internal.classfile.impl.ClassHierarchyImpl$ClassLoadingClassHierarchyResolver$1 boot_loader
+ 612: sun.nio.cs.ThreadLocalCoders$1 boot_loader
+ 613: java.util.stream.Node$Builder boot_loader
+ 614: java.util.HashMap$ValueSpliterator boot_loader
+ 615: java.lang.StringUTF16 boot_loader
+ 616: java.lang.ref.FinalReference boot_loader
+ 617: java.lang.invoke.MethodHandleInfo boot_loader
+ 618: jdk.internal.vm.StackableScope boot_loader
+ 619: java.lang.Module$ReflectionData boot_loader
+ 620: java.util.Hashtable$Entry boot_loader
+      - array: [Ljava.util.Hashtable$Entry;
+ 621: java.net.URL$DefaultFactory boot_loader
+ 622: java.lang.reflect.RecordComponent boot_loader
+ 623: java.lang.ref.Cleaner$Cleanable boot_loader
+      - array: [Ljava.lang.ref.Cleaner$Cleanable;
+ 624: java.time.temporal.ValueRange boot_loader
+ 625: java.lang.module.ModuleFinder boot_loader
+ 626: java.util.function.Function boot_loader
+ 627: jdk.internal.classfile.impl.ClassHierarchyImpl$CachedClassHierarchyResolver boot_loader
+ 628: java.lang.classfile.FieldElement boot_loader
+ 629: java.util.Spliterators boot_loader
+ 630: java.time.format.SignStyle boot_loader
+ 631: java.lang.ref.ReferenceQueue$Lock boot_loader
+ 632: java.util.logging.LogManager$VisitedLoggers boot_loader
+ 633: java.lang.constant.DirectMethodHandleDesc$Kind boot_loader
+      - array: [Ljava.lang.constant.DirectMethodHandleDesc$Kind;
+ 634: java.util.concurrent.CountedCompleter boot_loader
+ 635: java.nio.channels.Channels boot_loader
+ 636: java.util.concurrent.ForkJoinTask$Aux boot_loader
+ 637: sun.nio.cs.UTF_8$Encoder boot_loader
+ 638: java.util.stream.ForEachOps boot_loader
+ 639: java.lang.module.ModuleDescriptor$Provides boot_loader
+      - array: [Ljava.lang.module.ModuleDescriptor$Provides;
+ 640: java.util.HashMap$KeyIterator boot_loader
+ 641: java.lang.System$LoggerFinder boot_loader
+ 642: jdk.internal.loader.BuiltinClassLoader$2 boot_loader
+ 643: java.nio.file.Path boot_loader
+ 644: jdk.internal.util.SystemProps$Raw boot_loader
+ 645: java.util.zip.ZipCoder boot_loader
+ 646: java.util.Properties$EntrySet boot_loader
+ 647: java.util.Calendar$Builder boot_loader
+ 648: java.lang.module.ModuleDescriptor$Opens boot_loader
+      - array: [Ljava.lang.module.ModuleDescriptor$Opens;
+ 649: java.lang.constant.DynamicConstantDesc$AnonymousDynamicConstantDesc boot_loader
+ 650: java.util.regex.Pattern$Curly boot_loader
+ 651: java.util.AbstractMap$1 boot_loader
+ 652: java.util.IntSummaryStatistics boot_loader
+ 653: java.util.regex.ASCII boot_loader
+ 654: jdk.internal.ref.CleanerImpl$CleanableList$Node boot_loader
+ 655: java.lang.module.ModuleDescriptor$Version boot_loader
+ 656: java.lang.reflect.Type boot_loader
+      - array: [Ljava.lang.reflect.Type;
+ 657: java.util.Locale$Category boot_loader
+ 658: jdk.internal.util.ClassFileDumper boot_loader
+ 659: java.util.concurrent.ConcurrentHashMap$CollectionView boot_loader
+ 660: java.text.SimpleDateFormat boot_loader
+ 661: java.lang.classfile.constantpool.AnnotationConstantValueEntry boot_loader
+ 662: java.lang.ThreadLocal$ThreadLocalMap$Entry boot_loader
+      - array: [Ljava.lang.ThreadLocal$ThreadLocalMap$Entry;
+ 663: java.util.AbstractMap$KeyIterator boot_loader
+ 664: java.util.logging.Logger$ConfigurationData boot_loader
+ 665: java.lang.invoke.InnerClassLambdaMetafactory$3 boot_loader
+ 666: java.lang.invoke.ClassSpecializer$1 boot_loader
+ 667: java.lang.classfile.constantpool.FieldRefEntry boot_loader
+ 668: java.util.zip.ZipFile$Source$End boot_loader
+ 669: java.lang.invoke.VolatileCallSite boot_loader
+ 670: java.util.TreeMap boot_loader
+ 671: sun.nio.cs.UTF_16LE boot_loader
+ 672: jdk.internal.classfile.impl.DirectCodeBuilder$8 boot_loader
+ 673: java.util.Formatter boot_loader
+ 674: java.lang.invoke.VarHandleBooleans$FieldInstanceReadWrite boot_loader
+ 675: java.util.LinkedHashMap$LinkedEntryIterator boot_loader
+ 676: jdk.internal.math.FDBigInteger boot_loader
+      - array: [Ljdk.internal.math.FDBigInteger;
+ 677: java.lang.ref.ReferenceQueue$Null boot_loader
+ 678: java.lang.System$1 boot_loader
+ 679: java.lang.invoke.MethodHandles boot_loader
+ 680: java.util.stream.Nodes$EmptyNode$OfRef boot_loader
+ 681: java.lang.IncompatibleClassChangeError boot_loader
+ 682: jdk.internal.misc.UnsafeConstants boot_loader
+ 683: java.util.concurrent.atomic.Striped64$Cell boot_loader
+ 684: java.lang.classfile.constantpool.Utf8Entry boot_loader
+ 685: java.util.HashMap$HashIterator boot_loader
+ 686: java.nio.file.attribute.BasicFileAttributeView boot_loader
+ 687: java.nio.channels.NetworkChannel boot_loader
+ 688: java.lang.classfile.instruction.CharacterRange boot_loader
+      - array: [Ljava.lang.classfile.instruction.CharacterRange;
+ 689: jdk.internal.math.MathUtils boot_loader
+ 690: java.util.Arrays$LegacyMergeSort boot_loader
+ 691: jdk.internal.reflect.DirectConstructorHandleAccessor$NativeAccessor boot_loader
+ 692: sun.nio.fs.UnixFileModeAttribute boot_loader
+ 693: java.util.Calendar boot_loader
+ 694: java.lang.CharacterData boot_loader
+ 695: java.lang.ReflectiveOperationException boot_loader
+ 696: jdk.internal.misc.InnocuousThread boot_loader
+ 697: java.lang.invoke.VarHandleByteArrayAsChars$ArrayHandle boot_loader
+ 698: java.util.stream.FindOps boot_loader
+ 699: java.util.concurrent.ConcurrentHashMap boot_loader
+ 700: java.lang.ref.Reference$1 boot_loader
+ 701: java.lang.classfile.constantpool.NameAndTypeEntry boot_loader
+ 702: java.time.ZoneRegion boot_loader
+ 703: java.lang.classfile.Interfaces boot_loader
+ 704: java.util.stream.Nodes$EmptyNode$OfLong boot_loader
+ 705: java.io.UnixFileSystem boot_loader
+ 706: java.text.spi.DateFormatProvider boot_loader
+ 707: java.lang.StackOverflowError boot_loader
+ 708: java.util.Spliterators$AbstractSpliterator boot_loader
+ 709: jdk.internal.vm.SharedThreadContainer boot_loader
+ 710: jdk.internal.loader.URLClassPath$Loader boot_loader
+ 711: jdk.internal.classfile.impl.ClassHierarchyImpl$CachedClassHierarchyResolver$1 boot_loader
+ 712: java.lang.reflect.AccessibleObject boot_loader
+      - array: [Ljava.lang.reflect.AccessibleObject;
+ 713: java.lang.LiveStackFrameInfo boot_loader
+ 714: java.lang.ref.PhantomReference boot_loader
+      - array: [Ljava.lang.ref.PhantomReference;
+ 715: java.util.function.BinaryOperator boot_loader
+ 716: jdk.internal.constant.ArrayClassDescImpl boot_loader
+ 717: jdk.internal.classfile.impl.AbstractPoolEntry$AbstractRefsEntry boot_loader
+ 718: java.lang.constant.DynamicConstantDesc boot_loader
+ 719: java.io.FilterOutputStream boot_loader
+ 720: java.util.stream.Node$OfInt boot_loader
+ 721: java.net.URI boot_loader
+ 722: java.util.function.LongPredicate boot_loader
+ 723: java.time.zone.ZoneOffsetTransitionRule boot_loader
+ 724: java.lang.invoke.ConstantCallSite boot_loader
+ 725: sun.nio.ch.Util$1 boot_loader
+ 726: sun.util.resources.Bundles$CacheKeyReference boot_loader
+ 727: java.time.format.DateTimeFormatterBuilder$InstantPrinterParser boot_loader
+ 728: sun.nio.cs.UTF_16 boot_loader
+ 729: java.util.TreeMap$Entry boot_loader
+ 730: sun.nio.ch.ChannelInputStream boot_loader
+ 731: java.lang.classfile.BootstrapMethodEntry boot_loader
+      - array: [Ljava.lang.classfile.BootstrapMethodEntry;
+ 732: java.util.Collections$EmptyEnumeration boot_loader
+ 733: java.util.Collections$SingletonSet boot_loader
+ 734: sun.nio.ByteBuffered boot_loader
+ 735: java.lang.classfile.AttributedElement boot_loader
+ 736: jdk.internal.jimage.ImageStrings boot_loader
+ 737: jdk.internal.util.ModifiedUtf boot_loader
+ 738: java.net.Inet6Address boot_loader
+ 739: java.lang.Integer boot_loader
+      - array: [Ljava.lang.Integer;
+ 740: jdk.internal.classfile.impl.AbstractAttributeMapper$StackMapTableMapper boot_loader
+ 741: java.util.concurrent.ConcurrentHashMap$Node boot_loader
+      - array: [Ljava.util.concurrent.ConcurrentHashMap$Node;
+ 742: java.lang.PublicMethods$Key boot_loader
+ 743: java.lang.invoke.StringConcatFactory$InlineHiddenClassStrategy$3$4 boot_loader
+ 744: sun.nio.fs.MacOSXFileSystemProvider boot_loader
+ 745: jdk.internal.reflect.FieldAccessor boot_loader
+ 746: java.util.concurrent.CopyOnWriteArrayList boot_loader
+ 747: java.lang.NullPointerException boot_loader
+ 748: jdk.internal.module.SystemModules$default boot_loader
+ 749: java.nio.MappedByteBuffer boot_loader
+ 750: java.util.ResourceBundle$SingleFormatControl boot_loader
+ 751: java.lang.invoke.ClassSpecializer boot_loader
+ 752: java.util.TreeMap$EntrySet boot_loader
+ 753: java.lang.reflect.AccessFlag boot_loader
+      - array: [Ljava.lang.reflect.AccessFlag;
+ 754: java.util.IdentityHashMap boot_loader
+ 755: jdk.internal.jimage.decompressor.Decompressor boot_loader
+ 756: jdk.internal.vm.ContinuationScope boot_loader
+ 757: java.util.stream.FindOps$FindOp boot_loader
+ 758: java.util.stream.MatchOps$BooleanTerminalSink boot_loader
+ 759: java.lang.classfile.constantpool.ClassEntry boot_loader
+      - array: [Ljava.lang.classfile.constantpool.ClassEntry;
+ 760: sun.nio.fs.UnixFileAttributes boot_loader
+ 761: sun.nio.fs.UnixMountEntry boot_loader
+ 762: java.nio.CharBuffer boot_loader
+ 763: java.util.regex.Pattern$BmpCharPredicate boot_loader
+ 764: jdk.internal.access.JavaNioAccess boot_loader
+ 765: java.io.FileCleanable boot_loader
+ 766: jdk.internal.loader.ClassLoaders$AppClassLoader boot_loader
+ 767: sun.nio.cs.UTF_16BE boot_loader
+ 768: sun.util.locale.BaseLocale boot_loader
+      - array: [Lsun.util.locale.BaseLocale;
+ 769: java.lang.Thread$Constants boot_loader
+ 770: sun.nio.cs.ThreadLocalCoders$2 boot_loader
+ 771: java.lang.invoke.VarHandle$AccessDescriptor boot_loader
+ 772: java.time.Instant boot_loader
+ 773: java.lang.classfile.attribute.StackMapFrameInfo$VerificationTypeInfo boot_loader
+ 774: java.lang.StringBuffer boot_loader
+ 775: java.lang.VirtualMachineError boot_loader
+      - array: [Ljava.lang.VirtualMachineError;
+ 776: java.lang.OutOfMemoryError boot_loader
+      - array: [Ljava.lang.OutOfMemoryError;
+ 777: jdk.internal.classfile.impl.AbstractPoolEntry$Utf8EntryImpl boot_loader
+ 778: java.util.Collections$SingletonMap boot_loader
+ 779: java.util.List boot_loader
+ 780: java.lang.invoke.LambdaFormBuffer boot_loader
+ 781: java.lang.Thread$FieldHolder boot_loader
+ 782: java.util.concurrent.ForkJoinWorkerThread$InnocuousForkJoinWorkerThread boot_loader
+ 783: java.util.Formatter$FormatSpecifier boot_loader
+ 784: java.lang.invoke.ResolvedMethodName boot_loader
+ 785: java.util.DoubleSummaryStatistics boot_loader
+ 786: sun.net.util.IPAddressUtil$MASKS boot_loader
+ 787: java.time.temporal.IsoFields$Field$2 boot_loader
+ 788: java.util.Collections$SynchronizedSet boot_loader
+ 789: java.util.stream.Node$OfDouble boot_loader
+ 790: java.lang.reflect.Member boot_loader
+      - array: [Ljava.lang.reflect.Member;
+ 791: java.util.Collection boot_loader
+      - array: [Ljava.util.Collection;
+ 792: jdk.internal.reflect.MethodAccessor boot_loader
+ 793: java.lang.module.ModuleReference boot_loader
+      - array: [Ljava.lang.module.ModuleReference;
+ 794: jdk.internal.module.Modules boot_loader
+ 795: java.nio.IntBuffer boot_loader
+ 796: java.util.logging.LogManager$RootLogger boot_loader
+ 797: sun.nio.ch.SocketChannelImpl boot_loader
+ 798: java.lang.ref.WeakReference boot_loader
+      - array: [Ljava.lang.ref.WeakReference;
+ 799: java.lang.invoke.DirectMethodHandle$Constructor boot_loader
+ 800: java.util.regex.Pattern$Slice boot_loader
+ 801: java.lang.ClassCastException boot_loader
+ 802: jdk.internal.module.SystemModuleFinders$2 boot_loader
+ 803: java.lang.classfile.CodeElement boot_loader
+      - array: [Ljava.lang.classfile.CodeElement;
+ 804: java.util.HashMap$KeySet boot_loader
+ 805: sun.invoke.util.Wrapper$Format boot_loader
+ 806: java.util.HexFormat boot_loader
+ 807: java.lang.classfile.MethodElement boot_loader
+ 808: java.net.NetworkInterface$1 boot_loader
+ 809: jdk.internal.reflect.DirectMethodHandleAccessor boot_loader
+ 810: java.time.temporal.TemporalQueries boot_loader
+ 811: java.util.zip.ZipEntry boot_loader
+ 812: java.util.zip.ZipFile boot_loader
+ 813: jdk.internal.util.StaticProperty boot_loader
+ 814: java.lang.ref.Finalizer boot_loader
+ 815: java.lang.StackFrameInfo boot_loader
+ 816: java.lang.StrictMath boot_loader
+ 817: java.util.NavigableSet boot_loader
+ 818: java.lang.reflect.ClassFileFormatVersion boot_loader
+      - array: [Ljava.lang.reflect.ClassFileFormatVersion;
+ 819: java.util.concurrent.ForkJoinPool$DefaultForkJoinWorkerThreadFactory boot_loader
+ 820: java.util.EnumMap$1 boot_loader
+ 821: java.lang.classfile.constantpool.PoolEntry boot_loader
+      - array: [Ljava.lang.classfile.constantpool.PoolEntry;
+ 822: sun.nio.ch.SelChImpl boot_loader
+ 823: java.time.format.DateTimeFormatterBuilder$NanosPrinterParser boot_loader
+ 824: jdk.internal.module.SystemModules boot_loader
+ 825: jdk.internal.module.ServicesCatalog$ServiceProvider boot_loader
+      - array: [Ljdk.internal.module.ServicesCatalog$ServiceProvider;
+ 826: java.util.ImmutableCollections$MapN$MapNIterator boot_loader
+ 827: java.lang.invoke.DirectMethodHandle boot_loader
+ 828: java.nio.LongBuffer boot_loader
+ 829: java.time.temporal.IsoFields$Unit boot_loader
+ 830: java.io.IOException boot_loader
+ 831: java.lang.Math boot_loader
+ 832: java.lang.invoke.MethodTypeForm boot_loader
+ 833: java.time.temporal.TemporalQuery boot_loader
+ 834: java.lang.invoke.InnerClassLambdaMetafactory$6 boot_loader
+ 835: java.net.InetAddress$1 boot_loader
+ 836: java.util.BitSet boot_loader
+ 837: java.lang.Integer$IntegerCache boot_loader
+ 838: java.time.LocalDateTime boot_loader
+ 839: jdk.internal.module.SystemModulesMap boot_loader
+ 840: sun.nio.cs.UTF_8 boot_loader
+ 841: jdk.internal.constant.PrimitiveClassDescImpl boot_loader
+ 842: java.util.zip.Inflater boot_loader
+ 843: jdk.internal.classfile.impl.RawBytecodeHelper$1 boot_loader
+ 844: java.lang.System$Logger boot_loader
+ 845: java.util.concurrent.ConcurrentHashMap$ValueIterator boot_loader
+ 846: jdk.internal.reflect.Reflection$1Holder boot_loader
+ 847: jdk.internal.logger.BootstrapLogger$LoggingBackend boot_loader
+ 848: java.util.Comparator boot_loader
+ 849: jdk.internal.classfile.impl.AbstractAttributeMapper$CodeMapper boot_loader
+ 850: java.util.ServiceLoader$1 boot_loader
+ 851: java.util.concurrent.locks.Lock boot_loader
+      - array: [Ljava.util.concurrent.locks.Lock;
+ 852: jdk.internal.classfile.impl.AccessFlagsImpl boot_loader
+ 853: java.lang.Float boot_loader
+ 854: sun.net.util.URLUtil boot_loader
+ 855: java.nio.DirectByteBuffer boot_loader
+ 856: java.lang.invoke.StringConcatFactory$InlineHiddenClassStrategy$7 boot_loader
+ 857: jdk.internal.jimage.ImageStringsReader boot_loader
+ 858: jdk.internal.misc.TerminatingThreadLocal boot_loader
+ 859: jdk.internal.module.ModuleReferences boot_loader
+ 860: java.time.format.DateTimeTextProvider$1 boot_loader
+ 861: java.util.Collections$UnmodifiableCollection boot_loader
+ 862: java.util.stream.SpinedBuffer boot_loader
+ 863: java.io.FileSystem boot_loader
+ 864: jdk.internal.util.random.RandomSupport boot_loader
+ 865: java.lang.invoke.LambdaFormEditor$Transform boot_loader
+      - array: [Ljava.lang.invoke.LambdaFormEditor$Transform;
+ 866: java.io.ObjectStreamClass boot_loader
+ 867: sun.util.locale.provider.CalendarDataProviderImpl boot_loader
+ 868: sun.nio.fs.UnixFileAttributes$UnixAsBasicFileAttributes boot_loader
+ 869: java.util.stream.Nodes boot_loader
+ 870: java.util.logging.LogManager$LoggerWeakRef boot_loader
+ 871: java.util.ImmutableCollections$Set12$1 boot_loader
+ 872: java.lang.invoke.MethodHandles$1 boot_loader
+ 873: sun.util.locale.provider.DateFormatProviderImpl boot_loader
+ 874: java.lang.NoSuchMethodException boot_loader
+ 875: jdk.internal.util.OSVersion boot_loader
+ 876: java.nio.channels.spi.AbstractInterruptibleChannel$1 boot_loader
+ 877: java.util.stream.Node$OfPrimitive boot_loader
+ 878: jdk.internal.classfile.impl.StackMapDecoder$StackMapFrameImpl boot_loader
+ 879: java.util.HashMap$KeySpliterator boot_loader
+ 880: java.util.concurrent.ConcurrentHashMap$EntryIterator boot_loader
+ 881: java.lang.StackWalker$StackFrame boot_loader
+ 882: java.time.temporal.JulianFields$Field boot_loader
+ 883: java.net.URLStreamHandler boot_loader
+ 884: sun.net.www.ParseUtil boot_loader
+ 885: jdk.internal.access.JavaNetUriAccess boot_loader
+ 886: sun.util.locale.provider.LocaleDataMetaInfo boot_loader
+ 887: java.lang.invoke.TypeDescriptor$OfField boot_loader
+      - array: [Ljava.lang.invoke.TypeDescriptor$OfField;
+ 888: java.time.temporal.TemporalQueries$5 boot_loader
+ 889: jdk.internal.loader.BuiltinClassLoader$1 boot_loader
+ 890: java.util.stream.Nodes$SpinedNodeBuilder boot_loader
+ 891: java.lang.invoke.BoundMethodHandle$SpeciesData boot_loader
+      - array: [Ljava.lang.invoke.BoundMethodHandle$SpeciesData;
+ 892: java.lang.ClassNotFoundException boot_loader
+ 893: jdk.internal.module.SystemModules$all boot_loader
+ 894: java.lang.WeakPairMap boot_loader
+ 895: java.lang.StringBuilder boot_loader
+ 896: java.lang.classfile.constantpool.ConstantPool boot_loader
+ 897: java.lang.invoke.Invokers$Holder boot_loader
+ 898: java.util.stream.ReduceOps$3 boot_loader
+ 899: java.util.concurrent.locks.LockSupport boot_loader
+ 900: jdk.internal.classfile.impl.RawBytecodeHelper boot_loader
+ 901: java.lang.BaseVirtualThread boot_loader
+ 902: jdk.internal.util.ArraysSupport boot_loader
+ 903: sun.nio.fs.UnixFileSystemProvider boot_loader
+ 904: java.util.Map boot_loader
+ 905: java.nio.channels.spi.AbstractInterruptibleChannel boot_loader
+ 906: java.util.Collections$UnmodifiableCollection$1 boot_loader
+ 907: sun.nio.ch.FileChannelImpl boot_loader
+ 908: jdk.internal.classfile.impl.BootstrapMethodEntryImpl boot_loader
+      - array: [Ljdk.internal.classfile.impl.BootstrapMethodEntryImpl;
+ 909: java.util.stream.ReduceOps$3ReducingSink boot_loader
+ 910: java.lang.invoke.VarHandle$AccessType boot_loader
+      - array: [Ljava.lang.invoke.VarHandle$AccessType;
+ 911: java.util.stream.ReferencePipeline$StatefulOp boot_loader
+ 912: java.util.spi.CurrencyNameProvider boot_loader
+ 913: java.util.concurrent.locks.ReentrantLock boot_loader
+      - array: [Ljava.util.concurrent.locks.ReentrantLock;
+ 914: jdk.internal.module.Builder boot_loader
+ 915: java.lang.Thread$State boot_loader
+      - array: [Ljava.lang.Thread$State;
+ 916: sun.nio.ch.UnixFileDispatcherImpl boot_loader
+ 917: java.util.concurrent.Future boot_loader
+ 918: java.util.Hashtable boot_loader
+ 919: java.time.temporal.Temporal boot_loader
+ 920: jdk.internal.module.ModuleBootstrap$IllegalNativeAccess boot_loader
+      - array: [Ljdk.internal.module.ModuleBootstrap$IllegalNativeAccess;
+ 921: java.lang.invoke.LambdaForm boot_loader
+      - array: [Ljava.lang.invoke.LambdaForm;
+ 922: java.nio.HeapCharBuffer boot_loader
+ 923: jdk.internal.classfile.impl.AnnotationReader boot_loader
+ 924: java.time.format.DateTimeFormatterBuilder$DateTimePrinterParser boot_loader
+ 925: java.util.zip.ZipFile$Source$Key boot_loader
+ 926: java.util.ImmutableCollections$SetN boot_loader
+ 927: java.nio.StringCharBuffer boot_loader
+ 928: java.util.LinkedHashMap boot_loader
+ 929: java.lang.invoke.TypeDescriptor$OfMethod boot_loader
+      - array: [Ljava.lang.invoke.TypeDescriptor$OfMethod;
+ 930: sun.util.locale.provider.LocaleProviderAdapter boot_loader
+ 931: java.util.HashMap$Values boot_loader
+ 932: sun.nio.cs.Surrogate boot_loader
+ 933: java.lang.Long boot_loader
+      - array: [Ljava.lang.Long;
+ 934: java.util.stream.MatchOps$MatchOp boot_loader
+ 935: java.lang.invoke.TypeDescriptor boot_loader
+      - array: [Ljava.lang.invoke.TypeDescriptor;
+ 936: jdk.internal.util.Preconditions boot_loader
+ 937: java.math.RoundingMode boot_loader
+ 938: java.lang.NoSuchFieldException boot_loader
+ 939: java.util.WeakHashMap boot_loader
+ 940: jdk.internal.access.JavaIORandomAccessFileAccess boot_loader
+ 941: sun.util.calendar.CalendarDate boot_loader
+ 942: java.util.concurrent.ConcurrentHashMap$Traverser boot_loader
+ 943: java.net.InetAddress$InetAddressHolder boot_loader
+ 944: sun.util.calendar.AbstractCalendar boot_loader
+ 945: java.lang.module.ModuleDescriptor$Requires$Modifier boot_loader
+      - array: [Ljava.lang.module.ModuleDescriptor$Requires$Modifier;
+ 946: java.lang.invoke.VarHandleBooleans$FieldInstanceReadOnly boot_loader
+ 947: jdk.internal.loader.ClassLoaderHelper boot_loader
+ 948: java.util.regex.Pattern$BackRef boot_loader
+ 949: jdk.internal.util.StrongReferenceKey boot_loader
+ 950: jdk.internal.classfile.impl.AbstractPoolEntry$InterfaceMethodRefEntryImpl boot_loader
+ 951: java.lang.classfile.attribute.StackMapFrameInfo$SimpleVerificationTypeInfo boot_loader
+ 952: java.util.concurrent.ConcurrentSkipListSet boot_loader
+ 953: java.util.Collections$SynchronizedMap boot_loader
+ 954: java.lang.Terminator$1 boot_loader
+ 955: java.text.DecimalFormat boot_loader
+ 956: java.lang.invoke.MethodHandleNatives boot_loader
+ 957: sun.security.util.SignatureFileVerifier boot_loader
+ 958: java.util.logging.Logger$LoggerBundle boot_loader
+ 959: jdk.internal.vm.Continuation boot_loader
+ 960: jdk.internal.classfile.impl.DirectCodeBuilder$4 boot_loader
+ 961: java.lang.invoke.BoundMethodHandle$Species_I boot_loader
+ 962: java.util.Collections$UnmodifiableList boot_loader
+ 963: java.util.regex.Pattern boot_loader
+ 964: java.util.zip.ZipFile$ZipFileInflaterInputStream boot_loader
+ 965: java.lang.CharacterDataLatin1 boot_loader
+ 966: sun.nio.ch.Util boot_loader
+ 967: jdk.internal.util.SoftReferenceKey boot_loader
+ 968: java.time.temporal.IsoFields$Field$1 boot_loader
+ 969: java.lang.classfile.Opcode$Kind boot_loader
+      - array: [Ljava.lang.classfile.Opcode$Kind;
+ 970: java.util.stream.Collectors$Partition boot_loader
+ 971: java.lang.Enum boot_loader
+      - array: [Ljava.lang.Enum;
+ 972: java.lang.invoke.DirectMethodHandle$1 boot_loader
+ 973: java.lang.module.ModuleDescriptor$1 boot_loader
+ 974: java.lang.invoke.StringConcatFactory$InlineHiddenClassStrategy$3$2 boot_loader
+ 975: java.lang.invoke.InvokerBytecodeGenerator$3 boot_loader
+ 976: java.util.NavigableMap boot_loader
+ 977: jdk.internal.module.Resources boot_loader
+ 978: java.lang.StackStreamFactory$AbstractStackWalker boot_loader
+ 979: java.lang.invoke.VarHandleByteArrayAsFloats$ByteArrayViewVarHandle boot_loader
+ 980: jdk.internal.reflect.CallerSensitive boot_loader
+ 981: java.nio.DirectLongBufferU boot_loader
+ 982: java.lang.invoke.VarHandleLongs$FieldInstanceReadOnly boot_loader
+ 983: java.lang.invoke.VarHandleLongs$FieldInstanceReadWrite boot_loader
+ 984: jdk.internal.classfile.impl.ClassReaderImpl boot_loader
+ 985: java.lang.Number boot_loader
+      - array: [Ljava.lang.Number;
+ 986: java.lang.module.ModuleDescriptor$Requires boot_loader
+      - array: [Ljava.lang.module.ModuleDescriptor$Requires;
+ 987: java.net.URI$Parser boot_loader
+ 988: java.lang.classfile.FieldModel boot_loader
+ 989: java.lang.AbstractStringBuilder boot_loader
+ 990: jdk.internal.loader.FileURLMapper boot_loader
+ 991: java.util.Set boot_loader
+      - array: [Ljava.util.Set;
+ 992: sun.util.locale.provider.CalendarProviderImpl boot_loader
+ 993: java.nio.file.Paths boot_loader
+ 994: java.util.spi.TimeZoneNameProvider boot_loader
+ 995: java.lang.invoke.MethodHandleImpl$Makers$2 boot_loader
+ 996: java.time.temporal.TemporalUnit boot_loader
+ 997: sun.invoke.util.Wrapper boot_loader
+      - array: [Lsun.invoke.util.Wrapper;
+ 998: java.util.ArrayList$Itr boot_loader
+ 999: jdk.internal.classfile.impl.ClassHierarchyImpl boot_loader
+1000: jdk.internal.classfile.impl.UnboundAttribute$UnboundRuntimeVisibleAnnotationsAttribute boot_loader
+1001: jdk.internal.constant.ConstantUtils boot_loader
+1002: java.time.temporal.IsoFields$Field boot_loader
+1003: java.lang.ThreadGroup boot_loader
+      - array: [Ljava.lang.ThreadGroup;
+1004: java.util.Deque boot_loader
+1005: java.lang.NamedPackage boot_loader
+1006: java.lang.NoSuchMethodError boot_loader
+1007: java.lang.constant.MethodTypeDesc boot_loader
+1008: jdk.internal.classfile.impl.AbstractAttributeMapper boot_loader
+1009: sun.launcher.LauncherHelper boot_loader
+1010: jdk.internal.loader.ClassLoaders$BootClassLoader boot_loader
+1011: java.io.File$PathStatus boot_loader
+      - array: [Ljava.io.File$PathStatus;
+1012: jdk.internal.jimage.NativeImageBuffer boot_loader
+1013: java.util.concurrent.ConcurrentHashMap$ReservationNode boot_loader
+1014: java.util.Collections$2 boot_loader
+1015: jdk.internal.module.SystemModuleFinders$SystemImage boot_loader
+1016: java.lang.invoke.InvokerBytecodeGenerator$4$1 boot_loader
+1017: jdk.internal.logger.BootstrapLogger$RedirectedLoggers boot_loader
+1018: java.util.TreeMap$EntryIterator boot_loader
+1019: java.util.zip.ZipFile$InflaterCleanupAction boot_loader
+1020: jdk.internal.loader.AbstractClassLoaderValue boot_loader
+1021: java.lang.classfile.Opcode boot_loader
+      - array: [Ljava.lang.classfile.Opcode;
+1022: java.lang.invoke.InvokerBytecodeGenerator$2 boot_loader
+1023: java.util.Collections$SynchronizedCollection boot_loader
+1024: java.lang.Character$CharacterCache boot_loader
+1025: java.nio.channels.ReadableByteChannel boot_loader
+1026: jdk.internal.module.ModulePatcher boot_loader
+1027: java.time.ZoneId boot_loader
+1028: java.lang.classfile.CompoundElement boot_loader
+1029: java.lang.AssertionStatusDirectives boot_loader
+1030: java.nio.file.attribute.BasicFileAttributes boot_loader
+1031: java.lang.constant.MethodHandleDesc boot_loader
+1032: java.util.ServiceLoader$ProviderImpl boot_loader
+1033: sun.security.util.SecurityProperties boot_loader
+1034: java.text.DateFormatSymbols boot_loader
+1035: sun.util.resources.cldr.CalendarData boot_loader
+1036: sun.nio.fs.UnixChannelFactory$Flags boot_loader
+1037: java.util.ResourceBundle$ResourceBundleProviderHelper boot_loader
+1038: java.lang.classfile.attribute.StackMapFrameInfo boot_loader
+1039: sun.nio.cs.Surrogate$Parser boot_loader
+1040: java.nio.file.FileSystemException boot_loader
+1041: java.util.zip.ZipFile$Source boot_loader
+1042: java.util.ImmutableCollections$AbstractImmutableSet boot_loader
+1043: java.util.concurrent.ForkJoinTask boot_loader
+1044: java.nio.ByteBuffer boot_loader
+1045: sun.net.util.IPAddressUtil boot_loader
+1046: java.lang.classfile.ClassBuilder boot_loader
+1047: java.text.Format$StringBuf boot_loader
+1048: java.lang.invoke.AbstractValidatingLambdaMetafactory boot_loader
+1049: sun.util.cldr.CLDRCalendarDataProviderImpl boot_loader
+1050: sun.nio.ch.FileChannelImpl$Closer boot_loader
+1051: java.lang.ref.Reference boot_loader
+      - array: [Ljava.lang.ref.Reference;
+1052: java.lang.classfile.ClassFileBuilder boot_loader
+1053: java.util.concurrent.atomic.AtomicInteger boot_loader
+1054: sun.util.locale.provider.DateFormatSymbolsProviderImpl boot_loader
+1055: java.util.Formatter$Conversion boot_loader
+1056: jdk.internal.util.WeakReferenceKey boot_loader
+1057: java.util.stream.BaseStream boot_loader
+1058: java.lang.invoke.StringConcatFactory$InlineHiddenClassStrategy$6 boot_loader
+1059: java.io.RandomAccessFile$1 boot_loader
+1060: java.lang.reflect.AnnotatedElement boot_loader
+      - array: [Ljava.lang.reflect.AnnotatedElement;
+1061: java.time.format.DecimalStyle boot_loader
+1062: java.lang.invoke.MethodHandleImpl$Intrinsic boot_loader
+      - array: [Ljava.lang.invoke.MethodHandleImpl$Intrinsic;
+1063: java.lang.Iterable boot_loader
+      - array: [Ljava.lang.Iterable;
+1064: jdk.internal.logger.BootstrapLogger$BootstrapExecutors boot_loader
+1065: sun.util.resources.Bundles$1 boot_loader
+1066: java.lang.module.ModuleFinder$1 boot_loader
+1067: java.nio.file.FileSystems boot_loader
+1068: java.lang.Long$LongCache boot_loader
+1069: java.lang.classfile.attribute.SourceFileAttribute boot_loader
+1070: java.util.regex.Pattern$BmpCharProperty boot_loader
+1071: jdk.internal.loader.URLClassPath$1 boot_loader
+1072: jdk.internal.ref.CleanerImpl$CleanableList boot_loader
+1073: java.lang.classfile.MethodModel boot_loader
+1074: sun.util.logging.PlatformLogger$Bridge boot_loader
+1075: java.util.ServiceLoader$LazyClassPathLookupIterator boot_loader
+1076: java.time.temporal.TemporalQueries$4 boot_loader
+1077: java.security.Security$SecPropLoader$LoadingMode boot_loader
+1078: java.util.stream.Streams$StreamBuilderImpl boot_loader
+1079: jdk.internal.jimage.NativeImageBuffer$1 boot_loader
+1080: sun.nio.fs.UnixException boot_loader
+1081: jdk.internal.module.ArchivedBootLayer boot_loader
+1082: java.util.ArrayDeque$DeqIterator boot_loader
+1083: jdk.internal.access.JavaUtilCollectionAccess boot_loader
+1084: java.util.stream.Collectors$CollectorImpl boot_loader
+1085: jdk.internal.reflect.Reflection boot_loader
+1086: java.lang.StringCoding boot_loader
+1087: java.util.stream.DistinctOps$1 boot_loader
+1088: java.lang.WeakPairMap$Pair boot_loader
+1089: java.util.Enumeration boot_loader
+1090: java.util.concurrent.ConcurrentHashMap$MapEntry boot_loader
+1091: java.util.stream.ReferencePipeline$7$1FlatMap boot_loader
+1092: java.lang.invoke.LambdaForm$BasicType boot_loader
+      - array: [Ljava.lang.invoke.LambdaForm$BasicType;
+1093: java.time.temporal.ChronoUnit boot_loader
+1094: sun.nio.fs.UnixUriUtils boot_loader
+1095: java.util.regex.Pattern$StartS boot_loader
+1096: jdk.internal.access.JavaLangAccess boot_loader
+1097: jdk.internal.loader.URLClassPath$JarLoader$1 boot_loader
+1098: java.lang.System$In boot_loader
+1099: java.io.BufferedOutputStream boot_loader
+1100: jdk.internal.classfile.impl.Util$Writable boot_loader
+      - array: [Ljdk.internal.classfile.impl.Util$Writable;
+1101: jdk.internal.jmod.JmodFile$Entry boot_loader
+1102: sun.util.calendar.CalendarUtils boot_loader
+1103: jdk.internal.classfile.impl.AbstractPoolEntry boot_loader
+1104: java.time.format.DateTimeTextProvider boot_loader
+1105: java.text.NumberFormat$Field boot_loader
+1106: sun.invoke.util.VerifyType boot_loader
+1107: java.text.Format$FieldDelegate boot_loader
+1108: java.io.FileInputStream$1 boot_loader
+1109: java.lang.invoke.MethodHandleImpl$Makers$1 boot_loader
+1110: jdk.internal.classfile.impl.AbstractInstruction$SwitchCaseImpl boot_loader
+1111: java.util.zip.ZipFile$1 boot_loader
+1112: java.lang.Error boot_loader
+      - array: [Ljava.lang.Error;
+1113: java.io.ObjectStreamField boot_loader
+      - array: [Ljava.io.ObjectStreamField;
+1114: java.util.Collections boot_loader
+1115: java.lang.classfile.ClassHierarchyResolver boot_loader
+1116: java.lang.ThreadBuilders$BoundVirtualThread boot_loader
+1117: java.util.ImmutableCollections$Set12 boot_loader
+1118: java.lang.Character boot_loader
+      - array: [Ljava.lang.Character;
+1119: java.util.stream.ReduceOps$AccumulatingSink boot_loader
+1120: jdk.internal.util.SystemProps boot_loader
+1121: java.util.concurrent.ScheduledExecutorService boot_loader
+1122: jdk.internal.reflect.MethodHandleFieldAccessorImpl boot_loader
+1123: java.lang.invoke.StringConcatFactory$InlineHiddenClassStrategy$3$3 boot_loader
+1124: java.util.jar.JarFile boot_loader
+1125: java.util.jar.Attributes boot_loader
+1126: java.time.chrono.ChronoLocalDateTime boot_loader
+1127: java.util.Locale$Builder boot_loader
+1128: java.net.Inet6Address$Inet6AddressHolder boot_loader
+1129: jdk.internal.classfile.impl.BytecodeHelpers boot_loader
+1130: java.lang.invoke.VarHandleByteArrayAsLongs$ByteArrayViewVarHandle boot_loader
+1131: sun.util.locale.InternalLocaleBuilder$CaseInsensitiveChar boot_loader
+1132: java.nio.charset.Charset boot_loader
+1133: java.nio.channels.ByteChannel boot_loader
+1134: java.text.StringBufFactory boot_loader
+1135: java.util.stream.MatchOps boot_loader
+1136: java.util.stream.Sink$ChainedReference boot_loader
+1137: jdk.internal.constant.ClassOrInterfaceDescImpl boot_loader
+1138: java.lang.classfile.CodeBuilder$1 boot_loader
+1139: java.time.Clock$SystemClock boot_loader
+1140: jdk.internal.classfile.impl.TerminalFieldBuilder boot_loader
+1141: jdk.internal.access.JavaNetInetAddressAccess boot_loader
+1142: java.nio.file.NoSuchFileException boot_loader
+1143: sun.nio.fs.AbstractBasicFileAttributeView boot_loader
+1144: java.lang.Thread$UncaughtExceptionHandler boot_loader
+      - array: [Ljava.lang.Thread$UncaughtExceptionHandler;
+1145: jdk.internal.classfile.impl.AbstractPoolEntry$MethodRefEntryImpl boot_loader
+1146: java.util.SortedSet boot_loader
+1147: jdk.internal.misc.Signal$Handler boot_loader
+1148: java.util.ResourceBundle$NoFallbackControl boot_loader
+1149: jdk.internal.util.ReferencedKeyMap boot_loader
+1150: java.lang.invoke.MemberName boot_loader
+1151: jdk.internal.classfile.impl.ClassImpl boot_loader
+1152: java.util.TreeMap$PrivateEntryIterator boot_loader
+1153: jdk.internal.classfile.impl.StackMapDecoder$1 boot_loader
+1154: java.util.concurrent.ForkJoinPool$1 boot_loader
+1155: java.lang.Class$ReflectionData boot_loader
+1156: java.io.BufferedWriter boot_loader
+1157: java.lang.invoke.MethodHandleImpl$1 boot_loader
+1158: java.lang.ref.SoftReference boot_loader
+      - array: [Ljava.lang.ref.SoftReference;
+1159: java.util.stream.ReferencePipeline$StatelessOp boot_loader
+1160: java.util.function.ToDoubleFunction boot_loader
+1161: sun.nio.fs.UnixFileSystem boot_loader
+1162: java.lang.invoke.MethodHandleStatics boot_loader
+1163: jdk.internal.vm.vector.VectorSupport$VectorShuffle boot_loader
+1164: java.security.CodeSource boot_loader
+1165: java.net.URL boot_loader
+1166: java.text.spi.DecimalFormatSymbolsProvider boot_loader
+1167: java.nio.Bits boot_loader
+1168: java.util.stream.ReduceOps$Box boot_loader
+1169: java.nio.file.InvalidPathException boot_loader
+1170: jdk.internal.classfile.impl.BufWriterImpl boot_loader
+1171: java.util.concurrent.AbstractExecutorService boot_loader
+1172: java.util.regex.Pattern$CharPropertyGreedy boot_loader
+1173: java.text.spi.BreakIteratorProvider boot_loader
+1174: java.util.Collections$UnmodifiableRandomAccessList boot_loader
+1175: jdk.internal.loader.BootLoader boot_loader
+1176: sun.net.www.protocol.file.Handler boot_loader
+1177: jdk.internal.classfile.impl.AnnotationImpl boot_loader
+1178: java.lang.invoke.BoundMethodHandle$Species_LLLL boot_loader
+1179: java.util.regex.Pattern$BmpCharPropertyGreedy boot_loader
+1180: java.io.PrintStream boot_loader
+1181: java.time.temporal.TemporalQueries$2 boot_loader
+1182: sun.nio.ch.IOStatus boot_loader
+1183: java.lang.classfile.ClassReader boot_loader
+1184: java.util.jar.JavaUtilJarAccessImpl boot_loader
+1185: sun.util.resources.Bundles boot_loader
+1186: java.time.temporal.TemporalAmount boot_loader
+1187: jdk.internal.loader.NativeLibraries$NativeLibraryContext boot_loader
+1188: java.util.concurrent.CopyOnWriteArrayList$COWIterator boot_loader
+1189: java.text.DontCareFieldPosition boot_loader
+1190: java.lang.NoClassDefFoundError boot_loader
+1191: java.math.BigInteger boot_loader
+1192: jdk.internal.invoke.MhUtil boot_loader
+1193: java.lang.invoke.LambdaProxyClassArchive boot_loader
+1194: sun.nio.fs.UnixChannelFactory boot_loader
+1195: java.util.stream.StreamSupport boot_loader
+1196: java.lang.invoke.StringConcatFactory boot_loader
+1197: java.lang.VirtualThread boot_loader
+1198: java.lang.classfile.instruction.LocalVariableType boot_loader
+      - array: [Ljava.lang.classfile.instruction.LocalVariableType;
+1199: sun.util.locale.BaseLocale$1InterningCache boot_loader
+1200: sun.nio.ch.Streams boot_loader
+1201: java.util.concurrent.ConcurrentHashMap$BaseIterator boot_loader
+1202: java.lang.Short$ShortCache boot_loader
+1203: jdk.internal.classfile.impl.AttributeHolder boot_loader
+1204: java.util.concurrent.ForkJoinWorkerThread boot_loader
+1205: jdk.internal.perf.PerfCounter boot_loader
+1206: jdk.internal.module.SystemModuleFinders boot_loader
+1207: java.util.ResourceBundle boot_loader
+1208: java.security.PrivilegedAction boot_loader
+1209: jdk.internal.misc.CarrierThreadLocal boot_loader
+1210: sun.util.calendar.Gregorian$Date boot_loader
+1211: jdk.internal.classfile.impl.AbstractElement boot_loader
+1212: java.lang.classfile.constantpool.ConstantPoolBuilder boot_loader
+1213: java.util.spi.LocaleNameProvider boot_loader
+1214: java.lang.classfile.ClassHierarchyResolver$ClassHierarchyInfo boot_loader
+1215: java.io.FileDescriptor boot_loader
+1216: java.util.ServiceLoader$2 boot_loader
+1217: jdk.internal.ref.Cleaner boot_loader
+1218: java.util.stream.ReferencePipeline$3$1 boot_loader
+1219: java.lang.invoke.BoundMethodHandle boot_loader
+1220: jdk.internal.reflect.ReflectionFactory boot_loader
+1221: java.lang.classfile.FieldBuilder boot_loader
+1222: java.nio.charset.CharsetEncoder boot_loader
+1223: java.util.ImmutableCollections$ListN boot_loader
+1224: java.util.concurrent.ConcurrentMap boot_loader
+1225: jdk.internal.ref.PhantomCleanable boot_loader
+      - array: [Ljdk.internal.ref.PhantomCleanable;
+1226: jdk.internal.vm.FillerObject boot_loader
+1227: java.security.SecureClassLoader boot_loader
+1228: jdk.internal.misc.Signal boot_loader
+1229: java.lang.Module$ArchivedData boot_loader
+1230: java.lang.invoke.BoundMethodHandle$Specializer boot_loader
+1231: java.security.cert.Certificate boot_loader
+      - array: [Ljava.security.cert.Certificate;
+1232: jdk.internal.perf.PerfCounter$CoreCounters boot_loader
+1233: java.security.ProtectionDomain boot_loader
+1234: java.util.stream.FindOps$FindSink$OfRef boot_loader
+1235: jdk.internal.util.Preconditions$1 boot_loader
+1236: java.lang.invoke.VarHandles boot_loader
+1237: sun.nio.fs.NativeBuffers$1 boot_loader
+1238: jdk.internal.jimage.ImageReaderFactory$1 boot_loader
+1239: java.lang.ClassValue boot_loader
+1240: java.lang.ClassValue$Version boot_loader
+1241: jdk.internal.access.JavaUtilResourceBundleAccess boot_loader
+1242: java.io.RandomAccessFile$2 boot_loader
+1243: java.util.regex.Pattern$BranchConn boot_loader
+1244: java.text.Format$Field boot_loader
+1245: java.util.function.LongConsumer boot_loader
+1246: java.util.ImmutableCollections$MapN boot_loader
+1247: java.lang.classfile.PseudoInstruction boot_loader
+      - array: [Ljava.lang.classfile.PseudoInstruction;
+1248: java.util.HashMap$EntrySet boot_loader
+1249: jdk.internal.logger.DefaultLoggerFinder boot_loader
+1250: java.util.Spliterators$EmptySpliterator$OfRef boot_loader
+1251: sun.nio.fs.BsdFileSystem boot_loader
+1252: java.time.InstantSource boot_loader
+1253: java.util.Collections$SetFromMap boot_loader
+1254: jdk.internal.jimage.ImageHeader boot_loader
+1255: java.time.temporal.TemporalQueries$3 boot_loader
+1256: java.text.DontCareFieldPosition$1 boot_loader
+1257: jdk.internal.access.SharedSecrets boot_loader
+1258: java.lang.invoke.StringConcatFactory$InlineHiddenClassStrategy$5 boot_loader
+1259: jdk.internal.classfile.impl.TerminalCodeBuilder boot_loader
+1260: jdk.internal.access.JavaSecurityPropertiesAccess boot_loader
+1261: java.util.Objects boot_loader
+1262: java.util.regex.Pattern$Start boot_loader
+1263: java.lang.classfile.AnnotationElement boot_loader
+      - array: [Ljava.lang.classfile.AnnotationElement;
+1264: jdk.internal.classfile.impl.StackMapDecoder boot_loader
+1265: java.lang.invoke.DirectMethodHandle$Holder boot_loader
+1266: jdk.internal.classfile.impl.DirectFieldBuilder boot_loader
+1267: java.net.Inet4Address boot_loader
+1268: jdk.internal.access.JavaLangReflectAccess boot_loader
+1269: java.lang.Terminator boot_loader
+1270: java.lang.Short boot_loader
+      - array: [Ljava.lang.Short;
+1271: java.util.function.ToLongFunction boot_loader
+1272: java.time.format.TextStyle boot_loader
+1273: java.util.zip.CRC32 boot_loader
+1274: java.lang.invoke.MethodHandleImpl$Makers boot_loader
+1275: java.util.ServiceLoader$Provider boot_loader
+1276: java.util.jar.JarEntry boot_loader
+1277: java.nio.charset.spi.CharsetProvider boot_loader
+1278: java.util.regex.Pattern$GroupTail boot_loader
+1279: sun.nio.fs.BsdFileSystemProvider boot_loader
+1280: java.util.LinkedHashMap$LinkedEntrySet boot_loader
+1281: jdk.internal.classfile.impl.DirectCodeBuilder boot_loader
+1282: jdk.internal.access.JavaLangRefAccess boot_loader
+1283: jdk.internal.classfile.impl.LabelImpl boot_loader
+1284: java.util.regex.Pattern$Begin boot_loader
+1285: jdk.internal.loader.ClassLoaderValue boot_loader
+1286: jdk.internal.util.DecimalDigits boot_loader
+1287: sun.nio.cs.ThreadLocalCoders boot_loader
+1288: jdk.internal.module.ArchivedModuleGraph boot_loader
+1289: jdk.internal.util.ByteArray boot_loader
+1290: java.lang.invoke.MethodType boot_loader
+      - array: [Ljava.lang.invoke.MethodType;
+1291: java.nio.file.attribute.AttributeView boot_loader
+1292: sun.util.calendar.CalendarSystem$GregorianHolder boot_loader
+1293: java.lang.annotation.Annotation boot_loader
+      - array: [Ljava.lang.annotation.Annotation;
+1294: java.lang.invoke.DelegatingMethodHandle boot_loader
+1295: java.lang.StringConcatHelper$Concat1 boot_loader
+1296: java.lang.Package$VersionInfo boot_loader
+1297: java.text.spi.CollatorProvider boot_loader
+1298: java.lang.invoke.InvokerBytecodeGenerator$4 boot_loader
+1299: java.util.regex.Pattern$LastNode boot_loader
+1300: sun.util.locale.provider.AvailableLanguageTags boot_loader
+1301: java.time.Clock boot_loader
+1302: java.util.WeakHashMap$KeySet boot_loader
+1303: java.lang.constant.MethodHandleDesc$1 boot_loader
+1304: java.security.Security$1 boot_loader
+1305: sun.nio.ch.IOUtil boot_loader
+1306: java.util.zip.ZipFile$ZipFileInputStream boot_loader
+1307: java.util.logging.LogManager$LogNode boot_loader
+1308: java.lang.invoke.VarHandleByteArrayAsLongs$ArrayHandle boot_loader
+1309: java.lang.ref.Finalizer$FinalizerThread boot_loader
+1310: java.util.LinkedHashSet boot_loader
+1311: java.lang.invoke.MethodHandleImpl$ArrayAccess boot_loader
+1312: java.io.ByteArrayOutputStream boot_loader
+1313: java.util.zip.ZipUtils boot_loader
+1314: java.util.zip.ZipCoder$UTF8ZipCoder boot_loader
+1315: java.util.stream.AbstractTask boot_loader
+1316: jdk.internal.loader.Resource boot_loader
+1317: java.time.chrono.ChronoLocalDate boot_loader
+1318: java.io.DataOutput boot_loader
+1319: java.lang.classfile.ClassFile$Option boot_loader
+1320: java.time.chrono.AbstractChronology boot_loader
+1321: java.lang.invoke.LambdaForm$NamedFunction boot_loader
+      - array: [Ljava.lang.invoke.LambdaForm$NamedFunction;
+1322: java.nio.file.FileSystem boot_loader
+1323: java.time.temporal.IsoFields boot_loader
+1324: java.lang.invoke.ClassSpecializer$Factory boot_loader
+1325: java.text.Format boot_loader
+1326: java.io.BufferedInputStream boot_loader
+1327: java.lang.Record boot_loader
+      - array: [Ljava.lang.Record;
+1328: java.util.ResourceBundle$1 boot_loader
+1329: java.lang.Shutdown$Lock boot_loader
+1330: java.lang.classfile.AttributeMapper boot_loader
+1331: jdk.internal.misc.Signal$NativeHandler boot_loader
+1332: java.lang.invoke.DirectMethodHandle$2 boot_loader
+1333: jdk.internal.module.ModuleResolution boot_loader
+      - array: [Ljdk.internal.module.ModuleResolution;
+1334: jdk.internal.vm.ThreadContainer boot_loader
+1335: java.util.zip.ZipFile$EntrySpliterator boot_loader
+1336: java.lang.invoke.VarHandleByteArrayAsInts$ByteArrayViewVarHandle boot_loader
+1337: java.lang.ref.Cleaner boot_loader
+1338: jdk.internal.classfile.impl.AbstractPoolEntry$FieldRefEntryImpl boot_loader
+1339: jdk.internal.classfile.impl.AbstractPoolEntry$Utf8EntryImpl$State boot_loader
+      - array: [Ljdk.internal.classfile.impl.AbstractPoolEntry$Utf8EntryImpl$State;
+1340: java.lang.module.ModuleDescriptor$Exports boot_loader
+      - array: [Ljava.lang.module.ModuleDescriptor$Exports;
+1341: jdk.internal.classfile.impl.UnboundAttribute$AdHocAttribute boot_loader
+1342: java.io.DefaultFileSystem boot_loader
+1343: java.util.stream.StreamShape boot_loader
+      - array: [Ljava.util.stream.StreamShape;
+1344: java.util.stream.ReferencePipeline$2$1 boot_loader
+1345: jdk.internal.classfile.impl.TerminalMethodBuilder boot_loader
+1346: java.lang.classfile.ClassFile boot_loader
+1347: sun.net.www.protocol.jar.Handler boot_loader
+1348: jdk.internal.classfile.impl.StackMapGenerator$Frame boot_loader
+      - array: [Ljdk.internal.classfile.impl.StackMapGenerator$Frame;
+1349: java.lang.IllegalCallerException boot_loader
+1350: java.util.stream.FindOps$FindSink boot_loader
+1351: jdk.internal.access.JavaLangModuleAccess boot_loader
+1352: java.lang.invoke.InvokerBytecodeGenerator$1 boot_loader
+1353: java.lang.ApplicationShutdownHooks boot_loader
+1354: java.nio.channels.WritableByteChannel boot_loader
+1355: java.util.function.Predicate boot_loader
+1356: java.lang.constant.ConstantDescs boot_loader
+1357: jdk.internal.classfile.impl.EntryMap boot_loader
+1358: java.util.zip.InflaterInputStream boot_loader
+1359: java.lang.IllegalArgumentException boot_loader
+1360: jdk.internal.module.ModuleHashes$Builder boot_loader
+1361: java.lang.invoke.VarHandleByteArrayAsDoubles$ArrayHandle boot_loader
+1362: java.time.format.DateTimeFormatter boot_loader
+1363: java.util.Collections$3 boot_loader
+1364: jdk.internal.classfile.impl.AbstractAttributeMapper$RuntimeVisibleAnnotationsMapper boot_loader
+1365: java.time.format.DateTimeFormatterBuilder$CharLiteralPrinterParser boot_loader
+1366: java.time.Duration boot_loader
+1367: java.time.temporal.TemporalAccessor boot_loader
+1368: java.lang.Byte$ByteCache boot_loader
+1369: java.net.URI$1 boot_loader
+1370: java.util.regex.Pattern$BitClass boot_loader
+1371: jdk.internal.classfile.impl.DirectCodeBuilder$DeferredLabel boot_loader
+      - array: [Ljdk.internal.classfile.impl.DirectCodeBuilder$DeferredLabel;
+1372: java.io.ByteArrayInputStream boot_loader
+1373: jdk.internal.misc.VM$BufferPool boot_loader
+1374: java.lang.classfile.instruction.SwitchCase boot_loader
+1375: java.lang.classfile.attribute.StackMapTableAttribute boot_loader
+1376: java.util.concurrent.ConcurrentHashMap$KeySetView boot_loader
+1377: jdk.internal.classfile.impl.AbstractAttributeMapper$SourceFileMapper boot_loader
+1378: jdk.internal.math.ToDecimal boot_loader
+1379: java.lang.System boot_loader
+1380: java.lang.Shutdown boot_loader
+1381: jdk.internal.reflect.MethodAccessorImpl boot_loader
+1382: java.util.stream.ReferencePipeline$7 boot_loader
+1383: java.time.format.ResolverStyle boot_loader
+1384: java.lang.invoke.InnerClassLambdaMetafactory boot_loader
+1385: java.time.temporal.TemporalQueries$1 boot_loader
+1386: sun.util.calendar.BaseCalendar boot_loader
+1387: java.util.logging.LogManager$LoggingProviderAccess boot_loader
+1388: java.lang.Throwable boot_loader
+      - array: [Ljava.lang.Throwable;
+1389: sun.nio.fs.BsdFileAttributeViews$Basic boot_loader
+1390: java.util.concurrent.ConcurrentHashMap$ForwardingNode boot_loader
+1391: java.util.concurrent.atomic.Striped64 boot_loader
+1392: jdk.internal.classfile.impl.StackMapGenerator boot_loader
+1393: java.util.regex.Pattern$First boot_loader
+1394: java.lang.invoke.VarHandle boot_loader
+1395: java.lang.invoke.StringConcatFactory$InlineHiddenClassStrategy$2 boot_loader
+1396: java.nio.charset.CodingErrorAction boot_loader
+1397: java.util.stream.Collectors$1OptionalBox boot_loader
+1398: java.util.Collections$UnmodifiableMap boot_loader
+1399: java.util.ImmutableCollections$Map1 boot_loader
+1400: java.lang.constant.ConstantDesc boot_loader
+      - array: [Ljava.lang.constant.ConstantDesc;
+1401: java.util.EnumSet boot_loader
+1402: sun.nio.fs.AbstractFileSystemProvider boot_loader
+1403: jdk.internal.classfile.impl.AbstractPoolEntry$ClassEntryImpl boot_loader
+1404: java.lang.invoke.TypeConvertingMethodAdapter boot_loader
+1405: jdk.internal.constant.DirectMethodHandleDescImpl boot_loader
+1406: jdk.internal.vm.ThreadContainers$RootContainer$TrackingRootContainer boot_loader
+1407: java.util.regex.Pattern$Branch boot_loader
+1408: jdk.internal.foreign.abi.NativeEntryPoint boot_loader
+1409: jdk.internal.classfile.impl.AbstractDirectBuilder boot_loader
+1410: java.util.stream.DistinctOps$1$2 boot_loader
+1411: sun.invoke.empty.Empty boot_loader
+1412: jdk.internal.loader.URLClassPath boot_loader
+1413: java.util.Iterator boot_loader
+1414: sun.nio.fs.DefaultFileSystemProvider boot_loader
+1415: sun.nio.cs.StreamEncoder boot_loader
+1416: java.lang.invoke.ClassSpecializer$SpeciesData boot_loader
+      - array: [Ljava.lang.invoke.ClassSpecializer$SpeciesData;
+1417: java.util.ImmutableCollections$ListItr boot_loader
+1418: jdk.internal.logger.BootstrapLogger boot_loader
+1419: java.io.FilterInputStream boot_loader
+1420: java.util.stream.Stream boot_loader
+1421: java.util.WeakHashMap$Entry boot_loader
+      - array: [Ljava.util.WeakHashMap$Entry;
+1422: java.util.function.Supplier boot_loader
+1423: java.util.Queue boot_loader
+1424: java.lang.Object boot_loader
+      - array: [Ljava.lang.Object;
+      - array: [[Ljava.lang.Object;
+1425: java.nio.ByteOrder boot_loader
+1426: java.lang.invoke.VarHandleByteArrayAsFloats$ArrayHandle boot_loader
+1427: java.util.regex.Pattern$Node boot_loader
+1428: java.lang.module.ModuleDescriptor boot_loader
+      - array: [Ljava.lang.module.ModuleDescriptor;
+1429: jdk.internal.vm.ThreadContainers boot_loader
+1430: java.util.spi.LocaleServiceProvider boot_loader
+1431: java.util.stream.ForEachOps$ForEachOp$OfRef boot_loader
+1432: java.lang.constant.Constable boot_loader
+      - array: [Ljava.lang.constant.Constable;
+1433: jdk.internal.module.ModuleBootstrap$SafeModuleFinder boot_loader
+1434: java.lang.WeakPairMap$Pair$Lookup boot_loader
+1435: java.util.concurrent.DelayScheduler boot_loader
+1436: sun.util.locale.LocaleUtils boot_loader
+1437: java.lang.System$Out boot_loader
+1438: java.lang.invoke.LambdaForm$Kind boot_loader
+      - array: [Ljava.lang.invoke.LambdaForm$Kind;
+1439: java.util.LinkedHashMap$Entry boot_loader
+1440: java.lang.module.ModuleReader boot_loader
+1441: java.security.Security$2 boot_loader
+1442: java.util.Spliterator boot_loader
+1443: java.util.zip.Inflater$InflaterZStreamRef boot_loader
+1444: jdk.internal.vm.ThreadContainers$RootContainer boot_loader
+1445: jdk.internal.module.SystemModuleFinders$SystemModuleFinder boot_loader
+1446: java.nio.file.CopyOption boot_loader
+      - array: [Ljava.nio.file.CopyOption;
+1447: java.util.regex.Pattern$GroupCurly boot_loader
+1448: jdk.internal.util.Preconditions$2 boot_loader
+1449: java.util.HashMap$Node boot_loader
+      - array: [Ljava.util.HashMap$Node;
+1450: java.lang.invoke.MethodHandleImpl$IntrinsicMethodHandle boot_loader
+1451: java.util.Properties$LineReader boot_loader
+1452: jdk.internal.classfile.impl.MethodInfo boot_loader
+1453: jdk.internal.classfile.impl.Util boot_loader
+1454: java.util.stream.Node boot_loader
+1455: java.lang.classfile.Attributes boot_loader
+1456: java.util.zip.ZipConstants boot_loader
+1457: jdk.internal.module.ModuleHashes boot_loader
+      - array: [Ljdk.internal.module.ModuleHashes;
+1458: java.util.HashMap$ValueIterator boot_loader
+1459: java.lang.invoke.VarHandleReferences$Array boot_loader
+1460: java.text.DateFormat boot_loader
+1461: java.lang.classfile.TypeKind boot_loader
+      - array: [Ljava.lang.classfile.TypeKind;
+1462: java.lang.reflect.GenericDeclaration boot_loader
+      - array: [Ljava.lang.reflect.GenericDeclaration;
+Shared Unregistered Dictionary
+Shared Lambda Dictionary
+1463: java.lang.module.ModuleFinder$2$$Lambda/0x800000013 boot_loader
+1464: sun.util.locale.provider.LocaleProviderAdapter$$Lambda/0x80000005d boot_loader
+1465: java.util.stream.Collectors$$Lambda/0x800000044 boot_loader
+1466: java.lang.runtime.SwitchBootstraps$$Lambda/0x800000018 boot_loader
+1467: java.util.regex.Pattern$$Lambda/0x800000030 boot_loader
+1468: java.util.stream.Collectors$$Lambda/0x800000040 boot_loader
+1469: java.util.stream.Collectors$$Lambda/0x800000043 boot_loader
+1470: jdk.internal.module.DefaultRoots$$Lambda/0x80000004d boot_loader
+1471: jdk.internal.module.ModulePath$$Lambda/0x800000057 boot_loader
+1472: java.util.stream.Collectors$$Lambda/0x80000003e boot_loader
+1473: java.time.format.DateTimeFormatter$$Lambda/0x80000001a boot_loader
+1474: jdk.internal.module.DefaultRoots$$Lambda/0x80000004e boot_loader
+1475: java.util.logging.Level$KnownLevel$$Lambda/0x800000020 boot_loader
+1476: jdk.internal.module.ModuleBootstrap$$Lambda/0x800000007 boot_loader
+1477: java.util.stream.Collectors$$Lambda/0x800000046 boot_loader
+1478: java.lang.runtime.SwitchBootstraps$$Lambda/0x800000019 boot_loader
+1479: jdk.internal.module.DefaultRoots$$Lambda/0x80000004c boot_loader
+1480: jdk.internal.module.DefaultRoots$$Lambda/0x80000004f boot_loader
+1481: jdk.internal.module.ModulePath$$Lambda/0x800000053 boot_loader
+1482: java.util.stream.Collectors$$Lambda/0x80000003f boot_loader
+1483: java.util.stream.MatchOps$$Lambda/0x800000004 boot_loader
+1484: java.time.format.DateTimeFormatter$$Lambda/0x80000001b boot_loader
+1485: java.util.stream.Collectors$$Lambda/0x800000042 boot_loader
+1486: java.util.ResourceBundle$Control$$Lambda/0x80000001e boot_loader
+1487: jdk.internal.module.ModulePath$$Lambda/0x800000054 boot_loader
+1488: jdk.internal.module.ModulePath$$Lambda/0x800000056 boot_loader
+1489: jdk.internal.module.ModuleBootstrap$$Lambda/0x800000009 boot_loader
+1490: jdk.internal.module.ModuleBootstrap$$Lambda/0x800000005 boot_loader
+1491: jdk.internal.module.ModuleBootstrap$$Lambda/0x80000000a boot_loader
+1492: sun.util.locale.provider.LocaleProviderAdapter$$Lambda/0x80000005b boot_loader
+1493: java.lang.module.ModuleFinder$2$$Lambda/0x800000011 boot_loader
+1494: java.util.stream.FindOps$FindSink$OfRef$$Lambda/0x800000049 boot_loader
+1495: java.lang.module.ModuleFinder$2$$Lambda/0x800000012 boot_loader
+1496: java.time.format.DateTimeFormatterBuilder$$Lambda/0x80000001c boot_loader
+1497: jdk.internal.module.ModuleBootstrap$$Lambda/0x800000002 boot_loader
+1498: java.util.logging.Level$KnownLevel$$Lambda/0x800000022 boot_loader
+1499: jdk.internal.module.ModuleBootstrap$$Lambda/0x800000003 boot_loader
+1500: java.util.stream.Collectors$$Lambda/0x800000041 boot_loader
+1501: jdk.internal.classfile.impl.ClassFileImpl$$Lambda/0x80000004b boot_loader
+1502: java.lang.module.ModuleDescriptor$Builder$$Lambda/0x80000000e boot_loader
+1503: java.util.regex.CharPredicates$$Lambda/0x800000024 boot_loader
+1504: java.util.regex.CharPredicates$$Lambda/0x800000025 boot_loader
+1505: java.util.stream.Collectors$$Lambda/0x800000045 boot_loader
+1506: jdk.internal.module.DefaultRoots$$Lambda/0x800000050 boot_loader
+1507: java.util.regex.Pattern$$Lambda/0x800000027 boot_loader
+1508: java.util.ResourceBundle$Control$$Lambda/0x80000001d boot_loader
+1509: java.util.logging.Level$$Lambda/0x80000001f boot_loader
+1510: java.util.zip.ZipFile$$Lambda/0x80000004a boot_loader
+1511: java.lang.module.ModuleFinder$2$$Lambda/0x800000010 boot_loader
+1512: java.lang.runtime.ObjectMethods$$Lambda/0x800000015 boot_loader
+1513: jdk.internal.module.ModulePath$$Lambda/0x800000051 boot_loader
+1514: jdk.internal.module.ModulePath$$Lambda/0x800000052 boot_loader
+1515: jdk.internal.module.ModulePath$$Lambda/0x800000058 boot_loader
+1516: jdk.internal.module.ModulePath$$Lambda/0x800000059 boot_loader
+1517: sun.util.cldr.CLDRLocaleProviderAdapter$$Lambda/0x80000005a boot_loader
+1518: jdk.internal.module.ModuleBootstrap$$Lambda/0x80000000c boot_loader
+1519: java.util.stream.Collectors$$Lambda/0x800000038 boot_loader
+1520: java.util.regex.Pattern$$Lambda/0x80000002f boot_loader
+1521: java.lang.module.ModuleFinder$2$$Lambda/0x800000014 boot_loader
+1522: java.util.regex.Pattern$$Lambda/0x800000028 boot_loader
+1523: java.util.stream.FindOps$FindSink$OfRef$$Lambda/0x800000048 boot_loader
+1524: java.util.stream.Collectors$$Lambda/0x800000047 boot_loader
+1525: java.util.logging.Level$KnownLevel$$Lambda/0x800000021 boot_loader
+Archived TrainingData Dictionary
+Number of shared symbols: 45613
+Number of shared strings: 8181
+VM version: OpenJDK 64-Bit Server VM (25-ea+27-3363) for bsd-aarch64 JRE (25-ea+27-3363), built on 2025-06-11T16:27:31Z with clang Apple LLVM 15.0.0 (clang-1500.3.9.4)
+
+archive is valid

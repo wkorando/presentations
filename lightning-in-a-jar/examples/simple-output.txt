@@ -1,0 +1,59 @@
+[0.006s][info][aot] Core region alignment: 16384
+hello, world
+[0.052s][info][aot] Reading lambda form invokers from JDK default classlist ...
+[0.052s][info][aot] Parsing /Library/Java/JavaVirtualMachines/jdk-25-ea.jdk/Contents/Home/lib/classlist (lambda form invokers only)
+[0.052s][info][aot] Rewriting and linking classes ...
+[0.053s][info][aot] Rewriting and linking classes: done
+[0.053s][info][aot] Regenerate MethodHandle Holder classes...
+[0.093s][info][aot] Regenerate MethodHandle Holder classes...done
+[0.093s][info][aot] Not dumping heap, reset CDSConfig::_is_using_optimized_module_handling
+[0.093s][info][aot] Gathering all archivable objects ... 
+[0.093s][info][aot] Skipping jdk/internal/misc/CDS$UnregisteredClassLoader$Source: used only when dumping CDS archive
+[0.093s][info][aot] Skipping jdk/internal/misc/CDS$UnregisteredClassLoader: used only when dumping CDS archive
+[0.093s][info][aot] Skipping java/lang/invoke/BoundMethodHandle$Species_J because it is dynamically generated
+[0.093s][info][aot] Skipping java/lang/invoke/BoundMethodHandle$Species_F because it is dynamically generated
+[0.093s][warning][aot] Skipping HelloStream: Unsupported location
+[0.093s][info   ][aot] Gathering classes and symbols ... 
+[0.106s][info   ][aot] Sorting symbols ... 
+[0.107s][info   ][aot] Sorting classes ... 
+[0.126s][info   ][aot] Reserved output buffer space at 0x00000003c0000000 [1073741824 bytes]
+[0.128s][info   ][aot] Allocating RW objects ... 
+[0.129s][info   ][aot] done (22038 objects)
+[0.129s][info   ][aot] Allocating RO objects ... 
+[0.132s][info   ][aot] done (51467 objects)
+[0.133s][info   ][aot] Relocating embedded pointers in core regions ... 
+[0.137s][info   ][aot] Make classes shareable
+[0.140s][info   ][aot] Number of classes 832
+[0.140s][info   ][aot]     instance classes   =   698, aot-linked =     0, inited =     0
+[0.140s][info   ][aot]       boot             =   698, aot-linked =     0, inited =     0
+[0.140s][info   ][aot]         vm             =   151, aot-linked =     0, inited =     0
+[0.140s][info   ][aot]       platform         =     0, aot-linked =     0, inited =     0
+[0.140s][info   ][aot]       app              =     0, aot-linked =     0, inited =     0
+[0.140s][info   ][aot]       unregistered     =     0, aot-linked =     0, inited =     0
+[0.140s][info   ][aot]       (enum)           =    26, aot-linked =     0, inited =     0
+[0.140s][info   ][aot]       (hidden)         =     0, aot-linked =     0, inited =     0
+[0.140s][info   ][aot]       (old)            =     0, aot-linked =     0, inited =     0
+[0.140s][info   ][aot]       (unlinked)       =     0, boot = 0, plat = 0, app = 0, unreg = 0
+[0.140s][info   ][aot]     obj array classes  =   125
+[0.140s][info   ][aot]     type array classes =     9
+[0.140s][info   ][aot]                symbols = 26203
+[0.140s][info   ][aot] Archived java heap is not supported: Programmatically disabled
+[0.140s][info   ][aot] Dumping symbol table ...
+[0.143s][info   ][aot] Archived 0 method handle intrinsics (16 bytes)
+[0.143s][info   ][aot] Adjust lambda proxy class dictionary
+[0.144s][info   ][aot] Writing binary AOTConfiguration file: hello-stream.aotconf
+[0.145s][info   ][aot] Shared file region (rw) 0:  3186272 bytes, addr 0x0000000800004000 file offset 0x00004000 crc 0x8cc911b4
+[0.146s][info   ][aot] Shared file region (ro) 1:  4986432 bytes, addr 0x0000000800310000 file offset 0x00310000 crc 0xa9cb1c99
+[0.146s][info   ][aot] Shared file region (ac) 4:        0 bytes
+[0.148s][info   ][aot] Shared file region (bm) 2:   104776 bytes, addr 0x0000000000000000 file offset 0x007d4000 crc 0x7959ef3a
+[0.148s][info   ][aot] Full module graph = disabled
+[0.148s][info   ][aot] Class  CP entries =  10628, archived =   1648 ( 15.5%), reverted =   1372
+[0.148s][info   ][aot] Field  CP entries =   4508, archived =   1006 ( 22.3%), reverted =    127
+[0.148s][info   ][aot] Method CP entries =   3180, archived =   2141 ( 67.3%), reverted =   1039
+[0.148s][info   ][aot] Indy   CP entries =     12, archived =      0 (  0.0%), reverted =     12
+[0.148s][info   ][aot] Platform loader initiated classes =      0
+[0.148s][info   ][aot] App      loader initiated classes =      0
+[0.148s][info   ][aot] MethodCounters                    =   2987 (  191168 bytes)
+[0.148s][info   ][aot] KlassTrainingData                 =     84 (    4032 bytes)
+[0.148s][info   ][aot] MethodTrainingData                =    188 (   18048 bytes)
+ AOTConfiguration recorded: hello-stream.aotconf
