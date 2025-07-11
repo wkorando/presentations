@@ -21,4 +21,5 @@ VV
 ## Minor Updates
 
 * Continued behind-the-scenes work from refactoring JVM and JDK internals to better support Leyden
+* Improving transparency and observability of the cache
 * Working with frameworks to improve AOT benefits

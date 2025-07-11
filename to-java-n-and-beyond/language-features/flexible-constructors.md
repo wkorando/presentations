@@ -40,4 +40,3 @@ public class PositiveBigInteger extends BigInteger {
 	super(value);
 }
 ```
-VV

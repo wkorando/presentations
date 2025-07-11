@@ -1,0 +1,14 @@
+Create a pipeline (maybe in OCI?) of building a project
+
+Include a step of executing a training run
+
+Get cache from it
+
+Build image
+
+Deploy application
+
+
+--- Maybe also demonstrate a canary deployment? ----
+
+--- Maybe also demonstrate referencing a volume? ---

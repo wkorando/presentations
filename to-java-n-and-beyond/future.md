@@ -42,8 +42,8 @@ VV
 
 ### Vector API
 
-JDK 24 <br/>
-JEP 489 (ninth incubator) <br/>
+JDK 25 <br/>
+JEP 508 (tenth incubator) <br/>
 <br/>
 (Will remain in incubator until Valhalla starts delivering)
 
@@ -55,8 +55,8 @@ VV
 
 ## Primitive Type Patterns
 
-Java 24<br/>
-JEP 488 (First Preview)
+Java 25<br/>
+JEP 507 (Second Preview)
 VV
 
 ### Pattern Matching for Switch
@@ -70,6 +70,6 @@ switch (x.getYearlyFlights()) {
     case int i -> ... appropriate action when i > 2 && i < 100 ...
 }
 ```
-VV
+
 
 

@@ -67,6 +67,10 @@ VV
 ### Module Import Declarations 
 
 ```java
+import java.util.Map;                   
+import java.util.function.Function;     
+import java.util.stream.Collectors;  
+import java.util.stream.Stream; 
 ```
 
 VV
@@ -74,6 +78,14 @@ VV
 ### Module Import Declarations 
 
 ```java
+import module java.base;
+
+class HelloWorld{
+	void main(){
+		...
+	}
+}
+
 ```
 
 VV

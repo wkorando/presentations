@@ -13,7 +13,7 @@ VV
 
 ##### JVM level:
 
-* **Class loading, linking, and initialization**
+* **Class loading, linking,** and initialization
 	* **Reading classes from disk**
 	* **Classfile validation and metadata construction**
 	* Running static initializers

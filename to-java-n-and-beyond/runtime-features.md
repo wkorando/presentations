@@ -21,7 +21,7 @@ VV
 Added in JDK 21 <br/>
 JEP 439
 <br/>
-Only option strarting JDK 24: <br/>
+Only option starting JDK 24: <br/>
 JEP 490 <br/>
 Get Started:
 
@@ -49,6 +49,8 @@ VV
 JDK 22 <br/>
 JEP 458
 
+VV
+
 ```
 $ java Main.java
 
@@ -58,14 +60,10 @@ import service.PersonService;
 public class Main{
 	void main(){
 		PersonService service = new PersonService();
-		
 		Person person = service.createNewPerson();
-		
 		IO.println(person.printName() + " has been created!");
 	}
-
 }
-
 
 Main.java
 \ model
@@ -75,20 +73,6 @@ Main.java
 
 
 ```
-
-VV
-
-## Project Leyden
-
-
-JDK 24 <br/>
-Ahead-of-Time Class Loading & Linking: JEP 483 <br/>
-
-JDK 25 <br/>
-514: Ahead-of-Time Command-Line Ergonomics: JEP 514 <br/>
-515: Ahead-of-Time Method Profiling: JEP 515 <br/>
-
-
 
 VV
 
@@ -129,6 +113,7 @@ $ java -XX:+UseCompactObjectHeaders
 * Modest reduction in heap ~10-20% 
 * Modest throughput improvement ~10-20%
 
+VV
 
 ## JFR Updates
 
