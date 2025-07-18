@@ -23,8 +23,9 @@ Introduce an API to express vector computations that reliably compile at runtime
 vv
 
 ## Vector API 
-JDK 23 <br/>
-JEP 469 (eighth incubator) 
+
+Will remain in incubator until integration of Valhalla features
+
 vv
 
 ## Foreign Function & Memory API 
@@ -48,7 +49,7 @@ vv
 
 ## Why Project Panama
 
-Replace the existing Java Native Interface (JNI) with an improved API that makes debugging and memory management easier, and address security concerns and safety issues related to JNI.
+Improve upon the existing Java Native Interface (JNI) with an improved API that makes debugging and memory management easier, and address security concerns and safety issues related to JNI.
 
 Allow Java applications take advantage of native libraries while still writing Java, and not having to write in the libraries native language.
 
@@ -58,4 +59,4 @@ vv
 
 * [Project Panama OpenJDK](https://openjdk.org/projects/panama/)
 * [Dev mailing list](https://mail.openjdk.org/mailman/listinfo/panama-dev)
-* [Foreign Function and Memory API](https://www.youtube.com/watch?v=iwmVbeiA42E)
+* [Foreign Function and Memory API](https://www.youtube.com/watch?v=Bhh07Rz5enw)

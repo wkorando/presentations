@@ -38,15 +38,14 @@ vv
  Not always needed!
 
 vv
+
 ## Project Valhalla Goals
 
 * value types (disavow identity)
-
 * primitive types (disavow identity + references)
-
 * universal generics (`ArrayList<int>`)
-
 * specialized generics (backed by `int[]`)
+
 vv
 
 ## What Can You Do Now?
@@ -68,18 +67,6 @@ Enable JFR event:
 SyncOnValueBasedClass
 ```
 
-vv
-
-## What Can You Do Now?
-
-### Initializing value types: 
-
-Compiler warning:
-```java
-public Long createALong() {
-	return new Long(100L);
-}
-```
 vv
 
 ## Why Project Valhalla

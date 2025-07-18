@@ -70,42 +70,7 @@ extends User {
 
 vv
 
-## Themes
-
-1. More expressive
-	* Meaning can be more easily derived from code
-2. Safer
-	* Compiler warnings
-	* Address some security issues (serialization)
-	* Fewer concerns with nulls
-3. Reducing verbosity/ceremony
-	* Not *just* about typing, but reducing opportunities for bugs
-
- 
-vv
-
-## Data-Oriented Programming
-**Object-Oriented Programming (OOP)** -> Classes model business behavior and entites
-<br/>
-**Data-Oriented Programming (DOP)** -> Classes model data
-
-❗️OOP and DOP are not competing paradigms, DOP can be used alongside OOP as needed.
-
-More here 👉 [Data-Oriented Programming in Java - Version 1.1](https://inside.java/2024/05/23/dop-v1-1-introduction/)
-
-vv
-
-![](images/nicolai.png)
-
-vv
-
-## Primitive Type Patterns
-
-Java 23<br/>
-JEP 455 (First Preview)
-vv
-
-### Pattern Matching for Switch
+## Pattern Matching
 
 ```java
 switch (x.getYearlyFlights()) {
@@ -116,80 +81,13 @@ switch (x.getYearlyFlights()) {
     case int i -> ... appropriate action when i > 2 && i < 100 ...
 }
 ```
-vv
-
-## Derived Records (withers)
-
-JDK ??<br/>
-JEP 468 (first preview)
-
-vv
-
-### Derived Records
-
-```java
-Point finalLoc = nextLoc with {
-    x *= 2;
-    y *= 2;
-    z *= 2;
-};
-```
-vv
-
-## Implicitly Declared Classes and Instance Main Methods
-
-JDK 23<br/>
-JEP 477 (third preview)
-
-vv
-
-### Implicitly Declared Classes and Instance Main Methods
-
-```java
-public class HelloWorld {
-    public static void main(String[] args) {
-        System.out.println("Hello, World!");
-    }
-}
-```
-vv
-
-### Implicitly Declared Classes and Instance Main Methods
-
-```java
-void main() {
-    System.out.println("Hello, World!");
-}
-```
-
-vv
-
-### Implicitly Declared Classes and Instance Main Methods
-
-```java
-void main() {
-    println("Hello, World!");
-}
-```
-
-vv
-
-### Implicitly Declared Classes and Instance Main Methods
-
-```java
-void main() {
-    String name = readln("Please enter your name: ");
-    print("Pleased to meet you, ");
-    println(name);
-}
-```
 
 vv
 
 ## Flexible Constructor Bodies 
 
-JDK 23<br/>
-JEP 482 (Second preview)
+JDK 25<br/>
+JEP 513
 
 vv
 
@@ -221,10 +119,157 @@ class Sub extends Super {
 
 vv
 
+
+## Paving the On-Ramp
+
+
+vv
+
+### Compact Source Files and Instance Main Methods
+
+```java
+public class HelloWorld {
+	public static void main(String[] args) {
+	    System.out.println("Hello, World!");
+	}
+}
+```
+
+vv
+
+### Compact Source Files and Instance Main Methods
+
+```java
+void main() {
+    IO.println("Hello, World!");
+}
+```
+
+vv
+
+### Compact Source Files and Instance Main Methods
+
+```java
+void main() {
+	String name = IO.readln("Please enter your name: ");
+   IO.println("Hello " + name + "!");
+}
+```
+
+vv
+
+## Module Import Declarations 
+
+JDK 25 <br/>
+JEP 511
+
+vv
+
+### Module Import Declarations 
+
+```java
+import java.util.Map;                   
+import java.util.function.Function;     
+import java.util.stream.Collectors;  
+import java.util.stream.Stream; 
+```
+
+vv
+
+### Module Import Declarations 
+
+```java
+import module java.base;
+
+class HelloWorld{
+	void main(){
+		...
+	}
+}
+
+```
+
+vv
+
+### Paving the On-ramp
+
+
+Paving the On-ramp - [read more](https://openjdk.org/projects/amber/design-notes/on-ramp)
+
+vv
+
+## Themes
+
+1. More expressive
+	* Meaning can be more easily derived from code
+2. Safer
+	* Compiler warnings
+	* Address some security issues (serialization)
+	* Fewer concerns with nulls
+3. Reducing verbosity/ceremony
+	* Not *just* about typing, but reducing opportunities for bugs
+
+ 
+vv
+
+## Data-Oriented Programming
+**Object-Oriented Programming (OOP)** -> Classes model business behavior and entites
+<br/>
+**Data-Oriented Programming (DOP)** -> Classes model data
+
+❗️OOP and DOP are not competing paradigms, DOP can be used alongside OOP as needed.
+
+More here 👉 [Data-Oriented Programming in Java - Version 1.1](https://inside.java/2024/05/23/dop-v1-1-introduction/)
+
+vv
+
+## Derived Records (withers)
+
+JDK ??<br/>
+JEP 468 (first preview)
+
+vv
+
+### Derived Records
+
+```java
+Point finalLoc = nextLoc with {
+    x *= 2;
+    y *= 2;
+    z *= 2;
+};
+```
+vv
+
+## String Template/Interpolation
+
+# 🤷‍♂️
+
+Don't know when, still a goal/priority to get implemented
+
+vv
+
+## A Bit Further Ahead
+
+* (Normal) Class deconstructors
+* Static factory patterns
+* Collection literals
+* Declaration of patterns in classes
+
+vv
+
+## Better Marshalling
+
+Towards Better Serialization: https://openjdk.org/projects/amber/design-notes/towards-better-serialization
+
+Marshalling: Data-Oriented Serialization : https://www.youtube.com/watch?v=R8Xubleffr8
+
+vv
+
 ## Next steps
 
 * [Project Amber OpenJDK](https://openjdk.org/projects/amber/)
 * [Dev mailing list](https://mail.openjdk.org/mailman/listinfo/amber-dev)
 * [
-Java Language Update - Early 2024 Edition](https://www.youtube.com/watch?v=U6JQ1CqjgLM)
+Where is the Java Language Going](https://www.youtube.com/watch?v=1dY57CDxR14)
 
