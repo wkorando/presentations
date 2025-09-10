@@ -67,10 +67,26 @@ VV
 ### Module Import Declarations 
 
 ```java
-import java.util.Map;                   
-import java.util.function.Function;     
-import java.util.stream.Collectors;  
-import java.util.stream.Stream; 
+import java.net.URI;
+import java.net.http.HttpClient;
+import java.net.http.HttpRequest;
+import java.net.http.HttpResponse;
+import static java.net.http.HttpResponse.BodyHandlers;
+
+class CallFoo{
+        public void main(){
+                HttpClient client = HttpClient.newHttpClient();
+
+                HttpRequest request = HttpRequest.newBuilder()
+                      .uri(URI.create("http://localhost:8000/"))
+                      .build();
+
+                client.sendAsync(request, BodyHandlers.ofString())
+                      .thenApply(HttpResponse::body)
+                      .thenAccept(System.out::println)
+                      .join();
+      }
+}
 ```
 
 VV
@@ -78,13 +94,25 @@ VV
 ### Module Import Declarations 
 
 ```java
-import module java.base;
+import module java.net.http;
 
-class HelloWorld{
-	void main(){
-		...
-	}
-}
+import java.net.URI;
+import static java.net.http.HttpResponse.BodyHandlers;//Only public top-level classes imported
+
+class CallFoo{
+	public void main(){
+		HttpClient client = HttpClient.newHttpClient();
+		
+		HttpRequest request = HttpRequest.newBuilder()
+		      .uri(URI.create("http://localhost:8000/"))
+		      .build();
+		
+		client.sendAsync(request, BodyHandlers.ofString())
+		      .thenApply(HttpResponse::body)
+		      .thenAccept(System.out::println)
+		      .join();
+      }
+}  
 
 ```
 

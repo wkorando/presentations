@@ -31,6 +31,16 @@ Java Developer Advocate - Oracle ☕️🥑
 
 >>
 
+## JavaOne 2026 Announced!
+
+March 17-19, 2026 
+
+Redwood Shores, CA
+
+More info 👉 [Announcement post](https://inside.java/2025/08/04/javaone-returns-2026/)
+
+>>
+
 ## Agenda
 * Review of JDK 11-17 ✋
 * New Language Features

@@ -10,6 +10,10 @@ vv
 vv
 
 ## Upgrade to JUnit 5
+
+JUNIT 6!
+
+
 * Parallel test execution
 * Repeated tests
 * Extensions

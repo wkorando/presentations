@@ -107,11 +107,12 @@ JDK 25 <br/>
 Compact Object Headers: JEP 519 <br/>
 
 ```
-$ java -XX:+UseCompactObjectHeaders
+$ java -XX:+UseCompactObjectHeaders ...
 ```
 
-* Modest reduction in heap ~10-20% 
-* Modest throughput improvement ~10-20%
+* Modest reduction in heap ~10% 
+* Modest throughput REGRESSION ~10%
+* Modest GC pressure reduction ~10%
 
 VV
 
