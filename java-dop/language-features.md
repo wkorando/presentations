@@ -62,7 +62,7 @@ Pattern Matching for `switch` added in Java 21 with [JEP 441](https://openjdk.or
 
 `record` Pattern added in Java 21 with [JEP 440](https://openjdk.org/jeps/440)
 
-Unnammed Patterns and Variables in Java 22 with [JEP 456](https://openjdk.org/jeps/456)
+Unnamed Patterns and Variables in Java 22 with [JEP 456](https://openjdk.org/jeps/456)
 
 
 VV
@@ -88,7 +88,7 @@ VV
 
 ```java
 public void displaySpeakers(List<ConferenceAttendees> attendees){
-	for(attendee a : attendees){
+	for(var a : attendees){
 		if(a instanceof Speaker(String firstName, String lastName, String company,
 			_, _, _, String profilePicture){
 			updateSpeakerPage(firstName, lastName, company, profilePicture);

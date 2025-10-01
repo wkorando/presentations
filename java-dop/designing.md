@@ -56,7 +56,7 @@ VV
 
 ### Model Data the Whole Data and Nothing But the Data
 
-Alternatives can be expressed with `sealed` hierachies. 
+Alternatives can be expressed with `sealed` hierarchies. 
 
 ```
 sealed interface Presentation permits StandardPresentation, WorkshopPresentation{
@@ -115,7 +115,7 @@ VV
 
 Ensure the data within a class cannot be unexpectedly changed, and ensure clients are aware of this as well. 
 
-Records only offer shallow immutability, which might require active intervention by the developer to ensure the claim remains truly immutabile.
+Records only offer shallow immutability, which might require active intervention by the developer to ensure the claim remains truly immutable.
 
 VV
 
