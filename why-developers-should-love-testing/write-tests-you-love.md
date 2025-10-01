@@ -9,10 +9,7 @@ vv
 
 vv
 
-## Upgrade to JUnit 5
-
-JUNIT 6!
-
+## Upgrade/Take Advantage to JUnit 5 (and soon 6!)
 
 * Parallel test execution
 * Repeated tests

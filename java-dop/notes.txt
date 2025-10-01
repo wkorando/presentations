@@ -1,0 +1,51 @@
+Use an international payment processor as the example
+
+Most CCs have 16 number and 3 CVC, AMEX 15, with 4 CVC
+
+Other e-pay like PayPal, Venmo, etc.
+
+Countries have differing requirements regarding what is a valid postal code
+
+Countries will have different sub-nationals jurisdictions (States, provinces)
+
+
+
+
+Command-line game written in OOP and DOP
+
+Character
+ Health
+ Power
+
+Player kind of Character
+ Primary hand
+ Off hand
+ Inventory
+ Warrior kind of Player
+   Can use physical objects
+   Uses stamina
+ Wizard kind of Player
+   Can use magical objects
+   Uses mana
+
+Enemies kind of Character
+ Rat
+ Goblin
+
+Item
+ Name
+
+Equipment type of item
+ Power
+ isPrimary
+Consumable type of item
+ Charges
+
+HealthPotion type of Consumable
+ManaPotion type of Consumable
+StaminaPotion type of Consumable
+
+Sword type of Equipment
+Shield type of Equipment
+Wand type of Equipment
+Orb type of Equipment

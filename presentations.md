@@ -21,13 +21,15 @@ VV
 
 ## To Java [n] and Beyond!
 
-Java 25 is the next version with LTS support, and with it comes many exciting changes. 
+Java 25 has been released, but the Java release train coninues chugging along with Java 26.
 
-In this presentation we will do a rapid review of some of the key changes to the JDK from 11-21 and how they have improved developer experience, performance, and  supporting Java applications in production. 
+In this presentation we will start with a quick review of the key changes from 17-21 and how they have improved developer experience, performance, and  supporting Java applications in production. 
 
-We will then transition to what Java looks like in a post JDK 21 environment, and where Java will be heading to in JDK 25 and beyond! 
+From there we will transition to changes to Java post-21 and how the various changes are bringing important stores into focus including; improved concurrency support, data-oriented programming, native support, and more! 
 
-If you want to learn about the current state of Java and were its heading, this is the presentation for you.
+
+
+The Java platform is evolivng quickly to keep pace with the current needs of users, be sure to attend this presentation if you want to keep up!
 <br/><br/>
 [Presentation](to-java-n-and-beyond/)
 
@@ -63,7 +65,7 @@ VV
 
 Virtual Threads, the central feature of Project Loom, were released as a final feature in JDK 21! As great as virtual threads are, it's just the start of the story for Project Loom. With the vastly reduced cost of creating threads, comes new opportunities. 
 
-In this presentation we will look at the next two major features to be delivered by Project Loom; Structured Concurrency and Scoped Values, and how they will significantly improve the developer experience of writing, running, and debugging code the executes concurrently.
+In this presentation we will look at the  two other major features to be delivered by Project Loom; Structured Concurrency and Scoped Values, and how they will significantly improve the developer experience of writing, running, and debugging code the executes concurrently.
 <br/><br/>
 [Presentation](loominated-java/)
 VV 

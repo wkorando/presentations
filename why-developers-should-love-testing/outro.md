@@ -5,9 +5,6 @@ https://github.com/wkorando/welcome-to-junit5-v2
 * Spring Cloud Contract Example:
 https://github.com/wkorando/collaborative-contract-driven-development-2-0 
 
-* JFRUnit:
-https://github.com/moditect/jfrunit 
-
 >>
 # Thank you!
 

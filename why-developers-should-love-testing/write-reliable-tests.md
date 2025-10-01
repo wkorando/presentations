@@ -56,13 +56,6 @@ More about mocks: [Type of Mocks](http://blog.tremblay.pro/2017/09/mocks.html)
 
 vv
 
-## Performance Testing
-
-### JFRUnit
-* Capture JDK Flight Recorder (JFR) Events to track system performance behavior
-* Check JVM behavior consistent across systems and environments
-vv
-
 ## Contract Driven Development
 * Contracts validate service fulfill defined behavior
 * Contracts can be used to setup up mock of service
