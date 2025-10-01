@@ -30,11 +30,11 @@ If modeling with normal classes, don't hide fields and ensure all fields are set
 
 ```
 class StandardAttendee implements ConferenceAttendee {
-	private String firstName;
-	private String lastName;
-	private String company;
-	private String email;
-	private List<Presentation> favoritedPresentations;
+	private final String firstName;
+	private final String lastName;
+	private final String company;
+	private final String email;
+	private final List<Presentation> favoritedPresentations;
 	
 	StandardAttendee(String firstName, 
 	String lastName, 
@@ -62,7 +62,7 @@ Alternatives can be expressed with `sealed` hierachies.
 sealed interface Presentation permits StandardPresentation, WorkshopPresentation{
 	String id;
 	String name;
-	String abstract;
+	String presentationAbstract;
 	Speaker speaker;
 }
 ```
@@ -76,7 +76,7 @@ By default `record` will provide an implementation of `equals()` and `hashCode()
 Equity for a presentation can be established by `id`.
 
 ```java
-record StandardPresentation(String id, String name, String abstract, Speaker speaker) implements Presentation{
+record StandardPresentation(String id, String name, String presentationAbstract, Speaker speaker) implements Presentation{
 	@Override
 	public equals(Object other) {
 		return this == other
@@ -132,7 +132,7 @@ record StandardAttendee(String firstName, String lastName, String company, Strin
 	
 	public List<Presentation> favoritedPresentations(){
 		return Collections.unmodifiableList(favoritedPresentations);
-		//Return unmodifiableLists to make clear to client the data is immutable
+		//Return immutable copies to make clear to client the data is immutable
 	}
 
 }
@@ -146,8 +146,11 @@ Only legal representations should ever be present in the system. To ensure this,
 
 VV
 
+### Make an Illegal State Unrepresentable
+
+
 ```java
-record StandardAttendee(String firstName, String lastName, String company, String email, List<Presentation> favoritedPresentations) implements ConferenceAttendee
+record StandardAttendee(String firstName, String lastName, String company, Email email, List<Presentation> favoritedPresentations) implements ConferenceAttendee
 {
 	ConferenceAttendee{
 		Objects.requireNonNull(firstName);
@@ -158,8 +161,6 @@ record StandardAttendee(String firstName, String lastName, String company, Strin
 		if(lastName.isBlank){
 			throw new IllegalArgumentException("Last name is required!");
 		}
-		if(!Validators.isValidEmail(email)){
-			throw new IllegalArgumentException("Email address is invalid!");
 		}
 		this.favoritedPresentations = List.copyOf(favoritedPresentations);	
 	}
@@ -226,10 +227,14 @@ public class ManagePresentations{
 }
 ```
 
+VV
+
 
 ### Separate Operations from Data
 
 Having behavior purely derivative of contained state is fine. 
+
+<br/>
 
 ✅ THIS IS ALSO OK ✅
 

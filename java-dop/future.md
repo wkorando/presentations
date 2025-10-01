@@ -14,10 +14,11 @@ public class ManagePresentations{
 
 	ConferenceAttendee addFavoritePresentation(ConferenceAttendee attendee, Presentation presentation){
 		return switch(attendee){
-			case StandardAttendee sa
-				-> sa with {
+			case StandardAttendee standardAttendee
+				-> standardAttendee with {
 					List.of(favoritedPresentations.values()),
 					presentation  
+					}
 			}
 			...
 		}
