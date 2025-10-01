@@ -56,7 +56,7 @@ VV
 
 ### Model Data the Whole Data and Nothing But the Data
 
-Alternatives can be expressed with `sealed` hierachies. 
+Alternatives can be expressed with `sealed` hierarchies. 
 
 ```
 sealed interface Presentation permits StandardPresentation, WorkshopPresentation{
