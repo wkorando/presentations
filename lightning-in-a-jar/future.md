@@ -7,8 +7,8 @@ VV
 
 * JEP 516: Ahead-of-Time Object Caching with Any GC
 * JEP (draft): Ahead-of-Time Code Compilation
-* More here: https://github.com/openjdk/leyden/tree/leyden-ea1-release-notes
-	* 2024 EA build 	
+* More here: https://github.com/openjdk/leyden/tree/leyden-ea2-release-notes
+	* Recently release second EA build!
 
 ### Related*:
 

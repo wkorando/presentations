@@ -10,7 +10,7 @@ Java Developer Advocate - Oracle ☕️🥑
 * Ask questions
 * Reach out: 
     * Email: billy.korando@oracle.com ✉️
-* Link to presentation: https://wkorando.github.io/presentations/taking-off-with-jfr/ 
+* Link to presentation: https://wkorando.github.io/presentations/finding-and-crushing-bugs-with-jfr/ 
 >>
 
 ## Would you like to know more?

@@ -1,9 +1,7 @@
 ## Follow-up Links
 
-
-* https://inside.java/
-* https://dev.java/
 * A Deep Dive into JVM Start-Up : https://www.youtube.com/watch?v=ED1oc7gn5uY
+* Ahead-of-Time Computation in Java 25: https://www.youtube.com/watch?v=V_Pls6B4_yg
 
 
 >>

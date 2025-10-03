@@ -4,7 +4,7 @@ Billy Korando
 Java Developer Advocate - Oracle ☕️🥑
 <br/>
 
-VV
+>>
 
 ## Or How To Improve Startup and Warmup Without Sacrificing Java's Dynamism
 
@@ -13,7 +13,7 @@ Billy Korando
 Java Developer Advocate - Oracle ☕️🥑
 <br/>
 
-VV
+>>
 
 ## Important Information
 
@@ -22,7 +22,23 @@ VV
     * Email: billy.korando@oracle.com ✉️
 * Link to presentation: https://wkorando.github.io/presentations/lightning-in-a-jar/
 
-VV
+>>
+
+## JavaOne 2026 Announced!
+
+
+<div style="text-align: center;">
+    <div style="display: inline-block; text-align: left;">
+
+March 17-19, 2026 
+<br/>
+Redwood Shores, CA (Silicon Valley)
+<br/>
+More info 👉 [Announcement post](https://inside.java/2025/08/04/javaone-returns-2026/)
+</div>
+</div>
+>>
+
 ## Would you like to know more?
 
 * https://dev.java
@@ -30,7 +46,7 @@ VV
 * https://youtube.com/java 
 * Inside Java Podcast
 
-VV
+>>
 
 ## Agenda
 * Project Leyden

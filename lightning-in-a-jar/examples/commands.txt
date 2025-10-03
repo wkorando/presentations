@@ -6,11 +6,13 @@ java -XX:CompileCommand=PrintCompilation,'leyden.JITExample::*' leyden/JITExampl
 
 java leyden/JITExample.java 10 true
 
-java -XX:AOTCacheOutput=jit-example.aot -Xlog:aot leyden/JITExample.java 10
+java -XX:AOTCacheOutput=jit-example.aot -Xlog:aot leyden/JITExample.java 10 true
 
 java -XX:AOTCache=jit-example.aot -Xlog:aot leyden/JITExample.java 10
 
-java -XX:+PrintSharedArchiveAndExit -XX:AOTCache=jit-example.aot
+java -XX:+PrintSharedArchiveAndExit -XX:AOTCache=jit-example.aot leyden/JITExample.java > print-cache-contents.txt
+
+open print-cache-contents.txt
 
 java -jar target/spring-petclinic-3.5.0-SNAPSHOT.jar
 
@@ -18,7 +20,11 @@ java -XX:AOTCacheOutput=app.aot  -Dspring.context.exit=onRefresh -jar target/spr
 
 java -XX:AOTCache=app.aot -jar target/spring-petclinic-3.5.0-SNAPSHOT.jar
 
+oha -z5s http://localhost:8080/vets.html
+
 java -XX:AOTCacheOutput=app-with-load.aot -jar target/spring-petclinic-3.5.0-SNAPSHOT.jar
+
+oha -z5s http://localhost:8080/vets.html
 
 java -XX:AOTCache=app-with-load.aot -jar target/spring-petclinic-3.5.0-SNAPSHOT.jar
 

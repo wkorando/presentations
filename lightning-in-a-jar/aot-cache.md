@@ -4,13 +4,6 @@
 
 VV
 
-##### Application level: 
-
-* Reading config files
-* Scanning for annotations
-* Opening sockets, registering listeners
-* Creating loggers
-
 ##### JVM level:
 
 * **Class loading, linking,** and initialization
@@ -20,6 +13,14 @@ VV
 * Interpretation
 * **Callsite linkage, constant pool resolution**
 * **Profile gathering**
+* JIT Optimizations
+
+##### Application level: 
+
+* Reading config files
+* Scanning for annotations
+* Opening sockets, registering listeners
+* Creating loggers
 
 VV
 
