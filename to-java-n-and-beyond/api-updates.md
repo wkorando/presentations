@@ -113,7 +113,7 @@ VV
 
 VV
 
-## Virtual Threads - Synchronized Pinning
+## Virtual Threads - Without Synchronized Pinning
 
 JDK 24 <br/>
 JEP 491

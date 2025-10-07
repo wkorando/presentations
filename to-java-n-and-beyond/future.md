@@ -56,7 +56,7 @@ VV
 ## Primitive Type Patterns
 
 Java 25<br/>
-JEP 507 (Second Preview)
+JEP 507 (Third Preview)
 VV
 
 ### Pattern Matching for Switch

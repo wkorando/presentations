@@ -35,7 +35,7 @@ VV
 
 Region Pinning added in JDK 22 <br/>
 JEP 423 <br/>
-Important for native memory work.
+Important when accessing native memory.
 <br/>
 <br/>
 Late Barrier Expansion for the G1 added in JDK 24 <br/>
@@ -76,7 +76,7 @@ Main.java
 
 VV
 
-## Project Leyden
+## Project Leyden/<br/>Ahead-of-Time Computation
 
 
 JDK 24 <br/>
@@ -112,7 +112,7 @@ $ java -XX:+UseCompactObjectHeaders ...
 
 * Modest reduction in heap ~10% 
 * Modest throughput REGRESSION ~10%
-* Modest GC pressure reduction ~10%
+* Modest GC pressure reduction (i.e. lower latency) ~10%
 
 VV
 
