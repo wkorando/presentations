@@ -1,0 +1,80 @@
+Entering Tech
+
+A Survival and Thrival Guide
+
+Disclaimers
+> Much has changed between 2007 and now
+> My story is just one path to "success" there are many others
+
+My Story
+Graduated high school in 2004
+Took a year off to work as a package handler for FedEx
+Realized that I'm not cut out for manual labor
+Enrolled in DeVry University in fall of 2005
+I wouldn't recommend DeVry (not that that is relevant)
+Began an internship at a QA Tester with NAIC in Spring of 2007
+Hired on as a Software Engineer with NIPR in January of 2008
+Graduated in Fall of 2008 (don't recommend going to school and working full time)
+Early career was a bit of a struggle, gaps in my education/knowledge
+But found a good mentor who took me under his wing
+Started semi-regularly attending user groups in 2010/11
+Started looking for a new role in fall of 2014
+Had some painful realizations that I have pigeonholed myself
+Needed to get back to studying on basics and areas I have neglected
+Eventually landed another role at [Name redacted] in Spring of 2015
+It didn't go well
+Was able to get hired on as a Consultant with Keyhole Software in Fall of 2015
+Worked with several organizations in Kansas City including; YRC, American Century, and USDA
+Started presenting in Spring of 2016 at KCSUG (predecessor to KCJUG) 
+Covered a subject HATEOAS, underlying concept for REST and HTTP
+Chose this subject because it was related to an interview I absolutely bombed
+Started presenting on other subjects; Java 9 and JUnit 5 over 2017/18
+Started co-organizing with KCSUG in 2015 and then KCJUG in 2017
+Had the goal of getting in Developer Relations DevRel
+Eventually hired on at IBM in Fall 2018
+Did a lot of presenting and traveling in 2019
+Did a lot less in 2020
+Laid off from IBM in Winter 2021
+Hired by Oracle in Spring 2021
+Started Co-organizing KCDC in 2021
+
+My "Reproducible" Takeaways 
+
+Invest in your network, particularly outside your current employer
+
+Keyhole Software -> hired through a friend
+IBM -> hired through a friend
+Oracle -> hired through a friend
+
+Climbing the career (and compensation) ladder
+
+Annual compensation rarely tracks with market
+
+Best way to increase annual earnings is by switching organizations
+
+Switching organizations also comes with other great benefits:
+* Expanding experience
+* Expanding network
+* Expanding life experience 
+
+When switching roles
+
+The grass isn't always greener
+
+Companies "inflate" 
+ 
+Having strong connections will help to circumvent many of the arbitrary resume screens that companies use 
+
+How to invest in your network?
+
+Actively participate in professional groups
+
+Actively participate in the hallway track at conferences
+
+Interact with the sponsors who are hiring at conferences 
+
+Avoid pigeonholing
+
+A Good Work Environment is Worth A LOT
+
+
