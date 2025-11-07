@@ -59,7 +59,8 @@ Data is at the center of any organization. So it stands to reason that data shou
 
 VV
 
-
+<br/><br/>
+[Presentation](java-dop/)
 
 ## Loominated Java
 
