@@ -10,6 +10,7 @@
 
 * Reach out: 
     * Email: billy.korando@oracle.com ✉️
+    *  https://www.linkedin.com/in/billy-korando-129b8197/
 * Link to presentation: https://wkorando.github.io/presentations/java-dop/
 
 

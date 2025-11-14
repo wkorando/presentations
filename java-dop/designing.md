@@ -60,10 +60,10 @@ Alternatives can be expressed with `sealed` hierarchies.
 
 ```
 sealed interface Presentation permits StandardPresentation, WorkshopPresentation{
-	String id;
-	String name;
-	String presentationAbstract;
-	Speaker speaker;
+	String id();
+	String name();
+	String presentationAbstract();
+	Speaker speaker();
 }
 ```
 
@@ -99,10 +99,10 @@ Instead of `String` for `email`, instead make it a type.
 
 ```
 record Email(String emailAddress){}
+record PersonName(String firstName, String lastName){}
 
 record StandardAttendee
-	(String firstName, 
-	String lastName, 
+	(PersonName personName,
 	String company, 
 	Email email, 
 	List<Presentation> favoritedPresentations)
@@ -125,7 +125,7 @@ VV
 record StandardAttendee(String firstName, String lastName, String company, String email, List<Presentation> favoritedPresentations) implements ConferenceAttendee
 {
 	
-	ConferenceAttendee{
+	StandardAttendee{
 		this.favoritedPresentations = List.copyOf(favoritedPresentations);
 		//Defensively copy potentially mutable fields
 	}
@@ -152,7 +152,7 @@ VV
 ```java
 record StandardAttendee(String firstName, String lastName, String company, Email email, List<Presentation> favoritedPresentations) implements ConferenceAttendee
 {
-	ConferenceAttendee{
+	StandardAttendee{
 		Objects.requireNonNull(firstName);
 		if(!firstName.isBlank()){
 			throw new IllegalArgumentException("First name is required!");
@@ -161,7 +161,7 @@ record StandardAttendee(String firstName, String lastName, String company, Email
 		if(lastName.isBlank){
 			throw new IllegalArgumentException("Last name is required!");
 		}
-		}
+		
 		this.favoritedPresentations = List.copyOf(favoritedPresentations);	
 	}
 	
@@ -173,11 +173,9 @@ record StandardAttendee(String firstName, String lastName, String company, Email
 }
 record Email(String emailAddress){
 	Email{
-		if(Validators.validEmail(emailAddress)){
-			this.emailAddress = emailAddress;
-		} else {
+		if(!Validators.validEmail(emailAddress)){
 			throw new IllegalArgumentException("Email address is invalid!");
-		}
+		} 
 	}
 }
 ```

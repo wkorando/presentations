@@ -17,7 +17,6 @@ public class Attendee{
 	private String lastName;
 	private String company;
 	private String email;
-	private AttendeeType attendeeType;//Standard Attendee, Workshop Attendee, Speaker, etc.
 	private List<Presentation> favoritedPresentations;
 	
 	...
@@ -26,17 +25,44 @@ public class Attendee{
 		favoritedPresentations.add(presentation);
 	}
 	
+	public void removeFavoritedPresentation(Presentation presentation){
+		favoritedPresentations.remove(presentation);
+	}
+	
+	
 	public void setEmail(String email){
 		if(Validators.validEmail(email)){
 			this.email = email;
 		}
 	}
+}
+
+public class WorkshopAttendee extends Attendee{	
+	private List<Workshop> workshops;
+	...
 	
-	public void setAttendeeType(AttendeeType attendeeType){
-		this.attendeeType = type;
+	public void addWorkshop(Workshop workshop){
+	   if(isValidWorkshop){
+			workshops.add(workshop);
+		} else {
+			//Handle if they can add the workshop
+		}
+	}
+	
+	private boolean isValidWorkshop(){
+		//validate if the attendee can sign up for the workshop
+		...
 	}
 }
 ```
+
+VV
+
+### What is Object-Oriented Programming?
+
+* Mutable state
+* Abstraction 
+* Inheritance 
 
 VV
 

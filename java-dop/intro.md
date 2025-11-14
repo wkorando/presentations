@@ -18,6 +18,7 @@ Java Developer Advocate - Oracle ☕️🥑
 * Ask questions
 * Reach out: 
     * Email: billy.korando@oracle.com ✉️
+    * LinkedIn: https://www.linkedin.com/in/billy-korando-129b8197/ 
 * Link to presentation: https://wkorando.github.io/presentations/java-dop/
 
 >>
@@ -41,14 +42,15 @@ March 17-19, 2026
 <br/>
 Redwood Shores, CA (Silicon Valley)
 <br/>
-More info 👉 [Announcement post](https://inside.java/2025/08/04/javaone-returns-2026/)
+More info 👉 https://javaone.com
 </div>
 </div>
 >>
 
 ## Agenda
-* What is Data-Oriented Programming?
-* Data-Oriented Language Features
+* What is Data-Oriented Programming (DOP)?
+* DOP Language Features
 * Designing a DOP System
 * When to Use DOP
+* Practical Uses of DOP
 * Future of DOP in Java
