@@ -17,7 +17,7 @@ vv
 ## Mutation Testing
 * Pitest (PIT)
 
-Manipulates byecode to validate tests are actually validating behavior.
+Manipulates bytecode to validate tests are actually validating behavior.
 
 vv
 
@@ -25,3 +25,14 @@ vv
 
 (Many options)
 
+vv
+
+## Property-based Testing
+
+* jqwik
+
+Defining properties that hold true for a range of inputs.
+
+Good for edge case testing, and reducing bias in testing that comes with "traditional" example-based testing.
+
+[Video](https://www.youtube.com/watch?v=rlAbJ3tWw9U)
