@@ -169,3 +169,13 @@ JEP 484
 ![](images/class-file-api.jpg)
 <br/>
 https://youtu.be/bQ2Rwpyj_Ks
+
+VV 
+
+### HTTP3 Support in HttpClient
+
+JDK 26 <br/>
+JEP 517 <br/>
+
+* HTTP2 remains default
+* HTTP3 uses new transport protocal QUIC, check JEP for working with HTTP3 servers

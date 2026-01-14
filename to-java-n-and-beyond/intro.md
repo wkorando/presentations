@@ -1,10 +1,10 @@
-## To Java 25 and Beyond!
+## To Java 26 and Beyond!
 
 ![](images/duke-rocket.png)
 
 >>
 
-## To Java 25 and Beyond!
+## To Java 26 and Beyond!
 
 Billy Korando 
 <br/>
@@ -41,7 +41,8 @@ March 17-19, 2026
 <br/>
 Redwood Shores, CA (Silicon Valley)
 <br/>
-More info 👉 [Announcement post](https://inside.java/2025/08/04/javaone-returns-2026/)
+More info 👉 https://javaone.com <br/>	
+Discount code: **J12026JUG ($50 off)**
 </div>
 </div>
 

@@ -40,7 +40,9 @@ Important when accessing native memory.
 <br/>
 Late Barrier Expansion for the G1 added in JDK 24 <br/>
 JEP 475 <br/>
-Reduces overhead for C2 compiler
+Reduces overhead for C2 compiler <br/> <br/>
+JEP 522 <br/>
+Improves throughput by reducing sync points
 
 VV
 
@@ -83,9 +85,11 @@ JDK 24 <br/>
 Ahead-of-Time Class Loading & Linking: JEP 483 <br/>
 
 JDK 25 <br/>
-514: Ahead-of-Time Command-Line Ergonomics: JEP 514 <br/>
-515: Ahead-of-Time Method Profiling: JEP 515 <br/>
+Ahead-of-Time Command-Line Ergonomics: JEP 514 <br/>
+Ahead-of-Time Method Profiling: JEP 515 <br/>
 
+JDK 26 <br/>
+Ahead-of-Time Ojbect Caching with any GC: JEP 516 <br/>
 
 
 VV
@@ -121,4 +125,21 @@ VV
 JDK 25 <br/>
 JFR Method Timing & Tracing: JEP 520 <br/>
 JFR Cooperative Sampling: JEP 518 <br/>
+
+VV
+
+## Prepare to Make Final mean Final
+
+JDK 26 <br/>
+
+Prepare to Make Final Mean Final: JEP 500<br/>
+
+Print warning messages when final fields are modified. Eventually modifying final fields will be disabled **by default**. 
+
+New JVM args:
+
+```
+--illegal-final-field-mutation=[allow|warn|debug|deny]
+--enable-final-field-mutation=[module(s)]
+```
 

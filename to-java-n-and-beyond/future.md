@@ -4,8 +4,8 @@ VV
 
 ### Structured Concurrency
 
-JDK 25  <br/>
-JEP 499 (fifth preview)
+JDK 26  <br/>
+JEP 525 (sixth preview)
 
 VV
 
@@ -36,27 +36,13 @@ VV
     }
 }
 ```
-VV
-
-
-
-### Vector API
-
-JDK 25 <br/>
-JEP 508 (tenth incubator) <br/>
-<br/>
-(Will remain in incubator until Valhalla starts delivering)
-
 
 VV
-
-
-
 
 ## Primitive Type Patterns
 
-Java 25<br/>
-JEP 507 (Third Preview)
+Java 26<br/>
+JEP 530 (Fourth Preview)
 VV
 
 ### Pattern Matching for Switch
@@ -70,6 +56,25 @@ switch (x.getYearlyFlights()) {
     case int i -> ... appropriate action when i > 2 && i < 100 ...
 }
 ```
+
+VV 
+
+## Lazy Constants
+
+Java 26<br/>
+JEP 526
+
+```java
+```
+
+VV
+
+### Vector API
+
+JDK 26 <br/>
+JEP 529 (eleventh incubator) <br/>
+<br/>
+(Will remain in incubator until Valhalla starts delivering)
 
 
 
