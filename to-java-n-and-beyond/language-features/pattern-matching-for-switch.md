@@ -13,7 +13,7 @@ VV
 ### Pattern Matching for Switch
 
 ```java
-interface class Shape{
+interface Shape{
 	int area();
 }
 final class Triangle implements Shape{}
@@ -33,7 +33,7 @@ VV
 ### Pattern Matching for Switch - null
 
 ```java
-interface class Shape{
+interface Shape{
 	int area();
 }
 final class Triangle implements Shape{}
@@ -54,7 +54,7 @@ VV
 ### Pattern Matching for Switch - Sealed Hierarchies
 
 ```java
-sealed interface class Shape{
+sealed interface Shape{
 	int area();
 }
 final class Triangle implements Shape{}

@@ -20,29 +20,10 @@ VV
 
 ### Compact Source Files and Instance Main Methods
 
-```java
-class HelloWorld{
-	void main(String[] args){
-		System.out.println("Hello World!");
-	}
-}
-```
-
-VV
-
-### Compact Source Files and Instance Main Methods
 
 ```java
 void main() {
-    System.out.println("Hello, World!");
-}
-```
-
-VV
-
-```java
-void main() {
-    IO.println("Hello, World!");
+	IO.println("Hello, World!");
 }
 ```
 

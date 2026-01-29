@@ -126,20 +126,3 @@ JDK 25 <br/>
 JFR Method Timing & Tracing: JEP 520 <br/>
 JFR Cooperative Sampling: JEP 518 <br/>
 
-VV
-
-## Prepare to Make Final mean Final
-
-JDK 26 <br/>
-
-Prepare to Make Final Mean Final: JEP 500<br/>
-
-Print warning messages when final fields are modified. Eventually modifying final fields will be disabled **by default**. 
-
-New JVM args:
-
-```
---illegal-final-field-mutation=[allow|warn|debug|deny]
---enable-final-field-mutation=[module(s)]
-```
-

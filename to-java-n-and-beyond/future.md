@@ -65,6 +65,16 @@ Java 26<br/>
 JEP 526
 
 ```java
+class OrderController {
+    private final LazyConstant<Logger> logger 
+    	= LazyConstant.of(() -> Logger.create(OrderController.class));
+    	
+	void submitOrder(User user, List<Product> products{
+		logger.get().info("order started"); //Calls of() if logger isn't initialized
+		...
+		logger.get().info("order submitted");
+	}
+}
 ```
 
 VV

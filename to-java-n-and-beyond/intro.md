@@ -39,10 +39,10 @@ Java Developer Advocate - Oracle ☕️🥑
 
 March 17-19, 2026 
 <br/>
-Redwood Shores, CA (Silicon Valley)
+Redwood City, CA (Silicon Valley)
 <br/>
 More info 👉 https://javaone.com <br/>	
-Discount code: **J12026JUG ($50 off)**
+Discount code: **J12026JUG ($100 off)**
 </div>
 </div>
 

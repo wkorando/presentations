@@ -161,21 +161,10 @@ VV
 
 VV
 
-### Class-File API
-
-JDK 24 <br/>
-JEP 484
-<br/>
-![](images/class-file-api.jpg)
-<br/>
-https://youtu.be/bQ2Rwpyj_Ks
-
-VV 
-
-### HTTP3 Support in HttpClient
+### HTTP/3 Support in HttpClient
 
 JDK 26 <br/>
 JEP 517 <br/>
 
-* HTTP2 remains default
-* HTTP3 uses new transport protocal QUIC, check JEP for working with HTTP3 servers
+* HTTP/2 remains default
+* HTTP/3 uses new transport protocal QUIC, check JEP for working with HTTP/3 servers
