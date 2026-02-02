@@ -21,15 +21,13 @@ VV
 
 ## To Java [n] and Beyond!
 
-Java 25 has been released, but the Java release train coninues chugging along with Java 26.
+Java 25 has been released, but the Java release train continues chugging along with Java 26.
 
-In this presentation we will start with a quick review of the key changes from 17-21 and how they have improved developer experience, performance, and  supporting Java applications in production. 
+In this presentation we will start with a quick review of the key changes from 17-21 and how they have improved developer experience, performance, and supporting Java applications in production.
 
-From there we will transition to changes to Java post-21 and how the various changes are bringing important stores into focus including; improved concurrency support, data-oriented programming, native support, and more! 
+From there we will transition to changes to Java post-21 and how the various changes are bringing important stores into focus including; improved concurrency support, data-oriented programming, native support, and more!
 
-
-
-The Java platform is evolivng quickly to keep pace with the current needs of users, be sure to attend this presentation if you want to keep up!
+The Java platform is evolving quickly to keep pace with the current needs of users, be sure to attend this presentation if you want to keep up!
 <br/><br/>
 [Presentation](to-java-n-and-beyond/)
 
