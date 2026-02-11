@@ -21,8 +21,8 @@ final class Circle implements Shape{}
 final class Square implements Shape{}
 
 switch(shape)
-	case Triangle t when t.area() > 100 -> System.out.println("A large triange");
-	case Triangle t -> System.out.println("A small triange");
+	case Triangle t when t.area() > 100 -> System.out.println("A large triangle");
+	case Triangle t -> System.out.println("A small triangle");
 	case Circle c -> System.out.println("A circle");
 	case Square s -> System.out.println("A square");
 	default -> System.out.println("A different shape");
@@ -41,8 +41,8 @@ final class Circle implements Shape{}
 final class Square implements Shape{}
 
 switch(shape)
-	case Triangle t when t.area() > 100 -> System.out.println("A large triange");
-	case Triangle t -> System.out.println("A small triange");
+	case Triangle t when t.area() > 100 -> System.out.println("A large triangle");
+	case Triangle t -> System.out.println("A small triangle");
 	case Circle c -> System.out.println("A circle");
 	case Square s -> System.out.println("A square");
 	case null -> System.out.println("Oops");
@@ -61,9 +61,9 @@ final class Triangle implements Shape{}
 final class Circle implements Shape{}
 final class Square implements Shape{}
 
-switch(sealedHierarchy)
-	case Triangle t when t.area() > 100 -> System.out.println("A large triange");
-	case Triangle t -> System.out.println("A small triange");
+switch(shape)
+	case Triangle t when t.area() > 100 -> System.out.println("A large triangle");
+	case Triangle t -> System.out.println("A small triangle");
 	case Circle c -> System.out.println("A circle");
 	case Square s -> System.out.println("A square");
 	//No default needed; compiler can read sealed hierarchy

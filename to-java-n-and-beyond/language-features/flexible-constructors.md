@@ -37,7 +37,7 @@ class Employee extends Person {
 	}
 	
 	static int validateAge(int age){
-		if(age >= 18 || age <= 65){
+		if(age < 18 || age > 65){
 			throw new IllegalArgumentException(...);
 		}
 		return age;
