@@ -1,0 +1,117 @@
+<!doctype html>
+<html>
+	<head>
+		<style>
+			.reveal section p {
+			display: inline-block;
+			font-size: 0.6em;
+			text-align: left;
+		  }
+		  .reveal section li {
+			font-size: 0.6em;
+		  }
+		  .reveal section code {
+			font-size: 0.6em;
+			line-height: 1.4em;
+		  }
+		</style>
+		<meta charset="utf-8">
+		<meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=no">
+
+		<title>From Java 17 to 25!</title>
+
+		<link rel="stylesheet" href="../dist/reset.css">
+		<link rel="stylesheet" href="../dist/reveal.css">
+		<link rel="stylesheet" href="../dist/theme/white.css">
+
+		<!-- Theme used for syntax highlighted code -->
+		<link rel="stylesheet" href="../plugin/highlight/zenburn.css">
+	</head>
+	<body>
+		<div class="reveal">
+    		<div class="slides">
+				<section data-markdown="intro.md"
+         	   		data-separator=">>"
+         		   	data-separator-vertical="VV"
+         		   	data-separator-notes="^Note:">
+				</section>
+				<section data-markdown="language-features.md"
+         	   		data-separator=">>"
+         		   	data-separator-vertical="VV"
+         		   	data-separator-notes="^Note:">
+				</section>
+				<section data-markdown="language-features/pattern-matching-for-switch.md"
+					data-separator=">>"
+					data-separator-vertical="VV"
+					data-separator-notes="^Note:">
+				</section>
+				<section data-markdown="language-features/record-patterns.md"
+					data-separator=">>"
+					data-separator-vertical="VV"
+					data-separator-notes="^Note:">
+				</section>
+				<section data-markdown="language-features/unnamed-variables-and-patterns.md"
+					data-separator=">>"
+					data-separator-vertical="VV"
+					data-separator-notes="^Note:">
+				</section>
+				<section data-markdown="language-features/stream-gatherers.md"
+					data-separator=">>"
+					data-separator-vertical="VV"
+					data-separator-notes="^Note:">
+				</section>
+				<section data-markdown="language-features/flexible-constructors.md"
+					data-separator=">>"
+					data-separator-vertical="VV"
+					data-separator-notes="^Note:">
+				</section>
+				<section data-markdown="language-features/on-ramp.md"
+					data-separator=">>"
+					data-separator-vertical="VV"
+					data-separator-notes="^Note:">
+				</section>
+				<section data-markdown="language-features/wrap-up.md"
+					data-separator=">>"
+					data-separator-vertical="VV"
+					data-separator-notes="^Note:">
+				</section>
+				<section data-markdown="api-updates.md"
+					data-separator=">>"
+					data-separator-vertical="VV"
+					data-separator-notes="^Note:">
+				</section>
+				<section data-markdown="runtime-features.md"
+         	   		data-separator=">>"
+         		   	data-separator-vertical="VV"
+         		   	data-separator-notes="^Note:">
+				</section>
+				<section data-markdown="deprecations.md"
+         	   		data-separator=">>"
+         		   	data-separator-vertical="VV"
+         		   	data-separator-notes="^Note:">
+				</section>
+				<section data-markdown="future.md"
+         	   		data-separator=">>"
+         		   	data-separator-vertical="VV"
+         		   	data-separator-notes="^Note:">
+				</section>
+				<section data-markdown="outro.md"
+         	   		data-separator=">>"
+         		   	data-separator-vertical="VV"
+         		   	data-separator-notes="^Note:">
+				</section>
+    		</div>
+		</div>
+		<script src="../dist/reveal.js"></script>
+		<script src="../plugin/notes/notes.js"></script>
+		<script src="../plugin/markdown/markdown.js"></script>
+		<script src="../plugin/highlight/highlight.js"></script>
+		<script>
+			Reveal.initialize({
+				hash: true,
+				height: 600,
+				plugins: [ RevealMarkdown, RevealHighlight, RevealNotes ]
+			});
+		</script>
+	</body>
+</html>
