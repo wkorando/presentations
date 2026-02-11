@@ -20,7 +20,7 @@ class Person {
 class Employee extends Person {
     Employee(..., int age){
     	super(..., age);//Potentially unnecessary work
-    	if(age >= 18 || age <= 65){
+    	if(age < 18 || age > 65){
     		throw new IllegalArgumentException(...);
     	}
     }
@@ -51,7 +51,7 @@ VV
 
 class Employee extends Person {
     Employee(..., int age){
-    	if(age >= 18 || age <= 65){
+    	if(age < 18 || age > 65){
     		throw new IllegalArgumentException(...);
     	}
     	super(..., age);
