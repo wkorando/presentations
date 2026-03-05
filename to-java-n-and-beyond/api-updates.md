@@ -127,6 +127,64 @@ JEP 506
 
 VV
 
+## Scoped Values
+
+Using `ThreadLocal` to handle context:
+
+```java
+public class Framework {
+
+    private final Application application;
+
+    public Framework(Application app) { this.application = app; }
+    
+    private static final ThreadLocal<FrameworkContext> CONTEXT 
+                       = new ThreadLocal<>();    // (1)
+
+    void serve(Request request, Response response) {
+        var context = createContext(request);
+        CONTEXT.set(context);                    // (2)
+        Application.handle(request, response);
+    }
+
+    public PersistedObject readKey(String key) {
+        var context = CONTEXT.get();              // (3)
+        var db = getDBConnection(context);
+        db.readKey(key);
+    }
+
+}
+```
+
+VV
+
+## Scoped Values
+
+Using `ScoedValues` to handle context:
+
+```java
+class Framework {
+
+    private static final ScopedValue<FrameworkContext> CONTEXT
+                        = ScopedValue.newInstance();    // (1)
+
+    void serve(Request request, Response response) {
+        var context = createContext(request);
+        where(CONTEXT, context)                         // (2)
+                   .run(() -> Application.handle(request, response));
+    }
+    
+    public PersistedObject readKey(String key) {
+        var context = CONTEXT.get();                    // (3)
+        var db = getDBConnection(context);
+        db.readKey(key);
+    }
+
+}
+```
+
+VV
+
 ## Foreign Function & Memory
 
 JDK 22 <br/>

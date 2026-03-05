@@ -42,7 +42,7 @@ March 17-19, 2026
 Redwood City, CA (Silicon Valley)
 <br/>
 More info 👉 https://javaone.com <br/>	
-Discount code: **J12026JUG ($100 off)**
+Discount code: **J12026JUG ($200 off)**
 </div>
 </div>
 

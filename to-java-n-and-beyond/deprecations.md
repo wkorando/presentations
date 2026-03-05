@@ -38,7 +38,6 @@ VV
 ## Integrity by Default: 
 
 👉 [Draft JEP 8305968](https://openjdk.org/jeps/8305968) <br/> <br/>
-
 Related JEPs:<br/>
 472: Prepare to Restrict the Use of JNI <br/>
 498: Warn upon Use of Memory-Access Methods in sun.misc.Unsafe<br/>
