@@ -11,7 +11,7 @@ VV
 	
 <br/>
 	
-🔼 Small-scale systems (i.e. a microservice)
+🔼 Small-scale systems (i.e. microservice/function)
 	
 <br/>
 	

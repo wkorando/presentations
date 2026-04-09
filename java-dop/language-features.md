@@ -73,10 +73,15 @@ VV
 ```java
 public void sendAttendeeEmails(ConferenceAttendee attendee){
 	switch(attendee){
-		case StandardAttendee standardAttendee -> sendAttendeeWelcomeEmail(standardAttendee); 
-		case WorkshopAttendee workshopAttendee when workshopAttendee.workshops().isEmpty() -> sendWorkshopSelectionEmail(workshopAttendee);
-		case WorkshopAttendee workshopAttendee -> sendWorkshopPrereqsEmail(workshopAttendee); 
-		case Speaker speaker -> sendSpeakerWelcomeEmail(speaker); 
+		case StandardAttendee standardAttendee -> 
+				sendAttendeeWelcomeEmail(standardAttendee); 
+		case WorkshopAttendee workshopAttendee 
+				when workshopAttendee.workshops().isEmpty() -> 
+				sendWorkshopSelectionEmail(workshopAttendee);
+		case WorkshopAttendee workshopAttendee -> 
+				sendWorkshopPrereqsEmail(workshopAttendee); 
+		case Speaker speaker -> 
+				sendSpeakerWelcomeEmail(speaker); 
 	}
 }
 ```

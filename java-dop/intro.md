@@ -32,21 +32,6 @@ Java Developer Advocate - Oracle ☕️🥑
 
 >>
 
-## JavaOne 2026 Announced!
-
-
-<div style="text-align: center;">
-    <div style="display: inline-block; text-align: left;">
-
-March 17-19, 2026 
-<br/>
-Redwood Shores, CA (Silicon Valley)
-<br/>
-More info 👉 https://javaone.com
-</div>
-</div>
->>
-
 ## Agenda
 * What is Data-Oriented Programming (DOP)?
 * DOP Language Features

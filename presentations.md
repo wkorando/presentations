@@ -55,10 +55,10 @@ VV
 
 Data is at the center of any organization. So it stands to reason that data should be at the center of how we design and write our Java applications. In this talk we are going to look at how recent changes to the Java language; Records, Pattern Matching, Seal Hierarchies, are enabling Java applications to be written in a Data-Oriented Programming (DOP) paradigm. We will look at the core concepts of DOP, and how it compares and contrasts with the OOP approach familiar to many Java developers.
 
-VV
-
 <br/><br/>
 [Presentation](java-dop/)
+
+VV
 
 ## Loominated Java
 

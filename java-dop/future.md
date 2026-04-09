@@ -28,6 +28,49 @@ public class ManagePresentations{
 
 VV
 
+### Data Carriers
+
+
+Smoother transition between records and "normal" classes: 
+
+```java
+public class SortaRecord{
+
+	private String firstName;
+	private String lastName;
+	private String middleName;
+	private String composedName;
+}
+```
+
+VV
+
+### Data Carriers
+
+
+Smoother transition between records and "normal" classes: 
+
+```java
+public class SortaRecord{
+
+	private component String firstName;
+	private component String lastName;
+	private component String middleName;
+	private String composedName;
+	
+	public SortaRecord (String firstName, String lastName, String middleName){
+		...
+		//Must have a canonical record of all declared components
+	}
+}
+```
+
+VV
+
+### Data Carriers
+
+Read more: [https://openjdk.org/projects/amber/design-notes/beyond-records](https://openjdk.org/projects/amber/design-notes/beyond-records)
+
 ### Project Valhalla
 
 <div style="text-align: center;">

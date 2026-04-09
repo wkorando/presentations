@@ -91,14 +91,6 @@ VV
 
 ### DOP isn't New
 
-Popularized in the 2000's for console video game development. 
-
-<br/>
-
-👉 [Data-Oriented Design (Or Why You Might Be Shooting Yourself in The Foot With OOP)](https://gamesfromwithin.com/data-oriented-design)
-
-<br/>
-
 Antecedents go back to the 70s; Expression Problem and distinction between abstract data types and objects. 
 
 👉 [Expression Problem](https://en.wikipedia.org/wiki/Expression_problem)
