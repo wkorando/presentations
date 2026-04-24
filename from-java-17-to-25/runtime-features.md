@@ -88,10 +88,6 @@ JDK 25 <br/>
 Ahead-of-Time Command-Line Ergonomics: JEP 514 <br/>
 Ahead-of-Time Method Profiling: JEP 515 <br/>
 
-JDK 26 <br/>
-Ahead-of-Time Object Caching with any GC: JEP 516 <br/>
-
-
 VV
 
 ## Using Project Leyden Features

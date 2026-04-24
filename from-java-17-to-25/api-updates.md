@@ -158,5 +158,3 @@ VV
 /// - a field [String#CASE_INSENSITIVE_ORDER]
 /// - a method [String#chars()]
 ```
-
-VV

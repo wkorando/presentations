@@ -33,23 +33,6 @@ Java Developer Advocate - Oracle ☕️🥑
 
 >>
 
-## JavaOne 2026 Announced!
-
-
-<div style="text-align: center;">
-    <div style="display: inline-block; text-align: left;">
-
-March 17-19, 2026 
-<br/>
-Redwood City, CA (Silicon Valley)
-<br/>
-More info 👉 https://javaone.com <br/>	
-Discount code: **J12026JUG ($100 off)**
-</div>
-</div>
-
->>
-
 ## Agenda
 * New Language Features
 * API Updates
