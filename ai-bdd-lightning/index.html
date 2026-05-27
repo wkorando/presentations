@@ -1,0 +1,104 @@
+<!doctype html>
+<html>
+	<head>
+		<style>
+			.reveal .title-outline {
+				color: #fff;
+				-webkit-text-stroke: 2px #000;
+				text-shadow:
+					3px 3px 0 #000,
+					-1px -1px 0 #000,
+					1px -1px 0 #000,
+					-1px 1px 0 #000,
+					1px 1px 0 #000;
+			}
+
+			.reveal .title-subtitle {
+				font-weight: 700;
+			}
+
+			.reveal .hell-slide h2 {
+				margin-bottom: 0.45em;
+			}
+
+			.reveal .hell-layout {
+				align-items: center;
+				display: flex;
+				gap: 1.2em;
+				height: 430px;
+				justify-content: space-between;
+				text-align: left;
+			}
+
+			.reveal .hell-copy {
+				flex: 1 1 56%;
+				font-size: 0.72em;
+				line-height: 1.22;
+			}
+
+			.reveal .hell-copy ul {
+				margin: 0 0 0 1em;
+			}
+
+			.reveal .hell-media {
+				display: flex;
+				flex: 0 0 40%;
+				justify-content: flex-end;
+			}
+
+			.reveal .hell-media img {
+				margin: 0;
+				max-height: 330px;
+				max-width: 100%;
+			}
+		</style>
+		<meta charset="utf-8">
+		<meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=no">
+
+		<title>AI and BDD a Match Made in He...?</title>
+
+		<link rel="stylesheet" href="../dist/reset.css">
+		<link rel="stylesheet" href="../dist/reveal.css">
+		<link rel="stylesheet" href="../dist/theme/white.css">
+
+		<!-- Theme used for syntax highlighted code -->
+		<link rel="stylesheet" href="../plugin/highlight/zenburn.css">
+	</head>
+	<body>
+		<div class="reveal">
+    		<div class="slides">
+				<section data-markdown="intro.md"
+         	   		data-separator=">>"
+         		   	data-separator-vertical="VV"
+         		   	data-separator-notes="^Note:">
+				</section>
+				<section data-markdown="what-is-bdd.md"
+         	   		data-separator=">>"
+         		   	data-separator-vertical="VV"
+         		   	data-separator-notes="^Note:">
+				</section>
+				<section data-markdown="ai-and-bdd.md?v=layout1"
+         	   		data-separator=">>"
+         		   	data-separator-vertical="VV"
+         		   	data-separator-notes="^Note:">
+				</section>
+				<section data-markdown="outro.md"
+         	   		data-separator=">>"
+         		   	data-separator-vertical="VV"
+         		   	data-separator-notes="^Note:">
+				</section>
+    		</div>
+		</div>
+		<script src="../dist/reveal.js"></script>
+		<script src="../plugin/notes/notes.js"></script>
+		<script src="../plugin/markdown/markdown.js"></script>
+		<script src="../plugin/highlight/highlight.js"></script>
+		<script>
+			Reveal.initialize({
+				hash: true,
+				height: 600,
+				plugins: [ RevealMarkdown, RevealHighlight, RevealNotes ]
+			});
+		</script>
+	</body>
+</html>
