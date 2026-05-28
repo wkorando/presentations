@@ -23,7 +23,7 @@ vv
 
 ## AI Generated Tests?
 
-(Many options)
+Maybe a major part of the future of testing writing?!
 
 vv
 
