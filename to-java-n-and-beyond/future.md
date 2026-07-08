@@ -4,8 +4,8 @@ VV
 
 ### Structured Concurrency
 
-JDK 26  <br/>
-JEP 525 (sixth preview)
+JDK 27  <br/>
+JEP 533 (seventh preview)
 
 VV
 
@@ -41,8 +41,8 @@ VV
 
 ## Primitive Type Patterns
 
-Java 26<br/>
-JEP 530 (Fourth Preview)
+Java 27<br/>
+JEP 532 (Fourth Preview)
 VV
 
 ### Pattern Matching for Switch
@@ -61,8 +61,8 @@ VV
 
 ## Lazy Constants
 
-Java 26<br/>
-JEP 526
+Java 27<br/>
+JEP 531
 
 ```java
 class OrderController {
@@ -81,8 +81,8 @@ VV
 
 ### Vector API
 
-JDK 26 <br/>
-JEP 529 (eleventh incubator) <br/>
+JDK 27 <br/>
+JEP 537 (eleventh incubator) <br/>
 <br/>
 (Will remain in incubator until Valhalla starts delivering)
 

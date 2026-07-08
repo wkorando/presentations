@@ -1,10 +1,10 @@
-## To Java 26 and Beyond!
+## To Java 27 and Beyond!
 
 ![](images/duke-rocket.png)
 
 >>
 
-## To Java 26 and Beyond!
+## To Java 27 and Beyond!
 
 Billy Korando 
 <br/>
@@ -28,23 +28,6 @@ Java Developer Advocate - Oracle ☕️🥑
 * https://inside.java
 * https://youtube.com/java 
 * Inside Java Podcast
-
->>
-
-## JavaOne 2026 Announced!
-
-
-<div style="text-align: center;">
-    <div style="display: inline-block; text-align: left;">
-
-March 17-19, 2026 
-<br/>
-Redwood City, CA (Silicon Valley)
-<br/>
-More info 👉 https://javaone.com <br/>	
-Discount code: **J1BREWING200 ($200 off)**
-</div>
-</div>
 
 >>
 

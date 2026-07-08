@@ -1,0 +1,62 @@
+# Write Reliable Tests 
+vv
+
+## Test Containers
+```java
+public static class Initializer 
+    implements ApplicationContextInitializer<ConfigurableApplicationContext> {
+    @Override
+    public void initialize(ConfigurableApplicationContext applicationContext) {
+        TestPropertyValues.of("spring.datasource.url=" + postgres.getJdbcUrl(), //
+                "spring.datasource.username=" + postgres.getUsername(), //
+                "spring.datasource.password=" + postgres.getPassword(),
+                "spring.jpa.database-platform=org.hibernate.dialect.PostgreSQL95Dialect") //
+                .applyTo(applicationContext);
+    }
+}
+static DockerImageName postgresHoteldbLatest = 
+    DockerImageName.parse("postgres-hoteldb:latest")
+    .asCompatibleSubstituteFor("postgres");
+private static PostgreSQLContainer<?> postgres =    
+    new PostgreSQLContainer<>(postgresHoteldbLatest);
+
+@RegisterExtension
+static SpringTestContainersExtension extension = 
+    new SpringTestContainersExtension(postgres, true);
+```
+vv
+
+
+## Test Containers
+* Test against local containerized instances of remote services
+* Don’t have to worry about:
+    * Service being down
+    * Test data going missing
+    * Maintaining a local instance
+
+vv
+
+## Mocking
+
+* Mockito 
+
+Yes using mocks are fine*
+
+vv
+
+## Mocking
+
+* Mockito 
+
+Yes using mocks are fine*
+
+\* As long as you are validating the behavior of code using the mock, not the mock itself.
+
+More about mocks: [Type of Mocks](http://blog.tremblay.pro/2017/09/mocks.html)
+
+vv
+
+## Contract Driven Development
+* Contracts validate service fulfill defined behavior
+* Contracts can be used to setup up mock of service
+

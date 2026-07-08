@@ -1,0 +1,30 @@
+Three Laws of Testing AI Code
+> Treat AI Code with the Same Skepticism as code written by newly hired developer
+> Acceptance Criteria
+> Independent code quality validation standards
+
+What is the goal of automated testing
+
+>Check code for correctness
+>Maintain cadence
+>Ensure code doesn't introduce regressions
+
+Independent criteria
+
+> PIT Testing
+> Diff reports 
+> Property based testing
+> Code quality artifacts
+
+Acceptance criteria
+
+Clear & testable acceptance criteria
+	> BDD
+	> Contract Testing
+
+Known knowns > acceptance criteria 
+Known unknowns > property testing
+Unknown unknowns > Mutation Testing Fuzz Testing
+
+Not a substitute for reviewing code
+Can't account for higher level architectural concerns

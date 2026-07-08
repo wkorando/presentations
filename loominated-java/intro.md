@@ -33,7 +33,6 @@ Java Developer Advocate - Oracle ☕️🥑
 * Virtual Threads
 * The problems with concurrency
 * Using Structured Concurrency
-* Using Scoped Values
 
 >>
 

@@ -4,6 +4,8 @@
 
 Being able to breakdown a unit of work into concurrent tasks that can be reasoned with.
 
+VV
+
 ## Problems with Current State
 
 * Serial execution - slow
@@ -12,5 +14,7 @@ Being able to breakdown a unit of work into concurrent tasks that can be reasone
 	* Stranded threads
 	* Lots of work to properly handle all of this behavior (distracting to read)
 
-	
-	Nesting structured concurrency scopes?
+VV
+
+
+## Structured Concurrency

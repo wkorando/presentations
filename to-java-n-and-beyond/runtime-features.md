@@ -37,12 +37,13 @@ Region Pinning added in JDK 22 <br/>
 JEP 423 <br/>
 Important when accessing native memory.
 <br/>
-<br/>
 Late Barrier Expansion for the G1 added in JDK 24 <br/>
 JEP 475 <br/>
-Reduces overhead for C2 compiler <br/> <br/>
+Reduces overhead for C2 compiler <br/>
 JEP 522 <br/>
-Improves throughput by reducing sync points
+Improves throughput by reducing sync points <br/>
+JEP 523 <br/>
+Make G1 the Default Garbage Collector in All Environments
 
 VV
 
@@ -107,16 +108,15 @@ VV
 
 ## Compact Object Headers
 
-JDK 25 <br/>
-Compact Object Headers: JEP 519 <br/>
+Added in: JDK 25 <br/>
+JEP 519 <br/>
+<br/>
+Default in: JDK 27 <br/>
+JEP 534 <br/>
 
 ```
 $ java -XX:+UseCompactObjectHeaders ...
 ```
-
-* Modest reduction in heap ~10% 
-* Modest throughput REGRESSION ~10%
-* Modest GC pressure reduction (i.e. lower latency) ~10%
 
 VV
 
@@ -125,4 +125,7 @@ VV
 JDK 25 <br/>
 JFR Method Timing & Tracing: JEP 520 <br/>
 JFR Cooperative Sampling: JEP 518 <br/>
+<br/>
+JDK 27 <br/>
+JFR In-Process Data Redaction: JEP 536 <br/>
 

@@ -10,3 +10,17 @@ After going through current concurrent examples, step through the issues with th
 Give high level examples of how Structured Concurrency addresses -> then get into code examples
 
 Examples of debugging with tools like JMC? Finding hung process and relating them back to parent thread?
+
+
+Virtual threads
+- Light weight; created nearly instantly/~4KB of heapspace/JVMs on commodity hardware can handle 1M+ concurrent threads
+- Use Thread per task/request/connect and discard
+- Don't pool/reuse
+- Replaces a lot of need for async/reactive
+- Use semaphore for flow control
+- Virtual threads aren't "faster" than platform threads 
+- When refactoring don't replace "platform threads with virtual threads" but tasks with virtual threads... a lot would be happening at framework level
+
+- Pinning issues largely resolved 
+- Stacktraces, threads dump, and other serviceability not (adversely***) impacted
+*** "adversity" is from change in scale (i.e. way more threads, so more data, not change in model)
