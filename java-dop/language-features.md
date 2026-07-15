@@ -52,6 +52,17 @@ record Speaker(String firstName, String lastName, String company, String email, 
 
 VV
 
+### Algebraic Types
+
+Records -> Product types
+
+<br/>
+
+Sealed Hierarchy -> Sum types 
+
+
+VV
+
 ### Pattern Matching
 
 Pattern Match for `instanceof` added in Java 16 with [JEP 394](https://openjdk.org/jeps/394)

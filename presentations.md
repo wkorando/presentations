@@ -47,7 +47,7 @@ VV
 Some of the most difficult issues a developer will face are slow developing resources leaks, or errors that occur at infrequent intervals. When these happen, finding the root cause can be difficult, and a frequent recourse by developers is to add a lot of logging statements around suspected problem sites. What if I told you there was a better option, and that option already existed right in the JVM you are already running? JDK Flight Recorder, as its namesake suggests, is a low-overhead profiling and diagnostic tool that[s been built directly into the JDK since JDK 7. In this presentation we are going to look at how developers can leverage JFR's powerful API and reporting tools for tracking down those difficult bugs as well as how JFR can be incorporated into the development process.
 
 <br/><br/>
-[Presentation](taking-off-with-jfr/)
+[Presentation](finding-and-crushing-bugs-with-jfr/)
 
 VV
 

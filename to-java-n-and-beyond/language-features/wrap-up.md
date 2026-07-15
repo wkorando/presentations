@@ -15,4 +15,6 @@ VV
 
 Data Oriented Programming, Beyond Records: <br/>
 
-https://mail.openjdk.org/pipermail/amber-spec-experts/2026-January/004307.html
+https://mail.openjdk.org/pipermail/amber-spec-experts/2026-January/004307.html <br/>
+
+https://youtu.be/b6cXuA84c9g

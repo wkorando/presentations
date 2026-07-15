@@ -13,9 +13,6 @@ VV
 	
 🔼 Small-scale systems (i.e. microservice/function)
 	
-<br/>
-	
-🔼 Data density is critical  
 	
 <br/>
 <br/>
