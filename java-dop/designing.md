@@ -131,7 +131,7 @@ record StandardAttendee(String firstName, String lastName, String company, Strin
 	}
 	
 	public List<Presentation> favoritedPresentations(){
-		return Collections.unmodifiableList(favoritedPresentations);
+		return favoritedPresentations;
 		//Return immutable copies to make clear to client the data is immutable
 	}
 
@@ -218,7 +218,7 @@ public class ManagePresentations{
 	ConferenceAttendee addFavoritePresentation(ConferenceAttendee attendee, Presentation presentation){
 		return switch(attendee){
 			case StandardAttendee sa(String firstName, String lastName, String company, String email, List<Presentation> favoritedPresentations) 
-			-> new StandardAttendee(firstName, lastName, company, email, List.of(favoritedPresentations.values(),  presentation);
+			-> new StandardAttendee(firstName, lastName, company, email, List.of(favoritedPresentations.values()),  presentation);
 			...
 		}
 	}

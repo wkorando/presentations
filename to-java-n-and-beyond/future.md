@@ -42,7 +42,7 @@ VV
 ## Primitive Type Patterns
 
 Java 27<br/>
-JEP 532 (Fourth Preview)
+JEP 532 (fourth preview)
 VV
 
 ### Pattern Matching for Switch
@@ -62,7 +62,7 @@ VV
 ## Lazy Constants
 
 Java 27<br/>
-JEP 531
+JEP 531 (third preview)
 
 ```java
 class OrderController {
@@ -82,7 +82,7 @@ VV
 ### Vector API
 
 JDK 27 <br/>
-JEP 537 (eleventh incubator) <br/>
+JEP 537 (Eleventh incubator) <br/>
 <br/>
 (Will remain in incubator until Valhalla starts delivering)
 

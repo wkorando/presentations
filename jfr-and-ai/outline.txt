@@ -1,0 +1,17 @@
+Title: Autopilot: Building the Ultimate Ops Engineer with JFR and AI
+
+Abstract: JDK Flight Recorder, JFR, is an observability and diagnostic framework built directly into the JDK. It can provide a rich and detailed view into how your application and the JVM is behaving at runtime. It is able to do this while maintaining a sub-1% impact on application throughput, allowing it to be always on in production. 
+
+While JFR is an incredibly powerful tool, its utilization is rather low and the amount of information it provides can feel overwhelming. Additionally while it can be always on, and can be very useful for debugging when something goes wrong. If an issue happens at 2:00 am, it might be sometime before it can be acted on by a human engineer. 
+
+In this presentation, we will look at how JFR can be combined with agentic AI to build the ultimate Ops engineer. An engineer that can review JFR recordings and propose improvements to an application. An engineer that is always available and able to respond in realtime when issue occur. 
+
+If you have been looking for novel opportunities to incorporate AI into your organization, or improve the performance of your applications in production, this is a presentation you don't want to miss.
+
+
+Outline:
+
+What is JFR?
+Examples of JFR in Action
+Writing an AI Agent to Use JFR
+Demo: AI Agent Monitors and Fixes an Issue

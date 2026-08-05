@@ -28,3 +28,26 @@ Unknown unknowns > Mutation Testing Fuzz Testing
 
 Not a substitute for reviewing code
 Can't account for higher level architectural concerns
+
+Three levels of testing AI code:
+1. Spec driven development - programmatically defining completeness
+2. Property testing - preventing "over fitting" and covering edge cases
+3. Static analysis/mutation testing 
+
+Known knowns
+> BDD/Spec driven development - defining the business needs/cases for an application
+Known Unknowns
+> Property testing - exercising edge cases that might exist within the requirements of your application
+Unknown unknowns
+> Mutation testing/static analysis - ensuring the overall quality of checks and your test suite to avoid the introduction of bugs
+
+
+Knowns and Unknowns: Testing AI Generated Code
+
+Let's face it AI-assisted coding is rapidly becoming the primary way applications are being written. The power of being able to write out a complicated application or feature with a just a few commands is something too alluring to pass up. 
+
+But between the imprecise nature of language and LLMs ability to "hallucinate", this creates many opportunities for bugs and unintended behavior to introduced. Just telling an AI coding agent to "write tests" isn't going to be enough to build confidence in the correctness of an application either. 
+
+In this presentation we are going to review three distinct phases to testing AI written code. The known knowns; using spec driven development to define the business meaningful behavior of your application. Known unknowns; using property-based testing to handle edge cases and avoid over fitting and unintended biases. And finally unknown unknowns, using static analysis and mutation testing to avoid introducing bugs you didn't think about.
+
+AI-assisted coding is a rapidly evolving field, but this presentation should give you the framework and approach on how to have confidence when using AI to assist in writing applications. 

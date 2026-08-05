@@ -8,7 +8,8 @@ This slide deck represents my current active presentations. Step through the sli
 <a href=#/0/5>Loominated Java</a><br/>
 <a href=#/0/6>Lightning in a JAR</a><br/>
 <br/>
-<a href=#/0/7>Speaker's Bio</a><br/>
+<a href=#/0/7>Known and Unknowns: Testing AI Generated Code</a><br/>
+<a href=#/0/8>Speaker's Bio</a><br/>
 
 
 <br/>
@@ -76,6 +77,20 @@ Since microservices started gaining popularity the mid-2010's there has been an 
 
 <br/><br/>
 [Presentation](lightning-in-a-jar/)
+VV 
+
+## Known and Unknowns: Testing AI Generated Code
+
+Let's face it AI-assisted coding is rapidly becoming the primary way applications are being written. The power of being able to write out a complicated application or feature with a just a few commands is something too alluring to pass up. 
+
+But between the imprecise nature of language and LLMs ability to "hallucinate", this creates many opportunities for bugs and unintended behavior to introduced. Just telling an AI coding agent to "write tests" isn't going to be enough to build confidence in the correctness of an application either. 
+
+In this presentation we are going to review three distinct phases to testing AI written code. The known knowns; using spec driven development to define the business meaningful behavior of your application. Known unknowns; using property-based testing to handle edge cases and avoid over fitting and unintended biases. And finally unknown unknowns, using static analysis and mutation testing to avoid introducing bugs you didn't think about.
+
+AI-assisted coding is a rapidly evolving field, but this presentation should give you the framework and approach on how to have confidence when using AI to assist in writing applications. 
+
+<br/><br/>
+[Presentation](testing-ai-code/)
 VV 
 
 ## Speaker Biography

@@ -1,16 +1,18 @@
-# Why Developers Should Love Testing
+# Knowns and Unknowns: Testing AI Generated Code
 Billy Korando
 
 Java Developer Advocate - Oracle
 
 >>
+
 ## Important Information
 
 * Ask questions
 * Reach out: 
     * Email: billy.korando@oracle.com
     * LinkedIn: https://www.linkedin.com/in/billy-korando-129b8197/ 
-* Link to presentation: https://wkorando.github.io/presentations/why-developers-should-love-testing/
+* Link to presentation: https://wkorando.github.io/presentations/testing-ai-code/
+
 >>
 
 
@@ -23,27 +25,9 @@ Java Developer Advocate - Oracle
 
 >>
 
-## JavaOne 2026 Announced!
-
-
-<div style="text-align: center;">
-    <div style="display: inline-block; text-align: left;">
-
-March 17-19, 2026 
-<br/>
-Redwood Shores, CA (Silicon Valley)
-<br/>
-More info 👉 https://javaone.com
-</div>
-</div>
-
->>
-
 ## Agenda
-* Why Write Tests
-* Write Tests You Love
-* Writing Reliable Integration Tests
-* Additional Tooling Options
+* Why Write (Automated) Tests
+* Testing AI Code
 
 
 

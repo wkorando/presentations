@@ -160,7 +160,7 @@ VV
 
 ## Scoped Values
 
-Using `ScoedValues` to handle context:
+Using `ScopedValues` to handle context:
 
 ```java
 class Framework {
