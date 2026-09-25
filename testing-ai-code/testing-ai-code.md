@@ -1,4 +1,4 @@
-# Testing AI Written Code
+# ~~Testing~~ Verifying AI Written Code
 
 vv
 
@@ -26,6 +26,8 @@ vv
 
 # Code is "Cheap"
 
+Or even "free"?
+
 vv
 
 # Code isn't "Accountable"
@@ -38,7 +40,7 @@ vv
 
 ## Three Layers
 
-* Known Knowns - Specifying business requirements in a testable way
+* Known Knowns - Specifying business requirements in a testable way, provide examples, provide detailed documentation
 * Known Unknowns - Ensure edge cases are covered, guard against biases, and prevent over-fitting 
 * Unknown Unknowns - Use long time common practices around static analysis to ensure overall quality of the test suite
 

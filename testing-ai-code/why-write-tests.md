@@ -5,12 +5,16 @@ vv
 ## Not Good "Reasons"
 
 * It's a "best practice"
-* Netflix or X "FAANG" company uses automated testing
-	* Some general appeal to authority
+* Netflix or some "FAANG" (or is it MANAA? Or MONAAA?!) company uses automated testing
+
+	
+Net-net: Some appeal to authority
+
+Big issue: Cargo culting, and...
 
 vv
 
-## Realities of Automated Testing Commitments
+## Realities of Automated Testing
 
 * Substantial time and effort to write tests
 	* Thinking about test design
@@ -20,11 +24,9 @@ vv
 	* Ensuring correctness of the tests (The tests are doing what you expect them to do/providing value)
 
 
-vv	
-
 vv
 
-## Realities of Automated Testing Commitments 
+## Realities of Automated Testing Cont. 
 
 * Substantial time and effort to maintain tests
 	* Every code change will require updates to the test suite
@@ -51,7 +53,7 @@ vv
 ## Automated Deployment Process Benefits
 
 * Maintain longterm development velocity by reducing the incremental cost of making changes
-* Improve the auditability of validating code
+* Improve auditability; can concretely provide the what, where, when, and how
 * Improve the ease of keeping underlying dependencies up-to-date
 
 vv

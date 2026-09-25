@@ -1,0 +1,13 @@
+Explain example problem/program upfront; what is yq, why was it chosen, etc.
+The "TCK" for validating the results
+
+Explain key concepts; BDD, property testing, data faker... 
+
+More complex examples of property testing, other areas where it helps to avoid bias
+
+Comparisons:
+
+Adversarial agents
+Using different models
+Token usage of different methods
+Creating examples of using property testing and data faker and directing AI to use those examples in other scenarios.
