@@ -3,12 +3,10 @@ This slide deck represents my current active presentations. Step through the sli
 
 <a href=#/0/1>To Java [n] and Beyond!</a><br/>
 <a href=#/0/2>Why Developers Should Love Testing</a><br/>
-<a href=#/0/3>Finding and Crushing Bugs and More with JFR</a><br/>
-<a href=#/0/4>Java is Data!</a><br/>
-<a href=#/0/5>Loominated Java</a><br/>
-<a href=#/0/6>Lightning in a JAR</a><br/>
+<a href=#/0/3>Loominated Java</a><br/>
+<a href=#/0/4>Lightning in a JAR</a><br/>
+<a href=#/0/5>Known and Unknowns: Testing AI Generated Code</a><br/>
 <br/>
-<a href=#/0/7>Known and Unknowns: Testing AI Generated Code</a><br/>
 <a href=#/0/8>Speaker's Bio</a><br/>
 
 
@@ -22,13 +20,13 @@ VV
 
 ## To Java [n] and Beyond!
 
-Java 25 has been released, but the Java release train continues chugging along with Java 26.
+The Java release train has no brakes! Java 28 has arrived, and with it comes a whole set of new features and goodies!
 
-In this presentation we will start with a quick review of the key changes from 17-21 and how they have improved developer experience, performance, and supporting Java applications in production.
+In this presentation, we will start with a quick review of the key changes from JDK 17 through JDK 25 and how they have improved the developer experience, performance, and support for Java applications in production.
 
-From there we will transition to changes to Java post-21 and how the various changes are bringing important stores into focus including; improved concurrency support, data-oriented programming, native support, and more!
+From there, we will transition to changes in Java post-JDK 25 and how they are bringing several important stories into focus, including improved concurrency support, data-oriented programming, native support, and more!
 
-The Java platform is evolving quickly to keep pace with the current needs of users, be sure to attend this presentation if you want to keep up!
+The Java platform is evolving quickly to keep pace with the current needs of its users. Be sure to attend this presentation if you want to keep up!
 <br/><br/>
 [Presentation](to-java-n-and-beyond/)
 
@@ -40,24 +38,6 @@ VV
 We know that test automation is often discussed as a “best practice” in modern software development, but why should we love automated testing as a developer? In this presentation, we will learn how reliance on manual testing and processes for validation lies at the heart of some of the most challenging problems in software development. We will then cover practices and principles for developing reliable, portable, and maintainable automated tests. This will help developers not view automated testing as a chore but as a central aspect of our work that helps us deliver better customer service!
 <br/><br/>
 [Presentation](why-developers-should-love-testing/)
-
-VV
-
-## Finding and Crushing Bugs and More with JFR
-
-Some of the most difficult issues a developer will face are slow developing resources leaks, or errors that occur at infrequent intervals. When these happen, finding the root cause can be difficult, and a frequent recourse by developers is to add a lot of logging statements around suspected problem sites. What if I told you there was a better option, and that option already existed right in the JVM you are already running? JDK Flight Recorder, as its namesake suggests, is a low-overhead profiling and diagnostic tool that[s been built directly into the JDK since JDK 7. In this presentation we are going to look at how developers can leverage JFR's powerful API and reporting tools for tracking down those difficult bugs as well as how JFR can be incorporated into the development process.
-
-<br/><br/>
-[Presentation](finding-and-crushing-bugs-with-jfr/)
-
-VV
-
-## Java is Data!
-
-Data is at the center of any organization. So it stands to reason that data should be at the center of how we design and write our Java applications. In this talk we are going to look at how recent changes to the Java language; Records, Pattern Matching, Seal Hierarchies, are enabling Java applications to be written in a Data-Oriented Programming (DOP) paradigm. We will look at the core concepts of DOP, and how it compares and contrasts with the OOP approach familiar to many Java developers.
-
-<br/><br/>
-[Presentation](java-dop/)
 
 VV
 

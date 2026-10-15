@@ -4,29 +4,10 @@ Some of the most difficult issues a developer will face are slow developing reso
 
 ------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------
 
-Lightning in a JAR, Faster Startups and more with AOT!
-
-Since microservices started gaining popularity the mid-2010's there has been an increased focus on improving startup performance in Java applications. While there are frameworks and runtime solutions for addressing this issue, they often come with drawbacks. Adopting a framework might require refactoring or rewriting an application, some runtime solutions come with specific technical constraints. Project Leyden, an OpenJDK project with the goals of reducing start up time, time to peak performance, and memory footprint is aiming to give Java developers these benefits, without requiring to them make the tradeoffs other solutions often require. Leyden works by performing a training run and storing the collected information in a cache that can be used on subsequent runs. In this talk we will look at how Leyden is already delivering on improving startup, how you can incorporate it into your projects, and what's coming in the future from Project Leyden! 
-
-------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------
-
-Java and AI the New Frontier
-
-Since the release of ChatGPT at the end of 2022, AI has been one of the hottest topics in all of tech. In the Java community this discussion has often been centered around how to integrate with libraries like langchain4j, which provide APIs to talk with existing models. This talk isn't about that. 
-
-In all of these talks of Java accessing existing AI models through APIs, it has widely been assumed that languages like Python will dominate as the implementation language for AI models. In this talk we are going to look at how OpenJDK is working to change that assumption. OpenJDK has three major projects; Babylon, Panama, and Valhalla, that are looking to make Java a more inviting platform to write the next generation of AI models. We will look at how each of these projects are aiming to deliver on that vision, and how you can take advantage as AI continues to increase in importance and relevance within our organizations. 
-
-------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------
 
 Putting the "Development Kit" in the JDK
 
 As developers we love our tools. IDEs for writing and debugging applications, Maven/Gradle for building and packaging, often when we are looking for a tool help us with writing and maintaining our Java applications, the initial thought is to look towards the massive Java community for a solution. Many developers overlook that "DK", Development Kit, in the "JDK", not realizing there are already many great tools and features provided right in the JDK! In this talk we will go through some of these often overlooked, yet powerful, tools and features and how they can be used by developers to help with some common and not so common tasks. 
-
-------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------
-
-Java is Data!
-
-Data is at the center of any organization. So it stands to reason that data should be at the center of how we design and write our Java applications. In this talk we are going to look at how recent changes to the Java language; Records, Pattern Matching, Seal Hierarchies, are enabling Java applications to be written in a Data-Oriented Programming (DOP) paradigm. We will look at the core concepts of DOP, and how it compares and contrasts with the OOP approach familiar to many Java developers.
 
 ------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------
 
@@ -36,14 +17,68 @@ Communicate with some fun gadget
 
 ------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------
 
-Which Garbage Collector is Right for Me?
+Agentic Coding Tools Are Powerful. The Secret Is in the Harness.
 
-Serial, Parallel, G1, Z,... Epsilon?! The JDK comes pre-packaged with several options for the garbage collector, but which to choose? How do you know which to choose? In this presentation, we will understand the tradeoffs between garbage collectors and the comparative strengths and weaknesses of the available garbage collectors. If you have been running into performance issues with your applications in production and looking for possible solutions, or want to learn about garbage collectors, this presentation is for you! 
+Agentic coding tools like Codex, Claude Code, Cursor, and others are incredibly powerful. With just a few prompts, users are able to "vibe code" an entire application. However, the experience for many users is that while these applications might work on a surface level, they fail under closer scrutiny. Requirements the agent said were fulfilled weren't, processes the agent claimed were completed aren't, and users are left with a bug-filled, error-prone application with a dense, confusing codebase they don't understand.
+
+Close enough might be good enough for horseshoes and hand grenades, but not for applications operating in the real world, where a business risks financial and reputational losses when mistakes occur.
+
+The good news is that there is a way forward! We can take advantage of agentic coding tools to build applications, and have them build high-quality applications. The secret is all in the harness.
+
+An agentic harness is user-supplied infrastructure that provides agentic coding tools with the important context, guardrails, tools, and memory needed to accomplish the complex tasks involved in modern software development.
+
+In this presentation, using examples, we will cover what an agentic harness is, how to build one, and the key principles and philosophies attendees should consider when building their own agentic harness to assist them in their work.
+
+If you have been struggling with the output from AI-generated code at work, then this is the presentation for you!
 
 ------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------
 
-Generational ZGC, the Next Generation of Java's Newest GC 
+Autopilot: Building the Ultimate Ops Engineer with JFR and AI
 
-ZGC, introduced as a production feature with JDK 15 is Java's newest garbage collector (GC). ZGC offers extreme scalability, with the ability to offer 16TB heaps paired with super low latency with sub-millisecond pause times. With JDK 21, ZGC is set to receive its biggest update since its release, the implementation of a generational garbage collector algorithm.
+JDK Flight Recorder (JFR) is an observability and diagnostic framework built directly into the JDK. It can provide a rich and detailed view into how your application and the JVM are behaving at runtime. It is able to do this while maintaining a sub-1% impact on application throughput, allowing it to be always on in production.
 
-In this presentation, we will start with a medium-depth introduction to ZGC, to bring attendees up to speed. We will then dive into generational garbage collection, how this impacts ZGC, and how developers can take advantage of Generational ZGC. 
+While JFR is an incredibly powerful tool, its utilization is rather low, and the amount of information it provides can feel overwhelming. JFR can be always on, but the engineers needed to analyze its recordings can't be. And if an issue happens at 2:00 a.m., it might mean waiting hours before a human engineer can review the recording and offer a solution.
+
+In this presentation, we will look at how JFR can be combined with agentic AI to build the ultimate Ops engineer: an engineer that can review JFR recordings and propose improvements to an application; an engineer that is always available, day and night, and able to respond in real time as issues occur.
+
+If you have been looking for novel opportunities to incorporate AI into your organization or improve the performance of your applications in production, this is a presentation you don't want to miss.
+
+------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------
+
+
+Structured Concurrency: A New Age for Writing Concurrent Code in Java
+
+Horizontal scalability and handling concurrently executing tasks have historically been difficult challenges in Java. Horizontal scalability was largely addressed with the introduction of Virtual Threads in JDK 21; however, properly handling concurrently executing tasks remained a TODO. With Structured Concurrency at last arriving as a final feature in JDK 28, properly handling concurrent tasks is finally moving into the "done" category.
+
+The Structured Concurrency API allows developers to treat a group of related tasks executing in separate threads as a single unit of work. In this presentation, we will cover the essential elements of using StructuredTaskScope-the central feature of the Structured Concurrency API-the use cases for "joining" tasks already provided by the JDK, how developers can extend and customize the Structured Concurrency API to fit their specific needs, and the operational benefits of using structured concurrency over other options for writing concurrent code.
+
+If you have been struggling with handling concurrent code in your organization or have been following the development of the Structured Concurrency API and are excited to finally see the "final" version of it, this is the presentation for you.
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+

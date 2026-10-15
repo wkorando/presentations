@@ -1,0 +1,15 @@
+- More focus on the "harness" portion
+   - What is the harness
+   - What goes into it; specs, agents.md, other architectural documentation
+- Show the process in action
+- Concrete examples of property testing and human intervention
+- Really hammer on the need for verification
+  - Show areas where human intervention is still needed with code quality checks
+- States analysis; code style, and such as checks against drift
+- Increasing chances of success; reducing scope of options or having clear defaults increases chances of an agent being correct
+- Need to explain to an agent like they are five years old
+- Provide contextual domain knowledge
+
+
+Self-harnessing/learning
+- Letting LLM know idiosyncratic coding preferences

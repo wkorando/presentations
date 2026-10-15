@@ -36,7 +36,9 @@ March 23-25, 2027
 
 Redwood City (Silicon Valley), CA
 
-CFP Open Until Oct. 9th! 
+CFP closing soon!
+
+Tickets go on sale November 3rd! 
 
 For more info: [javaone.com](https://www.javaone.com)
 
